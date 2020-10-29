@@ -6,60 +6,91 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "FRF",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "FRF",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "Hz",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "FRF",
+      "type": "string",
       "table": 0
     },
     {
       "name": "readings",
+      "type": "double",
       "table": 0
     },
     {
       "name": "2_clust",
+      "type": "string",
       "table": 0
     },
     {
       "name": "3_clust",
+      "type": "string",
       "table": 0
     },
     {
       "name": "4_clust",
+      "type": "string",
       "table": 0
     },
     {
       "name": "5_clust",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Manufacturer",
+      "type": "string",
       "table": 1
     },
     {
       "name": "Type",
+      "type": "string",
       "table": 1
     },
     {
       "name": "Size",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "MO Class",
+      "type": "string",
       "table": 1
     },
     {
       "name": "Rim",
+      "type": "string",
       "table": 1
     },
     {
       "name": "Frequency",
+      "type": "string",
       "table": 1
     }
   ],
@@ -117,5 +148,67 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Hz",
+            "type": "bigint"
+          },
+          {
+            "name": "FRF",
+            "type": "string"
+          },
+          {
+            "name": "readings",
+            "type": "double"
+          },
+          {
+            "name": "2_clust",
+            "type": "string"
+          },
+          {
+            "name": "3_clust",
+            "type": "string"
+          },
+          {
+            "name": "4_clust",
+            "type": "string"
+          },
+          {
+            "name": "5_clust",
+            "type": "string"
+          },
+          {
+            "name": "Manufacturer",
+            "type": "string"
+          },
+          {
+            "name": "Type",
+            "type": "string"
+          },
+          {
+            "name": "Size",
+            "type": "bigint"
+          },
+          {
+            "name": "MO Class",
+            "type": "string"
+          },
+          {
+            "name": "Rim",
+            "type": "string"
+          },
+          {
+            "name": "Frequency",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
