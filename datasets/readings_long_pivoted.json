@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603947446138
+    "lastModifiedOn": 1603947666336
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,6 +89,10 @@
       {
         "name": "FRF",
         "type": "string"
+      },
+      {
+        "name": "0_readings_max",
+        "type": "double"
       },
       {
         "name": "1_readings_max",
@@ -167,6 +171,1526 @@
         "type": "double"
       },
       {
+        "name": "20_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "21_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "22_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "23_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "24_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "25_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "26_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "27_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "28_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "29_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "30_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "31_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "32_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "33_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "34_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "35_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "36_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "37_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "38_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "39_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "40_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "41_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "42_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "43_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "44_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "45_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "46_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "47_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "48_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "49_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "50_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "51_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "52_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "53_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "54_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "55_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "56_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "57_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "58_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "59_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "60_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "61_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "62_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "63_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "64_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "65_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "66_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "67_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "68_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "69_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "70_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "71_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "72_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "73_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "74_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "75_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "76_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "77_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "78_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "79_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "80_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "81_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "82_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "83_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "84_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "85_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "86_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "87_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "88_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "89_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "90_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "91_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "92_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "93_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "94_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "95_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "96_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "97_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "98_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "99_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "100_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "101_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "102_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "103_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "104_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "105_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "106_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "107_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "108_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "109_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "110_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "111_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "112_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "113_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "114_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "115_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "116_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "117_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "118_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "119_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "120_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "121_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "122_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "123_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "124_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "125_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "126_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "127_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "128_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "129_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "130_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "131_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "132_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "133_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "134_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "135_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "136_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "137_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "138_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "139_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "140_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "141_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "142_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "143_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "144_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "145_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "146_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "147_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "148_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "149_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "150_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "151_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "152_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "153_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "154_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "155_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "156_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "157_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "158_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "159_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "160_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "161_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "162_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "163_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "164_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "165_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "166_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "167_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "168_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "169_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "170_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "171_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "172_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "173_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "174_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "175_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "176_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "177_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "178_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "179_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "180_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "181_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "182_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "183_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "184_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "185_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "186_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "187_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "188_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "189_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "190_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "191_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "192_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "193_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "194_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "195_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "196_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "197_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "198_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "199_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "200_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "201_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "202_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "203_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "204_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "205_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "206_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "207_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "208_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "209_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "210_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "211_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "212_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "213_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "214_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "215_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "216_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "217_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "218_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "219_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "220_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "221_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "222_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "223_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "224_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "225_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "226_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "227_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "228_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "229_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "230_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "231_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "232_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "233_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "234_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "235_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "236_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "237_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "238_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "239_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "240_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "241_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "242_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "243_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "244_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "245_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "246_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "247_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "248_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "249_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "250_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "251_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "252_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "253_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "254_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "255_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "256_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "257_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "258_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "259_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "260_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "261_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "262_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "263_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "264_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "265_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "266_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "267_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "268_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "269_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "270_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "271_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "272_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "273_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "274_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "275_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "276_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "277_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "278_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "279_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "280_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "281_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "282_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "283_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "284_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "285_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "286_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "287_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "288_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "289_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "290_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "291_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "292_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "293_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "294_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "295_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "296_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "297_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "298_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "299_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "300_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "301_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "302_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "303_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "304_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "305_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "306_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "307_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "308_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "309_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "310_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "311_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "312_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "313_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "314_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "315_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "316_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "317_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "318_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "319_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "320_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "321_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "322_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "323_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "324_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "325_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "326_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "327_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "328_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "329_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "330_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "331_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "332_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "333_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "334_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "335_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "336_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "337_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "338_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "339_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "340_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "341_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "342_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "343_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "344_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "345_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "346_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "347_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "348_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "349_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "350_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "351_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "352_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "353_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "354_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "355_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "356_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "357_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "358_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "359_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "360_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "361_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "362_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "363_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "364_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "365_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "366_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "367_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "368_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "369_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "370_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "371_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "372_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "373_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "374_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "375_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "376_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "377_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "378_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "379_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "380_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "381_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "382_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "383_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "384_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "385_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "386_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "387_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "388_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "389_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "390_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "391_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "392_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "393_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "394_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "395_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "396_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "397_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "398_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "399_readings_max",
+        "type": "double"
+      },
+      {
         "name": "400_readings_max",
         "type": "double"
       }
@@ -180,7 +1704,7 @@
             "keyColumns": [
               "Hz"
             ],
-            "valueLimit": "TOP_N",
+            "valueLimit": "NO_LIMIT",
             "topnLimit": 20,
             "minOccLimit": 0,
             "explicitValues": [],
@@ -206,6 +1730,18 @@
             ]
           },
           "pivotedModalities": [
+            {
+              "keyValues": [
+                "0"
+              ],
+              "name": "0",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "0_readings"
+                }
+              ]
+            },
             {
               "keyValues": [
                 "1"
@@ -431,6 +1967,4566 @@
                 {
                   "source": "readings",
                   "pivoted": "19_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "20"
+              ],
+              "name": "20",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "20_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "21"
+              ],
+              "name": "21",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "21_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "22"
+              ],
+              "name": "22",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "22_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "23"
+              ],
+              "name": "23",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "23_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "24"
+              ],
+              "name": "24",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "24_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "25"
+              ],
+              "name": "25",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "25_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "26"
+              ],
+              "name": "26",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "26_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "27"
+              ],
+              "name": "27",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "27_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "28"
+              ],
+              "name": "28",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "28_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "29"
+              ],
+              "name": "29",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "29_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "30"
+              ],
+              "name": "30",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "30_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "31"
+              ],
+              "name": "31",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "31_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "32"
+              ],
+              "name": "32",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "32_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "33"
+              ],
+              "name": "33",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "33_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "34"
+              ],
+              "name": "34",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "34_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "35"
+              ],
+              "name": "35",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "35_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "36"
+              ],
+              "name": "36",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "36_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "37"
+              ],
+              "name": "37",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "37_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "38"
+              ],
+              "name": "38",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "38_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "39"
+              ],
+              "name": "39",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "39_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "40"
+              ],
+              "name": "40",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "40_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "41"
+              ],
+              "name": "41",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "41_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "42"
+              ],
+              "name": "42",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "42_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "43"
+              ],
+              "name": "43",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "43_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "44"
+              ],
+              "name": "44",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "44_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "45"
+              ],
+              "name": "45",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "45_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "46"
+              ],
+              "name": "46",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "46_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "47"
+              ],
+              "name": "47",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "47_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "48"
+              ],
+              "name": "48",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "48_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "49"
+              ],
+              "name": "49",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "49_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "50"
+              ],
+              "name": "50",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "50_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "51"
+              ],
+              "name": "51",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "51_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "52"
+              ],
+              "name": "52",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "52_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "53"
+              ],
+              "name": "53",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "53_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "54"
+              ],
+              "name": "54",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "54_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "55"
+              ],
+              "name": "55",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "55_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "56"
+              ],
+              "name": "56",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "56_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "57"
+              ],
+              "name": "57",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "57_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "58"
+              ],
+              "name": "58",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "58_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "59"
+              ],
+              "name": "59",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "59_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "60"
+              ],
+              "name": "60",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "60_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "61"
+              ],
+              "name": "61",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "61_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "62"
+              ],
+              "name": "62",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "62_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "63"
+              ],
+              "name": "63",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "63_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "64"
+              ],
+              "name": "64",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "64_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "65"
+              ],
+              "name": "65",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "65_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "66"
+              ],
+              "name": "66",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "66_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "67"
+              ],
+              "name": "67",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "67_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "68"
+              ],
+              "name": "68",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "68_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "69"
+              ],
+              "name": "69",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "69_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "70"
+              ],
+              "name": "70",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "70_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "71"
+              ],
+              "name": "71",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "71_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "72"
+              ],
+              "name": "72",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "72_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "73"
+              ],
+              "name": "73",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "73_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "74"
+              ],
+              "name": "74",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "74_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "75"
+              ],
+              "name": "75",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "75_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "76"
+              ],
+              "name": "76",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "76_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "77"
+              ],
+              "name": "77",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "77_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "78"
+              ],
+              "name": "78",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "78_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "79"
+              ],
+              "name": "79",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "79_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "80"
+              ],
+              "name": "80",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "80_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "81"
+              ],
+              "name": "81",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "81_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "82"
+              ],
+              "name": "82",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "82_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "83"
+              ],
+              "name": "83",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "83_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "84"
+              ],
+              "name": "84",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "84_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "85"
+              ],
+              "name": "85",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "85_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "86"
+              ],
+              "name": "86",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "86_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "87"
+              ],
+              "name": "87",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "87_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "88"
+              ],
+              "name": "88",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "88_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "89"
+              ],
+              "name": "89",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "89_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "90"
+              ],
+              "name": "90",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "90_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "91"
+              ],
+              "name": "91",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "91_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "92"
+              ],
+              "name": "92",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "92_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "93"
+              ],
+              "name": "93",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "93_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "94"
+              ],
+              "name": "94",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "94_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "95"
+              ],
+              "name": "95",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "95_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "96"
+              ],
+              "name": "96",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "96_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "97"
+              ],
+              "name": "97",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "97_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "98"
+              ],
+              "name": "98",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "98_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "99"
+              ],
+              "name": "99",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "99_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "100"
+              ],
+              "name": "100",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "100_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "101"
+              ],
+              "name": "101",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "101_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "102"
+              ],
+              "name": "102",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "102_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "103"
+              ],
+              "name": "103",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "103_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "104"
+              ],
+              "name": "104",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "104_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "105"
+              ],
+              "name": "105",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "105_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "106"
+              ],
+              "name": "106",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "106_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "107"
+              ],
+              "name": "107",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "107_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "108"
+              ],
+              "name": "108",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "108_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "109"
+              ],
+              "name": "109",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "109_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "110"
+              ],
+              "name": "110",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "110_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "111"
+              ],
+              "name": "111",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "111_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "112"
+              ],
+              "name": "112",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "112_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "113"
+              ],
+              "name": "113",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "113_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "114"
+              ],
+              "name": "114",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "114_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "115"
+              ],
+              "name": "115",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "115_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "116"
+              ],
+              "name": "116",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "116_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "117"
+              ],
+              "name": "117",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "117_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "118"
+              ],
+              "name": "118",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "118_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "119"
+              ],
+              "name": "119",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "119_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "120"
+              ],
+              "name": "120",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "120_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "121"
+              ],
+              "name": "121",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "121_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "122"
+              ],
+              "name": "122",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "122_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "123"
+              ],
+              "name": "123",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "123_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "124"
+              ],
+              "name": "124",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "124_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "125"
+              ],
+              "name": "125",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "125_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "126"
+              ],
+              "name": "126",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "126_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "127"
+              ],
+              "name": "127",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "127_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "128"
+              ],
+              "name": "128",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "128_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "129"
+              ],
+              "name": "129",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "129_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "130"
+              ],
+              "name": "130",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "130_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "131"
+              ],
+              "name": "131",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "131_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "132"
+              ],
+              "name": "132",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "132_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "133"
+              ],
+              "name": "133",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "133_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "134"
+              ],
+              "name": "134",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "134_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "135"
+              ],
+              "name": "135",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "135_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "136"
+              ],
+              "name": "136",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "136_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "137"
+              ],
+              "name": "137",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "137_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "138"
+              ],
+              "name": "138",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "138_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "139"
+              ],
+              "name": "139",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "139_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "140"
+              ],
+              "name": "140",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "140_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "141"
+              ],
+              "name": "141",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "141_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "142"
+              ],
+              "name": "142",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "142_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "143"
+              ],
+              "name": "143",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "143_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "144"
+              ],
+              "name": "144",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "144_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "145"
+              ],
+              "name": "145",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "145_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "146"
+              ],
+              "name": "146",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "146_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "147"
+              ],
+              "name": "147",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "147_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "148"
+              ],
+              "name": "148",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "148_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "149"
+              ],
+              "name": "149",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "149_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "150"
+              ],
+              "name": "150",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "150_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "151"
+              ],
+              "name": "151",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "151_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "152"
+              ],
+              "name": "152",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "152_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "153"
+              ],
+              "name": "153",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "153_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "154"
+              ],
+              "name": "154",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "154_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "155"
+              ],
+              "name": "155",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "155_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "156"
+              ],
+              "name": "156",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "156_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "157"
+              ],
+              "name": "157",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "157_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "158"
+              ],
+              "name": "158",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "158_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "159"
+              ],
+              "name": "159",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "159_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "160"
+              ],
+              "name": "160",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "160_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "161"
+              ],
+              "name": "161",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "161_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "162"
+              ],
+              "name": "162",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "162_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "163"
+              ],
+              "name": "163",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "163_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "164"
+              ],
+              "name": "164",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "164_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "165"
+              ],
+              "name": "165",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "165_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "166"
+              ],
+              "name": "166",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "166_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "167"
+              ],
+              "name": "167",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "167_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "168"
+              ],
+              "name": "168",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "168_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "169"
+              ],
+              "name": "169",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "169_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "170"
+              ],
+              "name": "170",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "170_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "171"
+              ],
+              "name": "171",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "171_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "172"
+              ],
+              "name": "172",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "172_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "173"
+              ],
+              "name": "173",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "173_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "174"
+              ],
+              "name": "174",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "174_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "175"
+              ],
+              "name": "175",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "175_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "176"
+              ],
+              "name": "176",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "176_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "177"
+              ],
+              "name": "177",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "177_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "178"
+              ],
+              "name": "178",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "178_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "179"
+              ],
+              "name": "179",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "179_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "180"
+              ],
+              "name": "180",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "180_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "181"
+              ],
+              "name": "181",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "181_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "182"
+              ],
+              "name": "182",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "182_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "183"
+              ],
+              "name": "183",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "183_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "184"
+              ],
+              "name": "184",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "184_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "185"
+              ],
+              "name": "185",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "185_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "186"
+              ],
+              "name": "186",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "186_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "187"
+              ],
+              "name": "187",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "187_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "188"
+              ],
+              "name": "188",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "188_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "189"
+              ],
+              "name": "189",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "189_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "190"
+              ],
+              "name": "190",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "190_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "191"
+              ],
+              "name": "191",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "191_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "192"
+              ],
+              "name": "192",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "192_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "193"
+              ],
+              "name": "193",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "193_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "194"
+              ],
+              "name": "194",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "194_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "195"
+              ],
+              "name": "195",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "195_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "196"
+              ],
+              "name": "196",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "196_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "197"
+              ],
+              "name": "197",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "197_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "198"
+              ],
+              "name": "198",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "198_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "199"
+              ],
+              "name": "199",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "199_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "200"
+              ],
+              "name": "200",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "200_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "201"
+              ],
+              "name": "201",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "201_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "202"
+              ],
+              "name": "202",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "202_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "203"
+              ],
+              "name": "203",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "203_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "204"
+              ],
+              "name": "204",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "204_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "205"
+              ],
+              "name": "205",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "205_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "206"
+              ],
+              "name": "206",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "206_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "207"
+              ],
+              "name": "207",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "207_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "208"
+              ],
+              "name": "208",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "208_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "209"
+              ],
+              "name": "209",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "209_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "210"
+              ],
+              "name": "210",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "210_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "211"
+              ],
+              "name": "211",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "211_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "212"
+              ],
+              "name": "212",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "212_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "213"
+              ],
+              "name": "213",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "213_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "214"
+              ],
+              "name": "214",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "214_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "215"
+              ],
+              "name": "215",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "215_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "216"
+              ],
+              "name": "216",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "216_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "217"
+              ],
+              "name": "217",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "217_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "218"
+              ],
+              "name": "218",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "218_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "219"
+              ],
+              "name": "219",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "219_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "220"
+              ],
+              "name": "220",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "220_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "221"
+              ],
+              "name": "221",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "221_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "222"
+              ],
+              "name": "222",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "222_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "223"
+              ],
+              "name": "223",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "223_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "224"
+              ],
+              "name": "224",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "224_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "225"
+              ],
+              "name": "225",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "225_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "226"
+              ],
+              "name": "226",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "226_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "227"
+              ],
+              "name": "227",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "227_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "228"
+              ],
+              "name": "228",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "228_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "229"
+              ],
+              "name": "229",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "229_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "230"
+              ],
+              "name": "230",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "230_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "231"
+              ],
+              "name": "231",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "231_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "232"
+              ],
+              "name": "232",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "232_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "233"
+              ],
+              "name": "233",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "233_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "234"
+              ],
+              "name": "234",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "234_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "235"
+              ],
+              "name": "235",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "235_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "236"
+              ],
+              "name": "236",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "236_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "237"
+              ],
+              "name": "237",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "237_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "238"
+              ],
+              "name": "238",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "238_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "239"
+              ],
+              "name": "239",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "239_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "240"
+              ],
+              "name": "240",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "240_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "241"
+              ],
+              "name": "241",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "241_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "242"
+              ],
+              "name": "242",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "242_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "243"
+              ],
+              "name": "243",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "243_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "244"
+              ],
+              "name": "244",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "244_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "245"
+              ],
+              "name": "245",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "245_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "246"
+              ],
+              "name": "246",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "246_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "247"
+              ],
+              "name": "247",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "247_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "248"
+              ],
+              "name": "248",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "248_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "249"
+              ],
+              "name": "249",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "249_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "250"
+              ],
+              "name": "250",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "250_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "251"
+              ],
+              "name": "251",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "251_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "252"
+              ],
+              "name": "252",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "252_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "253"
+              ],
+              "name": "253",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "253_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "254"
+              ],
+              "name": "254",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "254_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "255"
+              ],
+              "name": "255",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "255_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "256"
+              ],
+              "name": "256",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "256_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "257"
+              ],
+              "name": "257",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "257_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "258"
+              ],
+              "name": "258",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "258_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "259"
+              ],
+              "name": "259",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "259_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "260"
+              ],
+              "name": "260",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "260_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "261"
+              ],
+              "name": "261",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "261_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "262"
+              ],
+              "name": "262",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "262_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "263"
+              ],
+              "name": "263",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "263_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "264"
+              ],
+              "name": "264",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "264_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "265"
+              ],
+              "name": "265",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "265_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "266"
+              ],
+              "name": "266",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "266_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "267"
+              ],
+              "name": "267",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "267_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "268"
+              ],
+              "name": "268",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "268_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "269"
+              ],
+              "name": "269",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "269_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "270"
+              ],
+              "name": "270",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "270_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "271"
+              ],
+              "name": "271",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "271_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "272"
+              ],
+              "name": "272",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "272_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "273"
+              ],
+              "name": "273",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "273_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "274"
+              ],
+              "name": "274",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "274_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "275"
+              ],
+              "name": "275",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "275_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "276"
+              ],
+              "name": "276",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "276_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "277"
+              ],
+              "name": "277",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "277_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "278"
+              ],
+              "name": "278",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "278_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "279"
+              ],
+              "name": "279",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "279_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "280"
+              ],
+              "name": "280",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "280_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "281"
+              ],
+              "name": "281",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "281_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "282"
+              ],
+              "name": "282",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "282_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "283"
+              ],
+              "name": "283",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "283_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "284"
+              ],
+              "name": "284",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "284_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "285"
+              ],
+              "name": "285",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "285_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "286"
+              ],
+              "name": "286",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "286_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "287"
+              ],
+              "name": "287",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "287_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "288"
+              ],
+              "name": "288",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "288_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "289"
+              ],
+              "name": "289",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "289_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "290"
+              ],
+              "name": "290",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "290_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "291"
+              ],
+              "name": "291",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "291_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "292"
+              ],
+              "name": "292",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "292_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "293"
+              ],
+              "name": "293",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "293_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "294"
+              ],
+              "name": "294",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "294_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "295"
+              ],
+              "name": "295",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "295_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "296"
+              ],
+              "name": "296",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "296_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "297"
+              ],
+              "name": "297",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "297_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "298"
+              ],
+              "name": "298",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "298_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "299"
+              ],
+              "name": "299",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "299_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "300"
+              ],
+              "name": "300",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "300_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "301"
+              ],
+              "name": "301",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "301_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "302"
+              ],
+              "name": "302",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "302_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "303"
+              ],
+              "name": "303",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "303_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "304"
+              ],
+              "name": "304",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "304_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "305"
+              ],
+              "name": "305",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "305_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "306"
+              ],
+              "name": "306",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "306_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "307"
+              ],
+              "name": "307",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "307_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "308"
+              ],
+              "name": "308",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "308_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "309"
+              ],
+              "name": "309",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "309_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "310"
+              ],
+              "name": "310",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "310_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "311"
+              ],
+              "name": "311",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "311_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "312"
+              ],
+              "name": "312",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "312_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "313"
+              ],
+              "name": "313",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "313_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "314"
+              ],
+              "name": "314",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "314_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "315"
+              ],
+              "name": "315",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "315_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "316"
+              ],
+              "name": "316",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "316_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "317"
+              ],
+              "name": "317",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "317_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "318"
+              ],
+              "name": "318",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "318_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "319"
+              ],
+              "name": "319",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "319_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "320"
+              ],
+              "name": "320",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "320_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "321"
+              ],
+              "name": "321",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "321_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "322"
+              ],
+              "name": "322",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "322_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "323"
+              ],
+              "name": "323",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "323_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "324"
+              ],
+              "name": "324",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "324_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "325"
+              ],
+              "name": "325",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "325_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "326"
+              ],
+              "name": "326",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "326_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "327"
+              ],
+              "name": "327",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "327_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "328"
+              ],
+              "name": "328",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "328_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "329"
+              ],
+              "name": "329",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "329_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "330"
+              ],
+              "name": "330",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "330_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "331"
+              ],
+              "name": "331",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "331_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "332"
+              ],
+              "name": "332",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "332_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "333"
+              ],
+              "name": "333",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "333_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "334"
+              ],
+              "name": "334",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "334_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "335"
+              ],
+              "name": "335",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "335_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "336"
+              ],
+              "name": "336",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "336_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "337"
+              ],
+              "name": "337",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "337_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "338"
+              ],
+              "name": "338",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "338_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "339"
+              ],
+              "name": "339",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "339_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "340"
+              ],
+              "name": "340",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "340_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "341"
+              ],
+              "name": "341",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "341_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "342"
+              ],
+              "name": "342",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "342_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "343"
+              ],
+              "name": "343",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "343_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "344"
+              ],
+              "name": "344",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "344_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "345"
+              ],
+              "name": "345",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "345_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "346"
+              ],
+              "name": "346",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "346_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "347"
+              ],
+              "name": "347",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "347_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "348"
+              ],
+              "name": "348",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "348_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "349"
+              ],
+              "name": "349",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "349_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "350"
+              ],
+              "name": "350",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "350_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "351"
+              ],
+              "name": "351",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "351_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "352"
+              ],
+              "name": "352",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "352_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "353"
+              ],
+              "name": "353",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "353_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "354"
+              ],
+              "name": "354",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "354_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "355"
+              ],
+              "name": "355",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "355_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "356"
+              ],
+              "name": "356",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "356_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "357"
+              ],
+              "name": "357",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "357_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "358"
+              ],
+              "name": "358",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "358_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "359"
+              ],
+              "name": "359",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "359_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "360"
+              ],
+              "name": "360",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "360_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "361"
+              ],
+              "name": "361",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "361_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "362"
+              ],
+              "name": "362",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "362_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "363"
+              ],
+              "name": "363",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "363_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "364"
+              ],
+              "name": "364",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "364_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "365"
+              ],
+              "name": "365",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "365_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "366"
+              ],
+              "name": "366",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "366_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "367"
+              ],
+              "name": "367",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "367_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "368"
+              ],
+              "name": "368",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "368_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "369"
+              ],
+              "name": "369",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "369_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "370"
+              ],
+              "name": "370",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "370_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "371"
+              ],
+              "name": "371",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "371_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "372"
+              ],
+              "name": "372",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "372_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "373"
+              ],
+              "name": "373",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "373_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "374"
+              ],
+              "name": "374",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "374_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "375"
+              ],
+              "name": "375",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "375_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "376"
+              ],
+              "name": "376",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "376_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "377"
+              ],
+              "name": "377",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "377_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "378"
+              ],
+              "name": "378",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "378_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "379"
+              ],
+              "name": "379",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "379_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "380"
+              ],
+              "name": "380",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "380_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "381"
+              ],
+              "name": "381",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "381_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "382"
+              ],
+              "name": "382",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "382_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "383"
+              ],
+              "name": "383",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "383_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "384"
+              ],
+              "name": "384",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "384_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "385"
+              ],
+              "name": "385",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "385_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "386"
+              ],
+              "name": "386",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "386_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "387"
+              ],
+              "name": "387",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "387_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "388"
+              ],
+              "name": "388",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "388_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "389"
+              ],
+              "name": "389",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "389_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "390"
+              ],
+              "name": "390",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "390_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "391"
+              ],
+              "name": "391",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "391_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "392"
+              ],
+              "name": "392",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "392_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "393"
+              ],
+              "name": "393",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "393_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "394"
+              ],
+              "name": "394",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "394_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "395"
+              ],
+              "name": "395",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "395_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "396"
+              ],
+              "name": "396",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "396_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "397"
+              ],
+              "name": "397",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "397_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "398"
+              ],
+              "name": "398",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "398_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "399"
+              ],
+              "name": "399",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "399_readings"
                 }
               ]
             },
