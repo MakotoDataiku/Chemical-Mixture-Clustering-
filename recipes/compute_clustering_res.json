@@ -1,0 +1,53 @@
+{
+  "type": "App_PROJECT_CLUSTERING_IN_RANGES",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "variables": {},
+    "keepInstance": false
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "inputs": {
+    "anomaly_clustered": {
+      "items": [
+        {
+          "ref": "readings_long_clustered",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "clustered_pivoted_joined": {
+      "items": [
+        {
+          "ref": "clustering_res",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1603949124743
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1603949124743
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
