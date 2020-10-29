@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603951060678
+    "lastModifiedOn": 1603951136443
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,7 +87,7 @@
   "schema": {
     "columns": [
       {
-        "name": "Labels/FRF",
+        "name": "FRF",
         "type": "string"
       },
       {
