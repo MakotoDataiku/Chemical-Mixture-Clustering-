@@ -76,6 +76,7 @@
       "type": "ColumnsSelector",
       "params": {
         "columns": [
+          "FRF_pref",
           "FRF_01",
           "FRF_02",
           "FRF_03",

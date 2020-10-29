@@ -14,6 +14,9 @@
             },
             "ANOMALYDETECTIONOFTYRES.anomaly_readings": {
               "repartition": 10
+            },
+            "readings": {
+              "repartition": 10
             }
           }
         },
@@ -72,11 +75,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603947116076
+    "lastModifiedOn": 1603947128419
   },
   "creationTag": {
     "versionNumber": 0,
