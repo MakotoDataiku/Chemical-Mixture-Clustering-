@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603947083602
+    "lastModifiedOn": 1603947128336
   },
   "creationTag": {
     "versionNumber": 0,
@@ -99,10 +99,6 @@
       {
         "name": "readings",
         "type": "double"
-      },
-      {
-        "name": "FRF_pref",
-        "type": "string"
       }
     ],
     "userModified": true
