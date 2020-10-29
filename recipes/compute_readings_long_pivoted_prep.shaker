@@ -26,8 +26,3231 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "0_readings_max",
+            "to": "0"
+          },
+          {
+            "from": "1_readings_max",
+            "to": "1"
+          },
+          {
+            "from": "2_readings_max",
+            "to": "2"
+          },
+          {
+            "from": "3_readings_max",
+            "to": "3"
+          },
+          {
+            "from": "4_readings_max",
+            "to": "4"
+          },
+          {
+            "from": "5_readings_max",
+            "to": "5"
+          },
+          {
+            "from": "6_readings_max",
+            "to": "6"
+          },
+          {
+            "from": "7_readings_max",
+            "to": "7"
+          },
+          {
+            "from": "8_readings_max",
+            "to": "8"
+          },
+          {
+            "from": "9_readings_max",
+            "to": "9"
+          },
+          {
+            "from": "10_readings_max",
+            "to": "10"
+          },
+          {
+            "from": "11_readings_max",
+            "to": "11"
+          },
+          {
+            "from": "12_readings_max",
+            "to": "12"
+          },
+          {
+            "from": "13_readings_max",
+            "to": "13"
+          },
+          {
+            "from": "14_readings_max",
+            "to": "14"
+          },
+          {
+            "from": "15_readings_max",
+            "to": "15"
+          },
+          {
+            "from": "16_readings_max",
+            "to": "16"
+          },
+          {
+            "from": "17_readings_max",
+            "to": "17"
+          },
+          {
+            "from": "18_readings_max",
+            "to": "18"
+          },
+          {
+            "from": "19_readings_max",
+            "to": "19"
+          },
+          {
+            "from": "20_readings_max",
+            "to": "20"
+          },
+          {
+            "from": "21_readings_max",
+            "to": "21"
+          },
+          {
+            "from": "22_readings_max",
+            "to": "22"
+          },
+          {
+            "from": "23_readings_max",
+            "to": "23"
+          },
+          {
+            "from": "24_readings_max",
+            "to": "24"
+          },
+          {
+            "from": "25_readings_max",
+            "to": "25"
+          },
+          {
+            "from": "26_readings_max",
+            "to": "26"
+          },
+          {
+            "from": "27_readings_max",
+            "to": "27"
+          },
+          {
+            "from": "28_readings_max",
+            "to": "28"
+          },
+          {
+            "from": "29_readings_max",
+            "to": "29"
+          },
+          {
+            "from": "30_readings_max",
+            "to": "30"
+          },
+          {
+            "from": "31_readings_max",
+            "to": "31"
+          },
+          {
+            "from": "32_readings_max",
+            "to": "32"
+          },
+          {
+            "from": "33_readings_max",
+            "to": "33"
+          },
+          {
+            "from": "34_readings_max",
+            "to": "34"
+          },
+          {
+            "from": "35_readings_max",
+            "to": "35"
+          },
+          {
+            "from": "36_readings_max",
+            "to": "36"
+          },
+          {
+            "from": "37_readings_max",
+            "to": "37"
+          },
+          {
+            "from": "38_readings_max",
+            "to": "38"
+          },
+          {
+            "from": "39_readings_max",
+            "to": "39"
+          },
+          {
+            "from": "40_readings_max",
+            "to": "40"
+          },
+          {
+            "from": "41_readings_max",
+            "to": "41"
+          },
+          {
+            "from": "42_readings_max",
+            "to": "42"
+          },
+          {
+            "from": "43_readings_max",
+            "to": "43"
+          },
+          {
+            "from": "44_readings_max",
+            "to": "44"
+          },
+          {
+            "from": "45_readings_max",
+            "to": "45"
+          },
+          {
+            "from": "46_readings_max",
+            "to": "46"
+          },
+          {
+            "from": "47_readings_max",
+            "to": "47"
+          },
+          {
+            "from": "48_readings_max",
+            "to": "48"
+          },
+          {
+            "from": "49_readings_max",
+            "to": "49"
+          },
+          {
+            "from": "50_readings_max",
+            "to": "50"
+          },
+          {
+            "from": "51_readings_max",
+            "to": "51"
+          },
+          {
+            "from": "52_readings_max",
+            "to": "52"
+          },
+          {
+            "from": "53_readings_max",
+            "to": "53"
+          },
+          {
+            "from": "54_readings_max",
+            "to": "54"
+          },
+          {
+            "from": "55_readings_max",
+            "to": "55"
+          },
+          {
+            "from": "56_readings_max",
+            "to": "56"
+          },
+          {
+            "from": "57_readings_max",
+            "to": "57"
+          },
+          {
+            "from": "58_readings_max",
+            "to": "58"
+          },
+          {
+            "from": "59_readings_max",
+            "to": "59"
+          },
+          {
+            "from": "60_readings_max",
+            "to": "60"
+          },
+          {
+            "from": "61_readings_max",
+            "to": "61"
+          },
+          {
+            "from": "62_readings_max",
+            "to": "62"
+          },
+          {
+            "from": "63_readings_max",
+            "to": "63"
+          },
+          {
+            "from": "64_readings_max",
+            "to": "64"
+          },
+          {
+            "from": "65_readings_max",
+            "to": "65"
+          },
+          {
+            "from": "66_readings_max",
+            "to": "66"
+          },
+          {
+            "from": "67_readings_max",
+            "to": "67"
+          },
+          {
+            "from": "68_readings_max",
+            "to": "68"
+          },
+          {
+            "from": "69_readings_max",
+            "to": "69"
+          },
+          {
+            "from": "70_readings_max",
+            "to": "70"
+          },
+          {
+            "from": "71_readings_max",
+            "to": "71"
+          },
+          {
+            "from": "72_readings_max",
+            "to": "72"
+          },
+          {
+            "from": "73_readings_max",
+            "to": "73"
+          },
+          {
+            "from": "74_readings_max",
+            "to": "74"
+          },
+          {
+            "from": "75_readings_max",
+            "to": "75"
+          },
+          {
+            "from": "76_readings_max",
+            "to": "76"
+          },
+          {
+            "from": "77_readings_max",
+            "to": "77"
+          },
+          {
+            "from": "78_readings_max",
+            "to": "78"
+          },
+          {
+            "from": "79_readings_max",
+            "to": "79"
+          },
+          {
+            "from": "80_readings_max",
+            "to": "80"
+          },
+          {
+            "from": "81_readings_max",
+            "to": "81"
+          },
+          {
+            "from": "82_readings_max",
+            "to": "82"
+          },
+          {
+            "from": "83_readings_max",
+            "to": "83"
+          },
+          {
+            "from": "84_readings_max",
+            "to": "84"
+          },
+          {
+            "from": "85_readings_max",
+            "to": "85"
+          },
+          {
+            "from": "86_readings_max",
+            "to": "86"
+          },
+          {
+            "from": "87_readings_max",
+            "to": "87"
+          },
+          {
+            "from": "88_readings_max",
+            "to": "88"
+          },
+          {
+            "from": "89_readings_max",
+            "to": "89"
+          },
+          {
+            "from": "90_readings_max",
+            "to": "90"
+          },
+          {
+            "from": "91_readings_max",
+            "to": "91"
+          },
+          {
+            "from": "92_readings_max",
+            "to": "92"
+          },
+          {
+            "from": "93_readings_max",
+            "to": "93"
+          },
+          {
+            "from": "94_readings_max",
+            "to": "94"
+          },
+          {
+            "from": "95_readings_max",
+            "to": "95"
+          },
+          {
+            "from": "96_readings_max",
+            "to": "96"
+          },
+          {
+            "from": "97_readings_max",
+            "to": "97"
+          },
+          {
+            "from": "98_readings_max",
+            "to": "98"
+          },
+          {
+            "from": "99_readings_max",
+            "to": "99"
+          },
+          {
+            "from": "100_readings_max",
+            "to": "100"
+          },
+          {
+            "from": "101_readings_max",
+            "to": "101"
+          },
+          {
+            "from": "102_readings_max",
+            "to": "102"
+          },
+          {
+            "from": "103_readings_max",
+            "to": "103"
+          },
+          {
+            "from": "104_readings_max",
+            "to": "104"
+          },
+          {
+            "from": "105_readings_max",
+            "to": "105"
+          },
+          {
+            "from": "106_readings_max",
+            "to": "106"
+          },
+          {
+            "from": "107_readings_max",
+            "to": "107"
+          },
+          {
+            "from": "108_readings_max",
+            "to": "108"
+          },
+          {
+            "from": "109_readings_max",
+            "to": "109"
+          },
+          {
+            "from": "110_readings_max",
+            "to": "110"
+          },
+          {
+            "from": "111_readings_max",
+            "to": "111"
+          },
+          {
+            "from": "112_readings_max",
+            "to": "112"
+          },
+          {
+            "from": "113_readings_max",
+            "to": "113"
+          },
+          {
+            "from": "114_readings_max",
+            "to": "114"
+          },
+          {
+            "from": "115_readings_max",
+            "to": "115"
+          },
+          {
+            "from": "116_readings_max",
+            "to": "116"
+          },
+          {
+            "from": "117_readings_max",
+            "to": "117"
+          },
+          {
+            "from": "118_readings_max",
+            "to": "118"
+          },
+          {
+            "from": "119_readings_max",
+            "to": "119"
+          },
+          {
+            "from": "120_readings_max",
+            "to": "120"
+          },
+          {
+            "from": "121_readings_max",
+            "to": "121"
+          },
+          {
+            "from": "122_readings_max",
+            "to": "122"
+          },
+          {
+            "from": "123_readings_max",
+            "to": "123"
+          },
+          {
+            "from": "124_readings_max",
+            "to": "124"
+          },
+          {
+            "from": "125_readings_max",
+            "to": "125"
+          },
+          {
+            "from": "126_readings_max",
+            "to": "126"
+          },
+          {
+            "from": "127_readings_max",
+            "to": "127"
+          },
+          {
+            "from": "128_readings_max",
+            "to": "128"
+          },
+          {
+            "from": "129_readings_max",
+            "to": "129"
+          },
+          {
+            "from": "130_readings_max",
+            "to": "130"
+          },
+          {
+            "from": "131_readings_max",
+            "to": "131"
+          },
+          {
+            "from": "132_readings_max",
+            "to": "132"
+          },
+          {
+            "from": "133_readings_max",
+            "to": "133"
+          },
+          {
+            "from": "134_readings_max",
+            "to": "134"
+          },
+          {
+            "from": "135_readings_max",
+            "to": "135"
+          },
+          {
+            "from": "136_readings_max",
+            "to": "136"
+          },
+          {
+            "from": "137_readings_max",
+            "to": "137"
+          },
+          {
+            "from": "138_readings_max",
+            "to": "138"
+          },
+          {
+            "from": "139_readings_max",
+            "to": "139"
+          },
+          {
+            "from": "140_readings_max",
+            "to": "140"
+          },
+          {
+            "from": "141_readings_max",
+            "to": "141"
+          },
+          {
+            "from": "142_readings_max",
+            "to": "142"
+          },
+          {
+            "from": "143_readings_max",
+            "to": "143"
+          },
+          {
+            "from": "144_readings_max",
+            "to": "144"
+          },
+          {
+            "from": "145_readings_max",
+            "to": "145"
+          },
+          {
+            "from": "146_readings_max",
+            "to": "146"
+          },
+          {
+            "from": "147_readings_max",
+            "to": "147"
+          },
+          {
+            "from": "148_readings_max",
+            "to": "148"
+          },
+          {
+            "from": "149_readings_max",
+            "to": "149"
+          },
+          {
+            "from": "150_readings_max",
+            "to": "150"
+          },
+          {
+            "from": "151_readings_max",
+            "to": "151"
+          },
+          {
+            "from": "152_readings_max",
+            "to": "152"
+          },
+          {
+            "from": "153_readings_max",
+            "to": "153"
+          },
+          {
+            "from": "154_readings_max",
+            "to": "154"
+          },
+          {
+            "from": "155_readings_max",
+            "to": "155"
+          },
+          {
+            "from": "156_readings_max",
+            "to": "156"
+          },
+          {
+            "from": "157_readings_max",
+            "to": "157"
+          },
+          {
+            "from": "158_readings_max",
+            "to": "158"
+          },
+          {
+            "from": "159_readings_max",
+            "to": "159"
+          },
+          {
+            "from": "160_readings_max",
+            "to": "160"
+          },
+          {
+            "from": "161_readings_max",
+            "to": "161"
+          },
+          {
+            "from": "162_readings_max",
+            "to": "162"
+          },
+          {
+            "from": "163_readings_max",
+            "to": "163"
+          },
+          {
+            "from": "164_readings_max",
+            "to": "164"
+          },
+          {
+            "from": "165_readings_max",
+            "to": "165"
+          },
+          {
+            "from": "166_readings_max",
+            "to": "166"
+          },
+          {
+            "from": "167_readings_max",
+            "to": "167"
+          },
+          {
+            "from": "168_readings_max",
+            "to": "168"
+          },
+          {
+            "from": "169_readings_max",
+            "to": "169"
+          },
+          {
+            "from": "170_readings_max",
+            "to": "170"
+          },
+          {
+            "from": "171_readings_max",
+            "to": "171"
+          },
+          {
+            "from": "172_readings_max",
+            "to": "172"
+          },
+          {
+            "from": "173_readings_max",
+            "to": "173"
+          },
+          {
+            "from": "174_readings_max",
+            "to": "174"
+          },
+          {
+            "from": "175_readings_max",
+            "to": "175"
+          },
+          {
+            "from": "176_readings_max",
+            "to": "176"
+          },
+          {
+            "from": "177_readings_max",
+            "to": "177"
+          },
+          {
+            "from": "178_readings_max",
+            "to": "178"
+          },
+          {
+            "from": "179_readings_max",
+            "to": "179"
+          },
+          {
+            "from": "180_readings_max",
+            "to": "180"
+          },
+          {
+            "from": "181_readings_max",
+            "to": "181"
+          },
+          {
+            "from": "182_readings_max",
+            "to": "182"
+          },
+          {
+            "from": "183_readings_max",
+            "to": "183"
+          },
+          {
+            "from": "184_readings_max",
+            "to": "184"
+          },
+          {
+            "from": "185_readings_max",
+            "to": "185"
+          },
+          {
+            "from": "186_readings_max",
+            "to": "186"
+          },
+          {
+            "from": "187_readings_max",
+            "to": "187"
+          },
+          {
+            "from": "188_readings_max",
+            "to": "188"
+          },
+          {
+            "from": "189_readings_max",
+            "to": "189"
+          },
+          {
+            "from": "190_readings_max",
+            "to": "190"
+          },
+          {
+            "from": "191_readings_max",
+            "to": "191"
+          },
+          {
+            "from": "192_readings_max",
+            "to": "192"
+          },
+          {
+            "from": "193_readings_max",
+            "to": "193"
+          },
+          {
+            "from": "194_readings_max",
+            "to": "194"
+          },
+          {
+            "from": "195_readings_max",
+            "to": "195"
+          },
+          {
+            "from": "196_readings_max",
+            "to": "196"
+          },
+          {
+            "from": "197_readings_max",
+            "to": "197"
+          },
+          {
+            "from": "198_readings_max",
+            "to": "198"
+          },
+          {
+            "from": "199_readings_max",
+            "to": "199"
+          },
+          {
+            "from": "200_readings_max",
+            "to": "200"
+          },
+          {
+            "from": "201_readings_max",
+            "to": "201"
+          },
+          {
+            "from": "202_readings_max",
+            "to": "202"
+          },
+          {
+            "from": "203_readings_max",
+            "to": "203"
+          },
+          {
+            "from": "204_readings_max",
+            "to": "204"
+          },
+          {
+            "from": "205_readings_max",
+            "to": "205"
+          },
+          {
+            "from": "206_readings_max",
+            "to": "206"
+          },
+          {
+            "from": "207_readings_max",
+            "to": "207"
+          },
+          {
+            "from": "208_readings_max",
+            "to": "208"
+          },
+          {
+            "from": "209_readings_max",
+            "to": "209"
+          },
+          {
+            "from": "210_readings_max",
+            "to": "210"
+          },
+          {
+            "from": "211_readings_max",
+            "to": "211"
+          },
+          {
+            "from": "212_readings_max",
+            "to": "212"
+          },
+          {
+            "from": "213_readings_max",
+            "to": "213"
+          },
+          {
+            "from": "214_readings_max",
+            "to": "214"
+          },
+          {
+            "from": "215_readings_max",
+            "to": "215"
+          },
+          {
+            "from": "216_readings_max",
+            "to": "216"
+          },
+          {
+            "from": "217_readings_max",
+            "to": "217"
+          },
+          {
+            "from": "218_readings_max",
+            "to": "218"
+          },
+          {
+            "from": "219_readings_max",
+            "to": "219"
+          },
+          {
+            "from": "220_readings_max",
+            "to": "220"
+          },
+          {
+            "from": "221_readings_max",
+            "to": "221"
+          },
+          {
+            "from": "222_readings_max",
+            "to": "222"
+          },
+          {
+            "from": "223_readings_max",
+            "to": "223"
+          },
+          {
+            "from": "224_readings_max",
+            "to": "224"
+          },
+          {
+            "from": "225_readings_max",
+            "to": "225"
+          },
+          {
+            "from": "226_readings_max",
+            "to": "226"
+          },
+          {
+            "from": "227_readings_max",
+            "to": "227"
+          },
+          {
+            "from": "228_readings_max",
+            "to": "228"
+          },
+          {
+            "from": "229_readings_max",
+            "to": "229"
+          },
+          {
+            "from": "230_readings_max",
+            "to": "230"
+          },
+          {
+            "from": "231_readings_max",
+            "to": "231"
+          },
+          {
+            "from": "232_readings_max",
+            "to": "232"
+          },
+          {
+            "from": "233_readings_max",
+            "to": "233"
+          },
+          {
+            "from": "234_readings_max",
+            "to": "234"
+          },
+          {
+            "from": "235_readings_max",
+            "to": "235"
+          },
+          {
+            "from": "236_readings_max",
+            "to": "236"
+          },
+          {
+            "from": "237_readings_max",
+            "to": "237"
+          },
+          {
+            "from": "238_readings_max",
+            "to": "238"
+          },
+          {
+            "from": "239_readings_max",
+            "to": "239"
+          },
+          {
+            "from": "240_readings_max",
+            "to": "240"
+          },
+          {
+            "from": "241_readings_max",
+            "to": "241"
+          },
+          {
+            "from": "242_readings_max",
+            "to": "242"
+          },
+          {
+            "from": "243_readings_max",
+            "to": "243"
+          },
+          {
+            "from": "244_readings_max",
+            "to": "244"
+          },
+          {
+            "from": "245_readings_max",
+            "to": "245"
+          },
+          {
+            "from": "246_readings_max",
+            "to": "246"
+          },
+          {
+            "from": "247_readings_max",
+            "to": "247"
+          },
+          {
+            "from": "248_readings_max",
+            "to": "248"
+          },
+          {
+            "from": "249_readings_max",
+            "to": "249"
+          },
+          {
+            "from": "250_readings_max",
+            "to": "250"
+          },
+          {
+            "from": "251_readings_max",
+            "to": "251"
+          },
+          {
+            "from": "252_readings_max",
+            "to": "252"
+          },
+          {
+            "from": "253_readings_max",
+            "to": "253"
+          },
+          {
+            "from": "254_readings_max",
+            "to": "254"
+          },
+          {
+            "from": "255_readings_max",
+            "to": "255"
+          },
+          {
+            "from": "256_readings_max",
+            "to": "256"
+          },
+          {
+            "from": "257_readings_max",
+            "to": "257"
+          },
+          {
+            "from": "258_readings_max",
+            "to": "258"
+          },
+          {
+            "from": "259_readings_max",
+            "to": "259"
+          },
+          {
+            "from": "260_readings_max",
+            "to": "260"
+          },
+          {
+            "from": "261_readings_max",
+            "to": "261"
+          },
+          {
+            "from": "262_readings_max",
+            "to": "262"
+          },
+          {
+            "from": "263_readings_max",
+            "to": "263"
+          },
+          {
+            "from": "264_readings_max",
+            "to": "264"
+          },
+          {
+            "from": "265_readings_max",
+            "to": "265"
+          },
+          {
+            "from": "266_readings_max",
+            "to": "266"
+          },
+          {
+            "from": "267_readings_max",
+            "to": "267"
+          },
+          {
+            "from": "268_readings_max",
+            "to": "268"
+          },
+          {
+            "from": "269_readings_max",
+            "to": "269"
+          },
+          {
+            "from": "270_readings_max",
+            "to": "270"
+          },
+          {
+            "from": "271_readings_max",
+            "to": "271"
+          },
+          {
+            "from": "272_readings_max",
+            "to": "272"
+          },
+          {
+            "from": "273_readings_max",
+            "to": "273"
+          },
+          {
+            "from": "274_readings_max",
+            "to": "274"
+          },
+          {
+            "from": "275_readings_max",
+            "to": "275"
+          },
+          {
+            "from": "276_readings_max",
+            "to": "276"
+          },
+          {
+            "from": "277_readings_max",
+            "to": "277"
+          },
+          {
+            "from": "278_readings_max",
+            "to": "278"
+          },
+          {
+            "from": "279_readings_max",
+            "to": "279"
+          },
+          {
+            "from": "280_readings_max",
+            "to": "280"
+          },
+          {
+            "from": "281_readings_max",
+            "to": "281"
+          },
+          {
+            "from": "282_readings_max",
+            "to": "282"
+          },
+          {
+            "from": "283_readings_max",
+            "to": "283"
+          },
+          {
+            "from": "284_readings_max",
+            "to": "284"
+          },
+          {
+            "from": "285_readings_max",
+            "to": "285"
+          },
+          {
+            "from": "286_readings_max",
+            "to": "286"
+          },
+          {
+            "from": "287_readings_max",
+            "to": "287"
+          },
+          {
+            "from": "288_readings_max",
+            "to": "288"
+          },
+          {
+            "from": "289_readings_max",
+            "to": "289"
+          },
+          {
+            "from": "290_readings_max",
+            "to": "290"
+          },
+          {
+            "from": "291_readings_max",
+            "to": "291"
+          },
+          {
+            "from": "292_readings_max",
+            "to": "292"
+          },
+          {
+            "from": "293_readings_max",
+            "to": "293"
+          },
+          {
+            "from": "294_readings_max",
+            "to": "294"
+          },
+          {
+            "from": "295_readings_max",
+            "to": "295"
+          },
+          {
+            "from": "296_readings_max",
+            "to": "296"
+          },
+          {
+            "from": "297_readings_max",
+            "to": "297"
+          },
+          {
+            "from": "298_readings_max",
+            "to": "298"
+          },
+          {
+            "from": "299_readings_max",
+            "to": "299"
+          },
+          {
+            "from": "300_readings_max",
+            "to": "300"
+          },
+          {
+            "from": "301_readings_max",
+            "to": "301"
+          },
+          {
+            "from": "302_readings_max",
+            "to": "302"
+          },
+          {
+            "from": "303_readings_max",
+            "to": "303"
+          },
+          {
+            "from": "304_readings_max",
+            "to": "304"
+          },
+          {
+            "from": "305_readings_max",
+            "to": "305"
+          },
+          {
+            "from": "306_readings_max",
+            "to": "306"
+          },
+          {
+            "from": "307_readings_max",
+            "to": "307"
+          },
+          {
+            "from": "308_readings_max",
+            "to": "308"
+          },
+          {
+            "from": "309_readings_max",
+            "to": "309"
+          },
+          {
+            "from": "310_readings_max",
+            "to": "310"
+          },
+          {
+            "from": "311_readings_max",
+            "to": "311"
+          },
+          {
+            "from": "312_readings_max",
+            "to": "312"
+          },
+          {
+            "from": "313_readings_max",
+            "to": "313"
+          },
+          {
+            "from": "314_readings_max",
+            "to": "314"
+          },
+          {
+            "from": "315_readings_max",
+            "to": "315"
+          },
+          {
+            "from": "316_readings_max",
+            "to": "316"
+          },
+          {
+            "from": "317_readings_max",
+            "to": "317"
+          },
+          {
+            "from": "318_readings_max",
+            "to": "318"
+          },
+          {
+            "from": "319_readings_max",
+            "to": "319"
+          },
+          {
+            "from": "320_readings_max",
+            "to": "320"
+          },
+          {
+            "from": "321_readings_max",
+            "to": "321"
+          },
+          {
+            "from": "322_readings_max",
+            "to": "322"
+          },
+          {
+            "from": "323_readings_max",
+            "to": "323"
+          },
+          {
+            "from": "324_readings_max",
+            "to": "324"
+          },
+          {
+            "from": "325_readings_max",
+            "to": "325"
+          },
+          {
+            "from": "326_readings_max",
+            "to": "326"
+          },
+          {
+            "from": "327_readings_max",
+            "to": "327"
+          },
+          {
+            "from": "328_readings_max",
+            "to": "328"
+          },
+          {
+            "from": "329_readings_max",
+            "to": "329"
+          },
+          {
+            "from": "330_readings_max",
+            "to": "330"
+          },
+          {
+            "from": "331_readings_max",
+            "to": "331"
+          },
+          {
+            "from": "332_readings_max",
+            "to": "332"
+          },
+          {
+            "from": "333_readings_max",
+            "to": "333"
+          },
+          {
+            "from": "334_readings_max",
+            "to": "334"
+          },
+          {
+            "from": "335_readings_max",
+            "to": "335"
+          },
+          {
+            "from": "336_readings_max",
+            "to": "336"
+          },
+          {
+            "from": "337_readings_max",
+            "to": "337"
+          },
+          {
+            "from": "338_readings_max",
+            "to": "338"
+          },
+          {
+            "from": "339_readings_max",
+            "to": "339"
+          },
+          {
+            "from": "340_readings_max",
+            "to": "340"
+          },
+          {
+            "from": "341_readings_max",
+            "to": "341"
+          },
+          {
+            "from": "342_readings_max",
+            "to": "342"
+          },
+          {
+            "from": "343_readings_max",
+            "to": "343"
+          },
+          {
+            "from": "344_readings_max",
+            "to": "344"
+          },
+          {
+            "from": "345_readings_max",
+            "to": "345"
+          },
+          {
+            "from": "346_readings_max",
+            "to": "346"
+          },
+          {
+            "from": "347_readings_max",
+            "to": "347"
+          },
+          {
+            "from": "348_readings_max",
+            "to": "348"
+          },
+          {
+            "from": "349_readings_max",
+            "to": "349"
+          },
+          {
+            "from": "350_readings_max",
+            "to": "350"
+          },
+          {
+            "from": "351_readings_max",
+            "to": "351"
+          },
+          {
+            "from": "352_readings_max",
+            "to": "352"
+          },
+          {
+            "from": "353_readings_max",
+            "to": "353"
+          },
+          {
+            "from": "354_readings_max",
+            "to": "354"
+          },
+          {
+            "from": "355_readings_max",
+            "to": "355"
+          },
+          {
+            "from": "356_readings_max",
+            "to": "356"
+          },
+          {
+            "from": "357_readings_max",
+            "to": "357"
+          },
+          {
+            "from": "358_readings_max",
+            "to": "358"
+          },
+          {
+            "from": "359_readings_max",
+            "to": "359"
+          },
+          {
+            "from": "360_readings_max",
+            "to": "360"
+          },
+          {
+            "from": "361_readings_max",
+            "to": "361"
+          },
+          {
+            "from": "362_readings_max",
+            "to": "362"
+          },
+          {
+            "from": "363_readings_max",
+            "to": "363"
+          },
+          {
+            "from": "364_readings_max",
+            "to": "364"
+          },
+          {
+            "from": "365_readings_max",
+            "to": "365"
+          },
+          {
+            "from": "366_readings_max",
+            "to": "366"
+          },
+          {
+            "from": "367_readings_max",
+            "to": "367"
+          },
+          {
+            "from": "368_readings_max",
+            "to": "368"
+          },
+          {
+            "from": "369_readings_max",
+            "to": "369"
+          },
+          {
+            "from": "370_readings_max",
+            "to": "370"
+          },
+          {
+            "from": "371_readings_max",
+            "to": "371"
+          },
+          {
+            "from": "372_readings_max",
+            "to": "372"
+          },
+          {
+            "from": "373_readings_max",
+            "to": "373"
+          },
+          {
+            "from": "374_readings_max",
+            "to": "374"
+          },
+          {
+            "from": "375_readings_max",
+            "to": "375"
+          },
+          {
+            "from": "376_readings_max",
+            "to": "376"
+          },
+          {
+            "from": "377_readings_max",
+            "to": "377"
+          },
+          {
+            "from": "378_readings_max",
+            "to": "378"
+          },
+          {
+            "from": "379_readings_max",
+            "to": "379"
+          },
+          {
+            "from": "380_readings_max",
+            "to": "380"
+          },
+          {
+            "from": "381_readings_max",
+            "to": "381"
+          },
+          {
+            "from": "382_readings_max",
+            "to": "382"
+          },
+          {
+            "from": "383_readings_max",
+            "to": "383"
+          },
+          {
+            "from": "384_readings_max",
+            "to": "384"
+          },
+          {
+            "from": "385_readings_max",
+            "to": "385"
+          },
+          {
+            "from": "386_readings_max",
+            "to": "386"
+          },
+          {
+            "from": "387_readings_max",
+            "to": "387"
+          },
+          {
+            "from": "388_readings_max",
+            "to": "388"
+          },
+          {
+            "from": "389_readings_max",
+            "to": "389"
+          },
+          {
+            "from": "390_readings_max",
+            "to": "390"
+          },
+          {
+            "from": "391_readings_max",
+            "to": "391"
+          },
+          {
+            "from": "392_readings_max",
+            "to": "392"
+          },
+          {
+            "from": "393_readings_max",
+            "to": "393"
+          },
+          {
+            "from": "394_readings_max",
+            "to": "394"
+          },
+          {
+            "from": "395_readings_max",
+            "to": "395"
+          },
+          {
+            "from": "396_readings_max",
+            "to": "396"
+          },
+          {
+            "from": "397_readings_max",
+            "to": "397"
+          },
+          {
+            "from": "398_readings_max",
+            "to": "398"
+          },
+          {
+            "from": "399_readings_max",
+            "to": "399"
+          },
+          {
+            "from": "400_readings_max",
+            "to": "400"
+          },
+          {
+            "from": "0",
+            "to": "0_Hz"
+          },
+          {
+            "from": "1",
+            "to": "1_Hz"
+          },
+          {
+            "from": "2",
+            "to": "2_Hz"
+          },
+          {
+            "from": "3",
+            "to": "3_Hz"
+          },
+          {
+            "from": "4",
+            "to": "4_Hz"
+          },
+          {
+            "from": "5",
+            "to": "5_Hz"
+          },
+          {
+            "from": "6",
+            "to": "6_Hz"
+          },
+          {
+            "from": "7",
+            "to": "7_Hz"
+          },
+          {
+            "from": "8",
+            "to": "8_Hz"
+          },
+          {
+            "from": "9",
+            "to": "9_Hz"
+          },
+          {
+            "from": "10",
+            "to": "10_Hz"
+          },
+          {
+            "from": "11",
+            "to": "11_Hz"
+          },
+          {
+            "from": "12",
+            "to": "12_Hz"
+          },
+          {
+            "from": "13",
+            "to": "13_Hz"
+          },
+          {
+            "from": "14",
+            "to": "14_Hz"
+          },
+          {
+            "from": "15",
+            "to": "15_Hz"
+          },
+          {
+            "from": "16",
+            "to": "16_Hz"
+          },
+          {
+            "from": "17",
+            "to": "17_Hz"
+          },
+          {
+            "from": "18",
+            "to": "18_Hz"
+          },
+          {
+            "from": "19",
+            "to": "19_Hz"
+          },
+          {
+            "from": "20",
+            "to": "20_Hz"
+          },
+          {
+            "from": "21",
+            "to": "21_Hz"
+          },
+          {
+            "from": "22",
+            "to": "22_Hz"
+          },
+          {
+            "from": "23",
+            "to": "23_Hz"
+          },
+          {
+            "from": "24",
+            "to": "24_Hz"
+          },
+          {
+            "from": "25",
+            "to": "25_Hz"
+          },
+          {
+            "from": "26",
+            "to": "26_Hz"
+          },
+          {
+            "from": "27",
+            "to": "27_Hz"
+          },
+          {
+            "from": "28",
+            "to": "28_Hz"
+          },
+          {
+            "from": "29",
+            "to": "29_Hz"
+          },
+          {
+            "from": "30",
+            "to": "30_Hz"
+          },
+          {
+            "from": "31",
+            "to": "31_Hz"
+          },
+          {
+            "from": "32",
+            "to": "32_Hz"
+          },
+          {
+            "from": "33",
+            "to": "33_Hz"
+          },
+          {
+            "from": "34",
+            "to": "34_Hz"
+          },
+          {
+            "from": "35",
+            "to": "35_Hz"
+          },
+          {
+            "from": "36",
+            "to": "36_Hz"
+          },
+          {
+            "from": "37",
+            "to": "37_Hz"
+          },
+          {
+            "from": "38",
+            "to": "38_Hz"
+          },
+          {
+            "from": "39",
+            "to": "39_Hz"
+          },
+          {
+            "from": "40",
+            "to": "40_Hz"
+          },
+          {
+            "from": "41",
+            "to": "41_Hz"
+          },
+          {
+            "from": "42",
+            "to": "42_Hz"
+          },
+          {
+            "from": "43",
+            "to": "43_Hz"
+          },
+          {
+            "from": "44",
+            "to": "44_Hz"
+          },
+          {
+            "from": "45",
+            "to": "45_Hz"
+          },
+          {
+            "from": "46",
+            "to": "46_Hz"
+          },
+          {
+            "from": "47",
+            "to": "47_Hz"
+          },
+          {
+            "from": "48",
+            "to": "48_Hz"
+          },
+          {
+            "from": "49",
+            "to": "49_Hz"
+          },
+          {
+            "from": "50",
+            "to": "50_Hz"
+          },
+          {
+            "from": "51",
+            "to": "51_Hz"
+          },
+          {
+            "from": "52",
+            "to": "52_Hz"
+          },
+          {
+            "from": "53",
+            "to": "53_Hz"
+          },
+          {
+            "from": "54",
+            "to": "54_Hz"
+          },
+          {
+            "from": "55",
+            "to": "55_Hz"
+          },
+          {
+            "from": "56",
+            "to": "56_Hz"
+          },
+          {
+            "from": "57",
+            "to": "57_Hz"
+          },
+          {
+            "from": "58",
+            "to": "58_Hz"
+          },
+          {
+            "from": "59",
+            "to": "59_Hz"
+          },
+          {
+            "from": "60",
+            "to": "60_Hz"
+          },
+          {
+            "from": "61",
+            "to": "61_Hz"
+          },
+          {
+            "from": "62",
+            "to": "62_Hz"
+          },
+          {
+            "from": "63",
+            "to": "63_Hz"
+          },
+          {
+            "from": "64",
+            "to": "64_Hz"
+          },
+          {
+            "from": "65",
+            "to": "65_Hz"
+          },
+          {
+            "from": "66",
+            "to": "66_Hz"
+          },
+          {
+            "from": "67",
+            "to": "67_Hz"
+          },
+          {
+            "from": "68",
+            "to": "68_Hz"
+          },
+          {
+            "from": "69",
+            "to": "69_Hz"
+          },
+          {
+            "from": "70",
+            "to": "70_Hz"
+          },
+          {
+            "from": "71",
+            "to": "71_Hz"
+          },
+          {
+            "from": "72",
+            "to": "72_Hz"
+          },
+          {
+            "from": "73",
+            "to": "73_Hz"
+          },
+          {
+            "from": "74",
+            "to": "74_Hz"
+          },
+          {
+            "from": "75",
+            "to": "75_Hz"
+          },
+          {
+            "from": "76",
+            "to": "76_Hz"
+          },
+          {
+            "from": "77",
+            "to": "77_Hz"
+          },
+          {
+            "from": "78",
+            "to": "78_Hz"
+          },
+          {
+            "from": "79",
+            "to": "79_Hz"
+          },
+          {
+            "from": "80",
+            "to": "80_Hz"
+          },
+          {
+            "from": "81",
+            "to": "81_Hz"
+          },
+          {
+            "from": "82",
+            "to": "82_Hz"
+          },
+          {
+            "from": "83",
+            "to": "83_Hz"
+          },
+          {
+            "from": "84",
+            "to": "84_Hz"
+          },
+          {
+            "from": "85",
+            "to": "85_Hz"
+          },
+          {
+            "from": "86",
+            "to": "86_Hz"
+          },
+          {
+            "from": "87",
+            "to": "87_Hz"
+          },
+          {
+            "from": "88",
+            "to": "88_Hz"
+          },
+          {
+            "from": "89",
+            "to": "89_Hz"
+          },
+          {
+            "from": "90",
+            "to": "90_Hz"
+          },
+          {
+            "from": "91",
+            "to": "91_Hz"
+          },
+          {
+            "from": "92",
+            "to": "92_Hz"
+          },
+          {
+            "from": "93",
+            "to": "93_Hz"
+          },
+          {
+            "from": "94",
+            "to": "94_Hz"
+          },
+          {
+            "from": "95",
+            "to": "95_Hz"
+          },
+          {
+            "from": "96",
+            "to": "96_Hz"
+          },
+          {
+            "from": "97",
+            "to": "97_Hz"
+          },
+          {
+            "from": "98",
+            "to": "98_Hz"
+          },
+          {
+            "from": "99",
+            "to": "99_Hz"
+          },
+          {
+            "from": "100",
+            "to": "100_Hz"
+          },
+          {
+            "from": "101",
+            "to": "101_Hz"
+          },
+          {
+            "from": "102",
+            "to": "102_Hz"
+          },
+          {
+            "from": "103",
+            "to": "103_Hz"
+          },
+          {
+            "from": "104",
+            "to": "104_Hz"
+          },
+          {
+            "from": "105",
+            "to": "105_Hz"
+          },
+          {
+            "from": "106",
+            "to": "106_Hz"
+          },
+          {
+            "from": "107",
+            "to": "107_Hz"
+          },
+          {
+            "from": "108",
+            "to": "108_Hz"
+          },
+          {
+            "from": "109",
+            "to": "109_Hz"
+          },
+          {
+            "from": "110",
+            "to": "110_Hz"
+          },
+          {
+            "from": "111",
+            "to": "111_Hz"
+          },
+          {
+            "from": "112",
+            "to": "112_Hz"
+          },
+          {
+            "from": "113",
+            "to": "113_Hz"
+          },
+          {
+            "from": "114",
+            "to": "114_Hz"
+          },
+          {
+            "from": "115",
+            "to": "115_Hz"
+          },
+          {
+            "from": "116",
+            "to": "116_Hz"
+          },
+          {
+            "from": "117",
+            "to": "117_Hz"
+          },
+          {
+            "from": "118",
+            "to": "118_Hz"
+          },
+          {
+            "from": "119",
+            "to": "119_Hz"
+          },
+          {
+            "from": "120",
+            "to": "120_Hz"
+          },
+          {
+            "from": "121",
+            "to": "121_Hz"
+          },
+          {
+            "from": "122",
+            "to": "122_Hz"
+          },
+          {
+            "from": "123",
+            "to": "123_Hz"
+          },
+          {
+            "from": "124",
+            "to": "124_Hz"
+          },
+          {
+            "from": "125",
+            "to": "125_Hz"
+          },
+          {
+            "from": "126",
+            "to": "126_Hz"
+          },
+          {
+            "from": "127",
+            "to": "127_Hz"
+          },
+          {
+            "from": "128",
+            "to": "128_Hz"
+          },
+          {
+            "from": "129",
+            "to": "129_Hz"
+          },
+          {
+            "from": "130",
+            "to": "130_Hz"
+          },
+          {
+            "from": "131",
+            "to": "131_Hz"
+          },
+          {
+            "from": "132",
+            "to": "132_Hz"
+          },
+          {
+            "from": "133",
+            "to": "133_Hz"
+          },
+          {
+            "from": "134",
+            "to": "134_Hz"
+          },
+          {
+            "from": "135",
+            "to": "135_Hz"
+          },
+          {
+            "from": "136",
+            "to": "136_Hz"
+          },
+          {
+            "from": "137",
+            "to": "137_Hz"
+          },
+          {
+            "from": "138",
+            "to": "138_Hz"
+          },
+          {
+            "from": "139",
+            "to": "139_Hz"
+          },
+          {
+            "from": "140",
+            "to": "140_Hz"
+          },
+          {
+            "from": "141",
+            "to": "141_Hz"
+          },
+          {
+            "from": "142",
+            "to": "142_Hz"
+          },
+          {
+            "from": "143",
+            "to": "143_Hz"
+          },
+          {
+            "from": "144",
+            "to": "144_Hz"
+          },
+          {
+            "from": "145",
+            "to": "145_Hz"
+          },
+          {
+            "from": "146",
+            "to": "146_Hz"
+          },
+          {
+            "from": "147",
+            "to": "147_Hz"
+          },
+          {
+            "from": "148",
+            "to": "148_Hz"
+          },
+          {
+            "from": "149",
+            "to": "149_Hz"
+          },
+          {
+            "from": "150",
+            "to": "150_Hz"
+          },
+          {
+            "from": "151",
+            "to": "151_Hz"
+          },
+          {
+            "from": "152",
+            "to": "152_Hz"
+          },
+          {
+            "from": "153",
+            "to": "153_Hz"
+          },
+          {
+            "from": "154",
+            "to": "154_Hz"
+          },
+          {
+            "from": "155",
+            "to": "155_Hz"
+          },
+          {
+            "from": "156",
+            "to": "156_Hz"
+          },
+          {
+            "from": "157",
+            "to": "157_Hz"
+          },
+          {
+            "from": "158",
+            "to": "158_Hz"
+          },
+          {
+            "from": "159",
+            "to": "159_Hz"
+          },
+          {
+            "from": "160",
+            "to": "160_Hz"
+          },
+          {
+            "from": "161",
+            "to": "161_Hz"
+          },
+          {
+            "from": "162",
+            "to": "162_Hz"
+          },
+          {
+            "from": "163",
+            "to": "163_Hz"
+          },
+          {
+            "from": "164",
+            "to": "164_Hz"
+          },
+          {
+            "from": "165",
+            "to": "165_Hz"
+          },
+          {
+            "from": "166",
+            "to": "166_Hz"
+          },
+          {
+            "from": "167",
+            "to": "167_Hz"
+          },
+          {
+            "from": "168",
+            "to": "168_Hz"
+          },
+          {
+            "from": "169",
+            "to": "169_Hz"
+          },
+          {
+            "from": "170",
+            "to": "170_Hz"
+          },
+          {
+            "from": "171",
+            "to": "171_Hz"
+          },
+          {
+            "from": "172",
+            "to": "172_Hz"
+          },
+          {
+            "from": "173",
+            "to": "173_Hz"
+          },
+          {
+            "from": "174",
+            "to": "174_Hz"
+          },
+          {
+            "from": "175",
+            "to": "175_Hz"
+          },
+          {
+            "from": "176",
+            "to": "176_Hz"
+          },
+          {
+            "from": "177",
+            "to": "177_Hz"
+          },
+          {
+            "from": "178",
+            "to": "178_Hz"
+          },
+          {
+            "from": "179",
+            "to": "179_Hz"
+          },
+          {
+            "from": "180",
+            "to": "180_Hz"
+          },
+          {
+            "from": "181",
+            "to": "181_Hz"
+          },
+          {
+            "from": "182",
+            "to": "182_Hz"
+          },
+          {
+            "from": "183",
+            "to": "183_Hz"
+          },
+          {
+            "from": "184",
+            "to": "184_Hz"
+          },
+          {
+            "from": "185",
+            "to": "185_Hz"
+          },
+          {
+            "from": "186",
+            "to": "186_Hz"
+          },
+          {
+            "from": "187",
+            "to": "187_Hz"
+          },
+          {
+            "from": "188",
+            "to": "188_Hz"
+          },
+          {
+            "from": "189",
+            "to": "189_Hz"
+          },
+          {
+            "from": "190",
+            "to": "190_Hz"
+          },
+          {
+            "from": "191",
+            "to": "191_Hz"
+          },
+          {
+            "from": "192",
+            "to": "192_Hz"
+          },
+          {
+            "from": "193",
+            "to": "193_Hz"
+          },
+          {
+            "from": "194",
+            "to": "194_Hz"
+          },
+          {
+            "from": "195",
+            "to": "195_Hz"
+          },
+          {
+            "from": "196",
+            "to": "196_Hz"
+          },
+          {
+            "from": "197",
+            "to": "197_Hz"
+          },
+          {
+            "from": "198",
+            "to": "198_Hz"
+          },
+          {
+            "from": "199",
+            "to": "199_Hz"
+          },
+          {
+            "from": "200",
+            "to": "200_Hz"
+          },
+          {
+            "from": "201",
+            "to": "201_Hz"
+          },
+          {
+            "from": "202",
+            "to": "202_Hz"
+          },
+          {
+            "from": "203",
+            "to": "203_Hz"
+          },
+          {
+            "from": "204",
+            "to": "204_Hz"
+          },
+          {
+            "from": "205",
+            "to": "205_Hz"
+          },
+          {
+            "from": "206",
+            "to": "206_Hz"
+          },
+          {
+            "from": "207",
+            "to": "207_Hz"
+          },
+          {
+            "from": "208",
+            "to": "208_Hz"
+          },
+          {
+            "from": "209",
+            "to": "209_Hz"
+          },
+          {
+            "from": "210",
+            "to": "210_Hz"
+          },
+          {
+            "from": "211",
+            "to": "211_Hz"
+          },
+          {
+            "from": "212",
+            "to": "212_Hz"
+          },
+          {
+            "from": "213",
+            "to": "213_Hz"
+          },
+          {
+            "from": "214",
+            "to": "214_Hz"
+          },
+          {
+            "from": "215",
+            "to": "215_Hz"
+          },
+          {
+            "from": "216",
+            "to": "216_Hz"
+          },
+          {
+            "from": "217",
+            "to": "217_Hz"
+          },
+          {
+            "from": "218",
+            "to": "218_Hz"
+          },
+          {
+            "from": "219",
+            "to": "219_Hz"
+          },
+          {
+            "from": "220",
+            "to": "220_Hz"
+          },
+          {
+            "from": "221",
+            "to": "221_Hz"
+          },
+          {
+            "from": "222",
+            "to": "222_Hz"
+          },
+          {
+            "from": "223",
+            "to": "223_Hz"
+          },
+          {
+            "from": "224",
+            "to": "224_Hz"
+          },
+          {
+            "from": "225",
+            "to": "225_Hz"
+          },
+          {
+            "from": "226",
+            "to": "226_Hz"
+          },
+          {
+            "from": "227",
+            "to": "227_Hz"
+          },
+          {
+            "from": "228",
+            "to": "228_Hz"
+          },
+          {
+            "from": "229",
+            "to": "229_Hz"
+          },
+          {
+            "from": "230",
+            "to": "230_Hz"
+          },
+          {
+            "from": "231",
+            "to": "231_Hz"
+          },
+          {
+            "from": "232",
+            "to": "232_Hz"
+          },
+          {
+            "from": "233",
+            "to": "233_Hz"
+          },
+          {
+            "from": "234",
+            "to": "234_Hz"
+          },
+          {
+            "from": "235",
+            "to": "235_Hz"
+          },
+          {
+            "from": "236",
+            "to": "236_Hz"
+          },
+          {
+            "from": "237",
+            "to": "237_Hz"
+          },
+          {
+            "from": "238",
+            "to": "238_Hz"
+          },
+          {
+            "from": "239",
+            "to": "239_Hz"
+          },
+          {
+            "from": "240",
+            "to": "240_Hz"
+          },
+          {
+            "from": "241",
+            "to": "241_Hz"
+          },
+          {
+            "from": "242",
+            "to": "242_Hz"
+          },
+          {
+            "from": "243",
+            "to": "243_Hz"
+          },
+          {
+            "from": "244",
+            "to": "244_Hz"
+          },
+          {
+            "from": "245",
+            "to": "245_Hz"
+          },
+          {
+            "from": "246",
+            "to": "246_Hz"
+          },
+          {
+            "from": "247",
+            "to": "247_Hz"
+          },
+          {
+            "from": "248",
+            "to": "248_Hz"
+          },
+          {
+            "from": "249",
+            "to": "249_Hz"
+          },
+          {
+            "from": "250",
+            "to": "250_Hz"
+          },
+          {
+            "from": "251",
+            "to": "251_Hz"
+          },
+          {
+            "from": "252",
+            "to": "252_Hz"
+          },
+          {
+            "from": "253",
+            "to": "253_Hz"
+          },
+          {
+            "from": "254",
+            "to": "254_Hz"
+          },
+          {
+            "from": "255",
+            "to": "255_Hz"
+          },
+          {
+            "from": "256",
+            "to": "256_Hz"
+          },
+          {
+            "from": "257",
+            "to": "257_Hz"
+          },
+          {
+            "from": "258",
+            "to": "258_Hz"
+          },
+          {
+            "from": "259",
+            "to": "259_Hz"
+          },
+          {
+            "from": "260",
+            "to": "260_Hz"
+          },
+          {
+            "from": "261",
+            "to": "261_Hz"
+          },
+          {
+            "from": "262",
+            "to": "262_Hz"
+          },
+          {
+            "from": "263",
+            "to": "263_Hz"
+          },
+          {
+            "from": "264",
+            "to": "264_Hz"
+          },
+          {
+            "from": "265",
+            "to": "265_Hz"
+          },
+          {
+            "from": "266",
+            "to": "266_Hz"
+          },
+          {
+            "from": "267",
+            "to": "267_Hz"
+          },
+          {
+            "from": "268",
+            "to": "268_Hz"
+          },
+          {
+            "from": "269",
+            "to": "269_Hz"
+          },
+          {
+            "from": "270",
+            "to": "270_Hz"
+          },
+          {
+            "from": "271",
+            "to": "271_Hz"
+          },
+          {
+            "from": "272",
+            "to": "272_Hz"
+          },
+          {
+            "from": "273",
+            "to": "273_Hz"
+          },
+          {
+            "from": "274",
+            "to": "274_Hz"
+          },
+          {
+            "from": "275",
+            "to": "275_Hz"
+          },
+          {
+            "from": "276",
+            "to": "276_Hz"
+          },
+          {
+            "from": "277",
+            "to": "277_Hz"
+          },
+          {
+            "from": "278",
+            "to": "278_Hz"
+          },
+          {
+            "from": "279",
+            "to": "279_Hz"
+          },
+          {
+            "from": "280",
+            "to": "280_Hz"
+          },
+          {
+            "from": "281",
+            "to": "281_Hz"
+          },
+          {
+            "from": "282",
+            "to": "282_Hz"
+          },
+          {
+            "from": "283",
+            "to": "283_Hz"
+          },
+          {
+            "from": "284",
+            "to": "284_Hz"
+          },
+          {
+            "from": "285",
+            "to": "285_Hz"
+          },
+          {
+            "from": "286",
+            "to": "286_Hz"
+          },
+          {
+            "from": "287",
+            "to": "287_Hz"
+          },
+          {
+            "from": "288",
+            "to": "288_Hz"
+          },
+          {
+            "from": "289",
+            "to": "289_Hz"
+          },
+          {
+            "from": "290",
+            "to": "290_Hz"
+          },
+          {
+            "from": "291",
+            "to": "291_Hz"
+          },
+          {
+            "from": "292",
+            "to": "292_Hz"
+          },
+          {
+            "from": "293",
+            "to": "293_Hz"
+          },
+          {
+            "from": "294",
+            "to": "294_Hz"
+          },
+          {
+            "from": "295",
+            "to": "295_Hz"
+          },
+          {
+            "from": "296",
+            "to": "296_Hz"
+          },
+          {
+            "from": "297",
+            "to": "297_Hz"
+          },
+          {
+            "from": "298",
+            "to": "298_Hz"
+          },
+          {
+            "from": "299",
+            "to": "299_Hz"
+          },
+          {
+            "from": "300",
+            "to": "300_Hz"
+          },
+          {
+            "from": "301",
+            "to": "301_Hz"
+          },
+          {
+            "from": "302",
+            "to": "302_Hz"
+          },
+          {
+            "from": "303",
+            "to": "303_Hz"
+          },
+          {
+            "from": "304",
+            "to": "304_Hz"
+          },
+          {
+            "from": "305",
+            "to": "305_Hz"
+          },
+          {
+            "from": "306",
+            "to": "306_Hz"
+          },
+          {
+            "from": "307",
+            "to": "307_Hz"
+          },
+          {
+            "from": "308",
+            "to": "308_Hz"
+          },
+          {
+            "from": "309",
+            "to": "309_Hz"
+          },
+          {
+            "from": "310",
+            "to": "310_Hz"
+          },
+          {
+            "from": "311",
+            "to": "311_Hz"
+          },
+          {
+            "from": "312",
+            "to": "312_Hz"
+          },
+          {
+            "from": "313",
+            "to": "313_Hz"
+          },
+          {
+            "from": "314",
+            "to": "314_Hz"
+          },
+          {
+            "from": "315",
+            "to": "315_Hz"
+          },
+          {
+            "from": "316",
+            "to": "316_Hz"
+          },
+          {
+            "from": "317",
+            "to": "317_Hz"
+          },
+          {
+            "from": "318",
+            "to": "318_Hz"
+          },
+          {
+            "from": "319",
+            "to": "319_Hz"
+          },
+          {
+            "from": "320",
+            "to": "320_Hz"
+          },
+          {
+            "from": "321",
+            "to": "321_Hz"
+          },
+          {
+            "from": "322",
+            "to": "322_Hz"
+          },
+          {
+            "from": "323",
+            "to": "323_Hz"
+          },
+          {
+            "from": "324",
+            "to": "324_Hz"
+          },
+          {
+            "from": "325",
+            "to": "325_Hz"
+          },
+          {
+            "from": "326",
+            "to": "326_Hz"
+          },
+          {
+            "from": "327",
+            "to": "327_Hz"
+          },
+          {
+            "from": "328",
+            "to": "328_Hz"
+          },
+          {
+            "from": "329",
+            "to": "329_Hz"
+          },
+          {
+            "from": "330",
+            "to": "330_Hz"
+          },
+          {
+            "from": "331",
+            "to": "331_Hz"
+          },
+          {
+            "from": "332",
+            "to": "332_Hz"
+          },
+          {
+            "from": "333",
+            "to": "333_Hz"
+          },
+          {
+            "from": "334",
+            "to": "334_Hz"
+          },
+          {
+            "from": "335",
+            "to": "335_Hz"
+          },
+          {
+            "from": "336",
+            "to": "336_Hz"
+          },
+          {
+            "from": "337",
+            "to": "337_Hz"
+          },
+          {
+            "from": "338",
+            "to": "338_Hz"
+          },
+          {
+            "from": "339",
+            "to": "339_Hz"
+          },
+          {
+            "from": "340",
+            "to": "340_Hz"
+          },
+          {
+            "from": "341",
+            "to": "341_Hz"
+          },
+          {
+            "from": "342",
+            "to": "342_Hz"
+          },
+          {
+            "from": "343",
+            "to": "343_Hz"
+          },
+          {
+            "from": "344",
+            "to": "344_Hz"
+          },
+          {
+            "from": "345",
+            "to": "345_Hz"
+          },
+          {
+            "from": "346",
+            "to": "346_Hz"
+          },
+          {
+            "from": "347",
+            "to": "347_Hz"
+          },
+          {
+            "from": "348",
+            "to": "348_Hz"
+          },
+          {
+            "from": "349",
+            "to": "349_Hz"
+          },
+          {
+            "from": "350",
+            "to": "350_Hz"
+          },
+          {
+            "from": "351",
+            "to": "351_Hz"
+          },
+          {
+            "from": "352",
+            "to": "352_Hz"
+          },
+          {
+            "from": "353",
+            "to": "353_Hz"
+          },
+          {
+            "from": "354",
+            "to": "354_Hz"
+          },
+          {
+            "from": "355",
+            "to": "355_Hz"
+          },
+          {
+            "from": "356",
+            "to": "356_Hz"
+          },
+          {
+            "from": "357",
+            "to": "357_Hz"
+          },
+          {
+            "from": "358",
+            "to": "358_Hz"
+          },
+          {
+            "from": "359",
+            "to": "359_Hz"
+          },
+          {
+            "from": "360",
+            "to": "360_Hz"
+          },
+          {
+            "from": "361",
+            "to": "361_Hz"
+          },
+          {
+            "from": "362",
+            "to": "362_Hz"
+          },
+          {
+            "from": "363",
+            "to": "363_Hz"
+          },
+          {
+            "from": "364",
+            "to": "364_Hz"
+          },
+          {
+            "from": "365",
+            "to": "365_Hz"
+          },
+          {
+            "from": "366",
+            "to": "366_Hz"
+          },
+          {
+            "from": "367",
+            "to": "367_Hz"
+          },
+          {
+            "from": "368",
+            "to": "368_Hz"
+          },
+          {
+            "from": "369",
+            "to": "369_Hz"
+          },
+          {
+            "from": "370",
+            "to": "370_Hz"
+          },
+          {
+            "from": "371",
+            "to": "371_Hz"
+          },
+          {
+            "from": "372",
+            "to": "372_Hz"
+          },
+          {
+            "from": "373",
+            "to": "373_Hz"
+          },
+          {
+            "from": "374",
+            "to": "374_Hz"
+          },
+          {
+            "from": "375",
+            "to": "375_Hz"
+          },
+          {
+            "from": "376",
+            "to": "376_Hz"
+          },
+          {
+            "from": "377",
+            "to": "377_Hz"
+          },
+          {
+            "from": "378",
+            "to": "378_Hz"
+          },
+          {
+            "from": "379",
+            "to": "379_Hz"
+          },
+          {
+            "from": "380",
+            "to": "380_Hz"
+          },
+          {
+            "from": "381",
+            "to": "381_Hz"
+          },
+          {
+            "from": "382",
+            "to": "382_Hz"
+          },
+          {
+            "from": "383",
+            "to": "383_Hz"
+          },
+          {
+            "from": "384",
+            "to": "384_Hz"
+          },
+          {
+            "from": "385",
+            "to": "385_Hz"
+          },
+          {
+            "from": "386",
+            "to": "386_Hz"
+          },
+          {
+            "from": "387",
+            "to": "387_Hz"
+          },
+          {
+            "from": "388",
+            "to": "388_Hz"
+          },
+          {
+            "from": "389",
+            "to": "389_Hz"
+          },
+          {
+            "from": "390",
+            "to": "390_Hz"
+          },
+          {
+            "from": "391",
+            "to": "391_Hz"
+          },
+          {
+            "from": "392",
+            "to": "392_Hz"
+          },
+          {
+            "from": "393",
+            "to": "393_Hz"
+          },
+          {
+            "from": "394",
+            "to": "394_Hz"
+          },
+          {
+            "from": "395",
+            "to": "395_Hz"
+          },
+          {
+            "from": "396",
+            "to": "396_Hz"
+          },
+          {
+            "from": "397",
+            "to": "397_Hz"
+          },
+          {
+            "from": "398",
+            "to": "398_Hz"
+          },
+          {
+            "from": "399",
+            "to": "399_Hz"
+          },
+          {
+            "from": "400",
+            "to": "400_Hz"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +3258,811 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "89_Hz": 141,
+    "222_readings_max": 162,
+    "49_readings_max": 155,
+    "43_Hz": 141,
+    "26_readings_max": 155,
+    "245_readings_max": 162,
+    "112_Hz": 141,
+    "100_Hz": 141,
+    "341_Hz": 141,
+    "399_Hz": 141,
+    "210_readings_max": 162,
+    "158_Hz": 141,
+    "318_Hz": 141,
+    "261_Hz": 141,
+    "387_Hz": 141,
+    "353_Hz": 141,
+    "268_readings_max": 162,
+    "269_readings_max": 162,
+    "257_readings_max": 162,
+    "55_Hz": 141,
+    "14_readings_max": 155,
+    "226_Hz": 141,
+    "15_readings_max": 155,
+    "256_readings_max": 162,
+    "193_Hz": 141,
+    "48_readings_max": 155,
+    "279_readings_max": 162,
+    "285_Hz": 141,
+    "365_Hz": 141,
+    "2_Hz": 141,
+    "204_Hz": 141,
+    "31_Hz": 141,
+    "244_readings_max": 162,
+    "246_readings_max": 162,
+    "90_Hz": 141,
+    "238_Hz": 141,
+    "67_Hz": 141,
+    "38_readings_max": 155,
+    "234_readings_max": 162,
+    "232_readings_max": 162,
+    "181_Hz": 141,
+    "122_Hz": 141,
+    "36_readings_max": 155,
+    "220_readings_max": 162,
+    "136_Hz": 141,
+    "306_Hz": 141,
+    "47_readings_max": 155,
+    "216_Hz": 141,
+    "283_Hz": 141,
+    "18_Hz": 141,
+    "12_readings_max": 155,
+    "243_readings_max": 162,
+    "79_Hz": 141,
+    "278_readings_max": 162,
+    "168_Hz": 141,
+    "247_readings_max": 162,
+    "251_Hz": 141,
+    "212_readings_max": 162,
+    "328_Hz": 141,
+    "102_Hz": 141,
+    "267_readings_max": 162,
+    "213_readings_max": 162,
+    "58_readings_max": 155,
+    "390_readings_max": 162,
+    "17_readings_max": 155,
+    "254_readings_max": 162,
+    "258_readings_max": 162,
+    "377_Hz": 141,
+    "134_Hz": 141,
+    "16_readings_max": 155,
+    "41_Hz": 141,
+    "223_readings_max": 162,
+    "13_readings_max": 155,
+    "124_Hz": 141,
+    "295_Hz": 141,
+    "27_readings_max": 155,
+    "355_Hz": 141,
+    "23_readings_max": 155,
+    "400_readings_max": 162,
+    "37_readings_max": 155,
+    "57_Hz": 141,
+    "146_Hz": 141,
+    "316_Hz": 141,
+    "389_Hz": 141,
+    "288_readings_max": 162,
+    "233_readings_max": 162,
+    "191_Hz": 141,
+    "273_Hz": 141,
+    "228_Hz": 141,
+    "80_Hz": 141,
+    "237_readings_max": 162,
+    "FRF": 100,
+    "276_readings_max": 162,
+    "287_Hz": 141,
+    "45_readings_max": 155,
+    "4_Hz": 141,
+    "126_Hz": 141,
+    "241_Hz": 141,
+    "226_readings_max": 162,
+    "367_Hz": 141,
+    "206_Hz": 141,
+    "338_Hz": 141,
+    "161_Hz": 141,
+    "190_readings_max": 162,
+    "75_Hz": 141,
+    "264_readings_max": 162,
+    "23_Hz": 141,
+    "57_readings_max": 155,
+    "215_readings_max": 162,
+    "56_readings_max": 155,
+    "214_readings_max": 162,
+    "299_Hz": 141,
+    "275_Hz": 141,
+    "203_readings_max": 162,
+    "138_Hz": 141,
+    "304_Hz": 141,
+    "277_readings_max": 162,
+    "46_readings_max": 155,
+    "275_readings_max": 162,
+    "45_Hz": 141,
+    "390_Hz": 141,
+    "218_Hz": 141,
+    "191_readings_max": 162,
+    "67_readings_max": 155,
+    "114_Hz": 141,
+    "265_readings_max": 162,
+    "173_Hz": 141,
+    "44_readings_max": 155,
+    "326_Hz": 141,
+    "87_Hz": 141,
+    "263_Hz": 141,
+    "287_readings_max": 162,
+    "53_Hz": 141,
+    "379_Hz": 141,
+    "236_readings_max": 162,
+    "11_Hz": 141,
+    "195_Hz": 141,
+    "34_readings_max": 155,
+    "224_readings_max": 162,
+    "348_Hz": 141,
+    "392_Hz": 141,
+    "66_readings_max": 155,
+    "205_readings_max": 162,
+    "297_readings_max": 162,
+    "277_Hz": 141,
+    "297_Hz": 141,
+    "99_Hz": 141,
+    "24_readings_max": 155,
+    "357_Hz": 141,
+    "116_Hz": 141,
+    "33_Hz": 141,
+    "266_readings_max": 162,
+    "171_Hz": 141,
+    "65_Hz": 141,
+    "55_readings_max": 155,
+    "265_Hz": 141,
+    "148_Hz": 141,
+    "314_Hz": 141,
+    "183_Hz": 141,
+    "180_readings_max": 162,
+    "204_readings_max": 162,
+    "380_Hz": 141,
+    "255_readings_max": 162,
+    "369_Hz": 141,
+    "6_Hz": 141,
+    "225_readings_max": 162,
+    "208_Hz": 141,
+    "296_readings_max": 162,
+    "77_Hz": 141,
+    "253_Hz": 141,
+    "336_Hz": 141,
+    "395_readings_max": 162,
+    "25_readings_max": 155,
+    "104_Hz": 141,
+    "235_readings_max": 162,
+    "21_Hz": 141,
+    "286_readings_max": 162,
+    "231_Hz": 141,
+    "35_readings_max": 155,
+    "302_Hz": 141,
+    "99_readings_max": 155,
+    "14_Hz": 141,
+    "373_readings_max": 162,
+    "129_readings_max": 162,
+    "295_readings_max": 162,
+    "95_Hz": 141,
+    "207_readings_max": 162,
+    "260_readings_max": 162,
+    "171_readings_max": 162,
+    "41_readings_max": 155,
+    "198_Hz": 141,
+    "267_Hz": 141,
+    "301_Hz": 141,
+    "396_readings_max": 162,
+    "218_readings_max": 162,
+    "152_Hz": 141,
+    "61_Hz": 141,
+    "362_readings_max": 162,
+    "182_readings_max": 162,
+    "117_Hz": 141,
+    "335_Hz": 141,
+    "48_Hz": 141,
+    "52_readings_max": 155,
+    "105_Hz": 141,
+    "130_Hz": 141,
+    "371_Hz": 141,
+    "233_Hz": 141,
+    "63_readings_max": 155,
+    "193_readings_max": 162,
+    "243_Hz": 141,
+    "65_readings_max": 155,
+    "186_Hz": 141,
+    "77_readings_max": 155,
+    "36_Hz": 141,
+    "393_Hz": 141,
+    "255_Hz": 141,
+    "73_Hz": 141,
+    "221_Hz": 141,
+    "164_Hz": 141,
+    "30_readings_max": 155,
+    "384_readings_max": 162,
+    "271_readings_max": 162,
+    "160_readings_max": 162,
+    "323_Hz": 141,
+    "273_readings_max": 162,
+    "8_Hz": 141,
+    "107_Hz": 141,
+    "127_readings_max": 162,
+    "311_Hz": 141,
+    "0_readings_max": 148,
+    "24_Hz": 141,
+    "383_Hz": 141,
+    "398_readings_max": 162,
+    "280_Hz": 141,
+    "85_Hz": 141,
+    "139_Hz": 141,
+    "43_readings_max": 155,
+    "54_readings_max": 155,
+    "345_Hz": 141,
+    "395_Hz": 141,
+    "216_readings_max": 162,
+    "211_Hz": 141,
+    "50_readings_max": 155,
+    "162_Hz": 141,
+    "257_Hz": 141,
+    "329_readings_max": 162,
+    "107_readings_max": 162,
+    "51_Hz": 141,
+    "104_readings_max": 162,
+    "289_Hz": 141,
+    "195_readings_max": 162,
+    "305_readings_max": 162,
+    "227_readings_max": 162,
+    "309_readings_max": 162,
+    "279_Hz": 141,
+    "97_Hz": 141,
+    "118_readings_max": 162,
+    "298_readings_max": 162,
+    "393_readings_max": 162,
+    "140_Hz": 141,
+    "223_Hz": 141,
+    "196_Hz": 141,
+    "12_Hz": 141,
+    "129_Hz": 141,
+    "138_readings_max": 162,
+    "290_Hz": 141,
+    "63_Hz": 141,
+    "284_readings_max": 162,
+    "74_readings_max": 155,
+    "333_Hz": 141,
+    "361_Hz": 141,
+    "245_Hz": 141,
+    "46_Hz": 141,
+    "88_readings_max": 155,
+    "174_Hz": 141,
+    "387_readings_max": 162,
+    "178_Hz": 141,
+    "321_Hz": 141,
+    "373_Hz": 141,
+    "132_Hz": 141,
+    "235_Hz": 141,
+    "10_readings_max": 155,
+    "83_readings_max": 155,
+    "28_Hz": 141,
+    "327_readings_max": 162,
+    "113_readings_max": 162,
+    "81_Hz": 141,
+    "270_Hz": 141,
+    "249_readings_max": 162,
+    "342_readings_max": 162,
+    "151_readings_max": 162,
+    "102_readings_max": 162,
+    "19_readings_max": 155,
+    "253_readings_max": 162,
+    "166_Hz": 141,
+    "201_Hz": 141,
+    "109_readings_max": 162,
+    "202_readings_max": 162,
+    "247_Hz": 141,
+    "68_readings_max": 155,
+    "120_Hz": 141,
+    "316_readings_max": 162,
+    "291_readings_max": 162,
+    "16_Hz": 141,
+    "149_readings_max": 162,
+    "162_readings_max": 162,
+    "242_readings_max": 162,
+    "240_readings_max": 162,
+    "58_Hz": 141,
+    "93_Hz": 141,
+    "164_readings_max": 162,
+    "144_Hz": 141,
+    "385_Hz": 141,
+    "380_readings_max": 162,
+    "269_Hz": 141,
+    "156_Hz": 141,
+    "61_readings_max": 155,
+    "79_readings_max": 155,
+    "378_readings_max": 162,
+    "213_Hz": 141,
+    "343_Hz": 141,
+    "349_readings_max": 162,
+    "289_readings_max": 162,
+    "294_Hz": 141,
+    "400_Hz": 141,
+    "351_Hz": 141,
+    "382_readings_max": 162,
+    "331_readings_max": 162,
+    "119_Hz": 141,
+    "32_readings_max": 155,
+    "238_readings_max": 162,
+    "209_readings_max": 162,
+    "293_readings_max": 162,
+    "371_readings_max": 162,
+    "260_Hz": 141,
+    "111_readings_max": 162,
+    "188_Hz": 141,
+    "331_Hz": 141,
+    "142_Hz": 141,
+    "225_Hz": 141,
+    "28_readings_max": 155,
+    "262_readings_max": 162,
+    "340_readings_max": 162,
+    "184_readings_max": 162,
+    "360_readings_max": 162,
+    "153_readings_max": 162,
+    "38_Hz": 141,
+    "59_readings_max": 155,
+    "110_Hz": 141,
+    "71_Hz": 141,
+    "5_readings_max": 148,
+    "292_Hz": 141,
+    "251_readings_max": 162,
+    "391_readings_max": 162,
+    "200_readings_max": 162,
+    "308_Hz": 141,
+    "318_readings_max": 162,
+    "363_Hz": 141,
+    "142_readings_max": 162,
+    "351_readings_max": 162,
+    "176_Hz": 141,
+    "237_Hz": 141,
+    "375_Hz": 141,
+    "338_readings_max": 162,
+    "109_Hz": 141,
+    "320_readings_max": 162,
+    "92_readings_max": 155,
+    "26_Hz": 141,
+    "307_readings_max": 162,
+    "282_Hz": 141,
+    "211_readings_max": 162,
+    "83_Hz": 141,
+    "229_readings_max": 162,
+    "282_readings_max": 162,
+    "154_Hz": 141,
+    "231_readings_max": 162,
+    "259_Hz": 141,
+    "397_Hz": 141,
+    "21_readings_max": 155,
+    "173_readings_max": 162,
+    "39_readings_max": 155,
+    "122_readings_max": 162,
+    "203_Hz": 141,
+    "389_readings_max": 162,
+    "72_readings_max": 155,
+    "300_readings_max": 162,
+    "66_Hz": 141,
+    "20_Hz": 141,
+    "144_readings_max": 162,
+    "358_readings_max": 162,
+    "167_readings_max": 162,
+    "1_Hz": 141,
+    "376_Hz": 141,
+    "364_Hz": 141,
+    "135_Hz": 141,
+    "323_readings_max": 162,
+    "132_readings_max": 162,
+    "312_readings_max": 162,
+    "215_Hz": 141,
+    "123_Hz": 141,
+    "156_readings_max": 162,
+    "7_readings_max": 148,
+    "311_readings_max": 162,
+    "169_Hz": 141,
+    "296_Hz": 141,
+    "6_readings_max": 148,
+    "155_readings_max": 162,
+    "250_Hz": 141,
+    "91_readings_max": 155,
+    "329_Hz": 141,
+    "90_readings_max": 155,
+    "369_readings_max": 162,
+    "357_readings_max": 162,
+    "145_readings_max": 162,
+    "359_readings_max": 162,
+    "143_readings_max": 162,
+    "111_Hz": 141,
+    "147_Hz": 141,
+    "388_Hz": 141,
+    "317_Hz": 141,
+    "168_readings_max": 162,
+    "166_readings_max": 162,
+    "272_Hz": 141,
+    "227_Hz": 141,
+    "133_readings_max": 162,
+    "131_readings_max": 162,
+    "192_Hz": 141,
+    "19_Hz": 141,
+    "42_Hz": 141,
+    "345_readings_max": 162,
+    "347_readings_max": 162,
+    "249_Hz": 141,
+    "78_Hz": 141,
+    "335_readings_max": 162,
+    "354_Hz": 141,
+    "121_readings_max": 162,
+    "340_Hz": 141,
+    "178_readings_max": 162,
+    "170_Hz": 141,
+    "333_readings_max": 162,
+    "302_readings_max": 162,
+    "356_readings_max": 162,
+    "180_Hz": 141,
+    "91_Hz": 141,
+    "239_Hz": 141,
+    "165_readings_max": 162,
+    "145_Hz": 141,
+    "169_readings_max": 162,
+    "274_Hz": 141,
+    "325_readings_max": 162,
+    "130_readings_max": 162,
+    "56_Hz": 141,
+    "321_readings_max": 162,
+    "81_readings_max": 155,
+    "134_readings_max": 162,
+    "305_Hz": 141,
+    "179_Hz": 141,
+    "366_Hz": 141,
+    "8_readings_max": 148,
+    "240_Hz": 141,
+    "3_Hz": 141,
+    "367_readings_max": 162,
+    "4_readings_max": 148,
+    "339_Hz": 141,
+    "205_Hz": 141,
+    "154_readings_max": 162,
+    "100_readings_max": 162,
+    "30_Hz": 141,
+    "113_Hz": 141,
+    "158_readings_max": 162,
+    "141_readings_max": 162,
+    "199_readings_max": 162,
+    "262_Hz": 141,
+    "101_Hz": 141,
+    "94_readings_max": 155,
+    "110_readings_max": 162,
+    "301_readings_max": 162,
+    "326_readings_max": 162,
+    "80_readings_max": 155,
+    "378_Hz": 141,
+    "322_readings_max": 162,
+    "68_Hz": 141,
+    "284_Hz": 141,
+    "217_Hz": 141,
+    "189_readings_max": 162,
+    "346_readings_max": 162,
+    "175_readings_max": 162,
+    "332_readings_max": 162,
+    "29_Hz": 141,
+    "120_readings_max": 162,
+    "336_readings_max": 162,
+    "70_readings_max": 155,
+    "179_readings_max": 162,
+    "327_Hz": 141,
+    "157_Hz": 141,
+    "124_readings_max": 162,
+    "354_readings_max": 162,
+    "148_readings_max": 162,
+    "264_Hz": 141,
+    "304_readings_max": 162,
+    "198_readings_max": 162,
+    "103_Hz": 141,
+    "315_Hz": 141,
+    "149_Hz": 141,
+    "184_Hz": 141,
+    "229_Hz": 141,
+    "52_Hz": 141,
+    "95_readings_max": 155,
+    "186_readings_max": 162,
+    "2_readings_max": 148,
+    "391_Hz": 141,
+    "280_readings_max": 162,
+    "349_Hz": 141,
+    "366_readings_max": 162,
+    "365_readings_max": 162,
+    "356_Hz": 141,
+    "34_Hz": 141,
+    "172_Hz": 141,
+    "140_readings_max": 162,
+    "86_Hz": 141,
+    "315_readings_max": 162,
+    "355_readings_max": 162,
+    "64_Hz": 141,
+    "147_readings_max": 162,
+    "290_readings_max": 162,
+    "353_readings_max": 162,
+    "22_Hz": 141,
+    "376_readings_max": 162,
+    "3_readings_max": 148,
+    "150_Hz": 141,
+    "230_Hz": 141,
+    "343_readings_max": 162,
+    "288_Hz": 141,
+    "1_readings_max": 148,
+    "150_readings_max": 162,
+    "303_Hz": 141,
+    "5_Hz": 141,
+    "135_readings_max": 162,
+    "368_Hz": 141,
+    "207_Hz": 141,
+    "125_Hz": 141,
+    "337_Hz": 141,
+    "137_readings_max": 162,
+    "98_Hz": 141,
+    "176_readings_max": 162,
+    "85_readings_max": 155,
+    "125_readings_max": 162,
+    "252_Hz": 141,
+    "146_readings_max": 162,
+    "115_readings_max": 162,
+    "375_readings_max": 162,
+    "219_Hz": 141,
+    "188_readings_max": 162,
+    "10_Hz": 141,
+    "194_Hz": 141,
+    "97_readings_max": 155,
+    "286_Hz": 141,
+    "127_Hz": 141,
+    "44_Hz": 141,
+    "9_readings_max": 148,
+    "157_readings_max": 162,
+    "364_readings_max": 162,
+    "76_Hz": 141,
+    "254_Hz": 141,
+    "314_readings_max": 162,
+    "313_readings_max": 162,
+    "325_Hz": 141,
+    "159_Hz": 141,
+    "303_readings_max": 162,
+    "197_readings_max": 162,
+    "220_Hz": 141,
+    "182_Hz": 141,
+    "313_Hz": 141,
+    "116_readings_max": 162,
+    "54_Hz": 141,
+    "276_Hz": 141,
+    "381_Hz": 141,
+    "187_readings_max": 162,
+    "137_Hz": 141,
+    "96_readings_max": 155,
+    "324_readings_max": 162,
+    "88_Hz": 141,
+    "347_Hz": 141,
+    "242_Hz": 141,
+    "344_readings_max": 162,
+    "136_readings_max": 162,
+    "160_Hz": 141,
+    "385_readings_max": 162,
+    "298_Hz": 141,
+    "334_readings_max": 162,
+    "86_readings_max": 155,
+    "32_Hz": 141,
+    "115_Hz": 141,
+    "126_readings_max": 162,
+    "358_Hz": 141,
+    "177_readings_max": 162,
+    "37_Hz": 141,
+    "72_Hz": 141,
+    "64_readings_max": 155,
+    "76_readings_max": 155,
+    "117_readings_max": 162,
+    "244_Hz": 141,
+    "308_readings_max": 162,
+    "232_Hz": 141,
+    "175_Hz": 141,
+    "324_Hz": 141,
+    "361_readings_max": 162,
+    "7_Hz": 141,
+    "370_Hz": 141,
+    "219_readings_max": 162,
+    "106_Hz": 141,
+    "53_readings_max": 155,
+    "209_Hz": 141,
+    "278_Hz": 141,
+    "187_Hz": 141,
+    "319_readings_max": 162,
+    "141_Hz": 141,
+    "105_readings_max": 162,
+    "350_readings_max": 162,
+    "194_readings_max": 162,
+    "106_readings_max": 162,
+    "346_Hz": 141,
+    "128_Hz": 141,
+    "153_Hz": 141,
+    "374_readings_max": 162,
+    "291_Hz": 141,
+    "372_readings_max": 162,
+    "50_Hz": 141,
+    "261_readings_max": 162,
+    "40_readings_max": 155,
+    "170_readings_max": 162,
+    "359_Hz": 141,
+    "42_readings_max": 155,
+    "139_readings_max": 162,
+    "283_readings_max": 162,
+    "285_readings_max": 162,
+    "312_Hz": 141,
+    "75_readings_max": 155,
+    "172_readings_max": 162,
+    "382_Hz": 141,
+    "386_readings_max": 162,
+    "25_Hz": 141,
+    "89_readings_max": 155,
+    "266_Hz": 141,
+    "87_readings_max": 155,
+    "84_Hz": 141,
+    "210_Hz": 141,
+    "352_readings_max": 162,
+    "62_Hz": 141,
+    "151_Hz": 141,
+    "161_readings_max": 162,
+    "192_readings_max": 162,
+    "270_readings_max": 162,
+    "78_readings_max": 155,
+    "334_Hz": 141,
+    "360_Hz": 141,
+    "394_readings_max": 162,
+    "47_Hz": 141,
+    "306_readings_max": 162,
+    "281_readings_max": 162,
+    "363_readings_max": 162,
+    "13_Hz": 141,
+    "217_readings_max": 162,
+    "103_readings_max": 162,
+    "96_Hz": 141,
+    "250_readings_max": 162,
+    "181_readings_max": 162,
+    "222_Hz": 141,
+    "108_readings_max": 162,
+    "197_Hz": 141,
+    "268_Hz": 141,
+    "300_Hz": 141,
+    "196_readings_max": 162,
+    "394_Hz": 141,
+    "35_Hz": 141,
+    "128_readings_max": 162,
+    "206_readings_max": 162,
+    "294_readings_max": 162,
+    "256_Hz": 141,
+    "163_Hz": 141,
+    "200_Hz": 141,
+    "118_Hz": 141,
+    "397_readings_max": 162,
+    "185_readings_max": 162,
+    "98_readings_max": 155,
+    "114_readings_max": 162,
+    "322_Hz": 141,
+    "9_Hz": 141,
+    "234_Hz": 141,
+    "372_Hz": 141,
+    "185_Hz": 141,
+    "84_readings_max": 155,
+    "383_readings_max": 162,
+    "74_Hz": 141,
+    "33_readings_max": 155,
+    "274_readings_max": 162,
+    "60_readings_max": 155,
+    "155_Hz": 141,
+    "212_Hz": 141,
+    "344_Hz": 141,
+    "258_Hz": 141,
+    "396_Hz": 141,
+    "163_readings_max": 162,
+    "241_readings_max": 162,
+    "350_Hz": 141,
+    "339_readings_max": 162,
+    "293_Hz": 141,
+    "392_readings_max": 162,
+    "377_readings_max": 162,
+    "309_Hz": 141,
+    "22_readings_max": 155,
+    "299_readings_max": 162,
+    "190_Hz": 141,
+    "152_readings_max": 162,
+    "40_Hz": 141,
+    "92_Hz": 141,
+    "17_Hz": 141,
+    "101_readings_max": 162,
+    "310_Hz": 141,
+    "18_readings_max": 155,
+    "252_readings_max": 162,
+    "69_readings_max": 155,
+    "384_Hz": 141,
+    "281_Hz": 141,
+    "159_readings_max": 162,
+    "69_Hz": 141,
+    "292_readings_max": 162,
+    "39_Hz": 141,
+    "370_readings_max": 162,
+    "70_Hz": 141,
+    "248_readings_max": 162,
+    "189_Hz": 141,
+    "332_Hz": 141,
+    "246_Hz": 141,
+    "362_Hz": 141,
+    "263_readings_max": 162,
+    "341_readings_max": 162,
+    "320_Hz": 141,
+    "108_Hz": 141,
+    "133_Hz": 141,
+    "230_readings_max": 162,
+    "73_readings_max": 155,
+    "20_readings_max": 155,
+    "167_Hz": 141,
+    "174_readings_max": 162,
+    "224_Hz": 141,
+    "71_readings_max": 155,
+    "388_readings_max": 162,
+    "123_readings_max": 162,
+    "319_Hz": 141,
+    "62_readings_max": 155,
+    "337_readings_max": 162,
+    "259_readings_max": 162,
+    "93_readings_max": 155,
+    "165_Hz": 141,
+    "379_readings_max": 162,
+    "248_Hz": 141,
+    "202_Hz": 141,
+    "228_readings_max": 162,
+    "131_Hz": 141,
+    "236_Hz": 141,
+    "374_Hz": 141,
+    "59_Hz": 141,
+    "119_readings_max": 162,
+    "310_readings_max": 162,
+    "271_Hz": 141,
+    "317_readings_max": 162,
+    "0_Hz": 141,
+    "27_Hz": 141,
+    "82_Hz": 141,
+    "398_Hz": 141,
+    "368_readings_max": 162,
+    "342_Hz": 141,
+    "51_readings_max": 155,
+    "201_readings_max": 162,
+    "214_Hz": 141,
+    "208_readings_max": 162,
+    "221_readings_max": 162,
+    "60_Hz": 141,
+    "29_readings_max": 155,
+    "352_Hz": 141,
+    "11_readings_max": 155,
+    "328_readings_max": 162,
+    "307_Hz": 141,
+    "82_readings_max": 155,
+    "183_readings_max": 162,
+    "49_Hz": 141,
+    "121_Hz": 141,
+    "112_readings_max": 162,
+    "177_Hz": 141,
+    "15_Hz": 141,
+    "348_readings_max": 162,
+    "399_readings_max": 162,
+    "94_Hz": 141,
+    "381_readings_max": 162,
+    "330_Hz": 141,
+    "143_Hz": 141,
+    "239_readings_max": 162,
+    "31_readings_max": 155,
+    "330_readings_max": 162,
+    "386_Hz": 141,
+    "272_readings_max": 162,
+    "199_Hz": 141
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
