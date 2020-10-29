@@ -47,7 +47,7 @@
   "otherColumns": [],
   "pivots": [
     {
-      "valueLimit": "TOP_N",
+      "valueLimit": "NO_LIMIT",
       "minOccLimit": 0,
       "topnLimit": 20,
       "globalCount": false,
