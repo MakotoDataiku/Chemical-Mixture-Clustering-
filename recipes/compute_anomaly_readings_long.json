@@ -11,6 +11,9 @@
           "map": {
             "anomaly_readings": {
               "repartition": 10
+            },
+            "ANOMALYDETECTIONOFTYRES.anomaly_readings": {
+              "repartition": 10
             }
           }
         },
@@ -52,7 +55,7 @@
     "main": {
       "items": [
         {
-          "ref": "ANOMALYDETECTIONOFTYRES.anomaly_readings",
+          "ref": "readings",
           "deps": []
         }
       ]
@@ -69,11 +72,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603947083609
+    "lastModifiedOn": 1603947116076
   },
   "creationTag": {
     "versionNumber": 0,
