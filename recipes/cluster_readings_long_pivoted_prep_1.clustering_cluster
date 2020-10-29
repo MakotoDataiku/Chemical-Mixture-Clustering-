@@ -25,13 +25,13 @@
       "bootstrap": true,
       "max_anomalies": 100,
       "enabled": true,
-      "contamination": 0.05
+      "contamination": 0.1
     },
     "gamma": 0.0,
     "custom_has_k": false,
     "algorithm": "PY_ISOLATION_FOREST"
   },
-  "generatingModelId": "A-KANEKACORPDEMO-1RXHD4RF-0PxxNkw3-s1-pp1-m1",
+  "generatingModelId": "A-KANEKACORPDEMO-1RXHD4RF-0PxxNkw3-s2-pp1-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
