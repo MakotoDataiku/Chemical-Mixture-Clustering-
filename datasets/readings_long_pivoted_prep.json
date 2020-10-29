@@ -1,0 +1,1781 @@
+{
+  "type": "Filesystem",
+  "managed": true,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "unix",
+    "charset": "utf8",
+    "separator": "\t",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": false,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 0,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": "gz"
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1603948731847
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1603948731847
+  },
+  "tags": [],
+  "params": {
+    "connection": "filesystem_managed",
+    "path": "${projectKey}/readings_long_pivoted_prep",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "FRF",
+        "type": "string"
+      },
+      {
+        "name": "0_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "2_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "3_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "4_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "5_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "6_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "7_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "8_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "9_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "10_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "11_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "12_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "13_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "14_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "15_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "16_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "17_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "18_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "19_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "20_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "21_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "22_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "23_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "24_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "25_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "26_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "27_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "28_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "29_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "30_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "31_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "32_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "33_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "34_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "35_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "36_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "37_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "38_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "39_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "40_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "41_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "42_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "43_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "44_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "45_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "46_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "47_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "48_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "49_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "50_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "51_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "52_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "53_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "54_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "55_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "56_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "57_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "58_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "59_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "60_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "61_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "62_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "63_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "64_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "65_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "66_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "67_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "68_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "69_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "70_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "71_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "72_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "73_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "74_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "75_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "76_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "77_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "78_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "79_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "80_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "81_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "82_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "83_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "84_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "85_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "86_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "87_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "88_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "89_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "90_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "91_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "92_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "93_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "94_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "95_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "96_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "97_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "98_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "99_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "100_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "101_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "102_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "103_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "104_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "105_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "106_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "107_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "108_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "109_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "110_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "111_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "112_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "113_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "114_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "115_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "116_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "117_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "118_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "119_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "120_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "121_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "122_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "123_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "124_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "125_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "126_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "127_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "128_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "129_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "130_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "131_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "132_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "133_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "134_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "135_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "136_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "137_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "138_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "139_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "140_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "141_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "142_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "143_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "144_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "145_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "146_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "147_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "148_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "149_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "150_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "151_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "152_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "153_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "154_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "155_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "156_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "157_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "158_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "159_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "160_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "161_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "162_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "163_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "164_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "165_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "166_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "167_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "168_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "169_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "170_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "171_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "172_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "173_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "174_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "175_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "176_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "177_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "178_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "179_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "180_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "181_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "182_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "183_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "184_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "185_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "186_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "187_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "188_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "189_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "190_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "191_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "192_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "193_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "194_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "195_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "196_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "197_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "198_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "199_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "200_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "201_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "202_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "203_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "204_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "205_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "206_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "207_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "208_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "209_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "210_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "211_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "212_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "213_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "214_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "215_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "216_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "217_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "218_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "219_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "220_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "221_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "222_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "223_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "224_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "225_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "226_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "227_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "228_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "229_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "230_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "231_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "232_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "233_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "234_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "235_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "236_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "237_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "238_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "239_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "240_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "241_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "242_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "243_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "244_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "245_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "246_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "247_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "248_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "249_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "250_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "251_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "252_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "253_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "254_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "255_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "256_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "257_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "258_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "259_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "260_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "261_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "262_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "263_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "264_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "265_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "266_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "267_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "268_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "269_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "270_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "271_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "272_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "273_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "274_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "275_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "276_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "277_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "278_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "279_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "280_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "281_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "282_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "283_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "284_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "285_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "286_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "287_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "288_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "289_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "290_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "291_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "292_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "293_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "294_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "295_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "296_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "297_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "298_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "299_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "300_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "301_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "302_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "303_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "304_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "305_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "306_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "307_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "308_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "309_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "310_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "311_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "312_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "313_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "314_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "315_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "316_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "317_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "318_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "319_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "320_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "321_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "322_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "323_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "324_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "325_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "326_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "327_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "328_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "329_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "330_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "331_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "332_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "333_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "334_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "335_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "336_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "337_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "338_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "339_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "340_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "341_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "342_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "343_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "344_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "345_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "346_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "347_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "348_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "349_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "350_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "351_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "352_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "353_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "354_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "355_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "356_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "357_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "358_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "359_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "360_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "361_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "362_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "363_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "364_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "365_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "366_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "367_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "368_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "369_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "370_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "371_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "372_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "373_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "374_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "375_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "376_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "377_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "378_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "379_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "380_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "381_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "382_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "383_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "384_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "385_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "386_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "387_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "388_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "389_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "390_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "391_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "392_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "393_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "394_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "395_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "396_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "397_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "398_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "399_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "400_readings_max",
+        "type": "double"
+      }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
