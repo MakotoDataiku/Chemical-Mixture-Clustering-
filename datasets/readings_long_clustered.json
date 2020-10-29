@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603948921708
+    "lastModifiedOn": 1603949821519
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1603948921708
   },
-  "tags": [],
+  "tags": [
+    "clustering"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "${projectKey}/readings_long_clustered",

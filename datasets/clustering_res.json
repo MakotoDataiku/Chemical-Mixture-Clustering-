@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603949807270
+    "lastModifiedOn": 1603949821515
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1603949123725
   },
-  "tags": [],
+  "tags": [
+    "clustering"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "${projectKey}/clustering_res",
