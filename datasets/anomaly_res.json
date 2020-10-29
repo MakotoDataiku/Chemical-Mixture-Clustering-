@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603949992197
+    "lastModifiedOn": 1603950045984
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,7 +87,32 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "Frequency",
+        "type": "bigint"
+      },
+      {
+        "name": "FRF",
+        "type": "string"
+      },
+      {
+        "name": "readings",
+        "type": "double"
+      },
+      {
+        "name": "cluster_labels",
+        "type": "string"
+      },
+      {
+        "name": "anomaly_score",
+        "type": "double"
+      },
+      {
+        "name": "FRF_labeled",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
