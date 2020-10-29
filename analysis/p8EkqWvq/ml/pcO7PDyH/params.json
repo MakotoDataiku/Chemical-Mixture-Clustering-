@@ -8556,7 +8556,7 @@
     },
     "two_step": {
       "kmeans_k": 50,
-      "n_clusters": 5,
+      "n_clusters": 3,
       "seed": 1337,
       "max_iterations": 30,
       "enabled": true
@@ -8605,7 +8605,7 @@
         "enabled": false,
         "rules": []
       },
-      "samplingMethod": "HEAD_SEQUENTIAL",
+      "samplingMethod": "FULL",
       "maxRecords": 100000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
