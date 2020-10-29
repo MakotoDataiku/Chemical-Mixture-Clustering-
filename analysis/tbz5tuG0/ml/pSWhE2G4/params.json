@@ -8610,7 +8610,7 @@
         "enabled": false,
         "rules": []
       },
-      "samplingMethod": "HEAD_SEQUENTIAL",
+      "samplingMethod": "FULL",
       "maxRecords": 100000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
