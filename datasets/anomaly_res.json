@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603949958614
+    "lastModifiedOn": 1603949992197
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1603949958614
   },
-  "tags": [],
+  "tags": [
+    "anomaly-detection"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "${projectKey}/anomaly_res",

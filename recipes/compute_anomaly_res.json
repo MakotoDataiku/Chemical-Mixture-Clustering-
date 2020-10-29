@@ -32,11 +32,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603949960791
+    "lastModifiedOn": 1603949992198
   },
   "creationTag": {
     "versionNumber": 0,
@@ -45,7 +45,9 @@
     },
     "lastModifiedOn": 1603949959191
   },
-  "tags": [],
+  "tags": [
+    "anomaly-detection"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": []

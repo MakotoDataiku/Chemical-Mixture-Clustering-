@@ -3,6 +3,7 @@
     "data-for-basic-chart": {},
     "dynamic-time-warping": {},
     "Machine Learning:Pre-processing": {},
-    "clustering": {}
+    "clustering": {},
+    "anomaly-detection": {}
   }
 }
