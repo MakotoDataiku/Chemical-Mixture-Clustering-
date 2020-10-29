@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603948521473
+    "lastModifiedOn": 1603949764282
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1603948485596
   },
-  "tags": [],
+  "tags": [
+    "dynamic-time-warping"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "${projectKey}/readings_dtw_joined",

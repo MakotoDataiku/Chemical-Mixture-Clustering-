@@ -88,11 +88,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603948234138
+    "lastModifiedOn": 1603949764285
   },
   "creationTag": {
     "versionNumber": 0,
@@ -101,7 +101,9 @@
     },
     "lastModifiedOn": 1603948234138
   },
-  "tags": [],
+  "tags": [
+    "dynamic-time-warping"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": []
