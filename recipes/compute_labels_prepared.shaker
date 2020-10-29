@@ -72,6 +72,21 @@
         "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Labels/FRF",
+            "to": "FRF"
+          }
+        ]
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -104,6 +119,7 @@
     "Frequency": 113,
     "FRF_08": 100,
     "FRF_07": 100,
+    "FRF": 100,
     "FRF_06": 100,
     "FRF_05": 100,
     "FRF_04": 100,
