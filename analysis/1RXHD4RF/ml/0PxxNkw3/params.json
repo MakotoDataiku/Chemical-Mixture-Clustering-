@@ -8572,7 +8572,7 @@
       "max_anomalies": 100,
       "n_samples": 256,
       "max_depth": 15,
-      "seed": 1337
+      "seed": 1000
     },
     "vertica_kmeans_clustering": {
       "enabled": false,
