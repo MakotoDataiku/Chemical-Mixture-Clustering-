@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603948180839
+    "lastModifiedOn": 1603948434580
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,29 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "label",
+        "type": "string"
+      },
+      {
+        "name": "2_clust",
+        "type": "string"
+      },
+      {
+        "name": "3_clust",
+        "type": "string"
+      },
+      {
+        "name": "4_clust",
+        "type": "string"
+      },
+      {
+        "name": "5_clust",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "metrics": {
     "probes": [
