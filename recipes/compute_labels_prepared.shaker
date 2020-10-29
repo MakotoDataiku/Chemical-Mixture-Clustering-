@@ -26,8 +26,54 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "Transpose",
+      "params": {
+        "column": "Labels/FRF"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "FRF_01",
+          "FRF_02",
+          "FRF_03",
+          "FRF_04",
+          "FRF_05",
+          "FRF_06",
+          "FRF_07",
+          "FRF_08",
+          "FRF_09",
+          "FRF_10",
+          "FRF_11",
+          "FRF_12",
+          "FRF_13",
+          "FRF_14",
+          "FRF_15",
+          "FRF_16",
+          "FRF_17",
+          "FRF_18",
+          "FRF_19"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +81,34 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "Size": 100,
+    "FRF_13": 100,
+    "FRF_12": 100,
+    "FRF_11": 100,
+    "FRF_10": 100,
+    "Manufacturer": 134,
+    "FRF_19": 100,
+    "FRF_18": 100,
+    "FRF_17": 100,
+    "FRF_16": 100,
+    "FRF_15": 100,
+    "MO Class": 100,
+    "FRF_14": 100,
+    "Labels/FRF": 120,
+    "FRF_02": 100,
+    "FRF_01": 100,
+    "Type": 100,
+    "Rim": 100,
+    "FRF_09": 100,
+    "Frequency": 113,
+    "FRF_08": 100,
+    "FRF_07": 100,
+    "FRF_06": 100,
+    "FRF_05": 100,
+    "FRF_04": 100,
+    "FRF_03": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
