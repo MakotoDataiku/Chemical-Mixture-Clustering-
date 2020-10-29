@@ -4,42 +4,61 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "FRF",
+            "table": 0
+          },
+          "column2": {
+            "name": "label",
+            "table": 1
+          },
+          "maxDistance": 1,
+          "type": "EQ"
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "Hz",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "FRF",
+      "type": "string",
       "table": 0
     },
     {
       "name": "readings",
+      "type": "double",
       "table": 0
     },
     {
-      "name": "label",
-      "table": 1
-    },
-    {
       "name": "2_clust",
+      "type": "string",
       "table": 1
     },
     {
       "name": "3_clust",
+      "type": "string",
       "table": 1
     },
     {
       "name": "4_clust",
+      "type": "string",
       "table": 1
     },
     {
       "name": "5_clust",
+      "type": "string",
       "table": 1
     }
   ],
@@ -97,5 +116,43 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Hz",
+            "type": "bigint"
+          },
+          {
+            "name": "FRF",
+            "type": "string"
+          },
+          {
+            "name": "readings",
+            "type": "double"
+          },
+          {
+            "name": "2_clust",
+            "type": "string"
+          },
+          {
+            "name": "3_clust",
+            "type": "string"
+          },
+          {
+            "name": "4_clust",
+            "type": "string"
+          },
+          {
+            "name": "5_clust",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
