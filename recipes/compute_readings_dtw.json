@@ -4,7 +4,8 @@
   "optionalDependencies": false,
   "params": {
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "dynamic-time-warping"
     },
     "containerSelection": {
       "containerMode": "INHERIT"
@@ -41,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603948242764
+    "lastModifiedOn": 1603948252032
   },
   "creationTag": {
     "versionNumber": 0,
