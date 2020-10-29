@@ -8513,7 +8513,10 @@
     },
     "kmeans_clustering": {
       "k": [
-        5
+        3,
+        4,
+        5,
+        2
       ],
       "enabled": true,
       "seed": 1337,
