@@ -1,0 +1,146 @@
+{
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "explorationSampling": {
+    "_refreshTrigger": 1,
+    "selection": {
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": 10000,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "maxStoredBytes": 104857600,
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "timeout": -1
+    },
+    "autoRefreshSample": false
+  },
+  "explorationFilters": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "MultiColumnByPrefixFold",
+      "params": {
+        "columnNamePattern": "FRF_(.*)",
+        "columnNameColumn": "FRF",
+        "columnContentColumn": "readings"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "\"FRF_\"",
+        "column": "FRF_pref"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsConcat",
+      "params": {
+        "outputColumn": "FRF",
+        "columns": [
+          "FRF_pref",
+          "FRF"
+        ],
+        "join": ""
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "FRF_01",
+          "FRF_02",
+          "FRF_03",
+          "FRF_04",
+          "FRF_05",
+          "FRF_06",
+          "FRF_07",
+          "FRF_08",
+          "FRF_09",
+          "FRF_10",
+          "FRF_11",
+          "FRF_12",
+          "FRF_13",
+          "FRF_14",
+          "FRF_15",
+          "FRF_16",
+          "FRF_17",
+          "FRF_18",
+          "FRF_19"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
+  "maxProcessedMemTableBytes": -1,
+  "previewMode": "ALL_ROWS",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "analysisColumnData": {},
+  "columnWidthsByName": {
+    "FRF_13": 141,
+    "FRF_12": 141,
+    "FRF_11": 141,
+    "FRF_10": 141,
+    "FRF_19": 141,
+    "FRF_18": 141,
+    "FRF_17": 141,
+    "FRF_16": 141,
+    "FRF_15": 141,
+    "FRF_14": 141,
+    "FRF_02": 141,
+    "FRF_01": 141,
+    "Hz": 100,
+    "signals": 100,
+    "s": 141,
+    "readings": 141,
+    "FRF_09": 141,
+    "FRF_08": 141,
+    "FRF_07": 141,
+    "FRF": 100,
+    "FRF_pref": 100,
+    "FRF_06": 141,
+    "FRF_05": 141,
+    "FRF_04": 141,
+    "FRF_03": 141
+  },
+  "sorting": [],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH"
+  }
+}
