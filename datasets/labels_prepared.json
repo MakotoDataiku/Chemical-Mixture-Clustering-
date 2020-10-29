@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603951007292
+    "lastModifiedOn": 1603951060678
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,79 +91,27 @@
         "type": "string"
       },
       {
-        "name": "FRF_01",
+        "name": "Manufacturer",
         "type": "string"
       },
       {
-        "name": "FRF_02",
+        "name": "Type",
         "type": "string"
       },
       {
-        "name": "FRF_03",
+        "name": "Size",
+        "type": "bigint"
+      },
+      {
+        "name": "MO Class",
         "type": "string"
       },
       {
-        "name": "FRF_04",
+        "name": "Rim",
         "type": "string"
       },
       {
-        "name": "FRF_05",
-        "type": "string"
-      },
-      {
-        "name": "FRF_06",
-        "type": "string"
-      },
-      {
-        "name": "FRF_07",
-        "type": "string"
-      },
-      {
-        "name": "FRF_08",
-        "type": "string"
-      },
-      {
-        "name": "FRF_09",
-        "type": "string"
-      },
-      {
-        "name": "FRF_10",
-        "type": "string"
-      },
-      {
-        "name": "FRF_11",
-        "type": "string"
-      },
-      {
-        "name": "FRF_12",
-        "type": "string"
-      },
-      {
-        "name": "FRF_13",
-        "type": "string"
-      },
-      {
-        "name": "FRF_14",
-        "type": "string"
-      },
-      {
-        "name": "FRF_15",
-        "type": "string"
-      },
-      {
-        "name": "FRF_16",
-        "type": "string"
-      },
-      {
-        "name": "FRF_17",
-        "type": "string"
-      },
-      {
-        "name": "FRF_18",
-        "type": "string"
-      },
-      {
-        "name": "FRF_19",
+        "name": "Frequency",
         "type": "string"
       }
     ],
