@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603948731847
+    "lastModifiedOn": 1603948756836
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,1607 +91,1607 @@
         "type": "string"
       },
       {
-        "name": "0_readings_max",
+        "name": "0_Hz",
         "type": "double"
       },
       {
-        "name": "1_readings_max",
+        "name": "1_Hz",
         "type": "double"
       },
       {
-        "name": "2_readings_max",
+        "name": "2_Hz",
         "type": "double"
       },
       {
-        "name": "3_readings_max",
+        "name": "3_Hz",
         "type": "double"
       },
       {
-        "name": "4_readings_max",
+        "name": "4_Hz",
         "type": "double"
       },
       {
-        "name": "5_readings_max",
+        "name": "5_Hz",
         "type": "double"
       },
       {
-        "name": "6_readings_max",
+        "name": "6_Hz",
         "type": "double"
       },
       {
-        "name": "7_readings_max",
+        "name": "7_Hz",
         "type": "double"
       },
       {
-        "name": "8_readings_max",
+        "name": "8_Hz",
         "type": "double"
       },
       {
-        "name": "9_readings_max",
+        "name": "9_Hz",
         "type": "double"
       },
       {
-        "name": "10_readings_max",
+        "name": "10_Hz",
         "type": "double"
       },
       {
-        "name": "11_readings_max",
+        "name": "11_Hz",
         "type": "double"
       },
       {
-        "name": "12_readings_max",
+        "name": "12_Hz",
         "type": "double"
       },
       {
-        "name": "13_readings_max",
+        "name": "13_Hz",
         "type": "double"
       },
       {
-        "name": "14_readings_max",
+        "name": "14_Hz",
         "type": "double"
       },
       {
-        "name": "15_readings_max",
+        "name": "15_Hz",
         "type": "double"
       },
       {
-        "name": "16_readings_max",
+        "name": "16_Hz",
         "type": "double"
       },
       {
-        "name": "17_readings_max",
+        "name": "17_Hz",
         "type": "double"
       },
       {
-        "name": "18_readings_max",
+        "name": "18_Hz",
         "type": "double"
       },
       {
-        "name": "19_readings_max",
+        "name": "19_Hz",
         "type": "double"
       },
       {
-        "name": "20_readings_max",
+        "name": "20_Hz",
         "type": "double"
       },
       {
-        "name": "21_readings_max",
+        "name": "21_Hz",
         "type": "double"
       },
       {
-        "name": "22_readings_max",
+        "name": "22_Hz",
         "type": "double"
       },
       {
-        "name": "23_readings_max",
+        "name": "23_Hz",
         "type": "double"
       },
       {
-        "name": "24_readings_max",
+        "name": "24_Hz",
         "type": "double"
       },
       {
-        "name": "25_readings_max",
+        "name": "25_Hz",
         "type": "double"
       },
       {
-        "name": "26_readings_max",
+        "name": "26_Hz",
         "type": "double"
       },
       {
-        "name": "27_readings_max",
+        "name": "27_Hz",
         "type": "double"
       },
       {
-        "name": "28_readings_max",
+        "name": "28_Hz",
         "type": "double"
       },
       {
-        "name": "29_readings_max",
+        "name": "29_Hz",
         "type": "double"
       },
       {
-        "name": "30_readings_max",
+        "name": "30_Hz",
         "type": "double"
       },
       {
-        "name": "31_readings_max",
+        "name": "31_Hz",
         "type": "double"
       },
       {
-        "name": "32_readings_max",
+        "name": "32_Hz",
         "type": "double"
       },
       {
-        "name": "33_readings_max",
+        "name": "33_Hz",
         "type": "double"
       },
       {
-        "name": "34_readings_max",
+        "name": "34_Hz",
         "type": "double"
       },
       {
-        "name": "35_readings_max",
+        "name": "35_Hz",
         "type": "double"
       },
       {
-        "name": "36_readings_max",
+        "name": "36_Hz",
         "type": "double"
       },
       {
-        "name": "37_readings_max",
+        "name": "37_Hz",
         "type": "double"
       },
       {
-        "name": "38_readings_max",
+        "name": "38_Hz",
         "type": "double"
       },
       {
-        "name": "39_readings_max",
+        "name": "39_Hz",
         "type": "double"
       },
       {
-        "name": "40_readings_max",
+        "name": "40_Hz",
         "type": "double"
       },
       {
-        "name": "41_readings_max",
+        "name": "41_Hz",
         "type": "double"
       },
       {
-        "name": "42_readings_max",
+        "name": "42_Hz",
         "type": "double"
       },
       {
-        "name": "43_readings_max",
+        "name": "43_Hz",
         "type": "double"
       },
       {
-        "name": "44_readings_max",
+        "name": "44_Hz",
         "type": "double"
       },
       {
-        "name": "45_readings_max",
+        "name": "45_Hz",
         "type": "double"
       },
       {
-        "name": "46_readings_max",
+        "name": "46_Hz",
         "type": "double"
       },
       {
-        "name": "47_readings_max",
+        "name": "47_Hz",
         "type": "double"
       },
       {
-        "name": "48_readings_max",
+        "name": "48_Hz",
         "type": "double"
       },
       {
-        "name": "49_readings_max",
+        "name": "49_Hz",
         "type": "double"
       },
       {
-        "name": "50_readings_max",
+        "name": "50_Hz",
         "type": "double"
       },
       {
-        "name": "51_readings_max",
+        "name": "51_Hz",
         "type": "double"
       },
       {
-        "name": "52_readings_max",
+        "name": "52_Hz",
         "type": "double"
       },
       {
-        "name": "53_readings_max",
+        "name": "53_Hz",
         "type": "double"
       },
       {
-        "name": "54_readings_max",
+        "name": "54_Hz",
         "type": "double"
       },
       {
-        "name": "55_readings_max",
+        "name": "55_Hz",
         "type": "double"
       },
       {
-        "name": "56_readings_max",
+        "name": "56_Hz",
         "type": "double"
       },
       {
-        "name": "57_readings_max",
+        "name": "57_Hz",
         "type": "double"
       },
       {
-        "name": "58_readings_max",
+        "name": "58_Hz",
         "type": "double"
       },
       {
-        "name": "59_readings_max",
+        "name": "59_Hz",
         "type": "double"
       },
       {
-        "name": "60_readings_max",
+        "name": "60_Hz",
         "type": "double"
       },
       {
-        "name": "61_readings_max",
+        "name": "61_Hz",
         "type": "double"
       },
       {
-        "name": "62_readings_max",
+        "name": "62_Hz",
         "type": "double"
       },
       {
-        "name": "63_readings_max",
+        "name": "63_Hz",
         "type": "double"
       },
       {
-        "name": "64_readings_max",
+        "name": "64_Hz",
         "type": "double"
       },
       {
-        "name": "65_readings_max",
+        "name": "65_Hz",
         "type": "double"
       },
       {
-        "name": "66_readings_max",
+        "name": "66_Hz",
         "type": "double"
       },
       {
-        "name": "67_readings_max",
+        "name": "67_Hz",
         "type": "double"
       },
       {
-        "name": "68_readings_max",
+        "name": "68_Hz",
         "type": "double"
       },
       {
-        "name": "69_readings_max",
+        "name": "69_Hz",
         "type": "double"
       },
       {
-        "name": "70_readings_max",
+        "name": "70_Hz",
         "type": "double"
       },
       {
-        "name": "71_readings_max",
+        "name": "71_Hz",
         "type": "double"
       },
       {
-        "name": "72_readings_max",
+        "name": "72_Hz",
         "type": "double"
       },
       {
-        "name": "73_readings_max",
+        "name": "73_Hz",
         "type": "double"
       },
       {
-        "name": "74_readings_max",
+        "name": "74_Hz",
         "type": "double"
       },
       {
-        "name": "75_readings_max",
+        "name": "75_Hz",
         "type": "double"
       },
       {
-        "name": "76_readings_max",
+        "name": "76_Hz",
         "type": "double"
       },
       {
-        "name": "77_readings_max",
+        "name": "77_Hz",
         "type": "double"
       },
       {
-        "name": "78_readings_max",
+        "name": "78_Hz",
         "type": "double"
       },
       {
-        "name": "79_readings_max",
+        "name": "79_Hz",
         "type": "double"
       },
       {
-        "name": "80_readings_max",
+        "name": "80_Hz",
         "type": "double"
       },
       {
-        "name": "81_readings_max",
+        "name": "81_Hz",
         "type": "double"
       },
       {
-        "name": "82_readings_max",
+        "name": "82_Hz",
         "type": "double"
       },
       {
-        "name": "83_readings_max",
+        "name": "83_Hz",
         "type": "double"
       },
       {
-        "name": "84_readings_max",
+        "name": "84_Hz",
         "type": "double"
       },
       {
-        "name": "85_readings_max",
+        "name": "85_Hz",
         "type": "double"
       },
       {
-        "name": "86_readings_max",
+        "name": "86_Hz",
         "type": "double"
       },
       {
-        "name": "87_readings_max",
+        "name": "87_Hz",
         "type": "double"
       },
       {
-        "name": "88_readings_max",
+        "name": "88_Hz",
         "type": "double"
       },
       {
-        "name": "89_readings_max",
+        "name": "89_Hz",
         "type": "double"
       },
       {
-        "name": "90_readings_max",
+        "name": "90_Hz",
         "type": "double"
       },
       {
-        "name": "91_readings_max",
+        "name": "91_Hz",
         "type": "double"
       },
       {
-        "name": "92_readings_max",
+        "name": "92_Hz",
         "type": "double"
       },
       {
-        "name": "93_readings_max",
+        "name": "93_Hz",
         "type": "double"
       },
       {
-        "name": "94_readings_max",
+        "name": "94_Hz",
         "type": "double"
       },
       {
-        "name": "95_readings_max",
+        "name": "95_Hz",
         "type": "double"
       },
       {
-        "name": "96_readings_max",
+        "name": "96_Hz",
         "type": "double"
       },
       {
-        "name": "97_readings_max",
+        "name": "97_Hz",
         "type": "double"
       },
       {
-        "name": "98_readings_max",
+        "name": "98_Hz",
         "type": "double"
       },
       {
-        "name": "99_readings_max",
+        "name": "99_Hz",
         "type": "double"
       },
       {
-        "name": "100_readings_max",
+        "name": "100_Hz",
         "type": "double"
       },
       {
-        "name": "101_readings_max",
+        "name": "101_Hz",
         "type": "double"
       },
       {
-        "name": "102_readings_max",
+        "name": "102_Hz",
         "type": "double"
       },
       {
-        "name": "103_readings_max",
+        "name": "103_Hz",
         "type": "double"
       },
       {
-        "name": "104_readings_max",
+        "name": "104_Hz",
         "type": "double"
       },
       {
-        "name": "105_readings_max",
+        "name": "105_Hz",
         "type": "double"
       },
       {
-        "name": "106_readings_max",
+        "name": "106_Hz",
         "type": "double"
       },
       {
-        "name": "107_readings_max",
+        "name": "107_Hz",
         "type": "double"
       },
       {
-        "name": "108_readings_max",
+        "name": "108_Hz",
         "type": "double"
       },
       {
-        "name": "109_readings_max",
+        "name": "109_Hz",
         "type": "double"
       },
       {
-        "name": "110_readings_max",
+        "name": "110_Hz",
         "type": "double"
       },
       {
-        "name": "111_readings_max",
+        "name": "111_Hz",
         "type": "double"
       },
       {
-        "name": "112_readings_max",
+        "name": "112_Hz",
         "type": "double"
       },
       {
-        "name": "113_readings_max",
+        "name": "113_Hz",
         "type": "double"
       },
       {
-        "name": "114_readings_max",
+        "name": "114_Hz",
         "type": "double"
       },
       {
-        "name": "115_readings_max",
+        "name": "115_Hz",
         "type": "double"
       },
       {
-        "name": "116_readings_max",
+        "name": "116_Hz",
         "type": "double"
       },
       {
-        "name": "117_readings_max",
+        "name": "117_Hz",
         "type": "double"
       },
       {
-        "name": "118_readings_max",
+        "name": "118_Hz",
         "type": "double"
       },
       {
-        "name": "119_readings_max",
+        "name": "119_Hz",
         "type": "double"
       },
       {
-        "name": "120_readings_max",
+        "name": "120_Hz",
         "type": "double"
       },
       {
-        "name": "121_readings_max",
+        "name": "121_Hz",
         "type": "double"
       },
       {
-        "name": "122_readings_max",
+        "name": "122_Hz",
         "type": "double"
       },
       {
-        "name": "123_readings_max",
+        "name": "123_Hz",
         "type": "double"
       },
       {
-        "name": "124_readings_max",
+        "name": "124_Hz",
         "type": "double"
       },
       {
-        "name": "125_readings_max",
+        "name": "125_Hz",
         "type": "double"
       },
       {
-        "name": "126_readings_max",
+        "name": "126_Hz",
         "type": "double"
       },
       {
-        "name": "127_readings_max",
+        "name": "127_Hz",
         "type": "double"
       },
       {
-        "name": "128_readings_max",
+        "name": "128_Hz",
         "type": "double"
       },
       {
-        "name": "129_readings_max",
+        "name": "129_Hz",
         "type": "double"
       },
       {
-        "name": "130_readings_max",
+        "name": "130_Hz",
         "type": "double"
       },
       {
-        "name": "131_readings_max",
+        "name": "131_Hz",
         "type": "double"
       },
       {
-        "name": "132_readings_max",
+        "name": "132_Hz",
         "type": "double"
       },
       {
-        "name": "133_readings_max",
+        "name": "133_Hz",
         "type": "double"
       },
       {
-        "name": "134_readings_max",
+        "name": "134_Hz",
         "type": "double"
       },
       {
-        "name": "135_readings_max",
+        "name": "135_Hz",
         "type": "double"
       },
       {
-        "name": "136_readings_max",
+        "name": "136_Hz",
         "type": "double"
       },
       {
-        "name": "137_readings_max",
+        "name": "137_Hz",
         "type": "double"
       },
       {
-        "name": "138_readings_max",
+        "name": "138_Hz",
         "type": "double"
       },
       {
-        "name": "139_readings_max",
+        "name": "139_Hz",
         "type": "double"
       },
       {
-        "name": "140_readings_max",
+        "name": "140_Hz",
         "type": "double"
       },
       {
-        "name": "141_readings_max",
+        "name": "141_Hz",
         "type": "double"
       },
       {
-        "name": "142_readings_max",
+        "name": "142_Hz",
         "type": "double"
       },
       {
-        "name": "143_readings_max",
+        "name": "143_Hz",
         "type": "double"
       },
       {
-        "name": "144_readings_max",
+        "name": "144_Hz",
         "type": "double"
       },
       {
-        "name": "145_readings_max",
+        "name": "145_Hz",
         "type": "double"
       },
       {
-        "name": "146_readings_max",
+        "name": "146_Hz",
         "type": "double"
       },
       {
-        "name": "147_readings_max",
+        "name": "147_Hz",
         "type": "double"
       },
       {
-        "name": "148_readings_max",
+        "name": "148_Hz",
         "type": "double"
       },
       {
-        "name": "149_readings_max",
+        "name": "149_Hz",
         "type": "double"
       },
       {
-        "name": "150_readings_max",
+        "name": "150_Hz",
         "type": "double"
       },
       {
-        "name": "151_readings_max",
+        "name": "151_Hz",
         "type": "double"
       },
       {
-        "name": "152_readings_max",
+        "name": "152_Hz",
         "type": "double"
       },
       {
-        "name": "153_readings_max",
+        "name": "153_Hz",
         "type": "double"
       },
       {
-        "name": "154_readings_max",
+        "name": "154_Hz",
         "type": "double"
       },
       {
-        "name": "155_readings_max",
+        "name": "155_Hz",
         "type": "double"
       },
       {
-        "name": "156_readings_max",
+        "name": "156_Hz",
         "type": "double"
       },
       {
-        "name": "157_readings_max",
+        "name": "157_Hz",
         "type": "double"
       },
       {
-        "name": "158_readings_max",
+        "name": "158_Hz",
         "type": "double"
       },
       {
-        "name": "159_readings_max",
+        "name": "159_Hz",
         "type": "double"
       },
       {
-        "name": "160_readings_max",
+        "name": "160_Hz",
         "type": "double"
       },
       {
-        "name": "161_readings_max",
+        "name": "161_Hz",
         "type": "double"
       },
       {
-        "name": "162_readings_max",
+        "name": "162_Hz",
         "type": "double"
       },
       {
-        "name": "163_readings_max",
+        "name": "163_Hz",
         "type": "double"
       },
       {
-        "name": "164_readings_max",
+        "name": "164_Hz",
         "type": "double"
       },
       {
-        "name": "165_readings_max",
+        "name": "165_Hz",
         "type": "double"
       },
       {
-        "name": "166_readings_max",
+        "name": "166_Hz",
         "type": "double"
       },
       {
-        "name": "167_readings_max",
+        "name": "167_Hz",
         "type": "double"
       },
       {
-        "name": "168_readings_max",
+        "name": "168_Hz",
         "type": "double"
       },
       {
-        "name": "169_readings_max",
+        "name": "169_Hz",
         "type": "double"
       },
       {
-        "name": "170_readings_max",
+        "name": "170_Hz",
         "type": "double"
       },
       {
-        "name": "171_readings_max",
+        "name": "171_Hz",
         "type": "double"
       },
       {
-        "name": "172_readings_max",
+        "name": "172_Hz",
         "type": "double"
       },
       {
-        "name": "173_readings_max",
+        "name": "173_Hz",
         "type": "double"
       },
       {
-        "name": "174_readings_max",
+        "name": "174_Hz",
         "type": "double"
       },
       {
-        "name": "175_readings_max",
+        "name": "175_Hz",
         "type": "double"
       },
       {
-        "name": "176_readings_max",
+        "name": "176_Hz",
         "type": "double"
       },
       {
-        "name": "177_readings_max",
+        "name": "177_Hz",
         "type": "double"
       },
       {
-        "name": "178_readings_max",
+        "name": "178_Hz",
         "type": "double"
       },
       {
-        "name": "179_readings_max",
+        "name": "179_Hz",
         "type": "double"
       },
       {
-        "name": "180_readings_max",
+        "name": "180_Hz",
         "type": "double"
       },
       {
-        "name": "181_readings_max",
+        "name": "181_Hz",
         "type": "double"
       },
       {
-        "name": "182_readings_max",
+        "name": "182_Hz",
         "type": "double"
       },
       {
-        "name": "183_readings_max",
+        "name": "183_Hz",
         "type": "double"
       },
       {
-        "name": "184_readings_max",
+        "name": "184_Hz",
         "type": "double"
       },
       {
-        "name": "185_readings_max",
+        "name": "185_Hz",
         "type": "double"
       },
       {
-        "name": "186_readings_max",
+        "name": "186_Hz",
         "type": "double"
       },
       {
-        "name": "187_readings_max",
+        "name": "187_Hz",
         "type": "double"
       },
       {
-        "name": "188_readings_max",
+        "name": "188_Hz",
         "type": "double"
       },
       {
-        "name": "189_readings_max",
+        "name": "189_Hz",
         "type": "double"
       },
       {
-        "name": "190_readings_max",
+        "name": "190_Hz",
         "type": "double"
       },
       {
-        "name": "191_readings_max",
+        "name": "191_Hz",
         "type": "double"
       },
       {
-        "name": "192_readings_max",
+        "name": "192_Hz",
         "type": "double"
       },
       {
-        "name": "193_readings_max",
+        "name": "193_Hz",
         "type": "double"
       },
       {
-        "name": "194_readings_max",
+        "name": "194_Hz",
         "type": "double"
       },
       {
-        "name": "195_readings_max",
+        "name": "195_Hz",
         "type": "double"
       },
       {
-        "name": "196_readings_max",
+        "name": "196_Hz",
         "type": "double"
       },
       {
-        "name": "197_readings_max",
+        "name": "197_Hz",
         "type": "double"
       },
       {
-        "name": "198_readings_max",
+        "name": "198_Hz",
         "type": "double"
       },
       {
-        "name": "199_readings_max",
+        "name": "199_Hz",
         "type": "double"
       },
       {
-        "name": "200_readings_max",
+        "name": "200_Hz",
         "type": "double"
       },
       {
-        "name": "201_readings_max",
+        "name": "201_Hz",
         "type": "double"
       },
       {
-        "name": "202_readings_max",
+        "name": "202_Hz",
         "type": "double"
       },
       {
-        "name": "203_readings_max",
+        "name": "203_Hz",
         "type": "double"
       },
       {
-        "name": "204_readings_max",
+        "name": "204_Hz",
         "type": "double"
       },
       {
-        "name": "205_readings_max",
+        "name": "205_Hz",
         "type": "double"
       },
       {
-        "name": "206_readings_max",
+        "name": "206_Hz",
         "type": "double"
       },
       {
-        "name": "207_readings_max",
+        "name": "207_Hz",
         "type": "double"
       },
       {
-        "name": "208_readings_max",
+        "name": "208_Hz",
         "type": "double"
       },
       {
-        "name": "209_readings_max",
+        "name": "209_Hz",
         "type": "double"
       },
       {
-        "name": "210_readings_max",
+        "name": "210_Hz",
         "type": "double"
       },
       {
-        "name": "211_readings_max",
+        "name": "211_Hz",
         "type": "double"
       },
       {
-        "name": "212_readings_max",
+        "name": "212_Hz",
         "type": "double"
       },
       {
-        "name": "213_readings_max",
+        "name": "213_Hz",
         "type": "double"
       },
       {
-        "name": "214_readings_max",
+        "name": "214_Hz",
         "type": "double"
       },
       {
-        "name": "215_readings_max",
+        "name": "215_Hz",
         "type": "double"
       },
       {
-        "name": "216_readings_max",
+        "name": "216_Hz",
         "type": "double"
       },
       {
-        "name": "217_readings_max",
+        "name": "217_Hz",
         "type": "double"
       },
       {
-        "name": "218_readings_max",
+        "name": "218_Hz",
         "type": "double"
       },
       {
-        "name": "219_readings_max",
+        "name": "219_Hz",
         "type": "double"
       },
       {
-        "name": "220_readings_max",
+        "name": "220_Hz",
         "type": "double"
       },
       {
-        "name": "221_readings_max",
+        "name": "221_Hz",
         "type": "double"
       },
       {
-        "name": "222_readings_max",
+        "name": "222_Hz",
         "type": "double"
       },
       {
-        "name": "223_readings_max",
+        "name": "223_Hz",
         "type": "double"
       },
       {
-        "name": "224_readings_max",
+        "name": "224_Hz",
         "type": "double"
       },
       {
-        "name": "225_readings_max",
+        "name": "225_Hz",
         "type": "double"
       },
       {
-        "name": "226_readings_max",
+        "name": "226_Hz",
         "type": "double"
       },
       {
-        "name": "227_readings_max",
+        "name": "227_Hz",
         "type": "double"
       },
       {
-        "name": "228_readings_max",
+        "name": "228_Hz",
         "type": "double"
       },
       {
-        "name": "229_readings_max",
+        "name": "229_Hz",
         "type": "double"
       },
       {
-        "name": "230_readings_max",
+        "name": "230_Hz",
         "type": "double"
       },
       {
-        "name": "231_readings_max",
+        "name": "231_Hz",
         "type": "double"
       },
       {
-        "name": "232_readings_max",
+        "name": "232_Hz",
         "type": "double"
       },
       {
-        "name": "233_readings_max",
+        "name": "233_Hz",
         "type": "double"
       },
       {
-        "name": "234_readings_max",
+        "name": "234_Hz",
         "type": "double"
       },
       {
-        "name": "235_readings_max",
+        "name": "235_Hz",
         "type": "double"
       },
       {
-        "name": "236_readings_max",
+        "name": "236_Hz",
         "type": "double"
       },
       {
-        "name": "237_readings_max",
+        "name": "237_Hz",
         "type": "double"
       },
       {
-        "name": "238_readings_max",
+        "name": "238_Hz",
         "type": "double"
       },
       {
-        "name": "239_readings_max",
+        "name": "239_Hz",
         "type": "double"
       },
       {
-        "name": "240_readings_max",
+        "name": "240_Hz",
         "type": "double"
       },
       {
-        "name": "241_readings_max",
+        "name": "241_Hz",
         "type": "double"
       },
       {
-        "name": "242_readings_max",
+        "name": "242_Hz",
         "type": "double"
       },
       {
-        "name": "243_readings_max",
+        "name": "243_Hz",
         "type": "double"
       },
       {
-        "name": "244_readings_max",
+        "name": "244_Hz",
         "type": "double"
       },
       {
-        "name": "245_readings_max",
+        "name": "245_Hz",
         "type": "double"
       },
       {
-        "name": "246_readings_max",
+        "name": "246_Hz",
         "type": "double"
       },
       {
-        "name": "247_readings_max",
+        "name": "247_Hz",
         "type": "double"
       },
       {
-        "name": "248_readings_max",
+        "name": "248_Hz",
         "type": "double"
       },
       {
-        "name": "249_readings_max",
+        "name": "249_Hz",
         "type": "double"
       },
       {
-        "name": "250_readings_max",
+        "name": "250_Hz",
         "type": "double"
       },
       {
-        "name": "251_readings_max",
+        "name": "251_Hz",
         "type": "double"
       },
       {
-        "name": "252_readings_max",
+        "name": "252_Hz",
         "type": "double"
       },
       {
-        "name": "253_readings_max",
+        "name": "253_Hz",
         "type": "double"
       },
       {
-        "name": "254_readings_max",
+        "name": "254_Hz",
         "type": "double"
       },
       {
-        "name": "255_readings_max",
+        "name": "255_Hz",
         "type": "double"
       },
       {
-        "name": "256_readings_max",
+        "name": "256_Hz",
         "type": "double"
       },
       {
-        "name": "257_readings_max",
+        "name": "257_Hz",
         "type": "double"
       },
       {
-        "name": "258_readings_max",
+        "name": "258_Hz",
         "type": "double"
       },
       {
-        "name": "259_readings_max",
+        "name": "259_Hz",
         "type": "double"
       },
       {
-        "name": "260_readings_max",
+        "name": "260_Hz",
         "type": "double"
       },
       {
-        "name": "261_readings_max",
+        "name": "261_Hz",
         "type": "double"
       },
       {
-        "name": "262_readings_max",
+        "name": "262_Hz",
         "type": "double"
       },
       {
-        "name": "263_readings_max",
+        "name": "263_Hz",
         "type": "double"
       },
       {
-        "name": "264_readings_max",
+        "name": "264_Hz",
         "type": "double"
       },
       {
-        "name": "265_readings_max",
+        "name": "265_Hz",
         "type": "double"
       },
       {
-        "name": "266_readings_max",
+        "name": "266_Hz",
         "type": "double"
       },
       {
-        "name": "267_readings_max",
+        "name": "267_Hz",
         "type": "double"
       },
       {
-        "name": "268_readings_max",
+        "name": "268_Hz",
         "type": "double"
       },
       {
-        "name": "269_readings_max",
+        "name": "269_Hz",
         "type": "double"
       },
       {
-        "name": "270_readings_max",
+        "name": "270_Hz",
         "type": "double"
       },
       {
-        "name": "271_readings_max",
+        "name": "271_Hz",
         "type": "double"
       },
       {
-        "name": "272_readings_max",
+        "name": "272_Hz",
         "type": "double"
       },
       {
-        "name": "273_readings_max",
+        "name": "273_Hz",
         "type": "double"
       },
       {
-        "name": "274_readings_max",
+        "name": "274_Hz",
         "type": "double"
       },
       {
-        "name": "275_readings_max",
+        "name": "275_Hz",
         "type": "double"
       },
       {
-        "name": "276_readings_max",
+        "name": "276_Hz",
         "type": "double"
       },
       {
-        "name": "277_readings_max",
+        "name": "277_Hz",
         "type": "double"
       },
       {
-        "name": "278_readings_max",
+        "name": "278_Hz",
         "type": "double"
       },
       {
-        "name": "279_readings_max",
+        "name": "279_Hz",
         "type": "double"
       },
       {
-        "name": "280_readings_max",
+        "name": "280_Hz",
         "type": "double"
       },
       {
-        "name": "281_readings_max",
+        "name": "281_Hz",
         "type": "double"
       },
       {
-        "name": "282_readings_max",
+        "name": "282_Hz",
         "type": "double"
       },
       {
-        "name": "283_readings_max",
+        "name": "283_Hz",
         "type": "double"
       },
       {
-        "name": "284_readings_max",
+        "name": "284_Hz",
         "type": "double"
       },
       {
-        "name": "285_readings_max",
+        "name": "285_Hz",
         "type": "double"
       },
       {
-        "name": "286_readings_max",
+        "name": "286_Hz",
         "type": "double"
       },
       {
-        "name": "287_readings_max",
+        "name": "287_Hz",
         "type": "double"
       },
       {
-        "name": "288_readings_max",
+        "name": "288_Hz",
         "type": "double"
       },
       {
-        "name": "289_readings_max",
+        "name": "289_Hz",
         "type": "double"
       },
       {
-        "name": "290_readings_max",
+        "name": "290_Hz",
         "type": "double"
       },
       {
-        "name": "291_readings_max",
+        "name": "291_Hz",
         "type": "double"
       },
       {
-        "name": "292_readings_max",
+        "name": "292_Hz",
         "type": "double"
       },
       {
-        "name": "293_readings_max",
+        "name": "293_Hz",
         "type": "double"
       },
       {
-        "name": "294_readings_max",
+        "name": "294_Hz",
         "type": "double"
       },
       {
-        "name": "295_readings_max",
+        "name": "295_Hz",
         "type": "double"
       },
       {
-        "name": "296_readings_max",
+        "name": "296_Hz",
         "type": "double"
       },
       {
-        "name": "297_readings_max",
+        "name": "297_Hz",
         "type": "double"
       },
       {
-        "name": "298_readings_max",
+        "name": "298_Hz",
         "type": "double"
       },
       {
-        "name": "299_readings_max",
+        "name": "299_Hz",
         "type": "double"
       },
       {
-        "name": "300_readings_max",
+        "name": "300_Hz",
         "type": "double"
       },
       {
-        "name": "301_readings_max",
+        "name": "301_Hz",
         "type": "double"
       },
       {
-        "name": "302_readings_max",
+        "name": "302_Hz",
         "type": "double"
       },
       {
-        "name": "303_readings_max",
+        "name": "303_Hz",
         "type": "double"
       },
       {
-        "name": "304_readings_max",
+        "name": "304_Hz",
         "type": "double"
       },
       {
-        "name": "305_readings_max",
+        "name": "305_Hz",
         "type": "double"
       },
       {
-        "name": "306_readings_max",
+        "name": "306_Hz",
         "type": "double"
       },
       {
-        "name": "307_readings_max",
+        "name": "307_Hz",
         "type": "double"
       },
       {
-        "name": "308_readings_max",
+        "name": "308_Hz",
         "type": "double"
       },
       {
-        "name": "309_readings_max",
+        "name": "309_Hz",
         "type": "double"
       },
       {
-        "name": "310_readings_max",
+        "name": "310_Hz",
         "type": "double"
       },
       {
-        "name": "311_readings_max",
+        "name": "311_Hz",
         "type": "double"
       },
       {
-        "name": "312_readings_max",
+        "name": "312_Hz",
         "type": "double"
       },
       {
-        "name": "313_readings_max",
+        "name": "313_Hz",
         "type": "double"
       },
       {
-        "name": "314_readings_max",
+        "name": "314_Hz",
         "type": "double"
       },
       {
-        "name": "315_readings_max",
+        "name": "315_Hz",
         "type": "double"
       },
       {
-        "name": "316_readings_max",
+        "name": "316_Hz",
         "type": "double"
       },
       {
-        "name": "317_readings_max",
+        "name": "317_Hz",
         "type": "double"
       },
       {
-        "name": "318_readings_max",
+        "name": "318_Hz",
         "type": "double"
       },
       {
-        "name": "319_readings_max",
+        "name": "319_Hz",
         "type": "double"
       },
       {
-        "name": "320_readings_max",
+        "name": "320_Hz",
         "type": "double"
       },
       {
-        "name": "321_readings_max",
+        "name": "321_Hz",
         "type": "double"
       },
       {
-        "name": "322_readings_max",
+        "name": "322_Hz",
         "type": "double"
       },
       {
-        "name": "323_readings_max",
+        "name": "323_Hz",
         "type": "double"
       },
       {
-        "name": "324_readings_max",
+        "name": "324_Hz",
         "type": "double"
       },
       {
-        "name": "325_readings_max",
+        "name": "325_Hz",
         "type": "double"
       },
       {
-        "name": "326_readings_max",
+        "name": "326_Hz",
         "type": "double"
       },
       {
-        "name": "327_readings_max",
+        "name": "327_Hz",
         "type": "double"
       },
       {
-        "name": "328_readings_max",
+        "name": "328_Hz",
         "type": "double"
       },
       {
-        "name": "329_readings_max",
+        "name": "329_Hz",
         "type": "double"
       },
       {
-        "name": "330_readings_max",
+        "name": "330_Hz",
         "type": "double"
       },
       {
-        "name": "331_readings_max",
+        "name": "331_Hz",
         "type": "double"
       },
       {
-        "name": "332_readings_max",
+        "name": "332_Hz",
         "type": "double"
       },
       {
-        "name": "333_readings_max",
+        "name": "333_Hz",
         "type": "double"
       },
       {
-        "name": "334_readings_max",
+        "name": "334_Hz",
         "type": "double"
       },
       {
-        "name": "335_readings_max",
+        "name": "335_Hz",
         "type": "double"
       },
       {
-        "name": "336_readings_max",
+        "name": "336_Hz",
         "type": "double"
       },
       {
-        "name": "337_readings_max",
+        "name": "337_Hz",
         "type": "double"
       },
       {
-        "name": "338_readings_max",
+        "name": "338_Hz",
         "type": "double"
       },
       {
-        "name": "339_readings_max",
+        "name": "339_Hz",
         "type": "double"
       },
       {
-        "name": "340_readings_max",
+        "name": "340_Hz",
         "type": "double"
       },
       {
-        "name": "341_readings_max",
+        "name": "341_Hz",
         "type": "double"
       },
       {
-        "name": "342_readings_max",
+        "name": "342_Hz",
         "type": "double"
       },
       {
-        "name": "343_readings_max",
+        "name": "343_Hz",
         "type": "double"
       },
       {
-        "name": "344_readings_max",
+        "name": "344_Hz",
         "type": "double"
       },
       {
-        "name": "345_readings_max",
+        "name": "345_Hz",
         "type": "double"
       },
       {
-        "name": "346_readings_max",
+        "name": "346_Hz",
         "type": "double"
       },
       {
-        "name": "347_readings_max",
+        "name": "347_Hz",
         "type": "double"
       },
       {
-        "name": "348_readings_max",
+        "name": "348_Hz",
         "type": "double"
       },
       {
-        "name": "349_readings_max",
+        "name": "349_Hz",
         "type": "double"
       },
       {
-        "name": "350_readings_max",
+        "name": "350_Hz",
         "type": "double"
       },
       {
-        "name": "351_readings_max",
+        "name": "351_Hz",
         "type": "double"
       },
       {
-        "name": "352_readings_max",
+        "name": "352_Hz",
         "type": "double"
       },
       {
-        "name": "353_readings_max",
+        "name": "353_Hz",
         "type": "double"
       },
       {
-        "name": "354_readings_max",
+        "name": "354_Hz",
         "type": "double"
       },
       {
-        "name": "355_readings_max",
+        "name": "355_Hz",
         "type": "double"
       },
       {
-        "name": "356_readings_max",
+        "name": "356_Hz",
         "type": "double"
       },
       {
-        "name": "357_readings_max",
+        "name": "357_Hz",
         "type": "double"
       },
       {
-        "name": "358_readings_max",
+        "name": "358_Hz",
         "type": "double"
       },
       {
-        "name": "359_readings_max",
+        "name": "359_Hz",
         "type": "double"
       },
       {
-        "name": "360_readings_max",
+        "name": "360_Hz",
         "type": "double"
       },
       {
-        "name": "361_readings_max",
+        "name": "361_Hz",
         "type": "double"
       },
       {
-        "name": "362_readings_max",
+        "name": "362_Hz",
         "type": "double"
       },
       {
-        "name": "363_readings_max",
+        "name": "363_Hz",
         "type": "double"
       },
       {
-        "name": "364_readings_max",
+        "name": "364_Hz",
         "type": "double"
       },
       {
-        "name": "365_readings_max",
+        "name": "365_Hz",
         "type": "double"
       },
       {
-        "name": "366_readings_max",
+        "name": "366_Hz",
         "type": "double"
       },
       {
-        "name": "367_readings_max",
+        "name": "367_Hz",
         "type": "double"
       },
       {
-        "name": "368_readings_max",
+        "name": "368_Hz",
         "type": "double"
       },
       {
-        "name": "369_readings_max",
+        "name": "369_Hz",
         "type": "double"
       },
       {
-        "name": "370_readings_max",
+        "name": "370_Hz",
         "type": "double"
       },
       {
-        "name": "371_readings_max",
+        "name": "371_Hz",
         "type": "double"
       },
       {
-        "name": "372_readings_max",
+        "name": "372_Hz",
         "type": "double"
       },
       {
-        "name": "373_readings_max",
+        "name": "373_Hz",
         "type": "double"
       },
       {
-        "name": "374_readings_max",
+        "name": "374_Hz",
         "type": "double"
       },
       {
-        "name": "375_readings_max",
+        "name": "375_Hz",
         "type": "double"
       },
       {
-        "name": "376_readings_max",
+        "name": "376_Hz",
         "type": "double"
       },
       {
-        "name": "377_readings_max",
+        "name": "377_Hz",
         "type": "double"
       },
       {
-        "name": "378_readings_max",
+        "name": "378_Hz",
         "type": "double"
       },
       {
-        "name": "379_readings_max",
+        "name": "379_Hz",
         "type": "double"
       },
       {
-        "name": "380_readings_max",
+        "name": "380_Hz",
         "type": "double"
       },
       {
-        "name": "381_readings_max",
+        "name": "381_Hz",
         "type": "double"
       },
       {
-        "name": "382_readings_max",
+        "name": "382_Hz",
         "type": "double"
       },
       {
-        "name": "383_readings_max",
+        "name": "383_Hz",
         "type": "double"
       },
       {
-        "name": "384_readings_max",
+        "name": "384_Hz",
         "type": "double"
       },
       {
-        "name": "385_readings_max",
+        "name": "385_Hz",
         "type": "double"
       },
       {
-        "name": "386_readings_max",
+        "name": "386_Hz",
         "type": "double"
       },
       {
-        "name": "387_readings_max",
+        "name": "387_Hz",
         "type": "double"
       },
       {
-        "name": "388_readings_max",
+        "name": "388_Hz",
         "type": "double"
       },
       {
-        "name": "389_readings_max",
+        "name": "389_Hz",
         "type": "double"
       },
       {
-        "name": "390_readings_max",
+        "name": "390_Hz",
         "type": "double"
       },
       {
-        "name": "391_readings_max",
+        "name": "391_Hz",
         "type": "double"
       },
       {
-        "name": "392_readings_max",
+        "name": "392_Hz",
         "type": "double"
       },
       {
-        "name": "393_readings_max",
+        "name": "393_Hz",
         "type": "double"
       },
       {
-        "name": "394_readings_max",
+        "name": "394_Hz",
         "type": "double"
       },
       {
-        "name": "395_readings_max",
+        "name": "395_Hz",
         "type": "double"
       },
       {
-        "name": "396_readings_max",
+        "name": "396_Hz",
         "type": "double"
       },
       {
-        "name": "397_readings_max",
+        "name": "397_Hz",
         "type": "double"
       },
       {
-        "name": "398_readings_max",
+        "name": "398_Hz",
         "type": "double"
       },
       {
-        "name": "399_readings_max",
+        "name": "399_Hz",
         "type": "double"
       },
       {
-        "name": "400_readings_max",
+        "name": "400_Hz",
         "type": "double"
       }
     ],
