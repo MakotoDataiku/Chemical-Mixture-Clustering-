@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603947384024
+    "lastModifiedOn": 1603947446138
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,371 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": false
+    "columns": [
+      {
+        "name": "FRF",
+        "type": "string"
+      },
+      {
+        "name": "1_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "2_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "3_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "4_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "5_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "6_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "7_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "8_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "9_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "10_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "11_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "12_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "13_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "14_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "15_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "16_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "17_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "18_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "19_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "400_readings_max",
+        "type": "double"
+      }
+    ],
+    "userModified": false,
+    "metadata": {
+      "engineType": "DSS",
+      "pivotElementsModalities": [
+        {
+          "pivotElement": {
+            "keyColumns": [
+              "Hz"
+            ],
+            "valueLimit": "TOP_N",
+            "topnLimit": 20,
+            "minOccLimit": 0,
+            "explicitValues": [],
+            "globalCount": false,
+            "valueColumns": [
+              {
+                "column": "readings",
+                "type": "double",
+                "min": false,
+                "max": true,
+                "count": false,
+                "countDistinct": false,
+                "sum": false,
+                "concat": false,
+                "stddev": false,
+                "avg": false,
+                "sum2": false,
+                "first": false,
+                "last": false,
+                "concatDistinct": false,
+                "firstLastNotNull": false
+              }
+            ]
+          },
+          "pivotedModalities": [
+            {
+              "keyValues": [
+                "1"
+              ],
+              "name": "1",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "1_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "2"
+              ],
+              "name": "2",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "2_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "3"
+              ],
+              "name": "3",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "3_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "4"
+              ],
+              "name": "4",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "4_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5"
+              ],
+              "name": "5",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "5_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "6"
+              ],
+              "name": "6",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "6_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "7"
+              ],
+              "name": "7",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "7_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "8"
+              ],
+              "name": "8",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "8_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "9"
+              ],
+              "name": "9",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "9_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "10"
+              ],
+              "name": "10",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "10_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "11"
+              ],
+              "name": "11",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "11_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "12"
+              ],
+              "name": "12",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "12_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "13"
+              ],
+              "name": "13",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "13_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "14"
+              ],
+              "name": "14",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "14_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "15"
+              ],
+              "name": "15",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "15_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "16"
+              ],
+              "name": "16",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "16_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "17"
+              ],
+              "name": "17",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "17_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "18"
+              ],
+              "name": "18",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "18_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "19"
+              ],
+              "name": "19",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "19_readings"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "400"
+              ],
+              "name": "400",
+              "valueColumns": [
+                {
+                  "source": "readings",
+                  "pivoted": "400_readings"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   },
   "metrics": {
     "probes": [
