@@ -8556,7 +8556,7 @@
     },
     "two_step": {
       "kmeans_k": 19,
-      "n_clusters": 3,
+      "n_clusters": 2,
       "seed": 1337,
       "max_iterations": 30,
       "enabled": true
