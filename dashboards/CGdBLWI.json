@@ -328,52 +328,6 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 8,
-              "left": 5,
-              "width": 7,
-              "height": 5
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "iic1nDL",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 13,
-              "left": 0,
-              "width": 6,
-              "height": 3
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "k00aZ7E",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
               "top": 1,
               "left": 0,
               "width": 9,
@@ -416,7 +370,7 @@
               "top": 1,
               "left": 9,
               "width": 3,
-              "height": 6
+              "height": 7
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -440,11 +394,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 35,
+    "versionNumber": 36,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604033265763
+    "lastModifiedOn": 1604033292773
   },
   "creationTag": {
     "versionNumber": 0,
