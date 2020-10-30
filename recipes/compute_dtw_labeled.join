@@ -52,21 +52,6 @@
       "table": 0
     },
     {
-      "name": "3_clust",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "4_clust",
-      "type": "string",
-      "table": 0
-    },
-    {
-      "name": "5_clust",
-      "type": "string",
-      "table": 0
-    },
-    {
       "name": "物質A",
       "type": "bigint",
       "table": 1
@@ -155,18 +140,6 @@
           },
           {
             "name": "2_clust",
-            "type": "string"
-          },
-          {
-            "name": "3_clust",
-            "type": "string"
-          },
-          {
-            "name": "4_clust",
-            "type": "string"
-          },
-          {
-            "name": "5_clust",
             "type": "string"
           },
           {
