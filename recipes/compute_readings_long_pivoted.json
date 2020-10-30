@@ -11,7 +11,7 @@
     "main": {
       "items": [
         {
-          "ref": "readings_long",
+          "ref": "readings_new_long",
           "deps": []
         }
       ]
@@ -28,11 +28,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603949777102
+    "lastModifiedOn": 1604025991109
   },
   "creationTag": {
     "versionNumber": 0,

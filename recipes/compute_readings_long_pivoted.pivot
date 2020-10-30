@@ -42,7 +42,7 @@
     }
   },
   "explicitIdentifiers": [
-    "FRF"
+    "混合物ID"
   ],
   "otherColumns": [],
   "pivots": [
@@ -53,7 +53,7 @@
       "globalCount": false,
       "explicitValues": [],
       "keyColumns": [
-        "Hz"
+        "Wavelength"
       ],
       "valueColumns": [
         {
