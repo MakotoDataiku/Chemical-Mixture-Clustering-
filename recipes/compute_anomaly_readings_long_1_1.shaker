@@ -37,8 +37,8 @@
       "disabled": false,
       "type": "MultiColumnByPrefixFold",
       "params": {
-        "columnNamePattern": "FRF_(.*)",
-        "columnNameColumn": "FRF",
+        "columnNamePattern": "混合物_(.*)",
+        "columnNameColumn": "混合物",
         "columnContentColumn": "readings"
       },
       "alwaysShowComment": false
@@ -49,8 +49,8 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "\"FRF_\"",
-        "column": "FRF_pref"
+        "expression": "\"混合物_\"",
+        "column": "混合物_pref"
       },
       "alwaysShowComment": false
     },
@@ -60,10 +60,10 @@
       "disabled": false,
       "type": "ColumnsConcat",
       "params": {
-        "outputColumn": "FRF",
+        "outputColumn": "混合物ID",
         "columns": [
-          "FRF_pref",
-          "FRF"
+          "混合物_pref",
+          "混合物"
         ],
         "join": ""
       },
@@ -76,6 +76,27 @@
       "type": "ColumnsSelector",
       "params": {
         "columns": [
+          "混合物",
+          "混合物_01",
+          "混合物_02",
+          "混合物_03",
+          "混合物_04",
+          "混合物_05",
+          "混合物_06",
+          "混合物_07",
+          "混合物_08",
+          "混合物_09",
+          "混合物_10",
+          "混合物_11",
+          "混合物_12",
+          "混合物_13",
+          "混合物_14",
+          "混合物_15",
+          "混合物_16",
+          "混合物_17",
+          "混合物_18",
+          "混合物_19",
+          "混合物_pref",
           "FRF_pref",
           "FRF_01",
           "FRF_02",
@@ -111,6 +132,17 @@
   },
   "analysisColumnData": {},
   "columnWidthsByName": {
+    "混合物_11": 155,
+    "混合物_10": 162,
+    "混合物_15": 162,
+    "混合物_14": 162,
+    "混合物ID": 100,
+    "混合物_13": 162,
+    "混合物_12": 162,
+    "混合物_19": 162,
+    "混合物_18": 162,
+    "混合物_17": 162,
+    "混合物_16": 162,
     "FRF_13": 141,
     "FRF_12": 141,
     "FRF_11": 141,
@@ -121,13 +153,24 @@
     "FRF_16": 141,
     "FRF_15": 141,
     "FRF_14": 141,
+    "混合物_04": 162,
+    "混合物_03": 162,
+    "混合物_02": 162,
+    "混合物_01": 162,
+    "混合物_08": 162,
+    "混合物_07": 162,
+    "Wavelength": 100,
+    "混合物_06": 162,
+    "混合物_05": 162,
     "FRF_02": 141,
     "FRF_01": 141,
     "Hz": 100,
     "signals": 100,
     "s": 141,
     "readings": 141,
+    "混合物_09": 162,
     "FRF_09": 141,
+    "混合物_pref": 100,
     "FRF_08": 141,
     "FRF_07": 141,
     "FRF": 100,
@@ -135,7 +178,8 @@
     "FRF_06": 141,
     "FRF_05": 141,
     "FRF_04": 141,
-    "FRF_03": 141
+    "FRF_03": 141,
+    "混合物": 100
   },
   "sorting": [],
   "globalSearchQuery": "",
