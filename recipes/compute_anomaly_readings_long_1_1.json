@@ -64,7 +64,7 @@
     "main": {
       "items": [
         {
-          "ref": "readings_new_prepared",
+          "ref": "NIR_readings",
           "deps": []
         }
       ]
@@ -81,11 +81,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604026472507
+    "lastModifiedOn": 1604030453554
   },
   "creationTag": {
     "versionNumber": 0,
