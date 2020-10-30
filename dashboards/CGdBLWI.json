@@ -328,8 +328,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 0,
+              "top": 8,
+              "left": 5,
               "width": 7,
               "height": 5
             },
@@ -351,7 +351,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 5,
+              "top": 13,
               "left": 0,
               "width": 6,
               "height": 3
@@ -374,10 +374,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 5,
-              "left": 6,
-              "width": 4,
-              "height": 5
+              "top": 1,
+              "left": 0,
+              "width": 9,
+              "height": 7
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -388,6 +388,44 @@
             "showTitle": "YES",
             "insightId": "xLmiRax",
             "insightType": "managed-folder_content",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "# Dynamic Time Warpingを用いたクラスタリング",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 1,
+              "left": 9,
+              "width": 3,
+              "height": 6
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "混合物15がまず最初にはじき出され、続いて８，13とはじき出されている。これは当初の予想と合致する分析結果。Hierarchical Clusteringを用いて実装した。",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
@@ -402,11 +440,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 34,
+    "versionNumber": 35,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604033144682
+    "lastModifiedOn": 1604033265763
   },
   "creationTag": {
     "versionNumber": 0,
