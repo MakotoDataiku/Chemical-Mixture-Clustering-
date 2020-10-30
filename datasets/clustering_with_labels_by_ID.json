@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604032020911
+    "lastModifiedOn": 1604032055596
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,6 +89,30 @@
       {
         "name": "混合物ID",
         "type": "string"
+      },
+      {
+        "name": "cluster_labels",
+        "type": "string"
+      },
+      {
+        "name": "混合物_labeled",
+        "type": "string"
+      },
+      {
+        "name": "物質A",
+        "type": "bigint"
+      },
+      {
+        "name": "物質B",
+        "type": "bigint"
+      },
+      {
+        "name": "物質C",
+        "type": "bigint"
+      },
+      {
+        "name": "anomaly_score",
+        "type": "double"
       },
       {
         "name": "count",
