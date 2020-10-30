@@ -37,6 +37,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "HaBimeHi",
+          "objectType": "MANAGED_FOLDER"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -225,11 +234,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604031777039
+    "lastModifiedOn": 1604031860937
   },
   "creationTag": {
     "versionNumber": 0,
