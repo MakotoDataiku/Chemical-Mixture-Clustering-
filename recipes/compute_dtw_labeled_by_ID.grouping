@@ -172,7 +172,8 @@
   "outputColumnNameOverrides": {
     "物質A_max": "物質A",
     "物質B_max": "物質B",
-    "物質C_max": "物質C"
+    "物質C_max": "物質C",
+    "2_clust": "Clusters"
   },
   "computedColumns": [],
   "postFilter": {
