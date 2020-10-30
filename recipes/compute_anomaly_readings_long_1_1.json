@@ -23,6 +23,9 @@
             },
             "readings_new_prepared": {
               "repartition": 10
+            },
+            "NIR_readings": {
+              "repartition": 10
             }
           }
         },
@@ -81,11 +84,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604030453554
+    "lastModifiedOn": 1604030456891
   },
   "creationTag": {
     "versionNumber": 0,
