@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604029983644
+    "lastModifiedOn": 1604030071468
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,32 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "Wavelength",
+        "type": "bigint"
+      },
+      {
+        "name": "混合物ID",
+        "type": "string"
+      },
+      {
+        "name": "readings",
+        "type": "double"
+      },
+      {
+        "name": "cluster_labels",
+        "type": "string"
+      },
+      {
+        "name": "anomaly_score",
+        "type": "double"
+      },
+      {
+        "name": "混合物_labeled",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
