@@ -72,12 +72,7 @@
       {
         "type": "DATASET",
         "localName": "readings_long_clustered",
-        "rules": [
-          {
-            "targetProject": "RUN_compute_clustering_result_AYUxalRR",
-            "appearOnFlow": true
-          }
-        ]
+        "rules": []
       },
       {
         "type": "DATASET",
@@ -257,11 +252,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 23,
+    "versionNumber": 24,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604036583418
+    "lastModifiedOn": 1604036655886
   },
   "creationTag": {
     "versionNumber": 0,
