@@ -193,9 +193,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
+              "top": 7,
               "left": 0,
-              "width": 7,
+              "width": 9,
               "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
@@ -216,9 +216,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 7,
-              "width": 4,
+              "top": 7,
+              "left": 9,
+              "width": 3,
               "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
@@ -239,9 +239,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 5,
+              "top": 1,
               "left": 0,
-              "width": 9,
+              "width": 10,
               "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
@@ -256,6 +256,63 @@
             "showTitle": "YES",
             "insightId": "2rmtYKc",
             "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "# クラスタリングの結果",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 1,
+              "left": 10,
+              "width": 2,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "クラスタリングの結果、混合物15だけがひとつのクラスターとして認められ、他はすべて大きな別のクラスターとして分類された。すなわち混合物15がいわゆる「仲間はずれ」だと認識できる。クラスター手法はK-Meansを用い、k\u003d2として計算した",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 6,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "# 各クラスター内における混合比率",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
@@ -345,11 +402,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 32,
+    "versionNumber": 33,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604032980111
+    "lastModifiedOn": 1604033136542
   },
   "creationTag": {
     "versionNumber": 0,
