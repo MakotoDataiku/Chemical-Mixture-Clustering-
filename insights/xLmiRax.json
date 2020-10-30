@@ -1,0 +1,31 @@
+{
+  "type": "managed-folder_content",
+  "params": {
+    "folderSmartId": "HaBimeHi",
+    "filePath": "/dendogram (1).png",
+    "isDirectory": false
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Content of folder dendrogram/dendogram (1).png",
+  "dashboardCreationId": "CGdBLWI",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1604031861104
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1604031861104
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
