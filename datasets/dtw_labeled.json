@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604030823211
+    "lastModifiedOn": 1604035333907
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1603951251754
   },
-  "tags": [],
+  "tags": [
+    "dynamic-time-warping"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "${projectKey}/dtw_labeled",
