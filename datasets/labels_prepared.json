@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604030729067
+    "lastModifiedOn": 1604035308238
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1603951007292
   },
-  "tags": [],
+  "tags": [
+    "Machine Learning:Pre-processing"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "${projectKey}/labels_prepared",

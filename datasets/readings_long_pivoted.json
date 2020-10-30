@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604026587895
+    "lastModifiedOn": 1604035308226
   },
   "creationTag": {
     "versionNumber": 0,
@@ -1697,7 +1697,7 @@
         "type": "double"
       }
     ],
-    "userModified": false,
+    "userModified": true,
     "metadata": {
       "engineType": "DSS",
       "pivotElementsModalities": [
