@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604025318113
+    "lastModifiedOn": 1604026222750
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,7 +88,7 @@
     "columns": [
       {
         "name": "Hz",
-        "type": "double"
+        "type": "bigint"
       },
       {
         "name": "FRF_01",
