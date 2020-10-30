@@ -1,7 +1,44 @@
 {
   "name": "DTW",
   "color": "#F9BE40",
-  "items": [],
+  "items": [
+    {
+      "objectId": "HaBimeHi",
+      "objectType": "MANAGED_FOLDER"
+    },
+    {
+      "objectId": "dtw_labeled_by_ID",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_dtw_labeled_by_ID",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "dtw_labeled",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_dtw_labeled",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "readings_dtw_joined",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_readings_dtw_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "readings_dtw",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_readings_dtw",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
