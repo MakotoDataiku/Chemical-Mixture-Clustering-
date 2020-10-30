@@ -62,7 +62,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 8,
+              "top": 7,
               "left": 0,
               "width": 7,
               "height": 5
@@ -135,6 +135,25 @@
             "clickAction": "DO_NOTHING",
             "tileParams": {
               "text": "混合物15と17がアノマリーと検知された。15は明らかなアノマリーとして認められるものの17は微妙。また短い波長範囲で異常な値を示している混合物８はアノマリーとして検知されなかった。",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 6,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "## アノマリー検知の結果と混合比率の比較",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -307,11 +326,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 29,
+    "versionNumber": 30,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604032848064
+    "lastModifiedOn": 1604032887210
   },
   "creationTag": {
     "versionNumber": 0,
