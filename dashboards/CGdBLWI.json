@@ -7,7 +7,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
+              "top": 1,
               "left": 0,
               "width": 9,
               "height": 6
@@ -24,6 +24,44 @@
             "showTitle": "YES",
             "insightId": "DWUJemE",
             "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "# 各混合物の吸収率",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 1,
+              "left": 9,
+              "width": 3,
+              "height": 6
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "各混合物の波長ごとの吸収率をプロットした。15および８に異常が認められるため、これらを検知することがプロジェクトのゴールとなる",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
@@ -394,11 +432,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 37,
+    "versionNumber": 38,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604033294836
+    "lastModifiedOn": 1604033397419
   },
   "creationTag": {
     "versionNumber": 0,
