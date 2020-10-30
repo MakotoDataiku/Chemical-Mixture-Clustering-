@@ -83,8 +83,139 @@
           {
             "from": "Labels/FRF",
             "to": "FRF"
+          },
+          {
+            "from": "Manufacturer",
+            "to": "物質A"
+          },
+          {
+            "from": "Type",
+            "to": "物質B"
+          },
+          {
+            "from": "Size",
+            "to": "物質C"
           }
         ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Frequency",
+          "Rim"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Dunlop",
+            "to": "22"
+          },
+          {
+            "from": "Michelin",
+            "to": "14"
+          },
+          {
+            "from": "Pirelli",
+            "to": "40"
+          },
+          {
+            "from": "Continental",
+            "to": "5"
+          },
+          {
+            "from": "Bridgestone",
+            "to": "70"
+          },
+          {
+            "from": "Hankook",
+            "to": "51"
+          },
+          {
+            "from": "",
+            "to": ""
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "物質A"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "SUBSTRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Premium",
+            "to": "110"
+          },
+          {
+            "from": "Pro",
+            "to": "100"
+          },
+          {
+            "from": "Eco",
+            "to": "120"
+          },
+          {
+            "from": "Sport",
+            "to": "140"
+          },
+          {
+            "from": "Alpin",
+            "to": "130"
+          },
+          {
+            "from": "",
+            "to": ""
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "物質B"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "SUBSTRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "MO Class"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
     }
@@ -121,9 +252,12 @@
     "FRF_07": 100,
     "FRF": 100,
     "FRF_06": 100,
+    "物質C": 100,
     "FRF_05": 100,
     "FRF_04": 100,
-    "FRF_03": 100
+    "物質A": 100,
+    "FRF_03": 100,
+    "物質B": 100
   },
   "sorting": [],
   "globalSearchQuery": "",
