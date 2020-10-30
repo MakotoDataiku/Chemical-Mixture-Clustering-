@@ -8,12 +8,7 @@
       {
         "type": "DATASET",
         "localName": "readings_long_clustered",
-        "rules": [
-          {
-            "targetProject": "RUN_compute_clustering_result_zSfgnp5U",
-            "appearOnFlow": true
-          }
-        ]
+        "rules": []
       },
       {
         "type": "DATASET",
@@ -193,11 +188,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604029767156
+    "lastModifiedOn": 1604029840220
   },
   "creationTag": {
     "versionNumber": 0,
