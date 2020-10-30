@@ -42,7 +42,7 @@ df.head()
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 hz = df["Hz"] + 1200
 df = df * 0.1 * 0.8
-df["Hz"] = np.linspace(start=1200, stop=2400, num=401)
+df["Hz"] = np.linspace(start=1200, stop=2400, num=401).astype(int)
 df.head()
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
