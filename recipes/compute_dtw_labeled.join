@@ -64,33 +64,18 @@
       "table": 0
     },
     {
-      "name": "Manufacturer",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Type",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Size",
+      "name": "物質A",
       "type": "bigint",
       "table": 1
     },
     {
-      "name": "MO Class",
-      "type": "string",
+      "name": "物質B",
+      "type": "bigint",
       "table": 1
     },
     {
-      "name": "Rim",
-      "type": "string",
-      "table": 1
-    },
-    {
-      "name": "Frequency",
-      "type": "string",
+      "name": "物質C",
+      "type": "bigint",
       "table": 1
     }
   ],
@@ -182,28 +167,16 @@
             "type": "string"
           },
           {
-            "name": "Manufacturer",
-            "type": "string"
-          },
-          {
-            "name": "Type",
-            "type": "string"
-          },
-          {
-            "name": "Size",
+            "name": "物質A",
             "type": "bigint"
           },
           {
-            "name": "MO Class",
-            "type": "string"
+            "name": "物質B",
+            "type": "bigint"
           },
           {
-            "name": "Rim",
-            "type": "string"
-          },
-          {
-            "name": "Frequency",
-            "type": "string"
+            "name": "物質C",
+            "type": "bigint"
           }
         ],
         "userModified": false
