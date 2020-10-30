@@ -6,44 +6,61 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "混合物ID",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "混合物ID",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "混合物ID",
+      "type": "string",
       "table": 0
     },
     {
       "name": "物質A",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "物質B",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "物質C",
+      "type": "bigint",
       "table": 0
     },
     {
-      "name": "Wavelength",
-      "table": 1
-    },
-    {
-      "name": "readings",
-      "table": 1
-    },
-    {
       "name": "cluster_labels",
+      "type": "string",
       "table": 1
     },
     {
       "name": "anomaly_score",
+      "type": "double",
       "table": 1
     },
     {
       "name": "混合物_labeled",
+      "type": "string",
       "table": 1
     }
   ],
@@ -101,5 +118,43 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "混合物ID",
+            "type": "string"
+          },
+          {
+            "name": "物質A",
+            "type": "bigint"
+          },
+          {
+            "name": "物質B",
+            "type": "bigint"
+          },
+          {
+            "name": "物質C",
+            "type": "bigint"
+          },
+          {
+            "name": "cluster_labels",
+            "type": "string"
+          },
+          {
+            "name": "anomaly_score",
+            "type": "double"
+          },
+          {
+            "name": "混合物_labeled",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
