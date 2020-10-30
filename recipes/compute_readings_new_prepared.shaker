@@ -26,8 +26,103 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Hz",
+            "to": "Wavelength"
+          },
+          {
+            "from": "FRF_01",
+            "to": "混合物_01"
+          },
+          {
+            "from": "FRF_02",
+            "to": "混合物_02"
+          },
+          {
+            "from": "FRF_03",
+            "to": "混合物_03"
+          },
+          {
+            "from": "FRF_04",
+            "to": "混合物_04"
+          },
+          {
+            "from": "FRF_05",
+            "to": "混合物_05"
+          },
+          {
+            "from": "FRF_06",
+            "to": "混合物_06"
+          },
+          {
+            "from": "FRF_07",
+            "to": "混合物_07"
+          },
+          {
+            "from": "FRF_08",
+            "to": "混合物_08"
+          },
+          {
+            "from": "FRF_09",
+            "to": "混合物_09"
+          },
+          {
+            "from": "FRF_10",
+            "to": "混合物_10"
+          },
+          {
+            "from": "FRF_11",
+            "to": "混合物_11"
+          },
+          {
+            "from": "FRF_12",
+            "to": "混合物_12"
+          },
+          {
+            "from": "FRF_13",
+            "to": "混合物_13"
+          },
+          {
+            "from": "FRF_14",
+            "to": "混合物_14"
+          },
+          {
+            "from": "FRF_15",
+            "to": "混合物_15"
+          },
+          {
+            "from": "FRF_16",
+            "to": "混合物_16"
+          },
+          {
+            "from": "FRF_17",
+            "to": "混合物_17"
+          },
+          {
+            "from": "FRF_18",
+            "to": "混合物_18"
+          },
+          {
+            "from": "FRF_19",
+            "to": "混合物_19"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +130,28 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "FRF_02": 162,
+    "FRF_13": 162,
+    "FRF_01": 162,
+    "FRF_12": 162,
+    "Hz": 100,
+    "FRF_11": 155,
+    "FRF_10": 162,
+    "FRF_09": 162,
+    "FRF_08": 162,
+    "FRF_19": 162,
+    "FRF_07": 162,
+    "FRF_18": 162,
+    "FRF_06": 162,
+    "FRF_17": 162,
+    "FRF_05": 162,
+    "FRF_16": 162,
+    "FRF_04": 162,
+    "FRF_15": 162,
+    "FRF_03": 162,
+    "FRF_14": 162
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
