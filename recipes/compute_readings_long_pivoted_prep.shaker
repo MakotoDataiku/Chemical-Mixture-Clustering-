@@ -3245,8 +3245,2026 @@
           {
             "from": "400",
             "to": "400_Hz"
+          },
+          {
+            "from": "1200_readings_max",
+            "to": "1200_wl"
+          },
+          {
+            "from": "1203_readings_max",
+            "to": "1203_wl"
+          },
+          {
+            "from": "1206_readings_max",
+            "to": "1206_wl"
+          },
+          {
+            "from": "1209_readings_max",
+            "to": "1209_wl"
+          },
+          {
+            "from": "1212_readings_max",
+            "to": "1212_wl"
+          },
+          {
+            "from": "1215_readings_max",
+            "to": "1215_wl"
+          },
+          {
+            "from": "1218_readings_max",
+            "to": "1218_wl"
+          },
+          {
+            "from": "1221_readings_max",
+            "to": "1221_wl"
+          },
+          {
+            "from": "1224_readings_max",
+            "to": "1224_wl"
+          },
+          {
+            "from": "1227_readings_max",
+            "to": "1227_wl"
+          },
+          {
+            "from": "1230_readings_max",
+            "to": "1230_wl"
+          },
+          {
+            "from": "1233_readings_max",
+            "to": "1233_wl"
+          },
+          {
+            "from": "1236_readings_max",
+            "to": "1236_wl"
+          },
+          {
+            "from": "1239_readings_max",
+            "to": "1239_wl"
+          },
+          {
+            "from": "1242_readings_max",
+            "to": "1242_wl"
+          },
+          {
+            "from": "1245_readings_max",
+            "to": "1245_wl"
+          },
+          {
+            "from": "1248_readings_max",
+            "to": "1248_wl"
+          },
+          {
+            "from": "1251_readings_max",
+            "to": "1251_wl"
+          },
+          {
+            "from": "1254_readings_max",
+            "to": "1254_wl"
+          },
+          {
+            "from": "1257_readings_max",
+            "to": "1257_wl"
+          },
+          {
+            "from": "1260_readings_max",
+            "to": "1260_wl"
+          },
+          {
+            "from": "1263_readings_max",
+            "to": "1263_wl"
+          },
+          {
+            "from": "1266_readings_max",
+            "to": "1266_wl"
+          },
+          {
+            "from": "1269_readings_max",
+            "to": "1269_wl"
+          },
+          {
+            "from": "1272_readings_max",
+            "to": "1272_wl"
+          },
+          {
+            "from": "1275_readings_max",
+            "to": "1275_wl"
+          },
+          {
+            "from": "1278_readings_max",
+            "to": "1278_wl"
+          },
+          {
+            "from": "1281_readings_max",
+            "to": "1281_wl"
+          },
+          {
+            "from": "1284_readings_max",
+            "to": "1284_wl"
+          },
+          {
+            "from": "1287_readings_max",
+            "to": "1287_wl"
+          },
+          {
+            "from": "1290_readings_max",
+            "to": "1290_wl"
+          },
+          {
+            "from": "1293_readings_max",
+            "to": "1293_wl"
+          },
+          {
+            "from": "1296_readings_max",
+            "to": "1296_wl"
+          },
+          {
+            "from": "1299_readings_max",
+            "to": "1299_wl"
+          },
+          {
+            "from": "1302_readings_max",
+            "to": "1302_wl"
+          },
+          {
+            "from": "1305_readings_max",
+            "to": "1305_wl"
+          },
+          {
+            "from": "1308_readings_max",
+            "to": "1308_wl"
+          },
+          {
+            "from": "1311_readings_max",
+            "to": "1311_wl"
+          },
+          {
+            "from": "1314_readings_max",
+            "to": "1314_wl"
+          },
+          {
+            "from": "1317_readings_max",
+            "to": "1317_wl"
+          },
+          {
+            "from": "1320_readings_max",
+            "to": "1320_wl"
+          },
+          {
+            "from": "1323_readings_max",
+            "to": "1323_wl"
+          },
+          {
+            "from": "1326_readings_max",
+            "to": "1326_wl"
+          },
+          {
+            "from": "1329_readings_max",
+            "to": "1329_wl"
+          },
+          {
+            "from": "1332_readings_max",
+            "to": "1332_wl"
+          },
+          {
+            "from": "1335_readings_max",
+            "to": "1335_wl"
+          },
+          {
+            "from": "1338_readings_max",
+            "to": "1338_wl"
+          },
+          {
+            "from": "1341_readings_max",
+            "to": "1341_wl"
+          },
+          {
+            "from": "1344_readings_max",
+            "to": "1344_wl"
+          },
+          {
+            "from": "1347_readings_max",
+            "to": "1347_wl"
+          },
+          {
+            "from": "1350_readings_max",
+            "to": "1350_wl"
+          },
+          {
+            "from": "1353_readings_max",
+            "to": "1353_wl"
+          },
+          {
+            "from": "1356_readings_max",
+            "to": "1356_wl"
+          },
+          {
+            "from": "1359_readings_max",
+            "to": "1359_wl"
+          },
+          {
+            "from": "1362_readings_max",
+            "to": "1362_wl"
+          },
+          {
+            "from": "1365_readings_max",
+            "to": "1365_wl"
+          },
+          {
+            "from": "1368_readings_max",
+            "to": "1368_wl"
+          },
+          {
+            "from": "1371_readings_max",
+            "to": "1371_wl"
+          },
+          {
+            "from": "1374_readings_max",
+            "to": "1374_wl"
+          },
+          {
+            "from": "1377_readings_max",
+            "to": "1377_wl"
+          },
+          {
+            "from": "1380_readings_max",
+            "to": "1380_wl"
+          },
+          {
+            "from": "1383_readings_max",
+            "to": "1383_wl"
+          },
+          {
+            "from": "1386_readings_max",
+            "to": "1386_wl"
+          },
+          {
+            "from": "1389_readings_max",
+            "to": "1389_wl"
+          },
+          {
+            "from": "1392_readings_max",
+            "to": "1392_wl"
+          },
+          {
+            "from": "1395_readings_max",
+            "to": "1395_wl"
+          },
+          {
+            "from": "1398_readings_max",
+            "to": "1398_wl"
+          },
+          {
+            "from": "1401_readings_max",
+            "to": "1401_wl"
+          },
+          {
+            "from": "1404_readings_max",
+            "to": "1404_wl"
+          },
+          {
+            "from": "1407_readings_max",
+            "to": "1407_wl"
+          },
+          {
+            "from": "1410_readings_max",
+            "to": "1410_wl"
+          },
+          {
+            "from": "1413_readings_max",
+            "to": "1413_wl"
+          },
+          {
+            "from": "1416_readings_max",
+            "to": "1416_wl"
+          },
+          {
+            "from": "1419_readings_max",
+            "to": "1419_wl"
+          },
+          {
+            "from": "1422_readings_max",
+            "to": "1422_wl"
+          },
+          {
+            "from": "1425_readings_max",
+            "to": "1425_wl"
+          },
+          {
+            "from": "1428_readings_max",
+            "to": "1428_wl"
+          },
+          {
+            "from": "1431_readings_max",
+            "to": "1431_wl"
+          },
+          {
+            "from": "1434_readings_max",
+            "to": "1434_wl"
+          },
+          {
+            "from": "1437_readings_max",
+            "to": "1437_wl"
+          },
+          {
+            "from": "1440_readings_max",
+            "to": "1440_wl"
+          },
+          {
+            "from": "1443_readings_max",
+            "to": "1443_wl"
+          },
+          {
+            "from": "1446_readings_max",
+            "to": "1446_wl"
+          },
+          {
+            "from": "1449_readings_max",
+            "to": "1449_wl"
+          },
+          {
+            "from": "1452_readings_max",
+            "to": "1452_wl"
+          },
+          {
+            "from": "1455_readings_max",
+            "to": "1455_wl"
+          },
+          {
+            "from": "1458_readings_max",
+            "to": "1458_wl"
+          },
+          {
+            "from": "1461_readings_max",
+            "to": "1461_wl"
+          },
+          {
+            "from": "1464_readings_max",
+            "to": "1464_wl"
+          },
+          {
+            "from": "1467_readings_max",
+            "to": "1467_wl"
+          },
+          {
+            "from": "1470_readings_max",
+            "to": "1470_wl"
+          },
+          {
+            "from": "1473_readings_max",
+            "to": "1473_wl"
+          },
+          {
+            "from": "1476_readings_max",
+            "to": "1476_wl"
+          },
+          {
+            "from": "1479_readings_max",
+            "to": "1479_wl"
+          },
+          {
+            "from": "1482_readings_max",
+            "to": "1482_wl"
+          },
+          {
+            "from": "1485_readings_max",
+            "to": "1485_wl"
+          },
+          {
+            "from": "1488_readings_max",
+            "to": "1488_wl"
+          },
+          {
+            "from": "1491_readings_max",
+            "to": "1491_wl"
+          },
+          {
+            "from": "1494_readings_max",
+            "to": "1494_wl"
+          },
+          {
+            "from": "1497_readings_max",
+            "to": "1497_wl"
+          },
+          {
+            "from": "1500_readings_max",
+            "to": "1500_wl"
+          },
+          {
+            "from": "1503_readings_max",
+            "to": "1503_wl"
+          },
+          {
+            "from": "1506_readings_max",
+            "to": "1506_wl"
+          },
+          {
+            "from": "1509_readings_max",
+            "to": "1509_wl"
+          },
+          {
+            "from": "1512_readings_max",
+            "to": "1512_wl"
+          },
+          {
+            "from": "1515_readings_max",
+            "to": "1515_wl"
+          },
+          {
+            "from": "1518_readings_max",
+            "to": "1518_wl"
+          },
+          {
+            "from": "1521_readings_max",
+            "to": "1521_wl"
+          },
+          {
+            "from": "1524_readings_max",
+            "to": "1524_wl"
+          },
+          {
+            "from": "1527_readings_max",
+            "to": "1527_wl"
+          },
+          {
+            "from": "1530_readings_max",
+            "to": "1530_wl"
+          },
+          {
+            "from": "1533_readings_max",
+            "to": "1533_wl"
+          },
+          {
+            "from": "1536_readings_max",
+            "to": "1536_wl"
+          },
+          {
+            "from": "1539_readings_max",
+            "to": "1539_wl"
+          },
+          {
+            "from": "1542_readings_max",
+            "to": "1542_wl"
+          },
+          {
+            "from": "1545_readings_max",
+            "to": "1545_wl"
+          },
+          {
+            "from": "1548_readings_max",
+            "to": "1548_wl"
+          },
+          {
+            "from": "1551_readings_max",
+            "to": "1551_wl"
+          },
+          {
+            "from": "1554_readings_max",
+            "to": "1554_wl"
+          },
+          {
+            "from": "1557_readings_max",
+            "to": "1557_wl"
+          },
+          {
+            "from": "1560_readings_max",
+            "to": "1560_wl"
+          },
+          {
+            "from": "1563_readings_max",
+            "to": "1563_wl"
+          },
+          {
+            "from": "1566_readings_max",
+            "to": "1566_wl"
+          },
+          {
+            "from": "1569_readings_max",
+            "to": "1569_wl"
+          },
+          {
+            "from": "1572_readings_max",
+            "to": "1572_wl"
+          },
+          {
+            "from": "1575_readings_max",
+            "to": "1575_wl"
+          },
+          {
+            "from": "1578_readings_max",
+            "to": "1578_wl"
+          },
+          {
+            "from": "1581_readings_max",
+            "to": "1581_wl"
+          },
+          {
+            "from": "1584_readings_max",
+            "to": "1584_wl"
+          },
+          {
+            "from": "1587_readings_max",
+            "to": "1587_wl"
+          },
+          {
+            "from": "1590_readings_max",
+            "to": "1590_wl"
+          },
+          {
+            "from": "1593_readings_max",
+            "to": "1593_wl"
+          },
+          {
+            "from": "1596_readings_max",
+            "to": "1596_wl"
+          },
+          {
+            "from": "1599_readings_max",
+            "to": "1599_wl"
+          },
+          {
+            "from": "1602_readings_max",
+            "to": "1602_wl"
+          },
+          {
+            "from": "1605_readings_max",
+            "to": "1605_wl"
+          },
+          {
+            "from": "1608_readings_max",
+            "to": "1608_wl"
+          },
+          {
+            "from": "1611_readings_max",
+            "to": "1611_wl"
+          },
+          {
+            "from": "1614_readings_max",
+            "to": "1614_wl"
+          },
+          {
+            "from": "1617_readings_max",
+            "to": "1617_wl"
+          },
+          {
+            "from": "1620_readings_max",
+            "to": "1620_wl"
+          },
+          {
+            "from": "1623_readings_max",
+            "to": "1623_wl"
+          },
+          {
+            "from": "1626_readings_max",
+            "to": "1626_wl"
+          },
+          {
+            "from": "1629_readings_max",
+            "to": "1629_wl"
+          },
+          {
+            "from": "1632_readings_max",
+            "to": "1632_wl"
+          },
+          {
+            "from": "1635_readings_max",
+            "to": "1635_wl"
+          },
+          {
+            "from": "1638_readings_max",
+            "to": "1638_wl"
+          },
+          {
+            "from": "1641_readings_max",
+            "to": "1641_wl"
+          },
+          {
+            "from": "1644_readings_max",
+            "to": "1644_wl"
+          },
+          {
+            "from": "1647_readings_max",
+            "to": "1647_wl"
+          },
+          {
+            "from": "1650_readings_max",
+            "to": "1650_wl"
+          },
+          {
+            "from": "1653_readings_max",
+            "to": "1653_wl"
+          },
+          {
+            "from": "1656_readings_max",
+            "to": "1656_wl"
+          },
+          {
+            "from": "1659_readings_max",
+            "to": "1659_wl"
+          },
+          {
+            "from": "1662_readings_max",
+            "to": "1662_wl"
+          },
+          {
+            "from": "1665_readings_max",
+            "to": "1665_wl"
+          },
+          {
+            "from": "1668_readings_max",
+            "to": "1668_wl"
+          },
+          {
+            "from": "1671_readings_max",
+            "to": "1671_wl"
+          },
+          {
+            "from": "1674_readings_max",
+            "to": "1674_wl"
+          },
+          {
+            "from": "1677_readings_max",
+            "to": "1677_wl"
+          },
+          {
+            "from": "1680_readings_max",
+            "to": "1680_wl"
+          },
+          {
+            "from": "1683_readings_max",
+            "to": "1683_wl"
+          },
+          {
+            "from": "1686_readings_max",
+            "to": "1686_wl"
+          },
+          {
+            "from": "1689_readings_max",
+            "to": "1689_wl"
+          },
+          {
+            "from": "1692_readings_max",
+            "to": "1692_wl"
+          },
+          {
+            "from": "1695_readings_max",
+            "to": "1695_wl"
+          },
+          {
+            "from": "1698_readings_max",
+            "to": "1698_wl"
+          },
+          {
+            "from": "1701_readings_max",
+            "to": "1701_wl"
+          },
+          {
+            "from": "1704_readings_max",
+            "to": "1704_wl"
+          },
+          {
+            "from": "1707_readings_max",
+            "to": "1707_wl"
+          },
+          {
+            "from": "1710_readings_max",
+            "to": "1710_wl"
+          },
+          {
+            "from": "1713_readings_max",
+            "to": "1713_wl"
+          },
+          {
+            "from": "1716_readings_max",
+            "to": "1716_wl"
+          },
+          {
+            "from": "1719_readings_max",
+            "to": "1719_wl"
+          },
+          {
+            "from": "1722_readings_max",
+            "to": "1722_wl"
+          },
+          {
+            "from": "1725_readings_max",
+            "to": "1725_wl"
+          },
+          {
+            "from": "1728_readings_max",
+            "to": "1728_wl"
+          },
+          {
+            "from": "1731_readings_max",
+            "to": "1731_wl"
+          },
+          {
+            "from": "1734_readings_max",
+            "to": "1734_wl"
+          },
+          {
+            "from": "1737_readings_max",
+            "to": "1737_wl"
+          },
+          {
+            "from": "1740_readings_max",
+            "to": "1740_wl"
+          },
+          {
+            "from": "1743_readings_max",
+            "to": "1743_wl"
+          },
+          {
+            "from": "1746_readings_max",
+            "to": "1746_wl"
+          },
+          {
+            "from": "1749_readings_max",
+            "to": "1749_wl"
+          },
+          {
+            "from": "1752_readings_max",
+            "to": "1752_wl"
+          },
+          {
+            "from": "1755_readings_max",
+            "to": "1755_wl"
+          },
+          {
+            "from": "1758_readings_max",
+            "to": "1758_wl"
+          },
+          {
+            "from": "1761_readings_max",
+            "to": "1761_wl"
+          },
+          {
+            "from": "1764_readings_max",
+            "to": "1764_wl"
+          },
+          {
+            "from": "1767_readings_max",
+            "to": "1767_wl"
+          },
+          {
+            "from": "1770_readings_max",
+            "to": "1770_wl"
+          },
+          {
+            "from": "1773_readings_max",
+            "to": "1773_wl"
+          },
+          {
+            "from": "1776_readings_max",
+            "to": "1776_wl"
+          },
+          {
+            "from": "1779_readings_max",
+            "to": "1779_wl"
+          },
+          {
+            "from": "1782_readings_max",
+            "to": "1782_wl"
+          },
+          {
+            "from": "1785_readings_max",
+            "to": "1785_wl"
+          },
+          {
+            "from": "1788_readings_max",
+            "to": "1788_wl"
+          },
+          {
+            "from": "1791_readings_max",
+            "to": "1791_wl"
+          },
+          {
+            "from": "1794_readings_max",
+            "to": "1794_wl"
+          },
+          {
+            "from": "1797_readings_max",
+            "to": "1797_wl"
+          },
+          {
+            "from": "1800_readings_max",
+            "to": "1800_wl"
+          },
+          {
+            "from": "1803_readings_max",
+            "to": "1803_wl"
+          },
+          {
+            "from": "1806_readings_max",
+            "to": "1806_wl"
+          },
+          {
+            "from": "1809_readings_max",
+            "to": "1809_wl"
+          },
+          {
+            "from": "1812_readings_max",
+            "to": "1812_wl"
+          },
+          {
+            "from": "1815_readings_max",
+            "to": "1815_wl"
+          },
+          {
+            "from": "1818_readings_max",
+            "to": "1818_wl"
+          },
+          {
+            "from": "1821_readings_max",
+            "to": "1821_wl"
+          },
+          {
+            "from": "1824_readings_max",
+            "to": "1824_wl"
+          },
+          {
+            "from": "1827_readings_max",
+            "to": "1827_wl"
+          },
+          {
+            "from": "1830_readings_max",
+            "to": "1830_wl"
+          },
+          {
+            "from": "1833_readings_max",
+            "to": "1833_wl"
+          },
+          {
+            "from": "1836_readings_max",
+            "to": "1836_wl"
+          },
+          {
+            "from": "1839_readings_max",
+            "to": "1839_wl"
+          },
+          {
+            "from": "1842_readings_max",
+            "to": "1842_wl"
+          },
+          {
+            "from": "1845_readings_max",
+            "to": "1845_wl"
+          },
+          {
+            "from": "1848_readings_max",
+            "to": "1848_wl"
+          },
+          {
+            "from": "1851_readings_max",
+            "to": "1851_wl"
+          },
+          {
+            "from": "1854_readings_max",
+            "to": "1854_wl"
+          },
+          {
+            "from": "1857_readings_max",
+            "to": "1857_wl"
+          },
+          {
+            "from": "1860_readings_max",
+            "to": "1860_wl"
+          },
+          {
+            "from": "1863_readings_max",
+            "to": "1863_wl"
+          },
+          {
+            "from": "1866_readings_max",
+            "to": "1866_wl"
+          },
+          {
+            "from": "1869_readings_max",
+            "to": "1869_wl"
+          },
+          {
+            "from": "1872_readings_max",
+            "to": "1872_wl"
+          },
+          {
+            "from": "1875_readings_max",
+            "to": "1875_wl"
+          },
+          {
+            "from": "1878_readings_max",
+            "to": "1878_wl"
+          },
+          {
+            "from": "1881_readings_max",
+            "to": "1881_wl"
+          },
+          {
+            "from": "1884_readings_max",
+            "to": "1884_wl"
+          },
+          {
+            "from": "1887_readings_max",
+            "to": "1887_wl"
+          },
+          {
+            "from": "1890_readings_max",
+            "to": "1890_wl"
+          },
+          {
+            "from": "1893_readings_max",
+            "to": "1893_wl"
+          },
+          {
+            "from": "1896_readings_max",
+            "to": "1896_wl"
+          },
+          {
+            "from": "1899_readings_max",
+            "to": "1899_wl"
+          },
+          {
+            "from": "1902_readings_max",
+            "to": "1902_wl"
+          },
+          {
+            "from": "1905_readings_max",
+            "to": "1905_wl"
+          },
+          {
+            "from": "1908_readings_max",
+            "to": "1908_wl"
+          },
+          {
+            "from": "1911_readings_max",
+            "to": "1911_wl"
+          },
+          {
+            "from": "1914_readings_max",
+            "to": "1914_wl"
+          },
+          {
+            "from": "1917_readings_max",
+            "to": "1917_wl"
+          },
+          {
+            "from": "1920_readings_max",
+            "to": "1920_wl"
+          },
+          {
+            "from": "1923_readings_max",
+            "to": "1923_wl"
+          },
+          {
+            "from": "1926_readings_max",
+            "to": "1926_wl"
+          },
+          {
+            "from": "1929_readings_max",
+            "to": "1929_wl"
+          },
+          {
+            "from": "1932_readings_max",
+            "to": "1932_wl"
+          },
+          {
+            "from": "1935_readings_max",
+            "to": "1935_wl"
+          },
+          {
+            "from": "1938_readings_max",
+            "to": "1938_wl"
+          },
+          {
+            "from": "1941_readings_max",
+            "to": "1941_wl"
+          },
+          {
+            "from": "1944_readings_max",
+            "to": "1944_wl"
+          },
+          {
+            "from": "1947_readings_max",
+            "to": "1947_wl"
+          },
+          {
+            "from": "1950_readings_max",
+            "to": "1950_wl"
+          },
+          {
+            "from": "1953_readings_max",
+            "to": "1953_wl"
+          },
+          {
+            "from": "1956_readings_max",
+            "to": "1956_wl"
+          },
+          {
+            "from": "1959_readings_max",
+            "to": "1959_wl"
+          },
+          {
+            "from": "1962_readings_max",
+            "to": "1962_wl"
+          },
+          {
+            "from": "1965_readings_max",
+            "to": "1965_wl"
+          },
+          {
+            "from": "1968_readings_max",
+            "to": "1968_wl"
+          },
+          {
+            "from": "1971_readings_max",
+            "to": "1971_wl"
+          },
+          {
+            "from": "1974_readings_max",
+            "to": "1974_wl"
+          },
+          {
+            "from": "1977_readings_max",
+            "to": "1977_wl"
+          },
+          {
+            "from": "1980_readings_max",
+            "to": "1980_wl"
+          },
+          {
+            "from": "1983_readings_max",
+            "to": "1983_wl"
+          },
+          {
+            "from": "1986_readings_max",
+            "to": "1986_wl"
+          },
+          {
+            "from": "1989_readings_max",
+            "to": "1989_wl"
+          },
+          {
+            "from": "1992_readings_max",
+            "to": "1992_wl"
+          },
+          {
+            "from": "1995_readings_max",
+            "to": "1995_wl"
+          },
+          {
+            "from": "1998_readings_max",
+            "to": "1998_wl"
+          },
+          {
+            "from": "2001_readings_max",
+            "to": "2001_wl"
+          },
+          {
+            "from": "2004_readings_max",
+            "to": "2004_wl"
+          },
+          {
+            "from": "2007_readings_max",
+            "to": "2007_wl"
+          },
+          {
+            "from": "2010_readings_max",
+            "to": "2010_wl"
+          },
+          {
+            "from": "2013_readings_max",
+            "to": "2013_wl"
+          },
+          {
+            "from": "2016_readings_max",
+            "to": "2016_wl"
+          },
+          {
+            "from": "2019_readings_max",
+            "to": "2019_wl"
+          },
+          {
+            "from": "2022_readings_max",
+            "to": "2022_wl"
+          },
+          {
+            "from": "2025_readings_max",
+            "to": "2025_wl"
+          },
+          {
+            "from": "2028_readings_max",
+            "to": "2028_wl"
+          },
+          {
+            "from": "2031_readings_max",
+            "to": "2031_wl"
+          },
+          {
+            "from": "2034_readings_max",
+            "to": "2034_wl"
+          },
+          {
+            "from": "2037_readings_max",
+            "to": "2037_wl"
+          },
+          {
+            "from": "2040_readings_max",
+            "to": "2040_wl"
+          },
+          {
+            "from": "2043_readings_max",
+            "to": "2043_wl"
+          },
+          {
+            "from": "2046_readings_max",
+            "to": "2046_wl"
+          },
+          {
+            "from": "2049_readings_max",
+            "to": "2049_wl"
+          },
+          {
+            "from": "2052_readings_max",
+            "to": "2052_wl"
+          },
+          {
+            "from": "2055_readings_max",
+            "to": "2055_wl"
+          },
+          {
+            "from": "2058_readings_max",
+            "to": "2058_wl"
+          },
+          {
+            "from": "2061_readings_max",
+            "to": "2061_wl"
+          },
+          {
+            "from": "2064_readings_max",
+            "to": "2064_wl"
+          },
+          {
+            "from": "2067_readings_max",
+            "to": "2067_wl"
+          },
+          {
+            "from": "2070_readings_max",
+            "to": "2070_wl"
+          },
+          {
+            "from": "2073_readings_max",
+            "to": "2073_wl"
+          },
+          {
+            "from": "2076_readings_max",
+            "to": "2076_wl"
+          },
+          {
+            "from": "2079_readings_max",
+            "to": "2079_wl"
+          },
+          {
+            "from": "2082_readings_max",
+            "to": "2082_wl"
+          },
+          {
+            "from": "2085_readings_max",
+            "to": "2085_wl"
+          },
+          {
+            "from": "2088_readings_max",
+            "to": "2088_wl"
+          },
+          {
+            "from": "2091_readings_max",
+            "to": "2091_wl"
+          },
+          {
+            "from": "2094_readings_max",
+            "to": "2094_wl"
+          },
+          {
+            "from": "2097_readings_max",
+            "to": "2097_wl"
+          },
+          {
+            "from": "2100_readings_max",
+            "to": "2100_wl"
+          },
+          {
+            "from": "2103_readings_max",
+            "to": "2103_wl"
+          },
+          {
+            "from": "2106_readings_max",
+            "to": "2106_wl"
+          },
+          {
+            "from": "2109_readings_max",
+            "to": "2109_wl"
+          },
+          {
+            "from": "2112_readings_max",
+            "to": "2112_wl"
+          },
+          {
+            "from": "2115_readings_max",
+            "to": "2115_wl"
+          },
+          {
+            "from": "2118_readings_max",
+            "to": "2118_wl"
+          },
+          {
+            "from": "2121_readings_max",
+            "to": "2121_wl"
+          },
+          {
+            "from": "2124_readings_max",
+            "to": "2124_wl"
+          },
+          {
+            "from": "2127_readings_max",
+            "to": "2127_wl"
+          },
+          {
+            "from": "2130_readings_max",
+            "to": "2130_wl"
+          },
+          {
+            "from": "2133_readings_max",
+            "to": "2133_wl"
+          },
+          {
+            "from": "2136_readings_max",
+            "to": "2136_wl"
+          },
+          {
+            "from": "2139_readings_max",
+            "to": "2139_wl"
+          },
+          {
+            "from": "2142_readings_max",
+            "to": "2142_wl"
+          },
+          {
+            "from": "2145_readings_max",
+            "to": "2145_wl"
+          },
+          {
+            "from": "2148_readings_max",
+            "to": "2148_wl"
+          },
+          {
+            "from": "2151_readings_max",
+            "to": "2151_wl"
+          },
+          {
+            "from": "2154_readings_max",
+            "to": "2154_wl"
+          },
+          {
+            "from": "2157_readings_max",
+            "to": "2157_wl"
+          },
+          {
+            "from": "2160_readings_max",
+            "to": "2160_wl"
+          },
+          {
+            "from": "2163_readings_max",
+            "to": "2163_wl"
+          },
+          {
+            "from": "2166_readings_max",
+            "to": "2166_wl"
+          },
+          {
+            "from": "2169_readings_max",
+            "to": "2169_wl"
+          },
+          {
+            "from": "2172_readings_max",
+            "to": "2172_wl"
+          },
+          {
+            "from": "2175_readings_max",
+            "to": "2175_wl"
+          },
+          {
+            "from": "2178_readings_max",
+            "to": "2178_wl"
+          },
+          {
+            "from": "2181_readings_max",
+            "to": "2181_wl"
+          },
+          {
+            "from": "2184_readings_max",
+            "to": "2184_wl"
+          },
+          {
+            "from": "2187_readings_max",
+            "to": "2187_wl"
+          },
+          {
+            "from": "2190_readings_max",
+            "to": "2190_wl"
+          },
+          {
+            "from": "2193_readings_max",
+            "to": "2193_wl"
+          },
+          {
+            "from": "2196_readings_max",
+            "to": "2196_wl"
+          },
+          {
+            "from": "2199_readings_max",
+            "to": "2199_wl"
+          },
+          {
+            "from": "2202_readings_max",
+            "to": "2202_wl"
+          },
+          {
+            "from": "2205_readings_max",
+            "to": "2205_wl"
+          },
+          {
+            "from": "2208_readings_max",
+            "to": "2208_wl"
+          },
+          {
+            "from": "2211_readings_max",
+            "to": "2211_wl"
+          },
+          {
+            "from": "2214_readings_max",
+            "to": "2214_wl"
+          },
+          {
+            "from": "2217_readings_max",
+            "to": "2217_wl"
+          },
+          {
+            "from": "2220_readings_max",
+            "to": "2220_wl"
+          },
+          {
+            "from": "2223_readings_max",
+            "to": "2223_wl"
+          },
+          {
+            "from": "2226_readings_max",
+            "to": "2226_wl"
+          },
+          {
+            "from": "2229_readings_max",
+            "to": "2229_wl"
+          },
+          {
+            "from": "2232_readings_max",
+            "to": "2232_wl"
+          },
+          {
+            "from": "2235_readings_max",
+            "to": "2235_wl"
+          },
+          {
+            "from": "2238_readings_max",
+            "to": "2238_wl"
+          },
+          {
+            "from": "2241_readings_max",
+            "to": "2241_wl"
+          },
+          {
+            "from": "2244_readings_max",
+            "to": "2244_wl"
+          },
+          {
+            "from": "2247_readings_max",
+            "to": "2247_wl"
+          },
+          {
+            "from": "2250_readings_max",
+            "to": "2250_wl"
+          },
+          {
+            "from": "2253_readings_max",
+            "to": "2253_wl"
+          },
+          {
+            "from": "2256_readings_max",
+            "to": "2256_wl"
+          },
+          {
+            "from": "2259_readings_max",
+            "to": "2259_wl"
+          },
+          {
+            "from": "2262_readings_max",
+            "to": "2262_wl"
+          },
+          {
+            "from": "2265_readings_max",
+            "to": "2265_wl"
+          },
+          {
+            "from": "2268_readings_max",
+            "to": "2268_wl"
+          },
+          {
+            "from": "2271_readings_max",
+            "to": "2271_wl"
+          },
+          {
+            "from": "2274_readings_max",
+            "to": "2274_wl"
+          },
+          {
+            "from": "2277_readings_max",
+            "to": "2277_wl"
+          },
+          {
+            "from": "2280_readings_max",
+            "to": "2280_wl"
+          },
+          {
+            "from": "2283_readings_max",
+            "to": "2283_wl"
+          },
+          {
+            "from": "2286_readings_max",
+            "to": "2286_wl"
+          },
+          {
+            "from": "2289_readings_max",
+            "to": "2289_wl"
+          },
+          {
+            "from": "2292_readings_max",
+            "to": "2292_wl"
+          },
+          {
+            "from": "2295_readings_max",
+            "to": "2295_wl"
+          },
+          {
+            "from": "2298_readings_max",
+            "to": "2298_wl"
+          },
+          {
+            "from": "2301_readings_max",
+            "to": "2301_wl"
+          },
+          {
+            "from": "2304_readings_max",
+            "to": "2304_wl"
+          },
+          {
+            "from": "2307_readings_max",
+            "to": "2307_wl"
+          },
+          {
+            "from": "2310_readings_max",
+            "to": "2310_wl"
+          },
+          {
+            "from": "2313_readings_max",
+            "to": "2313_wl"
+          },
+          {
+            "from": "2316_readings_max",
+            "to": "2316_wl"
+          },
+          {
+            "from": "2319_readings_max",
+            "to": "2319_wl"
+          },
+          {
+            "from": "2322_readings_max",
+            "to": "2322_wl"
+          },
+          {
+            "from": "2325_readings_max",
+            "to": "2325_wl"
+          },
+          {
+            "from": "2328_readings_max",
+            "to": "2328_wl"
+          },
+          {
+            "from": "2331_readings_max",
+            "to": "2331_wl"
+          },
+          {
+            "from": "2334_readings_max",
+            "to": "2334_wl"
+          },
+          {
+            "from": "2337_readings_max",
+            "to": "2337_wl"
+          },
+          {
+            "from": "2340_readings_max",
+            "to": "2340_wl"
+          },
+          {
+            "from": "2343_readings_max",
+            "to": "2343_wl"
+          },
+          {
+            "from": "2346_readings_max",
+            "to": "2346_wl"
+          },
+          {
+            "from": "2349_readings_max",
+            "to": "2349_wl"
+          },
+          {
+            "from": "2352_readings_max",
+            "to": "2352_wl"
+          },
+          {
+            "from": "2355_readings_max",
+            "to": "2355_wl"
+          },
+          {
+            "from": "2358_readings_max",
+            "to": "2358_wl"
+          },
+          {
+            "from": "2361_readings_max",
+            "to": "2361_wl"
+          },
+          {
+            "from": "2364_readings_max",
+            "to": "2364_wl"
+          },
+          {
+            "from": "2367_readings_max",
+            "to": "2367_wl"
+          },
+          {
+            "from": "2370_readings_max",
+            "to": "2370_wl"
+          },
+          {
+            "from": "2373_readings_max",
+            "to": "2373_wl"
+          },
+          {
+            "from": "2376_readings_max",
+            "to": "2376_wl"
+          },
+          {
+            "from": "2379_readings_max",
+            "to": "2379_wl"
+          },
+          {
+            "from": "2382_readings_max",
+            "to": "2382_wl"
+          },
+          {
+            "from": "2385_readings_max",
+            "to": "2385_wl"
+          },
+          {
+            "from": "2388_readings_max",
+            "to": "2388_wl"
+          },
+          {
+            "from": "2391_readings_max",
+            "to": "2391_wl"
+          },
+          {
+            "from": "2394_readings_max",
+            "to": "2394_wl"
+          },
+          {
+            "from": "2397_readings_max",
+            "to": "2397_wl"
+          },
+          {
+            "from": "2400_readings_max",
+            "to": "2400_wl"
           }
         ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "0_Hz",
+          "1_Hz",
+          "2_Hz",
+          "3_Hz",
+          "4_Hz",
+          "5_Hz",
+          "6_Hz",
+          "7_Hz",
+          "8_Hz",
+          "9_Hz",
+          "10_Hz",
+          "11_Hz",
+          "12_Hz",
+          "13_Hz",
+          "14_Hz",
+          "15_Hz",
+          "16_Hz",
+          "17_Hz",
+          "18_Hz",
+          "19_Hz",
+          "20_Hz",
+          "21_Hz",
+          "22_Hz",
+          "23_Hz",
+          "24_Hz",
+          "25_Hz",
+          "26_Hz",
+          "27_Hz",
+          "28_Hz",
+          "29_Hz",
+          "30_Hz",
+          "31_Hz",
+          "32_Hz",
+          "33_Hz",
+          "34_Hz",
+          "35_Hz",
+          "36_Hz",
+          "37_Hz",
+          "38_Hz",
+          "39_Hz",
+          "40_Hz",
+          "41_Hz",
+          "42_Hz",
+          "43_Hz",
+          "44_Hz",
+          "45_Hz",
+          "46_Hz",
+          "47_Hz",
+          "48_Hz",
+          "49_Hz",
+          "50_Hz",
+          "51_Hz",
+          "52_Hz",
+          "53_Hz",
+          "54_Hz",
+          "55_Hz",
+          "56_Hz",
+          "57_Hz",
+          "58_Hz",
+          "59_Hz",
+          "60_Hz",
+          "61_Hz",
+          "62_Hz",
+          "63_Hz",
+          "64_Hz",
+          "65_Hz",
+          "66_Hz",
+          "67_Hz",
+          "68_Hz",
+          "69_Hz",
+          "70_Hz",
+          "71_Hz",
+          "72_Hz",
+          "73_Hz",
+          "74_Hz",
+          "75_Hz",
+          "76_Hz",
+          "77_Hz",
+          "78_Hz",
+          "79_Hz",
+          "80_Hz",
+          "81_Hz",
+          "82_Hz",
+          "83_Hz",
+          "84_Hz",
+          "85_Hz",
+          "86_Hz",
+          "87_Hz",
+          "88_Hz",
+          "89_Hz",
+          "90_Hz",
+          "91_Hz",
+          "92_Hz",
+          "93_Hz",
+          "94_Hz",
+          "95_Hz",
+          "96_Hz",
+          "97_Hz",
+          "98_Hz",
+          "99_Hz",
+          "100_Hz",
+          "101_Hz",
+          "102_Hz",
+          "103_Hz",
+          "104_Hz",
+          "105_Hz",
+          "106_Hz",
+          "107_Hz",
+          "108_Hz",
+          "109_Hz",
+          "110_Hz",
+          "111_Hz",
+          "112_Hz",
+          "113_Hz",
+          "114_Hz",
+          "115_Hz",
+          "116_Hz",
+          "117_Hz",
+          "118_Hz",
+          "119_Hz",
+          "120_Hz",
+          "121_Hz",
+          "122_Hz",
+          "123_Hz",
+          "124_Hz",
+          "125_Hz",
+          "126_Hz",
+          "127_Hz",
+          "128_Hz",
+          "129_Hz",
+          "130_Hz",
+          "131_Hz",
+          "132_Hz",
+          "133_Hz",
+          "134_Hz",
+          "135_Hz",
+          "136_Hz",
+          "137_Hz",
+          "138_Hz",
+          "139_Hz",
+          "140_Hz",
+          "141_Hz",
+          "142_Hz",
+          "143_Hz",
+          "144_Hz",
+          "145_Hz",
+          "146_Hz",
+          "147_Hz",
+          "148_Hz",
+          "149_Hz",
+          "150_Hz",
+          "151_Hz",
+          "152_Hz",
+          "153_Hz",
+          "154_Hz",
+          "155_Hz",
+          "156_Hz",
+          "157_Hz",
+          "158_Hz",
+          "159_Hz",
+          "160_Hz",
+          "161_Hz",
+          "162_Hz",
+          "163_Hz",
+          "164_Hz",
+          "165_Hz",
+          "166_Hz",
+          "167_Hz",
+          "168_Hz",
+          "169_Hz",
+          "170_Hz",
+          "171_Hz",
+          "172_Hz",
+          "173_Hz",
+          "174_Hz",
+          "175_Hz",
+          "176_Hz",
+          "177_Hz",
+          "178_Hz",
+          "179_Hz",
+          "180_Hz",
+          "181_Hz",
+          "182_Hz",
+          "183_Hz",
+          "184_Hz",
+          "185_Hz",
+          "186_Hz",
+          "187_Hz",
+          "188_Hz",
+          "189_Hz",
+          "190_Hz",
+          "191_Hz",
+          "192_Hz",
+          "193_Hz",
+          "194_Hz",
+          "195_Hz",
+          "196_Hz",
+          "197_Hz",
+          "198_Hz",
+          "199_Hz",
+          "200_Hz",
+          "201_Hz",
+          "202_Hz",
+          "203_Hz",
+          "204_Hz",
+          "205_Hz",
+          "206_Hz",
+          "207_Hz",
+          "208_Hz",
+          "209_Hz",
+          "210_Hz",
+          "211_Hz",
+          "212_Hz",
+          "213_Hz",
+          "214_Hz",
+          "215_Hz",
+          "216_Hz",
+          "217_Hz",
+          "218_Hz",
+          "219_Hz",
+          "220_Hz",
+          "221_Hz",
+          "222_Hz",
+          "223_Hz",
+          "224_Hz",
+          "225_Hz",
+          "226_Hz",
+          "227_Hz",
+          "228_Hz",
+          "229_Hz",
+          "230_Hz",
+          "231_Hz",
+          "232_Hz",
+          "233_Hz",
+          "234_Hz",
+          "235_Hz",
+          "236_Hz",
+          "237_Hz",
+          "238_Hz",
+          "239_Hz",
+          "240_Hz",
+          "241_Hz",
+          "242_Hz",
+          "243_Hz",
+          "244_Hz",
+          "245_Hz",
+          "246_Hz",
+          "247_Hz",
+          "248_Hz",
+          "249_Hz",
+          "250_Hz",
+          "251_Hz",
+          "252_Hz",
+          "253_Hz",
+          "254_Hz",
+          "255_Hz",
+          "256_Hz",
+          "257_Hz",
+          "258_Hz",
+          "259_Hz",
+          "260_Hz",
+          "261_Hz",
+          "262_Hz",
+          "263_Hz",
+          "264_Hz",
+          "265_Hz",
+          "266_Hz",
+          "267_Hz",
+          "268_Hz",
+          "269_Hz",
+          "270_Hz",
+          "271_Hz",
+          "272_Hz",
+          "273_Hz",
+          "274_Hz",
+          "275_Hz",
+          "276_Hz",
+          "277_Hz",
+          "278_Hz",
+          "279_Hz",
+          "280_Hz",
+          "281_Hz",
+          "282_Hz",
+          "283_Hz",
+          "284_Hz",
+          "285_Hz",
+          "286_Hz",
+          "287_Hz",
+          "288_Hz",
+          "289_Hz",
+          "290_Hz",
+          "291_Hz",
+          "292_Hz",
+          "293_Hz",
+          "294_Hz",
+          "295_Hz",
+          "296_Hz",
+          "297_Hz",
+          "298_Hz",
+          "299_Hz",
+          "300_Hz",
+          "301_Hz",
+          "302_Hz",
+          "303_Hz",
+          "304_Hz",
+          "305_Hz",
+          "306_Hz",
+          "307_Hz",
+          "308_Hz",
+          "309_Hz",
+          "310_Hz",
+          "311_Hz",
+          "312_Hz",
+          "313_Hz",
+          "314_Hz",
+          "315_Hz",
+          "316_Hz",
+          "317_Hz",
+          "318_Hz",
+          "319_Hz",
+          "320_Hz",
+          "321_Hz",
+          "322_Hz",
+          "323_Hz",
+          "324_Hz",
+          "325_Hz",
+          "326_Hz",
+          "327_Hz",
+          "328_Hz",
+          "329_Hz",
+          "330_Hz",
+          "331_Hz",
+          "332_Hz",
+          "333_Hz",
+          "334_Hz",
+          "335_Hz",
+          "336_Hz",
+          "337_Hz",
+          "338_Hz",
+          "339_Hz",
+          "340_Hz",
+          "341_Hz",
+          "342_Hz",
+          "343_Hz",
+          "344_Hz",
+          "345_Hz",
+          "346_Hz",
+          "347_Hz",
+          "348_Hz",
+          "349_Hz",
+          "350_Hz",
+          "351_Hz",
+          "352_Hz",
+          "353_Hz",
+          "354_Hz",
+          "355_Hz",
+          "356_Hz",
+          "357_Hz",
+          "358_Hz",
+          "359_Hz",
+          "360_Hz",
+          "361_Hz",
+          "362_Hz",
+          "363_Hz",
+          "364_Hz",
+          "365_Hz",
+          "366_Hz",
+          "367_Hz",
+          "368_Hz",
+          "369_Hz",
+          "370_Hz",
+          "371_Hz",
+          "372_Hz",
+          "373_Hz",
+          "374_Hz",
+          "375_Hz",
+          "376_Hz",
+          "377_Hz",
+          "378_Hz",
+          "379_Hz",
+          "380_Hz",
+          "381_Hz",
+          "382_Hz",
+          "383_Hz",
+          "384_Hz",
+          "385_Hz",
+          "386_Hz",
+          "387_Hz",
+          "388_Hz",
+          "389_Hz",
+          "390_Hz",
+          "391_Hz",
+          "392_Hz",
+          "393_Hz",
+          "394_Hz",
+          "395_Hz",
+          "396_Hz",
+          "397_Hz",
+          "398_Hz",
+          "399_Hz",
+          "400_Hz"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
     }
@@ -3259,809 +5277,1612 @@
   },
   "analysisColumnData": {},
   "columnWidthsByName": {
-    "89_Hz": 141,
+    "1671_wl": 148,
     "222_readings_max": 162,
     "49_readings_max": 155,
+    "1473_readings_max": 169,
     "43_Hz": 141,
-    "26_readings_max": 155,
-    "245_readings_max": 162,
-    "112_Hz": 141,
-    "100_Hz": 141,
-    "341_Hz": 141,
+    "2331_readings_max": 169,
+    "1797_wl": 141,
     "399_Hz": 141,
+    "2400_wl": 141,
     "210_readings_max": 162,
     "158_Hz": 141,
     "318_Hz": 141,
+    "1704_wl": 148,
     "261_Hz": 141,
+    "1269_wl": 155,
     "387_Hz": 141,
-    "353_Hz": 141,
     "268_readings_max": 162,
-    "269_readings_max": 162,
-    "257_readings_max": 162,
+    "1485_readings_max": 169,
     "55_Hz": 141,
-    "14_readings_max": 155,
-    "226_Hz": 141,
     "15_readings_max": 155,
     "256_readings_max": 162,
-    "193_Hz": 141,
-    "48_readings_max": 155,
-    "279_readings_max": 162,
+    "1497_readings_max": 169,
+    "1260_readings_max": 169,
     "285_Hz": 141,
-    "365_Hz": 141,
-    "2_Hz": 141,
+    "1818_wl": 141,
+    "1821_readings_max": 169,
+    "1686_readings_max": 169,
+    "1899_wl": 141,
     "204_Hz": 141,
     "31_Hz": 141,
     "244_readings_max": 162,
     "246_readings_max": 162,
-    "90_Hz": 141,
-    "238_Hz": 141,
+    "1698_readings_max": 169,
+    "1674_readings_max": 169,
     "67_Hz": 141,
-    "38_readings_max": 155,
+    "2067_wl": 141,
+    "1833_readings_max": 169,
     "234_readings_max": 162,
     "232_readings_max": 162,
-    "181_Hz": 141,
+    "1614_wl": 148,
+    "1716_wl": 148,
     "122_Hz": 141,
-    "36_readings_max": 155,
+    "2130_readings_max": 169,
+    "1845_readings_max": 169,
+    "1257_wl": 155,
     "220_readings_max": 162,
-    "136_Hz": 141,
     "306_Hz": 141,
     "47_readings_max": 155,
+    "2391_wl": 141,
     "216_Hz": 141,
-    "283_Hz": 141,
     "18_Hz": 141,
-    "12_readings_max": 155,
-    "243_readings_max": 162,
     "79_Hz": 141,
     "278_readings_max": 162,
-    "168_Hz": 141,
-    "247_readings_max": 162,
-    "251_Hz": 141,
+    "1761_wl": 148,
+    "1857_readings_max": 169,
     "212_readings_max": 162,
-    "328_Hz": 141,
+    "1296_readings_max": 169,
+    "1887_wl": 141,
+    "1695_wl": 148,
     "102_Hz": 141,
-    "267_readings_max": 162,
-    "213_readings_max": 162,
-    "58_readings_max": 155,
+    "1272_readings_max": 169,
+    "2154_readings_max": 169,
     "390_readings_max": 162,
     "17_readings_max": 155,
+    "2055_wl": 141,
     "254_readings_max": 162,
     "258_readings_max": 162,
-    "377_Hz": 141,
+    "1650_readings_max": 169,
     "134_Hz": 141,
-    "16_readings_max": 155,
-    "41_Hz": 141,
-    "223_readings_max": 162,
+    "1626_wl": 148,
+    "2379_readings_max": 169,
+    "2043_wl": 141,
     "13_readings_max": 155,
-    "124_Hz": 141,
-    "295_Hz": 141,
+    "1638_wl": 148,
+    "2355_readings_max": 169,
+    "1875_wl": 141,
     "27_readings_max": 155,
     "355_Hz": 141,
     "23_readings_max": 155,
-    "400_readings_max": 162,
+    "2178_readings_max": 169,
+    "2160_readings_max": 169,
+    "1644_readings_max": 169,
+    "1620_readings_max": 169,
+    "1887_readings_max": 169,
+    "2184_readings_max": 169,
     "37_readings_max": 155,
-    "57_Hz": 141,
+    "1317_readings_max": 169,
     "146_Hz": 141,
-    "316_Hz": 141,
-    "389_Hz": 141,
     "288_readings_max": 162,
-    "233_readings_max": 162,
+    "1500_wl": 148,
     "191_Hz": 141,
+    "1683_wl": 148,
     "273_Hz": 141,
     "228_Hz": 141,
     "80_Hz": 141,
-    "237_readings_max": 162,
     "FRF": 100,
     "276_readings_max": 162,
-    "287_Hz": 141,
+    "1668_readings_max": 169,
     "45_readings_max": 155,
     "4_Hz": 141,
     "126_Hz": 141,
     "241_Hz": 141,
     "226_readings_max": 162,
     "367_Hz": 141,
-    "206_Hz": 141,
     "338_Hz": 141,
-    "161_Hz": 141,
-    "190_readings_max": 162,
+    "1491_wl": 148,
     "75_Hz": 141,
+    "2031_wl": 141,
     "264_readings_max": 162,
+    "2028_readings_max": 169,
+    "2361_readings_max": 169,
     "23_Hz": 141,
+    "2157_wl": 141,
+    "1431_readings_max": 169,
     "57_readings_max": 155,
-    "215_readings_max": 162,
-    "56_readings_max": 155,
     "214_readings_max": 162,
-    "299_Hz": 141,
-    "275_Hz": 141,
-    "203_readings_max": 162,
+    "1863_readings_max": 169,
+    "1506_readings_max": 169,
+    "2334_wl": 141,
+    "1656_readings_max": 169,
     "138_Hz": 141,
-    "304_Hz": 141,
-    "277_readings_max": 162,
-    "46_readings_max": 155,
-    "275_readings_max": 162,
-    "45_Hz": 141,
-    "390_Hz": 141,
-    "218_Hz": 141,
+    "1323_wl": 148,
+    "2259_wl": 141,
+    "2322_wl": 141,
     "191_readings_max": 162,
+    "1449_wl": 148,
+    "2133_wl": 141,
     "67_readings_max": 155,
+    "1518_readings_max": 169,
     "114_Hz": 141,
-    "265_readings_max": 162,
-    "173_Hz": 141,
-    "44_readings_max": 155,
+    "1491_readings_max": 169,
     "326_Hz": 141,
+    "2169_wl": 141,
     "87_Hz": 141,
-    "263_Hz": 141,
-    "287_readings_max": 162,
-    "53_Hz": 141,
+    "2397_readings_max": 169,
     "379_Hz": 141,
     "236_readings_max": 162,
     "11_Hz": 141,
     "195_Hz": 141,
-    "34_readings_max": 155,
     "224_readings_max": 162,
-    "348_Hz": 141,
+    "2142_readings_max": 169,
+    "1950_wl": 141,
     "392_Hz": 141,
-    "66_readings_max": 155,
-    "205_readings_max": 162,
-    "297_readings_max": 162,
     "277_Hz": 141,
+    "2337_readings_max": 169,
     "297_Hz": 141,
     "99_Hz": 141,
-    "24_readings_max": 155,
-    "357_Hz": 141,
-    "116_Hz": 141,
-    "33_Hz": 141,
+    "1803_readings_max": 169,
+    "1311_wl": 148,
+    "1359_readings_max": 169,
     "266_readings_max": 162,
     "171_Hz": 141,
-    "65_Hz": 141,
+    "1242_readings_max": 169,
+    "2310_wl": 141,
     "55_readings_max": 155,
     "265_Hz": 141,
-    "148_Hz": 141,
+    "2217_readings_max": 169,
+    "2100_readings_max": 169,
     "314_Hz": 141,
+    "1425_wl": 148,
     "183_Hz": 141,
-    "180_readings_max": 162,
+    "1284_readings_max": 169,
     "204_readings_max": 162,
     "380_Hz": 141,
-    "255_readings_max": 162,
-    "369_Hz": 141,
-    "6_Hz": 141,
-    "225_readings_max": 162,
+    "1773_wl": 141,
+    "1329_readings_max": 169,
     "208_Hz": 141,
+    "1875_readings_max": 169,
     "296_readings_max": 162,
-    "77_Hz": 141,
+    "1728_wl": 148,
+    "2190_wl": 141,
     "253_Hz": 141,
-    "336_Hz": 141,
-    "395_readings_max": 162,
+    "2367_readings_max": 169,
+    "1602_wl": 148,
     "25_readings_max": 155,
-    "104_Hz": 141,
-    "235_readings_max": 162,
-    "21_Hz": 141,
+    "1785_wl": 141,
     "286_readings_max": 162,
-    "231_Hz": 141,
+    "2172_readings_max": 169,
     "35_readings_max": 155,
+    "1479_readings_max": 169,
+    "1437_wl": 148,
+    "1311_readings_max": 169,
     "302_Hz": 141,
+    "1461_readings_max": 169,
+    "2145_wl": 141,
+    "1536_readings_max": 169,
     "99_readings_max": 155,
     "14_Hz": 141,
-    "373_readings_max": 162,
-    "129_readings_max": 162,
-    "295_readings_max": 162,
+    "1614_readings_max": 169,
+    "2337_wl": 141,
     "95_Hz": 141,
-    "207_readings_max": 162,
+    "1986_wl": 141,
+    "1482_wl": 148,
     "260_readings_max": 162,
     "171_readings_max": 162,
+    "1983_readings_max": 169,
     "41_readings_max": 155,
+    "1401_wl": 148,
     "198_Hz": 141,
-    "267_Hz": 141,
-    "301_Hz": 141,
+    "1548_readings_max": 169,
     "396_readings_max": 162,
+    "1626_readings_max": 169,
     "218_readings_max": 162,
-    "152_Hz": 141,
-    "61_Hz": 141,
+    "2058_readings_max": 169,
     "362_readings_max": 162,
-    "182_readings_max": 162,
+    "1839_readings_max": 169,
+    "1332_wl": 148,
+    "2040_wl": 141,
     "117_Hz": 141,
     "335_Hz": 141,
-    "48_Hz": 141,
-    "52_readings_max": 155,
+    "1905_wl": 141,
+    "1974_wl": 141,
+    "1230_wl": 155,
     "105_Hz": 141,
     "130_Hz": 141,
     "371_Hz": 141,
+    "1917_wl": 141,
     "233_Hz": 141,
     "63_readings_max": 155,
     "193_readings_max": 162,
-    "243_Hz": 141,
     "65_readings_max": 155,
+    "1401_readings_max": 169,
     "186_Hz": 141,
+    "1278_readings_max": 169,
+    "1470_wl": 148,
     "77_readings_max": 155,
-    "36_Hz": 141,
-    "393_Hz": 141,
-    "255_Hz": 141,
-    "73_Hz": 141,
+    "1413_wl": 148,
+    "2292_readings_max": 169,
+    "1998_wl": 141,
+    "1512_readings_max": 169,
+    "2136_readings_max": 169,
+    "2280_readings_max": 169,
+    "1320_wl": 155,
+    "1254_readings_max": 169,
+    "2325_wl": 141,
     "221_Hz": 141,
-    "164_Hz": 141,
-    "30_readings_max": 155,
+    "2268_wl": 141,
     "384_readings_max": 162,
-    "271_readings_max": 162,
-    "160_readings_max": 162,
+    "1995_readings_max": 169,
+    "1962_wl": 141,
+    "1425_readings_max": 169,
     "323_Hz": 141,
-    "273_readings_max": 162,
     "8_Hz": 141,
-    "107_Hz": 141,
-    "127_readings_max": 162,
+    "1908_readings_max": 169,
+    "2301_wl": 141,
+    "1392_wl": 148,
+    "2205_readings_max": 169,
     "311_Hz": 141,
-    "0_readings_max": 148,
-    "24_Hz": 141,
+    "1254_wl": 155,
+    "1929_wl": 141,
     "383_Hz": 141,
     "398_readings_max": 162,
-    "280_Hz": 141,
-    "85_Hz": 141,
-    "139_Hz": 141,
+    "1794_readings_max": 169,
+    "2121_wl": 141,
     "43_readings_max": 155,
-    "54_readings_max": 155,
-    "345_Hz": 141,
+    "1770_wl": 148,
     "395_Hz": 141,
     "216_readings_max": 162,
-    "211_Hz": 141,
-    "50_readings_max": 155,
+    "1815_readings_max": 169,
     "162_Hz": 141,
     "257_Hz": 141,
+    "1692_readings_max": 169,
+    "1389_readings_max": 169,
     "329_readings_max": 162,
-    "107_readings_max": 162,
+    "2112_readings_max": 169,
+    "2091_readings_max": 169,
+    "2325_readings_max": 169,
     "51_Hz": 141,
     "104_readings_max": 162,
+    "2313_wl": 141,
+    "1347_readings_max": 169,
     "289_Hz": 141,
     "195_readings_max": 162,
+    "1605_wl": 148,
     "305_readings_max": 162,
-    "227_readings_max": 162,
+    "1323_readings_max": 169,
     "309_readings_max": 162,
-    "279_Hz": 141,
-    "97_Hz": 141,
+    "1782_wl": 141,
     "118_readings_max": 162,
     "298_readings_max": 162,
-    "393_readings_max": 162,
-    "140_Hz": 141,
-    "223_Hz": 141,
-    "196_Hz": 141,
-    "12_Hz": 141,
+    "1380_wl": 148,
     "129_Hz": 141,
     "138_readings_max": 162,
+    "1467_readings_max": 169,
     "290_Hz": 141,
     "63_Hz": 141,
     "284_readings_max": 162,
-    "74_readings_max": 155,
-    "333_Hz": 141,
-    "361_Hz": 141,
+    "1200_readings_max": 143,
+    "1737_readings_max": 169,
+    "1770_readings_max": 169,
+    "1242_wl": 155,
+    "2034_readings_max": 169,
+    "1335_wl": 155,
     "245_Hz": 141,
     "46_Hz": 141,
-    "88_readings_max": 155,
     "174_Hz": 141,
-    "387_readings_max": 162,
     "178_Hz": 141,
-    "321_Hz": 141,
-    "373_Hz": 141,
-    "132_Hz": 141,
-    "235_Hz": 141,
-    "10_readings_max": 155,
+    "2016_readings_max": 169,
     "83_readings_max": 155,
-    "28_Hz": 141,
+    "1719_readings_max": 169,
     "327_readings_max": 162,
-    "113_readings_max": 162,
-    "81_Hz": 141,
+    "2385_readings_max": 169,
+    "1524_wl": 148,
     "270_Hz": 141,
-    "249_readings_max": 162,
+    "2220_wl": 141,
+    "1713_wl": 148,
     "342_readings_max": 162,
     "151_readings_max": 162,
+    "1347_wl": 155,
+    "1674_wl": 148,
+    "1380_readings_max": 169,
     "102_readings_max": 162,
+    "1725_wl": 148,
     "19_readings_max": 155,
-    "253_readings_max": 162,
     "166_Hz": 141,
     "201_Hz": 141,
-    "109_readings_max": 162,
+    "1851_wl": 141,
     "202_readings_max": 162,
-    "247_Hz": 141,
-    "68_readings_max": 155,
-    "120_Hz": 141,
-    "316_readings_max": 162,
-    "291_readings_max": 162,
-    "16_Hz": 141,
-    "149_readings_max": 162,
-    "162_readings_max": 162,
+    "1236_readings_max": 169,
+    "1443_readings_max": 169,
+    "1512_wl": 148,
+    "1266_wl": 155,
+    "2232_wl": 141,
+    "2370_wl": 141,
     "242_readings_max": 162,
     "240_readings_max": 162,
     "58_Hz": 141,
-    "93_Hz": 141,
-    "164_readings_max": 162,
-    "144_Hz": 141,
-    "385_Hz": 141,
+    "2223_readings_max": 169,
+    "2301_readings_max": 169,
+    "2319_readings_max": 169,
     "380_readings_max": 162,
     "269_Hz": 141,
-    "156_Hz": 141,
     "61_readings_max": 155,
     "79_readings_max": 155,
     "378_readings_max": 162,
     "213_Hz": 141,
+    "1863_wl": 141,
     "343_Hz": 141,
     "349_readings_max": 162,
-    "289_readings_max": 162,
+    "1209_wl": 162,
     "294_Hz": 141,
     "400_Hz": 141,
     "351_Hz": 141,
+    "2076_readings_max": 169,
     "382_readings_max": 162,
-    "331_readings_max": 162,
-    "119_Hz": 141,
-    "32_readings_max": 155,
+    "1359_wl": 148,
+    "1365_readings_max": 169,
+    "1662_wl": 148,
     "238_readings_max": 162,
-    "209_readings_max": 162,
-    "293_readings_max": 162,
-    "371_readings_max": 162,
-    "260_Hz": 141,
-    "111_readings_max": 162,
-    "188_Hz": 141,
+    "2196_readings_max": 169,
+    "2274_readings_max": 169,
+    "1698_wl": 148,
+    "1617_wl": 148,
+    "2244_wl": 141,
     "331_Hz": 141,
     "142_Hz": 141,
     "225_Hz": 141,
-    "28_readings_max": 155,
+    "1779_readings_max": 169,
     "262_readings_max": 162,
     "340_readings_max": 162,
-    "184_readings_max": 162,
+    "1305_readings_max": 169,
+    "1581_wl": 148,
     "360_readings_max": 162,
+    "1752_readings_max": 169,
     "153_readings_max": 162,
     "38_Hz": 141,
     "59_readings_max": 155,
     "110_Hz": 141,
+    "1701_readings_max": 169,
     "71_Hz": 141,
     "5_readings_max": 148,
-    "292_Hz": 141,
-    "251_readings_max": 162,
-    "391_readings_max": 162,
     "200_readings_max": 162,
-    "308_Hz": 141,
-    "318_readings_max": 162,
+    "1548_wl": 148,
+    "2382_wl": 141,
+    "1806_wl": 141,
     "363_Hz": 141,
-    "142_readings_max": 162,
-    "351_readings_max": 162,
-    "176_Hz": 141,
+    "1977_readings_max": 169,
+    "2256_wl": 141,
     "237_Hz": 141,
+    "1632_readings_max": 169,
+    "1701_wl": 148,
     "375_Hz": 141,
-    "338_readings_max": 162,
+    "1593_wl": 148,
     "109_Hz": 141,
+    "1554_readings_max": 169,
     "320_readings_max": 162,
-    "92_readings_max": 155,
+    "1926_readings_max": 169,
+    "2079_wl": 141,
     "26_Hz": 141,
+    "1686_wl": 148,
+    "2349_wl": 141,
     "307_readings_max": 162,
     "282_Hz": 141,
-    "211_readings_max": 162,
+    "1629_wl": 148,
     "83_Hz": 141,
-    "229_readings_max": 162,
     "282_readings_max": 162,
     "154_Hz": 141,
-    "231_readings_max": 162,
-    "259_Hz": 141,
-    "397_Hz": 141,
+    "2394_wl": 141,
+    "2343_readings_max": 169,
+    "1536_wl": 148,
     "21_readings_max": 155,
     "173_readings_max": 162,
     "39_readings_max": 155,
     "122_readings_max": 162,
-    "203_Hz": 141,
-    "389_readings_max": 162,
-    "72_readings_max": 155,
+    "1278_wl": 155,
+    "1881_readings_max": 169,
+    "1899_readings_max": 169,
+    "1551_readings_max": 169,
     "300_readings_max": 162,
-    "66_Hz": 141,
     "20_Hz": 141,
     "144_readings_max": 162,
-    "358_readings_max": 162,
+    "1395_readings_max": 169,
+    "2241_readings_max": 169,
+    "2085_readings_max": 169,
     "167_readings_max": 162,
     "1_Hz": 141,
     "376_Hz": 141,
     "364_Hz": 141,
-    "135_Hz": 141,
     "323_readings_max": 162,
-    "132_readings_max": 162,
+    "1968_readings_max": 169,
+    "1968_wl": 141,
     "312_readings_max": 162,
-    "215_Hz": 141,
-    "123_Hz": 141,
     "156_readings_max": 162,
-    "7_readings_max": 148,
     "311_readings_max": 162,
     "169_Hz": 141,
-    "296_Hz": 141,
     "6_readings_max": 148,
     "155_readings_max": 162,
     "250_Hz": 141,
     "91_readings_max": 155,
-    "329_Hz": 141,
-    "90_readings_max": 155,
+    "2265_readings_max": 169,
     "369_readings_max": 162,
-    "357_readings_max": 162,
+    "1407_readings_max": 169,
     "145_readings_max": 162,
     "359_readings_max": 162,
-    "143_readings_max": 162,
-    "111_Hz": 141,
-    "147_Hz": 141,
+    "1587_readings_max": 169,
     "388_Hz": 141,
-    "317_Hz": 141,
-    "168_readings_max": 162,
+    "1956_wl": 141,
+    "1932_readings_max": 169,
     "166_readings_max": 162,
-    "272_Hz": 141,
-    "227_Hz": 141,
+    "1419_readings_max": 169,
     "133_readings_max": 162,
     "131_readings_max": 162,
-    "192_Hz": 141,
     "19_Hz": 141,
-    "42_Hz": 141,
     "345_readings_max": 162,
-    "347_readings_max": 162,
+    "1563_readings_max": 169,
+    "1944_readings_max": 169,
     "249_Hz": 141,
-    "78_Hz": 141,
-    "335_readings_max": 162,
-    "354_Hz": 141,
-    "121_readings_max": 162,
+    "2298_readings_max": 169,
     "340_Hz": 141,
     "178_readings_max": 162,
     "170_Hz": 141,
     "333_readings_max": 162,
-    "302_readings_max": 162,
     "356_readings_max": 162,
-    "180_Hz": 141,
-    "91_Hz": 141,
-    "239_Hz": 141,
-    "165_readings_max": 162,
     "145_Hz": 141,
-    "169_readings_max": 162,
+    "1749_wl": 148,
     "274_Hz": 141,
-    "325_readings_max": 162,
     "130_readings_max": 162,
     "56_Hz": 141,
-    "321_readings_max": 162,
     "81_readings_max": 155,
     "134_readings_max": 162,
-    "305_Hz": 141,
-    "179_Hz": 141,
-    "366_Hz": 141,
-    "8_readings_max": 148,
-    "240_Hz": 141,
-    "3_Hz": 141,
+    "1374_readings_max": 169,
+    "1740_readings_max": 169,
+    "1608_readings_max": 169,
+    "1911_readings_max": 169,
     "367_readings_max": 162,
-    "4_readings_max": 148,
+    "1965_readings_max": 169,
     "339_Hz": 141,
     "205_Hz": 141,
-    "154_readings_max": 162,
-    "100_readings_max": 162,
-    "30_Hz": 141,
+    "2040_readings_max": 169,
     "113_Hz": 141,
-    "158_readings_max": 162,
+    "2262_readings_max": 169,
     "141_readings_max": 162,
     "199_readings_max": 162,
     "262_Hz": 141,
     "101_Hz": 141,
     "94_readings_max": 155,
-    "110_readings_max": 162,
+    "1743_readings_max": 169,
+    "2277_readings_max": 169,
+    "1650_wl": 148,
     "301_readings_max": 162,
     "326_readings_max": 162,
     "80_readings_max": 155,
-    "378_Hz": 141,
     "322_readings_max": 162,
     "68_Hz": 141,
-    "284_Hz": 141,
+    "1566_readings_max": 169,
     "217_Hz": 141,
     "189_readings_max": 162,
-    "346_readings_max": 162,
-    "175_readings_max": 162,
-    "332_readings_max": 162,
-    "29_Hz": 141,
+    "1788_readings_max": 169,
     "120_readings_max": 162,
-    "336_readings_max": 162,
+    "1218_readings_max": 169,
     "70_readings_max": 155,
-    "179_readings_max": 162,
+    "1341_wl": 148,
     "327_Hz": 141,
     "157_Hz": 141,
-    "124_readings_max": 162,
-    "354_readings_max": 162,
+    "1737_wl": 148,
     "148_readings_max": 162,
-    "264_Hz": 141,
     "304_readings_max": 162,
-    "198_readings_max": 162,
-    "103_Hz": 141,
+    "1341_readings_max": 169,
+    "1518_wl": 148,
     "315_Hz": 141,
     "149_Hz": 141,
-    "184_Hz": 141,
+    "2007_wl": 141,
     "229_Hz": 141,
     "52_Hz": 141,
     "95_readings_max": 155,
-    "186_readings_max": 162,
     "2_readings_max": 148,
-    "391_Hz": 141,
-    "280_readings_max": 162,
-    "349_Hz": 141,
+    "1914_readings_max": 169,
+    "2295_wl": 141,
+    "2211_readings_max": 169,
+    "2214_wl": 141,
     "366_readings_max": 162,
-    "365_readings_max": 162,
+    "2118_readings_max": 169,
+    "2283_wl": 141,
+    "1353_wl": 148,
     "356_Hz": 141,
-    "34_Hz": 141,
-    "172_Hz": 141,
-    "140_readings_max": 162,
-    "86_Hz": 141,
+    "1794_wl": 141,
     "315_readings_max": 162,
+    "1392_readings_max": 169,
     "355_readings_max": 162,
     "64_Hz": 141,
-    "147_readings_max": 162,
-    "290_readings_max": 162,
-    "353_readings_max": 162,
-    "22_Hz": 141,
-    "376_readings_max": 162,
+    "1506_wl": 148,
+    "2226_wl": 141,
+    "1581_readings_max": 169,
     "3_readings_max": 148,
+    "1365_wl": 148,
     "150_Hz": 141,
     "230_Hz": 141,
-    "343_readings_max": 162,
-    "288_Hz": 141,
-    "1_readings_max": 148,
-    "150_readings_max": 162,
     "303_Hz": 141,
+    "2019_wl": 141,
     "5_Hz": 141,
-    "135_readings_max": 162,
     "368_Hz": 141,
-    "207_Hz": 141,
     "125_Hz": 141,
-    "337_Hz": 141,
     "137_readings_max": 162,
-    "98_Hz": 141,
-    "176_readings_max": 162,
-    "85_readings_max": 155,
-    "125_readings_max": 162,
-    "252_Hz": 141,
-    "146_readings_max": 162,
+    "1599_wl": 148,
+    "2271_wl": 141,
+    "2307_readings_max": 169,
+    "2247_readings_max": 169,
+    "1812_wl": 141,
+    "2064_wl": 141,
+    "1377_wl": 148,
+    "2259_readings_max": 169,
+    "1575_wl": 148,
     "115_readings_max": 162,
-    "375_readings_max": 162,
-    "219_Hz": 141,
+    "1725_readings_max": 169,
     "188_readings_max": 162,
-    "10_Hz": 141,
     "194_Hz": 141,
-    "97_readings_max": 155,
+    "2238_wl": 141,
+    "1530_readings_max": 169,
     "286_Hz": 141,
-    "127_Hz": 141,
+    "1755_readings_max": 169,
+    "1599_readings_max": 169,
+    "2178_wl": 141,
     "44_Hz": 141,
     "9_readings_max": 148,
-    "157_readings_max": 162,
-    "364_readings_max": 162,
+    "2052_readings_max": 169,
+    "1251_wl": 155,
     "76_Hz": 141,
     "254_Hz": 141,
-    "314_readings_max": 162,
-    "313_readings_max": 162,
-    "325_Hz": 141,
-    "159_Hz": 141,
-    "303_readings_max": 162,
-    "197_readings_max": 162,
-    "220_Hz": 141,
+    "1389_wl": 148,
+    "1587_wl": 148,
+    "1212_readings_max": 169,
     "182_Hz": 141,
-    "313_Hz": 141,
     "116_readings_max": 162,
-    "54_Hz": 141,
-    "276_Hz": 141,
     "381_Hz": 141,
-    "187_readings_max": 162,
+    "2085_wl": 141,
     "137_Hz": 141,
-    "96_readings_max": 155,
-    "324_readings_max": 162,
+    "2052_wl": 141,
+    "1776_readings_max": 169,
     "88_Hz": 141,
     "347_Hz": 141,
     "242_Hz": 141,
     "344_readings_max": 162,
-    "136_readings_max": 162,
-    "160_Hz": 141,
+    "2022_readings_max": 169,
     "385_readings_max": 162,
     "298_Hz": 141,
+    "1800_wl": 141,
     "334_readings_max": 162,
-    "86_readings_max": 155,
+    "1362_readings_max": 169,
     "32_Hz": 141,
-    "115_Hz": 141,
     "126_readings_max": 162,
-    "358_Hz": 141,
     "177_readings_max": 162,
-    "37_Hz": 141,
+    "2073_readings_max": 169,
+    "2211_wl": 141,
+    "1860_wl": 141,
+    "2226_readings_max": 169,
+    "1287_wl": 155,
+    "2148_readings_max": 169,
     "72_Hz": 141,
-    "64_readings_max": 155,
+    "1722_wl": 148,
+    "2154_wl": 141,
+    "1206_wl": 162,
+    "1929_readings_max": 169,
     "76_readings_max": 155,
-    "117_readings_max": 162,
-    "244_Hz": 141,
     "308_readings_max": 162,
-    "232_Hz": 141,
-    "175_Hz": 141,
+    "1665_wl": 148,
     "324_Hz": 141,
-    "361_readings_max": 162,
-    "7_Hz": 141,
-    "370_Hz": 141,
+    "1704_readings_max": 169,
+    "1344_wl": 148,
+    "2016_wl": 141,
     "219_readings_max": 162,
-    "106_Hz": 141,
-    "53_readings_max": 155,
     "209_Hz": 141,
     "278_Hz": 141,
-    "187_Hz": 141,
+    "1653_wl": 148,
+    "1596_wl": 148,
     "319_readings_max": 162,
     "141_Hz": 141,
+    "1233_readings_max": 169,
+    "1527_wl": 148,
+    "2361_wl": 141,
     "105_readings_max": 162,
-    "350_readings_max": 162,
-    "194_readings_max": 162,
-    "106_readings_max": 162,
-    "346_Hz": 141,
+    "1710_wl": 148,
+    "2001_readings_max": 169,
+    "1494_wl": 148,
+    "1680_readings_max": 169,
     "128_Hz": 141,
     "153_Hz": 141,
+    "1500_readings_max": 169,
     "374_readings_max": 162,
+    "1266_readings_max": 169,
     "291_Hz": 141,
-    "372_readings_max": 162,
-    "50_Hz": 141,
-    "261_readings_max": 162,
+    "2280_wl": 141,
+    "2028_wl": 141,
+    "1356_wl": 148,
+    "1872_wl": 141,
     "40_readings_max": 155,
     "170_readings_max": 162,
     "359_Hz": 141,
-    "42_readings_max": 155,
-    "139_readings_max": 162,
-    "283_readings_max": 162,
+    "1791_readings_max": 169,
+    "1218_wl": 155,
+    "1308_wl": 148,
+    "1515_wl": 148,
+    "2130_wl": 141,
+    "1263_wl": 155,
     "285_readings_max": 162,
+    "2073_wl": 141,
+    "2373_wl": 141,
     "312_Hz": 141,
-    "75_readings_max": 155,
-    "172_readings_max": 162,
-    "382_Hz": 141,
-    "386_readings_max": 162,
-    "25_Hz": 141,
-    "89_readings_max": 155,
+    "2391_readings_max": 169,
+    "2223_wl": 141,
+    "1299_wl": 155,
+    "2166_wl": 141,
     "266_Hz": 141,
     "87_readings_max": 155,
     "84_Hz": 141,
     "210_Hz": 141,
+    "2037_readings_max": 169,
+    "1458_wl": 148,
     "352_readings_max": 162,
-    "62_Hz": 141,
-    "151_Hz": 141,
-    "161_readings_max": 162,
+    "1434_wl": 148,
     "192_readings_max": 162,
     "270_readings_max": 162,
-    "78_readings_max": 155,
-    "334_Hz": 141,
+    "2247_wl": 141,
+    "1515_readings_max": 169,
     "360_Hz": 141,
-    "394_readings_max": 162,
+    "1569_readings_max": 169,
+    "1437_readings_max": 169,
+    "1803_wl": 141,
     "47_Hz": 141,
-    "306_readings_max": 162,
+    "2385_wl": 141,
+    "2235_wl": 141,
     "281_readings_max": 162,
     "363_readings_max": 162,
-    "13_Hz": 141,
-    "217_readings_max": 162,
-    "103_readings_max": 162,
     "96_Hz": 141,
-    "250_readings_max": 162,
+    "1689_wl": 148,
+    "1446_wl": 148,
+    "2061_wl": 141,
+    "1962_readings_max": 169,
     "181_readings_max": 162,
+    "1230_readings_max": 169,
     "222_Hz": 141,
+    "1572_wl": 148,
+    "2076_wl": 141,
     "108_readings_max": 162,
+    "1953_wl": 141,
+    "2109_wl": 141,
     "197_Hz": 141,
-    "268_Hz": 141,
     "300_Hz": 141,
+    "1368_wl": 148,
     "196_readings_max": 162,
-    "394_Hz": 141,
+    "2229_readings_max": 169,
+    "1539_wl": 148,
     "35_Hz": 141,
-    "128_readings_max": 162,
-    "206_readings_max": 162,
-    "294_readings_max": 162,
-    "256_Hz": 141,
-    "163_Hz": 141,
-    "200_Hz": 141,
-    "118_Hz": 141,
-    "397_readings_max": 162,
+    "2397_wl": 141,
+    "1344_readings_max": 169,
+    "1422_readings_max": 169,
+    "1275_wl": 155,
+    "1677_wl": 148,
     "185_readings_max": 162,
     "98_readings_max": 155,
-    "114_readings_max": 162,
-    "322_Hz": 141,
+    "2142_wl": 141,
     "9_Hz": 141,
     "234_Hz": 141,
+    "1584_wl": 148,
     "372_Hz": 141,
+    "1941_wl": 141,
+    "2088_wl": 141,
     "185_Hz": 141,
+    "2004_wl": 141,
     "84_readings_max": 155,
-    "383_readings_max": 162,
-    "74_Hz": 141,
+    "2304_readings_max": 169,
     "33_readings_max": 155,
     "274_readings_max": 162,
-    "60_readings_max": 155,
-    "155_Hz": 141,
-    "212_Hz": 141,
+    "2133_readings_max": 169,
+    "2292_wl": 141,
     "344_Hz": 141,
+    "1404_readings_max": 169,
     "258_Hz": 141,
     "396_Hz": 141,
     "163_readings_max": 162,
     "241_readings_max": 162,
-    "350_Hz": 141,
-    "339_readings_max": 162,
-    "293_Hz": 141,
+    "1326_readings_max": 169,
+    "2295_readings_max": 169,
+    "1839_wl": 141,
+    "1248_readings_max": 169,
+    "2373_readings_max": 169,
     "392_readings_max": 162,
     "377_readings_max": 162,
-    "309_Hz": 141,
     "22_readings_max": 155,
     "299_readings_max": 162,
+    "1695_readings_max": 169,
+    "1773_readings_max": 169,
+    "1851_readings_max": 169,
+    "2328_wl": 141,
+    "1977_wl": 141,
+    "1836_readings_max": 169,
     "190_Hz": 141,
+    "1758_readings_max": 169,
     "152_readings_max": 162,
     "40_Hz": 141,
     "92_Hz": 141,
-    "17_Hz": 141,
+    "2004_readings_max": 169,
+    "1410_wl": 148,
+    "1629_readings_max": 169,
     "101_readings_max": 162,
-    "310_Hz": 141,
+    "1989_wl": 141,
     "18_readings_max": 155,
     "252_readings_max": 162,
+    "1827_wl": 141,
     "69_readings_max": 155,
     "384_Hz": 141,
-    "281_Hz": 141,
     "159_readings_max": 162,
-    "69_Hz": 141,
     "292_readings_max": 162,
+    "2055_readings_max": 169,
     "39_Hz": 141,
     "370_readings_max": 162,
-    "70_Hz": 141,
+    "1560_wl": 148,
+    "1299_readings_max": 169,
+    "1965_wl": 141,
+    "2316_wl": 141,
+    "1377_readings_max": 169,
+    "1611_readings_max": 169,
     "248_readings_max": 162,
+    "1908_wl": 141,
     "189_Hz": 141,
     "332_Hz": 141,
+    "1800_readings_max": 169,
     "246_Hz": 141,
-    "362_Hz": 141,
+    "1422_wl": 148,
     "263_readings_max": 162,
     "341_readings_max": 162,
+    "1722_readings_max": 169,
     "320_Hz": 141,
     "108_Hz": 141,
     "133_Hz": 141,
+    "1815_wl": 141,
+    "2070_readings_max": 169,
     "230_readings_max": 162,
+    "1707_readings_max": 169,
     "73_readings_max": 155,
-    "20_readings_max": 155,
-    "167_Hz": 141,
+    "2088_readings_max": 169,
     "174_readings_max": 162,
-    "224_Hz": 141,
-    "71_readings_max": 155,
+    "2400_readings_max": 169,
+    "1758_wl": 148,
+    "1215_readings_max": 169,
     "388_readings_max": 162,
     "123_readings_max": 162,
     "319_Hz": 141,
     "62_readings_max": 155,
     "337_readings_max": 162,
     "259_readings_max": 162,
-    "93_readings_max": 155,
     "165_Hz": 141,
-    "379_readings_max": 162,
-    "248_Hz": 141,
+    "1608_wl": 148,
     "202_Hz": 141,
-    "228_readings_max": 162,
-    "131_Hz": 141,
-    "236_Hz": 141,
-    "374_Hz": 141,
+    "1818_readings_max": 169,
+    "1662_readings_max": 169,
+    "1584_readings_max": 169,
+    "1869_readings_max": 169,
     "59_Hz": 141,
     "119_readings_max": 162,
-    "310_readings_max": 162,
+    "1896_wl": 141,
+    "1746_wl": 148,
+    "2322_readings_max": 169,
     "271_Hz": 141,
-    "317_readings_max": 162,
-    "0_Hz": 141,
     "27_Hz": 141,
-    "82_Hz": 141,
-    "398_Hz": 141,
-    "368_readings_max": 162,
-    "342_Hz": 141,
+    "2166_readings_max": 169,
     "51_readings_max": 155,
+    "2115_readings_max": 169,
     "201_readings_max": 162,
     "214_Hz": 141,
     "208_readings_max": 162,
-    "221_readings_max": 162,
+    "1455_readings_max": 169,
     "60_Hz": 141,
     "29_readings_max": 155,
+    "1533_readings_max": 169,
     "352_Hz": 141,
     "11_readings_max": 155,
-    "328_readings_max": 162,
+    "1791_wl": 141,
     "307_Hz": 141,
-    "82_readings_max": 155,
-    "183_readings_max": 162,
-    "49_Hz": 141,
+    "1503_wl": 148,
     "121_Hz": 141,
     "112_readings_max": 162,
     "177_Hz": 141,
+    "1734_wl": 148,
     "15_Hz": 141,
     "348_readings_max": 162,
     "399_readings_max": 162,
-    "94_Hz": 141,
+    "1947_readings_max": 169,
+    "1998_readings_max": 169,
     "381_readings_max": 162,
+    "1980_readings_max": 169,
+    "2244_readings_max": 169,
+    "2304_wl": 141,
+    "330_readings_max": 162,
+    "1641_wl": 148,
+    "1884_wl": 141,
+    "89_Hz": 141,
+    "1992_wl": 141,
+    "1878_readings_max": 169,
+    "2205_wl": 141,
+    "2163_readings_max": 169,
+    "1350_wl": 148,
+    "2286_wl": 141,
+    "1509_readings_max": 169,
+    "26_readings_max": 155,
+    "245_readings_max": 162,
+    "1641_readings_max": 169,
+    "112_Hz": 141,
+    "2175_readings_max": 169,
+    "100_Hz": 141,
+    "341_Hz": 141,
+    "1476_wl": 148,
+    "353_Hz": 141,
+    "1866_readings_max": 169,
+    "269_readings_max": 162,
+    "1911_wl": 141,
+    "257_readings_max": 162,
+    "14_readings_max": 155,
+    "226_Hz": 141,
+    "2151_readings_max": 169,
+    "2298_wl": 141,
+    "1653_readings_max": 169,
+    "2160_wl": 141,
+    "193_Hz": 141,
+    "48_readings_max": 155,
+    "279_readings_max": 162,
+    "1923_wl": 141,
+    "365_Hz": 141,
+    "1407_wl": 148,
+    "2_Hz": 141,
+    "2199_readings_max": 169,
+    "1293_readings_max": 169,
+    "1308_readings_max": 169,
+    "1281_readings_max": 169,
+    "2217_wl": 141,
+    "2274_wl": 141,
+    "90_Hz": 141,
+    "238_Hz": 141,
+    "1509_wl": 148,
+    "2319_wl": 141,
+    "38_readings_max": 155,
+    "1464_wl": 148,
+    "181_Hz": 141,
+    "2172_wl": 141,
+    "36_readings_max": 155,
+    "136_Hz": 141,
+    "2187_readings_max": 169,
+    "1362_wl": 148,
+    "2352_readings_max": 169,
+    "283_Hz": 141,
+    "1566_wl": 148,
+    "12_readings_max": 155,
+    "243_readings_max": 162,
+    "1260_wl": 155,
+    "168_Hz": 141,
+    "2115_wl": 141,
+    "247_readings_max": 162,
+    "1386_wl": 148,
+    "251_Hz": 141,
+    "1935_wl": 141,
+    "328_Hz": 141,
+    "1452_readings_max": 169,
+    "1452_wl": 148,
+    "2007_readings_max": 169,
+    "1947_wl": 141,
+    "267_readings_max": 162,
+    "2310_readings_max": 169,
+    "2229_wl": 141,
+    "213_readings_max": 162,
+    "58_readings_max": 155,
+    "1374_wl": 148,
+    "2376_readings_max": 169,
+    "2082_wl": 141,
+    "1494_readings_max": 169,
+    "377_Hz": 141,
+    "16_readings_max": 155,
+    "41_Hz": 141,
+    "223_readings_max": 162,
+    "1842_readings_max": 169,
+    "124_Hz": 141,
+    "1665_readings_max": 169,
+    "295_Hz": 141,
+    "2307_wl": 141,
+    "1980_wl": 141,
+    "400_readings_max": 162,
+    "2103_wl": 141,
+    "2094_wl": 141,
+    "57_Hz": 141,
+    "316_Hz": 141,
+    "389_Hz": 141,
+    "1578_wl": 148,
+    "233_readings_max": 162,
+    "1440_wl": 148,
+    "237_readings_max": 162,
+    "1251_readings_max": 169,
+    "1689_readings_max": 169,
+    "287_Hz": 141,
+    "1263_readings_max": 169,
+    "1824_readings_max": 169,
+    "206_Hz": 141,
+    "161_Hz": 141,
+    "190_readings_max": 162,
+    "2121_readings_max": 169,
+    "1656_wl": 148,
+    "1296_wl": 148,
+    "2352_wl": 141,
+    "1338_readings_max": 169,
+    "1845_wl": 141,
+    "1731_wl": 148,
+    "1668_wl": 148,
+    "215_readings_max": 162,
+    "56_readings_max": 155,
+    "1275_readings_max": 169,
+    "1812_readings_max": 169,
+    "299_Hz": 141,
+    "1203_wl": 162,
+    "275_Hz": 141,
+    "203_readings_max": 162,
+    "1530_wl": 148,
+    "304_Hz": 141,
+    "277_readings_max": 162,
+    "46_readings_max": 155,
+    "275_readings_max": 162,
+    "1398_wl": 148,
+    "2364_wl": 141,
+    "45_Hz": 141,
+    "390_Hz": 141,
+    "1896_readings_max": 169,
+    "2193_readings_max": 169,
+    "218_Hz": 141,
+    "2208_readings_max": 169,
+    "1488_readings_max": 169,
+    "1554_wl": 148,
+    "265_readings_max": 162,
+    "173_Hz": 141,
+    "44_readings_max": 155,
+    "1302_readings_max": 169,
+    "1470_readings_max": 169,
+    "2346_readings_max": 169,
+    "1215_wl": 162,
+    "263_Hz": 141,
+    "1884_readings_max": 169,
+    "1857_wl": 141,
+    "2181_readings_max": 169,
+    "287_readings_max": 162,
+    "53_Hz": 141,
+    "1959_wl": 141,
+    "1821_wl": 141,
+    "2340_readings_max": 169,
+    "2358_readings_max": 169,
+    "34_readings_max": 155,
+    "1635_readings_max": 169,
+    "1239_wl": 155,
+    "348_Hz": 141,
+    "66_readings_max": 155,
+    "205_readings_max": 162,
+    "297_readings_max": 162,
+    "2376_wl": 141,
+    "24_readings_max": 155,
+    "357_Hz": 141,
+    "1647_readings_max": 169,
+    "116_Hz": 141,
+    "33_Hz": 141,
+    "65_Hz": 141,
+    "2262_wl": 141,
+    "148_Hz": 141,
+    "1482_readings_max": 169,
+    "180_readings_max": 162,
+    "1227_wl": 155,
+    "1440_readings_max": 169,
+    "1272_wl": 155,
+    "2169_readings_max": 169,
+    "255_readings_max": 162,
+    "2019_readings_max": 169,
+    "369_Hz": 141,
+    "6_Hz": 141,
+    "225_readings_max": 162,
+    "1833_wl": 141,
+    "77_Hz": 141,
+    "336_Hz": 141,
+    "2388_readings_max": 169,
+    "2370_readings_max": 169,
+    "395_readings_max": 162,
+    "1854_readings_max": 169,
+    "1410_readings_max": 169,
+    "1677_readings_max": 169,
+    "1542_wl": 148,
+    "104_Hz": 141,
+    "1284_wl": 155,
+    "235_readings_max": 162,
+    "21_Hz": 141,
+    "1527_readings_max": 169,
+    "1890_wl": 141,
+    "2250_wl": 141,
+    "231_Hz": 141,
+    "2388_wl": 141,
+    "1458_readings_max": 169,
+    "2097_wl": 141,
+    "373_readings_max": 162,
+    "129_readings_max": 162,
+    "295_readings_max": 162,
+    "207_readings_max": 162,
+    "2316_readings_max": 169,
+    "267_Hz": 141,
+    "301_Hz": 141,
+    "2214_readings_max": 169,
+    "152_Hz": 141,
+    "61_Hz": 141,
+    "2328_readings_max": 169,
+    "182_readings_max": 162,
+    "1551_wl": 148,
+    "1848_wl": 141,
+    "48_Hz": 141,
+    "52_readings_max": 155,
+    "243_Hz": 141,
+    "1824_wl": 141,
+    "1767_wl": 148,
+    "2025_readings_max": 169,
+    "2103_readings_max": 169,
+    "1563_wl": 148,
+    "36_Hz": 141,
+    "393_Hz": 141,
+    "1917_readings_max": 169,
+    "255_Hz": 141,
+    "73_Hz": 141,
+    "2118_wl": 141,
+    "164_Hz": 141,
+    "30_readings_max": 155,
+    "1806_readings_max": 169,
+    "271_readings_max": 162,
+    "160_readings_max": 162,
+    "273_readings_max": 162,
+    "1620_wl": 148,
+    "2049_readings_max": 169,
+    "107_Hz": 141,
+    "2049_wl": 141,
+    "127_readings_max": 162,
+    "2127_readings_max": 169,
+    "1893_wl": 141,
+    "0_readings_max": 148,
+    "24_Hz": 141,
+    "280_Hz": 141,
+    "85_Hz": 141,
+    "1872_readings_max": 169,
+    "139_Hz": 141,
+    "1320_readings_max": 169,
+    "1755_wl": 148,
+    "54_readings_max": 155,
+    "345_Hz": 141,
+    "1545_readings_max": 169,
+    "211_Hz": 141,
+    "50_readings_max": 155,
+    "2199_wl": 141,
+    "1659_readings_max": 169,
+    "1632_wl": 148,
+    "107_readings_max": 162,
+    "1539_readings_max": 169,
+    "1644_wl": 148,
+    "227_readings_max": 162,
+    "1245_readings_max": 169,
+    "279_Hz": 141,
+    "97_Hz": 141,
+    "1743_wl": 148,
+    "1986_readings_max": 169,
+    "393_readings_max": 162,
+    "140_Hz": 141,
+    "223_Hz": 141,
+    "196_Hz": 141,
+    "1881_wl": 141,
+    "12_Hz": 141,
+    "2037_wl": 141,
+    "1479_wl": 148,
+    "1836_wl": 141,
+    "74_readings_max": 155,
+    "333_Hz": 141,
+    "2187_wl": 141,
+    "361_Hz": 141,
+    "2202_wl": 141,
+    "1992_readings_max": 169,
+    "1269_readings_max": 169,
+    "2283_readings_max": 169,
+    "88_readings_max": 155,
+    "1521_readings_max": 169,
+    "387_readings_max": 162,
+    "321_Hz": 141,
+    "1761_readings_max": 169,
+    "1683_readings_max": 169,
+    "373_Hz": 141,
+    "132_Hz": 141,
+    "235_Hz": 141,
+    "10_readings_max": 155,
+    "28_Hz": 141,
+    "113_readings_max": 162,
+    "81_Hz": 141,
+    "249_readings_max": 162,
+    "2163_wl": 141,
+    "1329_wl": 155,
+    "2340_wl": 141,
+    "253_readings_max": 162,
+    "1467_wl": 148,
+    "109_readings_max": 162,
+    "1287_readings_max": 169,
+    "247_Hz": 141,
+    "68_readings_max": 155,
+    "120_Hz": 141,
+    "316_readings_max": 162,
+    "291_readings_max": 162,
+    "2013_wl": 141,
+    "16_Hz": 141,
+    "1455_wl": 148,
+    "2175_wl": 141,
+    "1890_readings_max": 169,
+    "149_readings_max": 162,
+    "1710_readings_max": 169,
+    "162_readings_max": 162,
+    "1398_readings_max": 169,
+    "1317_wl": 148,
+    "1476_readings_max": 169,
+    "93_Hz": 141,
+    "164_readings_max": 162,
+    "144_Hz": 141,
+    "385_Hz": 141,
+    "2334_readings_max": 169,
+    "1497_wl": 148,
+    "156_Hz": 141,
+    "1623_readings_max": 169,
+    "1920_wl": 141,
+    "289_readings_max": 162,
+    "2025_wl": 141,
+    "331_readings_max": 162,
+    "119_Hz": 141,
+    "32_readings_max": 155,
+    "1314_readings_max": 169,
+    "2070_wl": 141,
+    "209_readings_max": 162,
+    "293_readings_max": 162,
+    "371_readings_max": 162,
+    "260_Hz": 141,
+    "1944_wl": 141,
+    "111_readings_max": 162,
+    "188_Hz": 141,
+    "1443_wl": 148,
+    "1227_readings_max": 169,
+    "28_readings_max": 155,
+    "184_readings_max": 162,
+    "1950_readings_max": 169,
+    "2106_wl": 141,
+    "1431_wl": 148,
+    "292_Hz": 141,
+    "251_readings_max": 162,
+    "391_readings_max": 162,
+    "308_Hz": 141,
+    "1932_wl": 141,
+    "1728_readings_max": 169,
+    "318_readings_max": 162,
+    "1305_wl": 148,
+    "142_readings_max": 162,
+    "351_readings_max": 162,
+    "176_Hz": 141,
+    "1503_readings_max": 169,
+    "338_readings_max": 162,
+    "混合物ID": 100,
+    "2001_wl": 141,
+    "2067_readings_max": 169,
+    "92_readings_max": 155,
+    "2145_readings_max": 169,
+    "1356_readings_max": 169,
+    "211_readings_max": 162,
+    "229_readings_max": 162,
+    "1434_readings_max": 169,
+    "231_readings_max": 162,
+    "1779_wl": 141,
+    "259_Hz": 141,
+    "397_Hz": 141,
+    "1200_wl": 100,
+    "1830_readings_max": 169,
+    "2151_wl": 141,
+    "203_Hz": 141,
+    "1848_readings_max": 169,
+    "389_readings_max": 162,
+    "72_readings_max": 155,
+    "2394_readings_max": 169,
+    "2343_wl": 141,
+    "66_Hz": 141,
+    "1293_wl": 155,
+    "358_readings_max": 162,
+    "1956_readings_max": 169,
+    "1854_wl": 141,
+    "2022_wl": 141,
+    "1338_wl": 155,
+    "2253_readings_max": 169,
+    "2097_readings_max": 169,
+    "1533_wl": 148,
+    "135_Hz": 141,
+    "1206_readings_max": 169,
+    "1212_wl": 162,
+    "2148_wl": 141,
+    "132_readings_max": 162,
+    "1647_wl": 148,
+    "215_Hz": 141,
+    "123_Hz": 141,
+    "7_readings_max": 148,
+    "296_Hz": 141,
+    "2136_wl": 141,
+    "2355_wl": 141,
+    "2034_wl": 141,
+    "329_Hz": 141,
+    "90_readings_max": 155,
+    "1383_readings_max": 169,
+    "1326_wl": 155,
+    "357_readings_max": 162,
+    "143_readings_max": 162,
+    "1920_readings_max": 169,
+    "111_Hz": 141,
+    "147_Hz": 141,
+    "317_Hz": 141,
+    "1224_wl": 155,
+    "2331_wl": 141,
+    "168_readings_max": 162,
+    "1371_readings_max": 169,
+    "2109_readings_max": 169,
+    "272_Hz": 141,
+    "227_Hz": 141,
+    "1866_wl": 141,
+    "192_Hz": 141,
+    "2367_wl": 141,
+    "42_Hz": 141,
+    "2286_readings_max": 169,
+    "1557_wl": 148,
+    "1314_wl": 155,
+    "1521_wl": 148,
+    "347_readings_max": 162,
+    "78_Hz": 141,
+    "335_readings_max": 162,
+    "354_Hz": 141,
+    "1659_wl": 148,
+    "121_readings_max": 162,
+    "2124_wl": 141,
+    "1575_readings_max": 169,
+    "302_readings_max": 162,
+    "180_Hz": 141,
+    "2064_readings_max": 169,
+    "91_Hz": 141,
+    "1428_wl": 148,
+    "239_Hz": 141,
+    "1302_wl": 148,
+    "165_readings_max": 162,
+    "169_readings_max": 162,
+    "1935_readings_max": 169,
+    "2379_wl": 141,
+    "325_readings_max": 162,
+    "1989_readings_max": 169,
+    "321_readings_max": 162,
+    "2253_wl": 141,
+    "305_Hz": 141,
+    "179_Hz": 141,
+    "1596_readings_max": 169,
+    "1542_readings_max": 169,
+    "366_Hz": 141,
+    "8_readings_max": 148,
+    "240_Hz": 141,
+    "3_Hz": 141,
+    "4_readings_max": 148,
+    "2241_wl": 141,
+    "154_readings_max": 162,
+    "100_readings_max": 162,
+    "1239_readings_max": 169,
+    "30_Hz": 141,
+    "1248_wl": 155,
+    "1830_wl": 141,
+    "158_readings_max": 162,
+    "1767_readings_max": 169,
+    "1959_readings_max": 169,
+    "1776_wl": 141,
+    "1764_readings_max": 169,
+    "2061_readings_max": 169,
+    "110_readings_max": 162,
+    "1281_wl": 155,
+    "378_Hz": 141,
+    "1545_wl": 148,
+    "2256_readings_max": 169,
+    "2010_wl": 141,
+    "284_Hz": 141,
+    "1590_wl": 148,
+    "2232_readings_max": 169,
+    "1485_wl": 148,
+    "1350_readings_max": 169,
+    "2193_wl": 141,
+    "346_readings_max": 162,
+    "175_readings_max": 162,
+    "332_readings_max": 162,
+    "29_Hz": 141,
+    "1572_readings_max": 169,
+    "1941_readings_max": 169,
+    "336_readings_max": 162,
+    "1842_wl": 141,
+    "179_readings_max": 162,
+    "1236_wl": 155,
+    "124_readings_max": 162,
+    "1809_readings_max": 169,
+    "354_readings_max": 162,
+    "1902_readings_max": 169,
+    "264_Hz": 141,
+    "1746_readings_max": 169,
+    "198_readings_max": 162,
+    "103_Hz": 141,
+    "2031_readings_max": 169,
+    "1707_wl": 148,
+    "184_Hz": 141,
+    "1680_wl": 148,
+    "2043_readings_max": 169,
+    "1902_wl": 141,
+    "186_readings_max": 162,
+    "1416_readings_max": 169,
+    "2268_readings_max": 169,
+    "1995_wl": 141,
+    "391_Hz": 141,
+    "280_readings_max": 162,
+    "349_Hz": 141,
+    "1404_wl": 148,
+    "365_readings_max": 162,
+    "34_Hz": 141,
+    "1473_wl": 148,
+    "172_Hz": 141,
+    "140_readings_max": 162,
+    "86_Hz": 141,
+    "2181_wl": 141,
+    "1617_readings_max": 169,
+    "147_readings_max": 162,
+    "290_readings_max": 162,
+    "1971_wl": 141,
+    "353_readings_max": 162,
+    "1461_wl": 148,
+    "22_Hz": 141,
+    "1797_readings_max": 169,
+    "1611_wl": 148,
+    "376_readings_max": 162,
+    "1209_readings_max": 169,
+    "2082_readings_max": 169,
+    "343_readings_max": 162,
+    "288_Hz": 141,
+    "1_readings_max": 148,
+    "150_readings_max": 162,
+    "1719_wl": 148,
+    "1203_readings_max": 169,
+    "1809_wl": 141,
+    "135_readings_max": 162,
+    "1914_wl": 141,
+    "207_Hz": 141,
+    "337_Hz": 141,
+    "1353_readings_max": 169,
+    "1734_readings_max": 169,
+    "98_Hz": 141,
+    "1764_wl": 148,
+    "176_readings_max": 162,
+    "85_readings_max": 155,
+    "125_readings_max": 162,
+    "1416_wl": 148,
+    "252_Hz": 141,
+    "1785_readings_max": 169,
+    "2220_readings_max": 169,
+    "2112_wl": 141,
+    "146_readings_max": 162,
+    "375_readings_max": 162,
+    "219_Hz": 141,
+    "10_Hz": 141,
+    "97_readings_max": 155,
+    "1623_wl": 148,
+    "127_Hz": 141,
+    "1332_readings_max": 169,
+    "157_readings_max": 162,
+    "1605_readings_max": 169,
+    "1449_readings_max": 169,
+    "364_readings_max": 162,
+    "2094_readings_max": 169,
+    "314_readings_max": 162,
+    "1923_readings_max": 169,
+    "1926_wl": 141,
+    "313_readings_max": 162,
+    "325_Hz": 141,
+    "1557_readings_max": 169,
+    "159_Hz": 141,
+    "1752_wl": 148,
+    "303_readings_max": 162,
+    "197_readings_max": 162,
+    "1692_wl": 148,
+    "2271_readings_max": 169,
+    "2100_wl": 141,
+    "1974_readings_max": 169,
+    "1953_readings_max": 169,
+    "220_Hz": 141,
+    "1740_wl": 148,
+    "313_Hz": 141,
+    "2250_readings_max": 169,
+    "54_Hz": 141,
+    "1635_wl": 148,
+    "276_Hz": 141,
+    "2289_readings_max": 169,
+    "187_readings_max": 162,
+    "96_readings_max": 155,
+    "324_readings_max": 162,
+    "2139_readings_max": 169,
+    "136_readings_max": 162,
+    "160_Hz": 141,
+    "1560_readings_max": 169,
+    "1878_wl": 141,
+    "1983_wl": 141,
+    "86_readings_max": 155,
+    "115_Hz": 141,
+    "1578_readings_max": 169,
+    "358_Hz": 141,
+    "1428_readings_max": 169,
+    "1938_wl": 141,
+    "1893_readings_max": 169,
+    "37_Hz": 141,
+    "64_readings_max": 155,
+    "1971_readings_max": 169,
+    "2190_readings_max": 169,
+    "2238_readings_max": 169,
+    "117_readings_max": 162,
+    "244_Hz": 141,
+    "232_Hz": 141,
+    "175_Hz": 141,
+    "361_readings_max": 162,
+    "7_Hz": 141,
+    "370_Hz": 141,
+    "106_Hz": 141,
+    "53_readings_max": 155,
+    "1590_readings_max": 169,
+    "1221_readings_max": 169,
+    "1602_readings_max": 169,
+    "187_Hz": 141,
+    "1716_readings_max": 169,
+    "1446_readings_max": 169,
+    "350_readings_max": 162,
+    "194_readings_max": 162,
+    "106_readings_max": 162,
+    "1905_readings_max": 169,
+    "346_Hz": 141,
+    "372_readings_max": 162,
+    "2013_readings_max": 169,
+    "50_Hz": 141,
+    "261_readings_max": 162,
+    "42_readings_max": 155,
+    "2124_readings_max": 169,
+    "2202_readings_max": 169,
+    "139_readings_max": 162,
+    "283_readings_max": 162,
+    "1413_readings_max": 169,
+    "75_readings_max": 155,
+    "172_readings_max": 162,
+    "382_Hz": 141,
+    "386_readings_max": 162,
+    "25_Hz": 141,
+    "1524_readings_max": 169,
+    "89_readings_max": 155,
+    "2010_readings_max": 169,
+    "62_Hz": 141,
+    "151_Hz": 141,
+    "161_readings_max": 162,
+    "78_readings_max": 155,
+    "334_Hz": 141,
+    "394_readings_max": 162,
+    "306_readings_max": 162,
+    "13_Hz": 141,
+    "217_readings_max": 162,
+    "103_readings_max": 162,
+    "250_readings_max": 162,
+    "1938_readings_max": 169,
+    "1713_readings_max": 169,
+    "268_Hz": 141,
+    "1869_wl": 141,
+    "394_Hz": 141,
+    "128_readings_max": 162,
+    "206_readings_max": 162,
+    "294_readings_max": 162,
+    "256_Hz": 141,
+    "163_Hz": 141,
+    "2382_readings_max": 169,
+    "200_Hz": 141,
+    "1224_readings_max": 169,
+    "118_Hz": 141,
+    "2157_readings_max": 169,
+    "2079_readings_max": 169,
+    "397_readings_max": 162,
+    "114_readings_max": 162,
+    "322_Hz": 141,
+    "2346_wl": 141,
+    "2349_readings_max": 169,
+    "383_readings_max": 162,
+    "74_Hz": 141,
+    "1638_readings_max": 169,
+    "1368_readings_max": 169,
+    "1671_readings_max": 169,
+    "60_readings_max": 155,
+    "155_Hz": 141,
+    "212_Hz": 141,
+    "350_Hz": 141,
+    "339_readings_max": 162,
+    "293_Hz": 141,
+    "2139_wl": 141,
+    "2106_readings_max": 169,
+    "309_Hz": 141,
+    "1788_wl": 141,
+    "2208_wl": 141,
+    "17_Hz": 141,
+    "310_Hz": 141,
+    "281_Hz": 141,
+    "69_Hz": 141,
+    "1593_readings_max": 169,
+    "2277_wl": 141,
+    "2127_wl": 141,
+    "70_Hz": 141,
+    "2265_wl": 141,
+    "1371_wl": 148,
+    "2235_readings_max": 169,
+    "2358_wl": 141,
+    "2313_readings_max": 169,
+    "362_Hz": 141,
+    "1464_readings_max": 169,
+    "20_readings_max": 155,
+    "167_Hz": 141,
+    "1221_wl": 155,
+    "224_Hz": 141,
+    "71_readings_max": 155,
+    "2196_wl": 141,
+    "1245_wl": 155,
+    "93_readings_max": 155,
+    "379_readings_max": 162,
+    "248_Hz": 141,
+    "1419_wl": 148,
+    "2058_wl": 141,
+    "228_readings_max": 162,
+    "131_Hz": 141,
+    "1335_readings_max": 169,
+    "1395_wl": 148,
+    "236_Hz": 141,
+    "374_Hz": 141,
+    "1386_readings_max": 169,
+    "2364_readings_max": 169,
+    "310_readings_max": 162,
+    "317_readings_max": 162,
+    "0_Hz": 141,
+    "1860_readings_max": 169,
+    "82_Hz": 141,
+    "398_Hz": 141,
+    "368_readings_max": 162,
+    "1569_wl": 148,
+    "342_Hz": 141,
+    "1827_readings_max": 169,
+    "2091_wl": 141,
+    "221_readings_max": 162,
+    "1488_wl": 148,
+    "328_readings_max": 162,
+    "82_readings_max": 155,
+    "183_readings_max": 162,
+    "49_Hz": 141,
+    "2046_readings_max": 169,
+    "1233_wl": 155,
+    "2184_wl": 141,
+    "1290_wl": 148,
+    "2046_wl": 141,
+    "2289_wl": 141,
+    "94_Hz": 141,
     "330_Hz": 141,
+    "1257_readings_max": 169,
+    "1290_readings_max": 169,
+    "1731_readings_max": 169,
+    "1383_wl": 148,
     "143_Hz": 141,
     "239_readings_max": 162,
     "31_readings_max": 155,
-    "330_readings_max": 162,
     "386_Hz": 141,
+    "1782_readings_max": 169,
     "272_readings_max": 162,
-    "199_Hz": 141
+    "199_Hz": 141,
+    "1749_readings_max": 169
   },
   "sorting": [],
   "globalSearchQuery": "",
