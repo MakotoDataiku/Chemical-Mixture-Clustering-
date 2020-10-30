@@ -3,12 +3,42 @@
     {
       "id": "LWvvQoj",
       "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    },
+    {
+      "id": "ZOxYGpi",
+      "grid": {
         "tiles": [
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 0,
+              "left": 0,
+              "width": 2,
+              "height": 2
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "k00aZ7E",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 2,
               "width": 2,
               "height": 2
             },
@@ -26,29 +56,6 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
-              "width": 2,
-              "height": 2
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "SHBSxQP",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -60,11 +67,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604031631480
+    "lastModifiedOn": 1604031655570
   },
   "creationTag": {
     "versionNumber": 0,
