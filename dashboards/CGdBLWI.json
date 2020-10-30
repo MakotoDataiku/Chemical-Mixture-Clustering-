@@ -115,7 +115,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "## アノマリー検知の結果",
+              "text": "# アノマリー検知の結果",
               "textAlign": "CENTER",
               "isTransparent": false
             },
@@ -288,11 +288,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 24,
+    "versionNumber": 25,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604032705857
+    "lastModifiedOn": 1604032708926
   },
   "creationTag": {
     "versionNumber": 0,
