@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603949764282
+    "lastModifiedOn": 1604030655791
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,11 +89,11 @@
   "schema": {
     "columns": [
       {
-        "name": "Hz",
-        "type": "bigint"
+        "name": "Wavelength",
+        "type": "int"
       },
       {
-        "name": "FRF",
+        "name": "混合物ID",
         "type": "string"
       },
       {
