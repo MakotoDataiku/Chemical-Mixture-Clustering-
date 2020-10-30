@@ -39,7 +39,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 0,
+              "left": 2,
               "width": 2,
               "height": 2
             },
@@ -62,7 +62,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 2,
+              "left": 4,
               "width": 2,
               "height": 2
             },
@@ -84,8 +84,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 0,
+              "left": 0,
               "width": 2,
               "height": 2
             },
@@ -114,11 +114,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604031750018
+    "lastModifiedOn": 1604031757145
   },
   "creationTag": {
     "versionNumber": 0,
