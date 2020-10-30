@@ -1,20 +1,23 @@
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Read recipe inputs
 readings = dataiku.Dataset("readings")
-readings_df = readings.get_dataframe()
+df = readings.get_dataframe()
 
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
+l = df.index.values
+l = l * 0.01
 
-# Compute recipe outputs from inputs
-# TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
-# NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
+for c in df.columns.drop("Hz"):
+    df[c] = df[c] * l
 
-readings_new_df = readings_df # For this sample code, simply copy input to output
-
-
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Write recipe outputs
 readings_new = dataiku.Dataset("readings_new")
-readings_new.write_with_schema(readings_new_df)
+readings_new.write_with_schema(df)
