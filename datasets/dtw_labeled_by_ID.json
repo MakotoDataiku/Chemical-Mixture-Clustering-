@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604031055668
+    "lastModifiedOn": 1604031077914
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,7 +91,7 @@
         "type": "string"
       },
       {
-        "name": "2_clust",
+        "name": "Clusters",
         "type": "string"
       },
       {
