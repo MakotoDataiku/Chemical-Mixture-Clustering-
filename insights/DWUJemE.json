@@ -1,0 +1,232 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "readings_new_long",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "def": {
+      "type": "lines",
+      "variant": "normal",
+      "name": "Avg. of readings by Wavelength and 混合物ID",
+      "userEditedName": false,
+      "genericDimension0": [
+        {
+          "column": "Wavelength",
+          "type": "NUMERICAL",
+          "numParams": {
+            "mode": "FIXED_NB",
+            "nbBins": "100",
+            "binSize": 100,
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 100,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of readings, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of readings, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          }
+        }
+      ],
+      "genericDimension1": [
+        {
+          "column": "混合物ID",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of readings, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of readings, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Average of readings, descending"
+          }
+        }
+      ],
+      "facetDimension": [],
+      "animationDimension": [],
+      "genericMeasures": [
+        {
+          "column": "readings",
+          "function": "AVG",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [],
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "includeZero": true,
+      "smoothing": true,
+      "showLegend": true,
+      "showXAxis": false,
+      "showInChartValues": false,
+      "showInChartLabels": true,
+      "strokeWidth": 2,
+      "fillOpacity": 0.6,
+      "showXAxisLabel": true,
+      "showYAxisLabel": true,
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "chartHeight": 200,
+      "singleXAxis": true,
+      "multiTooltips": false,
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "colorOptions": {
+        "singleColor": "#2678B1",
+        "transparency": 0.75,
+        "colorPalette": "default",
+        "ccScaleMode": "NORMAL",
+        "customPalette": {
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "colors": [],
+          "values": [],
+          "fixedValues": false
+        },
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0
+      },
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.5,
+        "gridLatDeg": 0.5
+      },
+      "thumbnailData": "data:image/png;base64,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",
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true,
+      "legendPlacement": "OUTER_RIGHT"
+    },
+    "maxDataBytes": 157286400
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Avg. of readings by Wavelength and 混合物ID on readings_new_long",
+  "dashboardCreationId": "CGdBLWI",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1604031692357
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1604031692357
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
