@@ -39,7 +39,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 2,
+              "left": 10,
               "width": 2,
               "height": 2
             },
@@ -61,8 +61,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 4,
+              "top": 5,
+              "left": 9,
               "width": 2,
               "height": 2
             },
@@ -86,14 +86,14 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 9,
+              "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
               "showXAxis": true,
               "showYAxis": true,
-              "showLegend": false,
+              "showLegend": true,
               "showTooltips": true,
               "autoPlayAnimation": true
             },
@@ -107,16 +107,16 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
-              "width": 2,
-              "height": 2
+              "top": 5,
+              "left": 0,
+              "width": 9,
+              "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
               "showXAxis": true,
               "showYAxis": true,
-              "showLegend": false,
+              "showLegend": true,
               "showTooltips": true,
               "autoPlayAnimation": true
             },
@@ -137,11 +137,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604031777622
+    "lastModifiedOn": 1604031807951
   },
   "creationTag": {
     "versionNumber": 0,
