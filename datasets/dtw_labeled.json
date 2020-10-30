@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1603951251759
+    "lastModifiedOn": 1604023810762
   },
   "creationTag": {
     "versionNumber": 0,
@@ -115,28 +115,16 @@
         "type": "string"
       },
       {
-        "name": "Manufacturer",
-        "type": "string"
-      },
-      {
-        "name": "Type",
-        "type": "string"
-      },
-      {
-        "name": "Size",
+        "name": "物質A",
         "type": "bigint"
       },
       {
-        "name": "MO Class",
-        "type": "string"
+        "name": "物質B",
+        "type": "bigint"
       },
       {
-        "name": "Rim",
-        "type": "string"
-      },
-      {
-        "name": "Frequency",
-        "type": "string"
+        "name": "物質C",
+        "type": "bigint"
       }
     ],
     "userModified": true
