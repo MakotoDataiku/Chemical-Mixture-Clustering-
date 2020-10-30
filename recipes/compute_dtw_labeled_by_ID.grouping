@@ -5,7 +5,37 @@
   },
   "keys": [
     {
-      "column": "混合物ID"
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "last": false,
+      "max": false,
+      "column": "混合物ID",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "2_clust",
+      "count": false,
+      "$idx": 2,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "$selected": false,
+      "stddev": false,
+      "first": false
     }
   ],
   "values": [
@@ -15,8 +45,10 @@
       "firstLastNotNull": false,
       "column": "Wavelength",
       "count": false,
+      "$idx": 0,
       "sum": false,
       "concat": false,
+      "type": "int",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -31,8 +63,10 @@
       "firstLastNotNull": false,
       "column": "readings",
       "count": false,
+      "$idx": 1,
       "sum": false,
       "concat": false,
+      "type": "double",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -43,70 +77,63 @@
     },
     {
       "last": false,
-      "max": false,
-      "firstLastNotNull": false,
-      "column": "2_clust",
-      "count": false,
-      "sum": false,
-      "concat": false,
-      "concatDistinct": false,
-      "sum2": false,
-      "min": false,
-      "countDistinct": false,
-      "avg": false,
-      "stddev": false,
-      "first": false
-    },
-    {
-      "last": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "物質A",
       "count": false,
+      "$idx": 2,
       "sum": false,
       "concat": false,
+      "type": "bigint",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
       "countDistinct": false,
       "avg": false,
+      "$selected": false,
       "stddev": false,
       "first": false
     },
     {
       "last": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "物質B",
       "count": false,
+      "$idx": 3,
       "sum": false,
       "concat": false,
+      "type": "bigint",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
       "countDistinct": false,
       "avg": false,
+      "$selected": false,
       "stddev": false,
       "first": false
     },
     {
       "last": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "物質C",
       "count": false,
+      "$idx": 4,
       "sum": false,
       "concat": false,
+      "type": "bigint",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
       "countDistinct": false,
       "avg": false,
+      "$selected": false,
       "stddev": false,
       "first": false
     }
   ],
-  "globalCount": true,
+  "globalCount": false,
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
@@ -142,8 +169,40 @@
     }
   },
   "enlargeYourBits": true,
+  "outputColumnNameOverrides": {
+    "物質A_max": "物質A",
+    "物質B_max": "物質B",
+    "物質C_max": "物質C"
+  },
   "computedColumns": [],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "混合物ID",
+            "type": "string"
+          },
+          {
+            "name": "2_clust",
+            "type": "string"
+          },
+          {
+            "name": "物質A_max",
+            "type": "bigint"
+          },
+          {
+            "name": "物質B_max",
+            "type": "bigint"
+          },
+          {
+            "name": "物質C_max",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   }
