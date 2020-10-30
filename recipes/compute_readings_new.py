@@ -37,6 +37,15 @@ for c in df.columns.drop("Hz"):
     df[c] = df[c] * l
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
+df.head()
+
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
+hz = df["Hz"] + 1200
+df = df * 0.1 * 0.8
+df["Hz"] = np.linspace(start=1200, stop=2400, num=401)
+df.head()
+
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Write recipe outputs
 readings_new = dataiku.Dataset("readings_new")
 readings_new.write_with_schema(df)
