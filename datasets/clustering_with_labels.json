@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604031912070
+    "lastModifiedOn": 1604031953452
   },
   "creationTag": {
     "versionNumber": 0,
@@ -101,14 +101,6 @@
       {
         "name": "物質C",
         "type": "bigint"
-      },
-      {
-        "name": "Wavelength",
-        "type": "bigint"
-      },
-      {
-        "name": "readings",
-        "type": "double"
       },
       {
         "name": "cluster_labels",
