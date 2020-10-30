@@ -63,7 +63,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 7,
-              "left": 0,
+              "left": 3,
               "width": 7,
               "height": 5
             },
@@ -71,7 +71,7 @@
             "tileParams": {
               "showXAxis": true,
               "showYAxis": true,
-              "showLegend": false,
+              "showLegend": true,
               "showTooltips": true,
               "autoPlayAnimation": true
             },
@@ -85,9 +85,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 13,
+              "top": 7,
               "left": 0,
-              "width": 7,
+              "width": 3,
               "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
@@ -154,6 +154,25 @@
             "clickAction": "DO_NOTHING",
             "tileParams": {
               "text": "## アノマリー検知の結果と混合比率の比較",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 7,
+              "left": 10,
+              "width": 2,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "アノマリーとして検知された混合物15と17は物質A の割合が比較的多い傾向にあることがわかる",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -326,11 +345,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 30,
+    "versionNumber": 31,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604032887210
+    "lastModifiedOn": 1604032961565
   },
   "creationTag": {
     "versionNumber": 0,
