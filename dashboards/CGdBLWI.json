@@ -402,11 +402,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 33,
+    "versionNumber": 34,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604033136542
+    "lastModifiedOn": 1604033144682
   },
   "creationTag": {
     "versionNumber": 0,
