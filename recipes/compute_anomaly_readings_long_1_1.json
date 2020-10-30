@@ -61,7 +61,7 @@
     "main": {
       "items": [
         {
-          "ref": "readings_new",
+          "ref": "readings_new_prepared",
           "deps": []
         }
       ]
@@ -78,11 +78,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604025400195
+    "lastModifiedOn": 1604025691907
   },
   "creationTag": {
     "versionNumber": 0,
