@@ -218,6 +218,44 @@
         "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "FRF",
+            "to": "混合物"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "FRF"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "SUBSTRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "FRF",
+            "to": "混合物ID"
+          }
+        ]
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -229,6 +267,7 @@
   "analysisColumnData": {},
   "columnWidthsByName": {
     "Size": 100,
+    "混合物ID": 100,
     "FRF_13": 100,
     "FRF_12": 100,
     "FRF_11": 100,
