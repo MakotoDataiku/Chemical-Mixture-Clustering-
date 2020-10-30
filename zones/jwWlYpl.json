@@ -1,7 +1,40 @@
 {
   "name": "Clustering",
   "color": "#F9BE40",
-  "items": [],
+  "items": [
+    {
+      "objectId": "clustering_with_labels_by_ID",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_clustering_with_labels_by_ID",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "clustering_with_labels",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_clustering_with_labels",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "clustering_result",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_clustering_result",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "readings_long_clustered",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "cluster_readings_long_pivoted_prep",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
