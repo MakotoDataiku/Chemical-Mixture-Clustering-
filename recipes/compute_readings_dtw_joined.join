@@ -12,7 +12,7 @@
       "on": [
         {
           "column1": {
-            "name": "FRF",
+            "name": "混合物ID",
             "table": 0
           },
           "column2": {
@@ -27,12 +27,12 @@
   ],
   "selectedColumns": [
     {
-      "name": "Hz",
-      "type": "bigint",
+      "name": "Wavelength",
+      "type": "int",
       "table": 0
     },
     {
-      "name": "FRF",
+      "name": "混合物ID",
       "type": "string",
       "table": 0
     },
@@ -98,13 +98,7 @@
   },
   "virtualInputs": [
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "autoSelectColumns": false,
-      "index": 0,
-      "computedColumns": []
+      "index": 1
     },
     {
       "preFilter": {
@@ -112,7 +106,7 @@
         "enabled": false
       },
       "autoSelectColumns": false,
-      "index": 1,
+      "index": 0,
       "computedColumns": []
     }
   ],
@@ -122,11 +116,11 @@
       "schema": {
         "columns": [
           {
-            "name": "Hz",
-            "type": "bigint"
+            "name": "Wavelength",
+            "type": "int"
           },
           {
-            "name": "FRF",
+            "name": "混合物ID",
             "type": "string"
           },
           {
