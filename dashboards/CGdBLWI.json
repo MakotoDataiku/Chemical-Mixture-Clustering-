@@ -91,11 +91,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604031692357
+    "lastModifiedOn": 1604031692776
   },
   "creationTag": {
     "versionNumber": 0,
