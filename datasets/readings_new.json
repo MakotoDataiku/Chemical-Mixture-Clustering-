@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604023973143
+    "lastModifiedOn": 1604024360502
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,89 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "Hz",
+        "type": "bigint"
+      },
+      {
+        "name": "FRF_01",
+        "type": "double"
+      },
+      {
+        "name": "FRF_02",
+        "type": "double"
+      },
+      {
+        "name": "FRF_03",
+        "type": "double"
+      },
+      {
+        "name": "FRF_04",
+        "type": "double"
+      },
+      {
+        "name": "FRF_05",
+        "type": "double"
+      },
+      {
+        "name": "FRF_06",
+        "type": "double"
+      },
+      {
+        "name": "FRF_07",
+        "type": "double"
+      },
+      {
+        "name": "FRF_08",
+        "type": "double"
+      },
+      {
+        "name": "FRF_09",
+        "type": "double"
+      },
+      {
+        "name": "FRF_10",
+        "type": "double"
+      },
+      {
+        "name": "FRF_11",
+        "type": "double"
+      },
+      {
+        "name": "FRF_12",
+        "type": "double"
+      },
+      {
+        "name": "FRF_13",
+        "type": "double"
+      },
+      {
+        "name": "FRF_14",
+        "type": "double"
+      },
+      {
+        "name": "FRF_15",
+        "type": "double"
+      },
+      {
+        "name": "FRF_16",
+        "type": "double"
+      },
+      {
+        "name": "FRF_17",
+        "type": "double"
+      },
+      {
+        "name": "FRF_18",
+        "type": "double"
+      },
+      {
+        "name": "FRF_19",
+        "type": "double"
+      }
+    ],
+    "userModified": false
   },
   "metrics": {
     "probes": [
