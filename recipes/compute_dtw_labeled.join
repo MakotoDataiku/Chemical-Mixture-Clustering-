@@ -4,22 +4,25 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
       "on": [
         {
           "column1": {
-            "name": "FRF",
+            "name": "混合物ID",
             "table": 0
           },
           "dateDiffUnit": "DAY",
           "column2": {
-            "name": "FRF",
+            "name": "混合物ID",
             "table": 1
           },
           "maxMatches": 1,
           "caseInsensitive": false,
-          "maxDistance": 0,
+          "maxDistance": 1,
           "normalizeText": false,
           "type": "EQ",
           "strict": false
@@ -29,12 +32,12 @@
   ],
   "selectedColumns": [
     {
-      "name": "Hz",
-      "type": "bigint",
+      "name": "Wavelength",
+      "type": "int",
       "table": 0
     },
     {
-      "name": "FRF",
+      "name": "混合物ID",
       "type": "string",
       "table": 0
     },
@@ -139,11 +142,11 @@
       "schema": {
         "columns": [
           {
-            "name": "Hz",
-            "type": "bigint"
+            "name": "Wavelength",
+            "type": "int"
           },
           {
-            "name": "FRF",
+            "name": "混合物ID",
             "type": "string"
           },
           {
