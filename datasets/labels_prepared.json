@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604023772403
+    "lastModifiedOn": 1604030729067
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,7 +87,7 @@
   "schema": {
     "columns": [
       {
-        "name": "FRF",
+        "name": "混合物ID",
         "type": "string"
       },
       {
