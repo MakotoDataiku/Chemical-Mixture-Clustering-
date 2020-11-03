@@ -15,9 +15,9 @@ import numpy as np
 from numpy import inf
 from dtaidistance import dtw
 import matplotlib.pyplot as plt
-from _plotly_future_ import v4_subplots
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+#from _plotly_future_ import v4_subplots
+#import plotly.graph_objects as go
+#from plotly.subplots import make_subplots
 from dtaidistance import dtw
 from dtaidistance import dtw_visualisation as dtwvis
 from dtaidistance import clustering
