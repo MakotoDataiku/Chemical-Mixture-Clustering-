@@ -196,7 +196,6 @@
     }
   },
   "name": "Kaneka Corp. Demo",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -252,11 +251,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 24,
+    "versionNumber": 25,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604036655886
+    "lastModifiedOn": 1605492791791
   },
   "creationTag": {
     "versionNumber": 0,
@@ -266,7 +265,9 @@
     "lastModifiedOn": 1603946975838
   },
   "shortDesc": "The project *Kaneka Corp. Demo* was created by Makoto Miyazaki on Oct 29th 2020",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [

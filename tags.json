@@ -1,11 +1,14 @@
 {
   "tags": {
-    "data-for-basic-chart": {},
-    "dynamic-time-warping": {},
+    "duplicated": {
+      "color": "#3A85AD"
+    },
     "Machine Learning:Pre-processing": {},
-    "clustering": {},
+    "deleted-recipe-editor": {},
+    "data-for-basic-chart": {},
     "anomaly-detection": {},
     "recipe-editor": {},
-    "deleted-recipe-editor": {}
+    "dynamic-time-warping": {},
+    "clustering": {}
   }
 }
