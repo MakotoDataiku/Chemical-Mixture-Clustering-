@@ -195,7 +195,7 @@
       }
     }
   },
-  "name": "Kaneka Corp. Demo",
+  "name": "Chemical Mixture Clustering",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -251,11 +251,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 25,
+    "versionNumber": 26,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605492791791
+    "lastModifiedOn": 1605492794823
   },
   "creationTag": {
     "versionNumber": 0,
@@ -264,7 +264,7 @@
     },
     "lastModifiedOn": 1603946975838
   },
-  "shortDesc": "The project *Kaneka Corp. Demo* was created by Makoto Miyazaki on Oct 29th 2020",
+  "shortDesc": "The project *Kaneka Corp. Demo* was created by Makoto Miyazaki on Oct 29th 2020\nThe project *CHEMICALMIXTURECLUSTERING* was copied from *KANEKACORPDEMO* by Makoto Miyazaki on Nov 16th 2020",
   "tags": [
     "duplicated"
   ],
