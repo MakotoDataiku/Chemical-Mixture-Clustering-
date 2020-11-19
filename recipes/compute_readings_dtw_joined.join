@@ -12,7 +12,7 @@
       "on": [
         {
           "column1": {
-            "name": "混合物ID",
+            "name": "mixtureID",
             "table": 0
           },
           "column2": {
@@ -28,11 +28,11 @@
   "selectedColumns": [
     {
       "name": "Wavelength",
-      "type": "int",
+      "type": "bigint",
       "table": 0
     },
     {
-      "name": "混合物ID",
+      "name": "mixtureID",
       "type": "string",
       "table": 0
     },
@@ -117,10 +117,10 @@
         "columns": [
           {
             "name": "Wavelength",
-            "type": "int"
+            "type": "bigint"
           },
           {
-            "name": "混合物ID",
+            "name": "mixtureID",
             "type": "string"
           },
           {
