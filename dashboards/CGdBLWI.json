@@ -412,7 +412,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "混合物15がまず最初にはじき出され、続いて８，13とはじき出されている。これは当初の予想と合致する分析結果。Hierarchical Clusteringを用いて実装した。",
+              "text": "Mixture 15 is first ejected, followed by 8 and 13. This is an analysis result that matches the initial expectations. Implemented using Hierarchical Clustering.",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -432,11 +432,11 @@
   "name": "Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 50,
+    "versionNumber": 51,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605779292205
+    "lastModifiedOn": 1605779307014
   },
   "creationTag": {
     "versionNumber": 0,
