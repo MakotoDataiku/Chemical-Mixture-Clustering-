@@ -15,10 +15,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_clustering_with_labels",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "clustering_result",
       "objectType": "DATASET"
     },

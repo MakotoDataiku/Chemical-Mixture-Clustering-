@@ -19,10 +19,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_dtw_labeled",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "readings_dtw_joined",
       "objectType": "DATASET"
     },
