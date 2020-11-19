@@ -11,11 +11,11 @@
     "main": {
       "items": [
         {
-          "ref": "clustering_result",
+          "ref": "labels_prepared_1_prepared",
           "deps": []
         },
         {
-          "ref": "labels_prepared_1_prepared",
+          "ref": "clustering_result",
           "deps": []
         }
       ]
@@ -32,11 +32,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605778262384
+    "lastModifiedOn": 1605778359730
   },
   "creationTag": {
     "versionNumber": 0,
