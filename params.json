@@ -77,7 +77,12 @@
       {
         "type": "DATASET",
         "localName": "anomaly_detected",
-        "rules": []
+        "rules": [
+          {
+            "targetProject": "RUN_compute_anomaly_result_2F1PXpf7",
+            "appearOnFlow": true
+          }
+        ]
       }
     ]
   },
@@ -251,11 +256,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 26,
+    "versionNumber": 27,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605492794823
+    "lastModifiedOn": 1605775140990
   },
   "creationTag": {
     "versionNumber": 0,
