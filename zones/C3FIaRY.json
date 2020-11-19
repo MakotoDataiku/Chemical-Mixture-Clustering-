@@ -33,6 +33,10 @@
     {
       "objectId": "compute_readings_dtw",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_dtw_labeled",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
