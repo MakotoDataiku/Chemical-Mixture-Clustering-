@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604030071468
+    "lastModifiedOn": 1605775820825
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,7 +91,7 @@
         "type": "bigint"
       },
       {
-        "name": "混合物ID",
+        "name": "mixtureID",
         "type": "string"
       },
       {
@@ -107,7 +107,7 @@
         "type": "double"
       },
       {
-        "name": "混合物_labeled",
+        "name": "mixture_labeled",
         "type": "string"
       }
     ],
