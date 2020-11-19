@@ -307,7 +307,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "# クラスタリングの結果",
+              "text": "# Clustering results",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -326,7 +326,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "クラスタリングの結果、混合物15だけがひとつのクラスターとして認められ、他はすべて大きな別のクラスターとして分類された。すなわち混合物15がいわゆる「仲間はずれ」だと認識できる。クラスター手法はK-Meansを用い、k\u003d2として計算した",
+              "text": "As a result of clustering, only mixture 15 was recognized as one cluster, and all others were classified as large separate clusters. That is, the mixture 15 can be recognized as an \"anomaly\". The cluster method used K-Means and was calculated with k \u003d 2.",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -345,7 +345,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "# 各クラスター内における混合比率",
+              "text": "# Mixture components in each cluster",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -432,11 +432,11 @@
   "name": "Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 48,
+    "versionNumber": 49,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605779211258
+    "lastModifiedOn": 1605779280389
   },
   "creationTag": {
     "versionNumber": 0,
