@@ -432,11 +432,11 @@
   "name": "Kaneka Corp. Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 39,
+    "versionNumber": 40,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605778831231
+    "lastModifiedOn": 1605778834435
   },
   "creationTag": {
     "versionNumber": 0,
