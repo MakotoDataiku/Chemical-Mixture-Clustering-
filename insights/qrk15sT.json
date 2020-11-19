@@ -72,7 +72,7 @@
       ],
       "genericDimension1": [
         {
-          "column": "混合物_labeled",
+          "column": "mixture_labeled",
           "type": "ALPHANUM",
           "numParams": {
             "emptyBinsMode": "ZEROS"
@@ -101,9 +101,9 @@
             }
           ],
           "sort": {
-            "type": "NATURAL",
-            "label": "Natural ordering",
-            "sortAscending": true
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Average of readings, descending"
           }
         }
       ],
@@ -199,7 +199,6 @@
         "gridLonDeg": 0.5,
         "gridLatDeg": 0.5
       },
-      "thumbnailData": "data:image/png;base64,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\u003d",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true,
       "legendPlacement": "OUTER_RIGHT"
@@ -211,11 +210,11 @@
   "name": "Anomaly Detectionの結果 on anomaly_result",
   "dashboardCreationId": "CGdBLWI",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604031749538
+    "lastModifiedOn": 1605778901201
   },
   "creationTag": {
     "versionNumber": 0,
