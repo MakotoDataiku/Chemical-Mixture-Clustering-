@@ -5,20 +5,6 @@
   },
   "keys": [
     {
-      "countDistinct": false,
-      "min": false,
-      "avg": false,
-      "last": false,
-      "max": false,
-      "column": "混合物ID",
-      "count": false,
-      "sum": false,
-      "concat": false,
-      "type": "string",
-      "stddev": false,
-      "first": false
-    },
-    {
       "last": false,
       "max": false,
       "firstLastNotNull": false,
@@ -28,82 +14,6 @@
       "sum": false,
       "concat": false,
       "type": "string",
-      "concatDistinct": false,
-      "sum2": false,
-      "min": false,
-      "countDistinct": false,
-      "avg": false,
-      "$selected": false,
-      "stddev": false,
-      "first": false
-    },
-    {
-      "last": false,
-      "max": false,
-      "firstLastNotNull": false,
-      "column": "混合物_labeled",
-      "count": false,
-      "$idx": 4,
-      "sum": false,
-      "concat": false,
-      "type": "string",
-      "concatDistinct": false,
-      "sum2": false,
-      "min": false,
-      "countDistinct": false,
-      "avg": false,
-      "$selected": false,
-      "stddev": false,
-      "first": false
-    },
-    {
-      "last": false,
-      "max": false,
-      "firstLastNotNull": false,
-      "column": "物質A",
-      "count": false,
-      "$idx": 0,
-      "sum": false,
-      "concat": false,
-      "type": "bigint",
-      "concatDistinct": false,
-      "sum2": false,
-      "min": false,
-      "countDistinct": false,
-      "avg": false,
-      "$selected": false,
-      "stddev": false,
-      "first": false
-    },
-    {
-      "last": false,
-      "max": false,
-      "firstLastNotNull": false,
-      "column": "物質B",
-      "count": false,
-      "$idx": 0,
-      "sum": false,
-      "concat": false,
-      "type": "bigint",
-      "concatDistinct": false,
-      "sum2": false,
-      "min": false,
-      "countDistinct": false,
-      "avg": false,
-      "$selected": false,
-      "stddev": false,
-      "first": false
-    },
-    {
-      "last": false,
-      "max": false,
-      "firstLastNotNull": false,
-      "column": "物質C",
-      "count": false,
-      "$idx": 0,
-      "sum": false,
-      "concat": false,
-      "type": "bigint",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
@@ -127,6 +37,86 @@
       "sum2": false,
       "min": false,
       "countDistinct": false,
+      "avg": false,
+      "$selected": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "column": "mixtureID",
+      "count": false,
+      "$idx": 0,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "$selected": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "column": "compound_A",
+      "count": false,
+      "$idx": 1,
+      "sum": false,
+      "concat": false,
+      "type": "bigint",
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "$selected": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "column": "compound_B",
+      "count": false,
+      "$idx": 2,
+      "sum": false,
+      "concat": false,
+      "type": "bigint",
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "$selected": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "column": "compound_C",
+      "count": false,
+      "$idx": 3,
+      "sum": false,
+      "concat": false,
+      "type": "bigint",
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "$selected": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "column": "mixture_labeled",
+      "count": false,
+      "$idx": 4,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "countDistinct": false,
+      "min": false,
       "avg": false,
       "$selected": false,
       "stddev": false,
@@ -177,32 +167,32 @@
       "schema": {
         "columns": [
           {
-            "name": "混合物ID",
-            "type": "string"
-          },
-          {
             "name": "cluster_labels",
             "type": "string"
           },
           {
-            "name": "混合物_labeled",
+            "name": "anomaly_score",
+            "type": "double"
+          },
+          {
+            "name": "mixtureID",
             "type": "string"
           },
           {
-            "name": "物質A",
+            "name": "compound_A",
             "type": "bigint"
           },
           {
-            "name": "物質B",
+            "name": "compound_B",
             "type": "bigint"
           },
           {
-            "name": "物質C",
+            "name": "compound_C",
             "type": "bigint"
           },
           {
-            "name": "anomaly_score",
-            "type": "double"
+            "name": "mixture_labeled",
+            "type": "string"
           },
           {
             "name": "count",
