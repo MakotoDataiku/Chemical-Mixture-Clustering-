@@ -393,7 +393,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "# Dynamic Time Warpingを用いたクラスタリング",
+              "text": "# Clustering with Dynamic Time Warping",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -432,11 +432,11 @@
   "name": "Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 49,
+    "versionNumber": 50,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605779280389
+    "lastModifiedOn": 1605779292205
   },
   "creationTag": {
     "versionNumber": 0,
