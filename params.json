@@ -72,7 +72,12 @@
       {
         "type": "DATASET",
         "localName": "readings_long_clustered",
-        "rules": []
+        "rules": [
+          {
+            "targetProject": "RUN_compute_clustering_result_xpE66DPW",
+            "appearOnFlow": true
+          }
+        ]
       },
       {
         "type": "DATASET",
@@ -251,11 +256,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 30,
+    "versionNumber": 31,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605775826995
+    "lastModifiedOn": 1605778095531
   },
   "creationTag": {
     "versionNumber": 0,
