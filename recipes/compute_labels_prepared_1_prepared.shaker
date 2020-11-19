@@ -26,8 +26,35 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "混合物",
+            "to": "mixture"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "mixtureID"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "SUBSTRING"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +62,12 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "compound_C": 100,
+    "compound_B": 100,
+    "compound_A": 100,
+    "mixtureID": 113
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
