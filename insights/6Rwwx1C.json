@@ -32,7 +32,7 @@
       "userEditedName": true,
       "genericDimension0": [
         {
-          "column": "混合物ID",
+          "column": "mixtureID",
           "type": "ALPHANUM",
           "numParams": {
             "emptyBinsMode": "ZEROS"
@@ -51,41 +51,41 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of 物質A, descending"
+              "label": "Average of compound_A, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of 物質A, ascending",
+              "label": "Average of compound_A, ascending",
               "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Average of 物質B, descending"
+              "label": "Average of compound_B, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Average of 物質B, ascending",
+              "label": "Average of compound_B, ascending",
               "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 2,
-              "label": "Average of 物質C, descending"
+              "label": "Average of compound_C, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 2,
-              "label": "Average of 物質C, ascending",
+              "label": "Average of compound_C, ascending",
               "sortAscending": true
             }
           ],
           "sort": {
-            "type": "NATURAL",
-            "label": "Natural ordering",
-            "sortAscending": true
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Average of compound_A, descending"
           }
         }
       ],
@@ -94,7 +94,7 @@
       "animationDimension": [],
       "genericMeasures": [
         {
-          "column": "物質A",
+          "column": "compound_A",
           "function": "AVG",
           "type": "NUMERICAL",
           "displayed": true,
@@ -105,7 +105,7 @@
           "computeModeDim": 0
         },
         {
-          "column": "物質B",
+          "column": "compound_B",
           "function": "AVG",
           "type": "NUMERICAL",
           "displayed": true,
@@ -116,7 +116,7 @@
           "computeModeDim": 0
         },
         {
-          "column": "物質C",
+          "column": "compound_C",
           "function": "AVG",
           "type": "NUMERICAL",
           "displayed": true,
@@ -198,6 +198,7 @@
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
       },
+      "computeMode": "NORMAL",
       "xAxisMode": "NORMAL",
       "yAxisMode": "NORMAL",
       "pieOptions": {
@@ -215,7 +216,6 @@
         "gridLonDeg": 0.5,
         "gridLatDeg": 0.5
       },
-      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABeklEQVRoQ2NkGGGAkZB//9fz7gepYWz87DjU2WB/jHoYLQRIjdXjGxavARlhGRAbQqpeWqunKIbXHX8BTupBlhKOuNjIHiBGDbL6Dcce7QaZH2Al54rLnAPbt4LVOHh6uxLjHqI8TIxBuNRcXtY0F2SJblRdMiXmUEsvzT1MLYdSy5xRD2MrsakVuoPBnNEYHo1hBgaGwZAUqeWG0SQ9mqRHkzTh5iS18hstzBnNw6N5eDQPj+ZhcH942u4H20HZIctVwZMWhQ21zKRaoSVfvgU8GPCw0wfnYAC1HE2MObjcQxMPDwbPj2gPI3ueohhGNggXm5jkRws1uNwzJD1MTJYZ1B4mxgPIqYAY9RR5GJcFpCZpYswhJnkTk32o5mFiPEmqx3CpV6/evgOU5262enrgimFi7CK50CLVk6Q6ghj1xHiYGHcSVWgRY9BQUUOUhwlNtg01eYKzh0PNQ4TcO+phQiE01OVHY3ioxyAh94/GMKEQGuryIy6GAeZm+JLwSbHWAAAAAElFTkSuQmCC",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true,
       "legendPlacement": "OUTER_RIGHT"
@@ -227,11 +227,11 @@
   "name": "レギュラークラスター内の混合比率 on anomaly_with_labels_ID",
   "dashboardCreationId": "CGdBLWI",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604032473194
+    "lastModifiedOn": 1605778951368
   },
   "creationTag": {
     "versionNumber": 0,
