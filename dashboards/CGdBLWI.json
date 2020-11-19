@@ -210,7 +210,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "アノマリーとして検知された混合物15と17は物質A の割合が比較的多い傾向にあることがわかる",
+              "text": "It can be seen that the mixtures 15 and 17 detected as anomalies tend to have a relatively high proportion of substance A.",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -432,11 +432,11 @@
   "name": "Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 47,
+    "versionNumber": 48,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605779188807
+    "lastModifiedOn": 1605779211258
   },
   "creationTag": {
     "versionNumber": 0,
