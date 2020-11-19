@@ -47,11 +47,6 @@
       "table": 0
     },
     {
-      "name": "Wavelength",
-      "type": "bigint",
-      "table": 1
-    },
-    {
       "name": "cluster_labels",
       "type": "string",
       "table": 1
@@ -133,10 +128,6 @@
           },
           {
             "name": "compound_C",
-            "type": "bigint"
-          },
-          {
-            "name": "Wavelength",
             "type": "bigint"
           },
           {
