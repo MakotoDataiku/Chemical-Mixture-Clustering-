@@ -227,11 +227,11 @@
   "name": "クラスター１における混合比率 on clustering_with_labels_by_ID",
   "dashboardCreationId": "CGdBLWI",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605779008989
+    "lastModifiedOn": 1605779018057
   },
   "creationTag": {
     "versionNumber": 0,
