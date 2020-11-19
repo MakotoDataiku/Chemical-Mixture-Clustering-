@@ -77,9 +77,7 @@
       "params": {
         "columns": [
           "Wavelength",
-          "mixture",
           "mixtureID",
-          "mixture_pref",
           "readings"
         ],
         "keep": true,
