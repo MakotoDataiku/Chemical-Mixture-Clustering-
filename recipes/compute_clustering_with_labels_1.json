@@ -11,11 +11,11 @@
     "main": {
       "items": [
         {
-          "ref": "labels_prepared",
+          "ref": "anomaly_result",
           "deps": []
         },
         {
-          "ref": "anomaly_result",
+          "ref": "labels_prepared_1_prepared",
           "deps": []
         }
       ]
@@ -32,11 +32,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604032306523
+    "lastModifiedOn": 1605775909531
   },
   "creationTag": {
     "versionNumber": 0,
