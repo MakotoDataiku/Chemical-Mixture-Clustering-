@@ -3,7 +3,22 @@
     {
       "id": "4JXrdTJ",
       "grid": {
-        "tiles": []
+        "tiles": [
+          {
+            "tileType": "IMAGE",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 3,
+              "height": 3
+            },
+            "clickAction": "DO_NOTHING",
+            "autoLoad": true,
+            "showTitle": "MOUSEOVER",
+            "displayMode": "IMAGE",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
       },
       "showTitle": false
     }
@@ -13,11 +28,11 @@
   "name": "image",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605781699764
+    "lastModifiedOn": 1605781706760
   },
   "creationTag": {
     "versionNumber": 0,
