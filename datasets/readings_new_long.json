@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605774894982
+    "lastModifiedOn": 1605776392065
   },
   "creationTag": {
     "versionNumber": 0,
@@ -93,20 +93,12 @@
         "type": "bigint"
       },
       {
-        "name": "mixture",
-        "type": "string"
-      },
-      {
         "name": "mixtureID",
         "type": "string"
       },
       {
         "name": "readings",
         "type": "double"
-      },
-      {
-        "name": "mixture_pref",
-        "type": "string"
       }
     ],
     "userModified": true
