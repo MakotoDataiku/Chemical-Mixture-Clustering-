@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604029935351
+    "lastModifiedOn": 1605775090517
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,7 +89,7 @@
   "schema": {
     "columns": [
       {
-        "name": "混合物ID",
+        "name": "mixtureID",
         "type": "string"
       },
       {
