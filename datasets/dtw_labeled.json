@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604035333907
+    "lastModifiedOn": 1605776560468
   },
   "creationTag": {
     "versionNumber": 0,
@@ -90,10 +90,10 @@
     "columns": [
       {
         "name": "Wavelength",
-        "type": "int"
+        "type": "bigint"
       },
       {
-        "name": "混合物ID",
+        "name": "mixtureID",
         "type": "string"
       },
       {
@@ -105,15 +105,15 @@
         "type": "string"
       },
       {
-        "name": "物質A",
+        "name": "compound_A",
         "type": "bigint"
       },
       {
-        "name": "物質B",
+        "name": "compound_B",
         "type": "bigint"
       },
       {
-        "name": "物質C",
+        "name": "compound_C",
         "type": "bigint"
       }
     ],
