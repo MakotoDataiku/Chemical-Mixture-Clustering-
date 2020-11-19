@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604035308237
+    "lastModifiedOn": 1605774831599
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,79 +91,79 @@
         "type": "string"
       },
       {
-        "name": "混合物_01",
+        "name": "mixture_01",
         "type": "string"
       },
       {
-        "name": "混合物_02",
+        "name": "mixture_02",
         "type": "string"
       },
       {
-        "name": "混合物_03",
+        "name": "mixture_03",
         "type": "string"
       },
       {
-        "name": "混合物_04",
+        "name": "mixture_04",
         "type": "string"
       },
       {
-        "name": "混合物_05",
+        "name": "mixture_05",
         "type": "string"
       },
       {
-        "name": "混合物_06",
+        "name": "mixture_06",
         "type": "string"
       },
       {
-        "name": "混合物_07",
+        "name": "mixture_07",
         "type": "string"
       },
       {
-        "name": "混合物_08",
+        "name": "mixture_08",
         "type": "string"
       },
       {
-        "name": "混合物_09",
+        "name": "mixture_09",
         "type": "string"
       },
       {
-        "name": "混合物_10",
+        "name": "mixture_10",
         "type": "string"
       },
       {
-        "name": "混合物_11",
+        "name": "mixture_11",
         "type": "string"
       },
       {
-        "name": "混合物_12",
+        "name": "mixture_12",
         "type": "string"
       },
       {
-        "name": "混合物_13",
+        "name": "mixture_13",
         "type": "string"
       },
       {
-        "name": "混合物_14",
+        "name": "mixture_14",
         "type": "string"
       },
       {
-        "name": "混合物_15",
+        "name": "mixture_15",
         "type": "string"
       },
       {
-        "name": "混合物_16",
+        "name": "mixture_16",
         "type": "string"
       },
       {
-        "name": "混合物_17",
+        "name": "mixture_17",
         "type": "string"
       },
       {
-        "name": "混合物_18",
+        "name": "mixture_18",
         "type": "string"
       },
       {
-        "name": "混合物_19",
+        "name": "mixture_19",
         "type": "string"
       }
     ],
