@@ -19,10 +19,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_clustering_result",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "readings_long_clustered",
       "objectType": "DATASET"
     },
