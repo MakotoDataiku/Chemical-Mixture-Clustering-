@@ -153,7 +153,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "# アノマリー検知の結果",
+              "text": "# Result of anomaly detection",
               "textAlign": "CENTER",
               "isTransparent": false
             },
@@ -432,11 +432,11 @@
   "name": "Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 45,
+    "versionNumber": 46,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605779155235
+    "lastModifiedOn": 1605779169010
   },
   "creationTag": {
     "versionNumber": 0,
