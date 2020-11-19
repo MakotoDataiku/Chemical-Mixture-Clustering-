@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1604032376738
+    "lastModifiedOn": 1605776055054
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,32 +87,32 @@
   "schema": {
     "columns": [
       {
-        "name": "混合物ID",
-        "type": "string"
-      },
-      {
         "name": "cluster_labels",
         "type": "string"
       },
       {
-        "name": "混合物_labeled",
+        "name": "anomaly_score",
+        "type": "double"
+      },
+      {
+        "name": "mixtureID",
         "type": "string"
       },
       {
-        "name": "物質A",
+        "name": "compound_A",
         "type": "bigint"
       },
       {
-        "name": "物質B",
+        "name": "compound_B",
         "type": "bigint"
       },
       {
-        "name": "物質C",
+        "name": "compound_C",
         "type": "bigint"
       },
       {
-        "name": "anomaly_score",
-        "type": "double"
+        "name": "mixture_labeled",
+        "type": "string"
       },
       {
         "name": "count",
