@@ -37,7 +37,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "# 各混合物の吸収率",
+              "text": "# NIR absorption of mixtures",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -56,7 +56,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "各混合物の波長ごとの吸収率をプロットした。15および８に異常が認められるため、これらを検知することがプロジェクトのゴールとなる",
+              "text": "Absorption rates for each wavelength of each mixture were plotted. Abnormalities are found in 15 and 8, which is the goal of this project.",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -432,11 +432,11 @@
   "name": "Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 42,
+    "versionNumber": 43,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605779033938
+    "lastModifiedOn": 1605779094799
   },
   "creationTag": {
     "versionNumber": 0,
