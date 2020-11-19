@@ -96,7 +96,7 @@ d = dict(zip_iterator)
 d
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-frf_labeled = pd.DataFrame({'混合物':labels, "cluster":clust})
+frf_labeled = pd.DataFrame({'mixture':labels, "cluster":clust})
 frf_labeled
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
@@ -107,7 +107,7 @@ CUT_THRESHOLD=8 # defines the similarity threshold and separates the color in th
 dn = dendrogram(Z, orientation='top', color_threshold=CUT_THRESHOLD, labels=labels)
 plt.title('Hierarchical Clustering Dendrogram')
 plt.ylabel("distance ranks")
-plt.xlabel("混合物ID")
+plt.xlabel("mixtureID")
 plt.show()
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
