@@ -233,7 +233,7 @@
             "box": {
               "top": 7,
               "left": 0,
-              "width": 9,
+              "width": 7,
               "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
@@ -255,15 +255,15 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 7,
-              "left": 9,
-              "width": 3,
+              "left": 7,
+              "width": 5,
               "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
               "showXAxis": true,
               "showYAxis": true,
-              "showLegend": false,
+              "showLegend": true,
               "showTooltips": true,
               "autoPlayAnimation": true
             },
@@ -432,11 +432,11 @@
   "name": "Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 54,
+    "versionNumber": 55,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605779382514
+    "lastModifiedOn": 1605779401315
   },
   "creationTag": {
     "versionNumber": 0,
