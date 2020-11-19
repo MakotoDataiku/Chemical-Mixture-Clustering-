@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605775909474
+    "lastModifiedOn": 1605776028530
   },
   "creationTag": {
     "versionNumber": 0,
@@ -100,10 +100,6 @@
       },
       {
         "name": "compound_C",
-        "type": "bigint"
-      },
-      {
-        "name": "Wavelength",
         "type": "bigint"
       },
       {
