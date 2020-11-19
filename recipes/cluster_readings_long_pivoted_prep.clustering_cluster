@@ -9,7 +9,7 @@
     "coef0": 0.0,
     "seed": 1337,
     "n_jobs": 1,
-    "k": 2,
+    "k": 3,
     "isolation_forest": {
       "max_samples": 0.5,
       "max_features": 1.0,
@@ -33,7 +33,7 @@
     "custom_has_k": false,
     "algorithm": "KMEANS"
   },
-  "generatingModelId": "A-CHEMICALMIXTURECLUSTERING-tbz5tuG0-pSWhE2G4-s4-pp1-m4",
+  "generatingModelId": "A-CHEMICALMIXTURECLUSTERING-tbz5tuG0-pSWhE2G4-s5-pp1-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
