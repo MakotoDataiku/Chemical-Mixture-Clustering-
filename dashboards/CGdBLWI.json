@@ -356,7 +356,7 @@
           }
         ]
       },
-      "title": "クラスタリング",
+      "title": "Clustering",
       "showTitle": false
     },
     {
@@ -432,11 +432,11 @@
   "name": "Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 52,
+    "versionNumber": 53,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605779355161
+    "lastModifiedOn": 1605779362256
   },
   "creationTag": {
     "versionNumber": 0,
