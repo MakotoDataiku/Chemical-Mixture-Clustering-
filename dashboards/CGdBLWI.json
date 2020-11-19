@@ -429,14 +429,14 @@
   ],
   "owner": "admin",
   "listed": true,
-  "name": "Kaneka Corp. Demo\u0027s default dashboard",
+  "name": "Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 40,
+    "versionNumber": 41,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605778834435
+    "lastModifiedOn": 1605778855884
   },
   "creationTag": {
     "versionNumber": 0,
