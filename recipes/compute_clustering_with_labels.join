@@ -1,0 +1,105 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": []
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "Wavelength",
+      "table": 0
+    },
+    {
+      "name": "mixtureID",
+      "table": 0
+    },
+    {
+      "name": "readings",
+      "table": 0
+    },
+    {
+      "name": "cluster_labels",
+      "table": 0
+    },
+    {
+      "name": "anomaly_score",
+      "table": 0
+    },
+    {
+      "name": "mixture_labeled",
+      "table": 0
+    },
+    {
+      "name": "compound_A",
+      "table": 1
+    },
+    {
+      "name": "compound_B",
+      "table": 1
+    },
+    {
+      "name": "compound_C",
+      "table": 1
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "enableAutoCastInJoinConditions": false
+}

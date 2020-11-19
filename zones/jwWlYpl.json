@@ -29,6 +29,10 @@
     {
       "objectId": "compute_clustering_result",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_clustering_with_labels",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
