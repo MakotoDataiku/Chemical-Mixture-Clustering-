@@ -191,7 +191,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "## アノマリー検知の結果と混合比率の比較",
+              "text": "## Comparison between the result and mixture components",
               "textAlign": "LEFT",
               "isTransparent": false
             },
@@ -432,11 +432,11 @@
   "name": "Demo\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 46,
+    "versionNumber": 47,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605779169010
+    "lastModifiedOn": 1605779188807
   },
   "creationTag": {
     "versionNumber": 0,
