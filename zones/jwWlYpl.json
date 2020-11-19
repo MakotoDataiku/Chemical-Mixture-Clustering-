@@ -15,15 +15,19 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "clustering_result",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "readings_long_clustered",
       "objectType": "DATASET"
     },
     {
       "objectId": "cluster_readings_long_pivoted_prep",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "clustering_result",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_clustering_result",
       "objectType": "RECIPE"
     }
   ],
