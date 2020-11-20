@@ -39,12 +39,7 @@
       "objectType": "RECIPE"
     }
   ],
-  "shared": [
-    {
-      "objectId": "anomaly_with_labels_ID",
-      "objectType": "DATASET"
-    }
-  ],
+  "shared": [],
   "tags": [],
   "customFields": {},
   "checklists": {
