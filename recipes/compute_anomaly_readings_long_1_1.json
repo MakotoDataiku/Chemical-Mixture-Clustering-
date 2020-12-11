@@ -26,6 +26,9 @@
             },
             "NIR_readings": {
               "repartition": 10
+            },
+            "MIR_Fruit_purees": {
+              "repartition": 10
             }
           }
         },
@@ -67,7 +70,7 @@
     "main": {
       "items": [
         {
-          "ref": "MIR_Fruit_purees",
+          "ref": "NIR_readings",
           "deps": []
         }
       ]
@@ -84,11 +87,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607673992325
+    "lastModifiedOn": 1607674092813
   },
   "creationTag": {
     "versionNumber": 0,
