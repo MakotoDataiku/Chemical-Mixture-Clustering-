@@ -1,0 +1,4108 @@
+{
+  "type": "UploadedFiles",
+  "managed": false,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "excel",
+    "charset": "utf-8",
+    "separator": ",",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 984,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": ""
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607673934092
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607673934092
+  },
+  "tags": [],
+  "params": {
+    "uploadBoxId": "fd653f9828f395ccf7754959fdff89a2c138e61728867ed752f212141366d251",
+    "uploadConnection": "Default (in DSS data dir.)",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "Wavenumbers",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_2",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_3",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_4",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_5",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_6",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_7",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_8",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_9",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_10",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_11",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_12",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_13",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_14",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_15",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_16",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_17",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_18",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_19",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_20",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_21",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_22",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_23",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_24",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_25",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_26",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_27",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_28",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_29",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_30",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_31",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_32",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_33",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_34",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_35",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_36",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_37",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_38",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_39",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_40",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_41",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_42",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_43",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_44",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_45",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_46",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_47",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_48",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_49",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_50",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_51",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_52",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_53",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_54",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_55",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_56",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_57",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_58",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_59",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_60",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_61",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_62",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_63",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_64",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_2",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_3",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_4",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_5",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_6",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_7",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_8",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_9",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_10",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_11",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_12",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_13",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_14",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_15",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_16",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_17",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_18",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_19",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_20",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_21",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_22",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_23",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_24",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_25",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_65",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_66",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_67",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_68",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_69",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_70",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_71",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_72",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_26",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_27",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_28",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_29",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_30",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_31",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_32",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_33",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_34",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_35",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_36",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_37",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_38",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_39",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_40",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_41",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_42",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_43",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_44",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_45",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_46",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_47",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_48",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_49",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_50",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_51",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_52",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_53",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_54",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_55",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_56",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_57",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_58",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_59",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_60",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_61",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_62",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_63",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_73",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_74",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_75",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_76",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_77",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_78",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_79",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_80",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_81",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_82",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_83",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_84",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_85",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_86",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_87",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_88",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_89",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_90",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_91",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_92",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_93",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_94",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_95",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_96",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_97",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_98",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_99",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_100",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_101",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_102",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_103",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_104",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_105",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_106",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_107",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_108",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_109",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_110",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_111",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_112",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_113",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_114",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_115",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_116",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_117",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_118",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_64",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_65",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_66",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_67",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_68",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_69",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_70",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_71",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_72",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_73",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_74",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_75",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_76",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_77",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_78",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_79",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_80",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_81",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_82",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_83",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_84",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_85",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_86",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_87",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_88",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_89",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_90",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_91",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_92",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_93",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_94",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_95",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_96",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_97",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_98",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_99",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_100",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_101",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_102",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_103",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_104",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_105",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_106",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_107",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_108",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_109",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_119",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_120",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_121",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_122",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_123",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_124",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_125",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_126",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_127",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_128",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_129",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_130",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_131",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_132",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_133",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_134",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_135",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_136",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_137",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_138",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_110",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_111",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_112",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_113",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_114",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_115",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_116",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_117",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_118",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_119",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_139",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_140",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_141",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_142",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_143",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_144",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_145",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_146",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_147",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_148",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_149",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_150",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_151",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_152",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_153",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_154",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_155",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_156",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_157",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_158",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_159",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_160",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_161",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_162",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_163",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_164",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_165",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_166",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_167",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_168",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_169",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_170",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_171",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_172",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_173",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_174",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_175",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_176",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_177",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_178",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_179",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_180",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_181",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_182",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_183",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_184",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_185",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_186",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_187",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_188",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_189",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_190",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_191",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_192",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_193",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_194",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_195",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_196",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_197",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_198",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_199",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_200",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_201",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_202",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_203",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_204",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_205",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_206",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_207",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_208",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_209",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_210",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_211",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_212",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_213",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_214",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_215",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_216",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_217",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_218",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_219",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_220",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_221",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_222",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_223",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_224",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_225",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_226",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_227",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_228",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_229",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_230",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_231",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_232",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_233",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_234",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_235",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_236",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_237",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_238",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_239",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_240",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_241",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_242",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_243",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_244",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_245",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_246",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_247",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_248",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_249",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_250",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_251",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_252",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_253",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_254",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_255",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_256",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_257",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_258",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_259",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_260",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_261",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_262",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_263",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_264",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_265",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_266",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_267",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_268",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_269",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_270",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_271",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_272",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_273",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_274",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_275",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_276",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_277",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_278",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_279",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_280",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_120",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_121",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_122",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_123",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_124",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_125",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_126",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_127",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_128",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_129",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_130",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_131",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_132",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_133",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_134",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_135",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_136",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_137",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_138",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_139",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_140",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_141",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_142",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_143",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_144",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_281",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_282",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_283",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_284",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_285",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_286",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_287",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_288",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_145",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_146",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_147",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_148",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_149",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_150",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_151",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_152",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_153",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_154",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_155",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_156",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_157",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_158",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_159",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_160",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_161",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_162",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_163",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_164",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_165",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_166",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_167",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_168",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_169",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_170",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_171",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_172",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_173",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_174",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_175",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_176",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_177",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_178",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_179",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_180",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_181",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_289",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_290",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_291",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_292",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_293",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_294",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_295",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_296",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_297",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_298",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_299",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_300",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_301",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_302",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_303",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_304",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_305",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_306",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_307",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_308",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_309",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_310",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_311",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_312",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_313",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_314",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_315",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_316",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_317",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_318",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_319",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_320",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_321",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_322",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_323",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_324",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_325",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_326",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_327",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_328",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_329",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_330",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_331",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_332",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_333",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_182",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_183",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_184",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_185",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_186",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_187",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_188",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_189",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_190",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_191",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_192",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_193",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_194",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_195",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_196",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_197",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_198",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_199",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_200",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_201",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_202",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_203",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_204",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_205",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_206",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_207",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_208",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_209",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_210",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_211",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_212",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_213",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_214",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_215",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_216",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_217",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_218",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_219",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_220",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_221",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_222",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_223",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_224",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_225",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_226",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_227",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_334",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_335",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_336",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_337",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_338",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_339",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_340",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_341",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_342",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_343",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_344",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_345",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_346",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_347",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_348",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_349",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_350",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_351",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_228",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_229",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_230",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_231",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_232",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_233",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_234",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_235",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_236",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_352",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_353",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_354",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_355",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_356",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_357",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_358",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_359",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_360",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_361",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_362",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_363",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_364",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_365",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_366",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_367",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_368",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_369",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_370",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_371",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_372",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_373",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_374",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_375",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_376",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_377",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_378",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_379",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_380",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_381",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_382",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_383",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_384",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_385",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_386",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_387",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_388",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_389",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_390",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_391",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_392",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_393",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_394",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_395",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_396",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_397",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_398",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_399",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_400",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_401",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_402",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_403",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_404",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_405",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_406",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_407",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_408",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_409",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_410",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_411",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_412",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_413",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_414",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_415",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_416",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_417",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_418",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_419",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_420",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_421",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_422",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_423",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_424",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_425",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_426",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_427",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_428",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_429",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_430",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_431",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_432",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_433",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_434",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_435",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_436",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_437",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_438",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_439",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_440",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_441",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_442",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_443",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_444",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_445",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_446",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_447",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_448",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_449",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_450",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_451",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_452",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_453",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_454",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_455",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_456",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_457",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_458",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_459",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_460",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_461",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_462",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_463",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_464",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_465",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_466",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_467",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_468",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_469",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_470",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_471",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_472",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_473",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_474",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_475",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_476",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_477",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_478",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_479",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_480",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_481",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_482",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_483",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_484",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_485",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_486",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_487",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_488",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_489",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_237",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_238",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_239",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_240",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_241",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_242",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_243",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_244",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_245",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_246",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_247",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_248",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_249",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_250",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_251",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_252",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_253",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_254",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_255",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_256",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_257",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_258",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_259",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_260",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_490",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_491",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_492",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_493",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_494",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_495",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_496",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_261",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_262",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_263",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_264",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_265",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_266",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_267",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_268",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_269",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_270",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_271",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_272",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_273",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_274",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_275",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_276",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_277",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_278",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_279",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_280",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_281",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_282",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_283",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_284",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_285",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_286",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_287",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_288",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_289",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_290",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_291",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_292",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_293",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_294",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_295",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_296",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_297",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_497",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_498",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_499",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_500",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_501",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_502",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_503",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_504",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_505",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_506",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_507",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_508",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_509",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_510",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_511",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_512",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_513",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_514",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_515",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_516",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_517",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_518",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_519",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_520",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_521",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_522",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_523",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_524",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_525",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_526",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_527",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_528",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_529",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_530",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_531",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_532",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_533",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_534",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_535",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_536",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_537",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_538",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_539",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_540",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_298",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_299",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_300",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_301",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_302",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_303",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_304",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_305",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_306",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_307",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_308",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_309",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_310",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_311",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_312",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_313",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_314",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_315",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_316",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_317",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_318",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_319",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_320",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_321",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_322",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_323",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_324",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_325",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_326",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_327",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_328",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_329",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_330",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_331",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_332",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_333",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_334",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_335",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_336",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_337",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_338",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_339",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_340",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_341",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_342",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_541",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_542",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_543",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_544",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_545",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_546",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_547",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_548",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_549",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_550",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_551",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_552",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_553",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_554",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_555",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_556",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_343",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_344",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_345",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_346",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_347",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_348",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_349",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_350",
+        "type": "string"
+      },
+      {
+        "name": "Strawberry_351",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_557",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_558",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_559",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_560",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_561",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_562",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_563",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_564",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_565",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_566",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_567",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_568",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_569",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_570",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_571",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_572",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_573",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_574",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_575",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_576",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_577",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_578",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_579",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_580",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_581",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_582",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_583",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_584",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_585",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_586",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_587",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_588",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_589",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_590",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_591",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_592",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_593",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_594",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_595",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_596",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_597",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_598",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_599",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_600",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_601",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_602",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_603",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_604",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_605",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_606",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_607",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_608",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_609",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_610",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_611",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_612",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_613",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_614",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_615",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_616",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_617",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_618",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_619",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_620",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_621",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_622",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_623",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_624",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_625",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_626",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_627",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_628",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_629",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_630",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_631",
+        "type": "string"
+      },
+      {
+        "name": "NON-Strawberry_632",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
