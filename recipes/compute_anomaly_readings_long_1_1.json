@@ -67,7 +67,7 @@
     "main": {
       "items": [
         {
-          "ref": "NIR_readings",
+          "ref": "MIR_Fruit_purees",
           "deps": []
         }
       ]
@@ -84,11 +84,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1605776392144
+    "lastModifiedOn": 1607673992325
   },
   "creationTag": {
     "versionNumber": 0,
