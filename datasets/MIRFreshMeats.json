@@ -1,0 +1,656 @@
+{
+  "type": "UploadedFiles",
+  "managed": false,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "excel",
+    "charset": "utf-8",
+    "separator": ",",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 121,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": ""
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607674392001
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607674392001
+  },
+  "tags": [],
+  "params": {
+    "uploadBoxId": "2d045a74b764fd2c82742d8ef4b6c9bdb19f47de21a32b087385d8c60e32dfe7",
+    "uploadConnection": "Default (in DSS data dir.)",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "Wavenumbers",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample1_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample1_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample2_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample2_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample3_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample3_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample4_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample4_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample5_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample5_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample1_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample1_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample2_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample2_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample3_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample3_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample4_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample4_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample5_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample5_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample1_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample1_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample2_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample2_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample3_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample3_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample4_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample4_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample5_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample5_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample1_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample1_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample2_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample2_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample3_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample3_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample4_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample4_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample5_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample5_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample1_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample1_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample2_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample2_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample3_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample3_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample4_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample4_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample5_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample5_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample1_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample1_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample2_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample2_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample3_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample3_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample4_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample4_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample5_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample5_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample1_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample1_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample2_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample2_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample3_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample3_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample4_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample4_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample5_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample5_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample1_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample1_RunB_2",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample2_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample2_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample3_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample3_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample4_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample4_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample5_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample5_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample10_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample10_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample11_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample11_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample12_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample12_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample13_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample13_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample14_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample14_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample15_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample15_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample16_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample16_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample17_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample17_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample18_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample18_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample19_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample19_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample1_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample1_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample20_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample20_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample2_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample2_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample3_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample3_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample4_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample4_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample5_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample5_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample6_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample6_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample7_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample7_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample8_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample8_RunB",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample9_RunA",
+        "type": "string"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample9_RunB",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
