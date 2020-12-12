@@ -41,6 +41,14 @@
     {
       "objectId": "olive_oil_with_label",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "train_Prediction__LOGISTIC_REGRESSION__on_olive_oil_with_label",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "RVtageZU",
+      "objectType": "SAVED_MODEL"
     }
   ],
   "shared": [],
