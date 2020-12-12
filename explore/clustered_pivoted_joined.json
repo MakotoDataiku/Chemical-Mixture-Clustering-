@@ -96,7 +96,7 @@
         ],
         "genericDimension1": [
           {
-            "column": "FRF_labeled",
+            "column": "ID_labeled",
             "type": "ALPHANUM",
             "numParams": {
               "emptyBinsMode": "ZEROS"
@@ -223,7 +223,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAEi0lEQVRoQ2NkGGGAcTj7d8mJ23wxFqqfkP04rD2MLTKHtYflyjZP5NepunL0+X8RvvIr7aAAGNYehsXw/101qoxuLbeHvYe31K46xq305mfSDdm39zt9Q4alhzccf51yfseUeaLP7ZZGCfJnCHWafBxShZZ8+dZ5DAwM7xn+/1N72OXrK1+xddnDDu8oQrXL4/KDa0VsBUs5ffTu7dvZecbJvdxkyMbwmuMvfBn/MzgxMP0/GmwhuQbZ8/93lRpMWfZj62s5wbS9DloLFsg+TnpygP28Y2rekyHn4XXHXuwJspJw+b+jXJvRo/MqzKM6dbsC3/39f+Ypi/trxkaGH4/KDtXKddk1w+R371Vqd3W+VznkPIwrGf/fXTGd0bUj8//eajtG59ZD6Opu3OiU0tAofzZoPSxXvt3mUafnEXi1Us+3m7Hxk6vuAt35lxMuJyJ7yGC+gcKFxAsPQGJT0vZUvZY8Ym3jNL/E1f7h9SHf8LhkZ7frS0xoL987SU8VPTVFDi89/wmxlbfzk6INj31//9jay1bwyqorbNaS/7g/2uq9h3n42LFjQlZWVu8GZQwrlW/QvdcZcBnkuLXHX6wLtpQIOjNzJuuzLU+vnjVi7GhsbJxXWVkp2t7e/hrmoZV1DbvCmxrcCJXcg9LD2Bz9MGPJU/kZMTIMDAz/b9/ud1BVLTwAU3fmjBSXicmzbyD+3r2K1c5vOzsYwsL+4vL8oG1a/m6S7DWUE1Zb2f5vjvbNaxvxxZ7EvgthDP8ZHrxwNjhFKJYHrYf/76/n2XjbZU9Amq0FIU+QIj8oPbz2xMtayW+LT+l9c228Lz8zVFd32mNSPIVP7cB7uL6eiaGx8R+6I+vr6+dHR/NuVlMrWUctzw66QmvtsRd7g3aqvbknWmGknFOlSk2Pwswa+BiGuuT/suD7J1mqQjK+Jt+dcbW4yqIntmxYenjVscecjTc9YhiZGO0uf88UuSxsbasXasBDC88OiiT9v56BZd6/PVue/N4pX9/RrUkrjw6KJF1f/5+pTmrGtANqPXLOjne9xPZe6HjlbFBBS08PXB6ur2f6b/jMdeZtwekZpV1KtPQkstkD5uE1x18uEH19x9fez1qYXp6laR6edrfDO0u5Yisuz/xrEjngbrFbZ7ebociw8DAhT0y9MpUnWyf7CyF11JanW5J+PdFpj4iG6Z6W7bp5TmwMItZdMWzU9gwx5tHEw3NvdPImrere2PBITNTEvEHGnV/w+dw7ZwQNjPTXBLBJyr50MgwgxnG0UEM1D8+417knQ6ncBebIa1m+57SmbTaC8W/d6g9SUyukaruYnAChmoeRLd+9bsdX1yAP7iflB3fJdNq7yZVvXfio0zueHAdSWw/FHp5+pz1Q+EfFVuZPryYHXQ6/vE+4plP1FLO9HeOX3AedvoPCk2TVw/+nT49mzMxc+v//f8ZpU8LXbdaN9J2zTUDhPwPTRNku+2BqxwStzCMqhgtOLPs7wSKKGeQIubKteY+6vCfRykG0NpcoD9PaEfQ0f9TD9AztgbBrNIYHItTpaScAuweUOEcEvRgAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACbUlEQVRoQ2NkGGGAcYT5l2HYePjxsULOVdzZbwzevDoo8+6LrXqoGy8oMo/kZE5qtDOx2h2WbALiDxsPr9p5uDrM3bYVlmKvz22b9YLFM45BKuKMo+tNG5j4sPDw7s37L7v6OuoSkz2HvIennbz4K8tcn40Yzw6rJD0iPGxtXVly9Gh7D7GeHdIxvGDfzq8JTu7cpHiWJh7+X8e7gYHh/07Gpi/TSXUMseo3LEv4FxC1gIlY9cjqqFpo7V0T8vemUPHvK0fusLx8+Yn59ZWn8/79ZVrMxfXjNJeUuGmOvf0+l0QzshwKc/T6mpVfAlvCecjxLFVjOLZtxb/FVREkeWb2kZXbf576ZZFTFCs4M0hTUvYL14mP4b6flLed+W+2doseuqdWd3c9DC0tkyfXs1TzcOr+k79mO5oTXTXgc3BibPbbeQ4aukclNNrf/d5x3S+gtwOkftOc4K9+KWtJzrPodlGcpDOP7P013caZKp7FFhAzYtxOLLxvfOb40fYcSmKW4paWSuU2LWtf/vMLrazZqeEQeplBcgz/r+dTOWBjPGXDJUeWicV1LvRyKLXsIdrD/+t4grcpHFymyPX4sVZEgAq1HEBvcwh6+H897+ZdVvIf+L9NCHz/5tZhz9QsT3o7kpr24fTw/3q+rfLfl/atNeNedeXR6drEovJp1LR4oMzC6eGrC3e/Ofr19tS0rKz6gXIcLewlmKRpYelAmjnq4YEMfXrYPRrD9AjlgbRjNIYHMvTpYfdoDNMjlAfSjtEYHsjQp4fdozFMj1AeSDtGY3ggQ58edo/GMD1CeSDtGI3hgQx9etg94mIYAGX/symqX/RkAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -234,17 +234,17 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "stacked_columns",
+        "type": "lines",
         "variant": "normal",
-        "name": "Count by Frequency",
-        "userEditedName": false,
+        "name": "By cluster labels",
+        "userEditedName": true,
         "genericDimension0": [
           {
-            "column": "Frequency",
+            "column": "Wavelength",
             "type": "NUMERICAL",
             "numParams": {
-              "mode": "NONE",
-              "nbBins": 10,
+              "mode": "FIXED_NB",
+              "nbBins": 30,
               "binSize": 100,
               "emptyBinsMode": "ZEROS"
             },
@@ -262,12 +262,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Count of records, descending"
+                "label": "Average of readings, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Count of records, ascending",
+                "label": "Average of readings, ascending",
                 "sortAscending": true
               }
             ],
@@ -278,12 +278,85 @@
             }
           }
         ],
-        "genericDimension1": [],
-        "facetDimension": [],
+        "genericDimension1": [
+          {
+            "column": "ID_labeled",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of readings, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of readings, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of readings, descending"
+            }
+          }
+        ],
+        "facetDimension": [
+          {
+            "column": "cluster_labels",
+            "type": "ALPHANUM",
+            "numParams": {
+              "emptyBinsMode": "ZEROS"
+            },
+            "maxValues": 20,
+            "generateOthersCategory": false,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of readings, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of readings, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
         "animationDimension": [],
         "genericMeasures": [
           {
-            "function": "COUNT",
+            "column": "readings",
+            "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
             "isA": "measure",
@@ -310,17 +383,7 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
-        "filters": [
-          {
-            "filterType": "NUMERICAL_FACET",
-            "column": "Frequency",
-            "columnType": "NUMERICAL",
-            "maxValue": 220.0,
-            "isA": "filter",
-            "excludedValues": {},
-            "explicitExclude": false
-          }
-        ],
+        "filters": [],
         "axis1LogScale": false,
         "axis2LogScale": false,
         "includeZero": true,
@@ -380,7 +443,6 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABBklEQVRoQ2NkGGGAkRj/ypdv2f+w08cRWS0+MeWSnWJ3e9xfgdTD1MmXbg1+2O29FllMrmLzxEcdvvko6pDsguulkhjIHpp4WLpynfDT9qC35HhYrnzLjkedPh60CIRRD+NK3qQm6dEY7vRxJDYPjyZpUGCNFlrkBcJooTVaaEFDYLSURmpBYWt9jVZLo9USpG2OrS09Wg+P1sOQ1EFOY2S0Hh6th0frYUQawNcYGa2HR+vh0XoYPtg32vAgs87FNuI5Wg+P1sOj9fBoPYx1+mW04THa8BhteIw2PEZnD6Hz05TMGY+2tKjV0hryKwCIWRYxVNQQteRhqHiGGHeOepiYUBrKagDbTtiwqQkkJAAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
