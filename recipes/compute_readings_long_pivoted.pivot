@@ -1,12 +1,44 @@
 {
   "schemaComputation": "ALWAYS",
-  "identifierColumnsSelection": "EXPLICIT",
   "modalitySlugification": "NONE",
-  "sortModalities": true,
   "preFilter": {
     "distinct": false,
     "enabled": false
   },
+  "$withModalityMaxLength": false,
+  "pivots": [
+    {
+      "valueLimit": "NO_LIMIT",
+      "minOccLimit": 0,
+      "topnLimit": 20,
+      "globalCount": false,
+      "explicitValues": [],
+      "keyColumns": [
+        "Wavelength"
+      ],
+      "valueColumns": [
+        {
+          "last": false,
+          "max": true,
+          "column": "readings",
+          "count": false,
+          "sum": false,
+          "concat": false,
+          "type": "double",
+          "$agg": "max",
+          "countDistinct": false,
+          "min": false,
+          "avg": false,
+          "stddev": false,
+          "first": false
+        }
+      ]
+    }
+  ],
+  "computedColumns": [],
+  "enginesPreferences": {},
+  "identifierColumnsSelection": "EXPLICIT",
+  "sortModalities": true,
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
@@ -45,36 +77,5 @@
     "ID"
   ],
   "otherColumns": [],
-  "pivots": [
-    {
-      "valueLimit": "NO_LIMIT",
-      "minOccLimit": 0,
-      "topnLimit": 20,
-      "globalCount": false,
-      "explicitValues": [],
-      "keyColumns": [
-        "Wavelength"
-      ],
-      "valueColumns": [
-        {
-          "last": false,
-          "max": true,
-          "column": "readings",
-          "count": false,
-          "sum": false,
-          "concat": false,
-          "type": "double",
-          "$agg": "max",
-          "countDistinct": false,
-          "min": false,
-          "avg": false,
-          "stddev": false,
-          "first": false
-        }
-      ]
-    }
-  ],
-  "computedColumns": [],
-  "customAggregates": [],
-  "enginesPreferences": {}
+  "customAggregates": []
 }
