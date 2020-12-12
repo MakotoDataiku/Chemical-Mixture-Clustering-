@@ -32,12 +32,58 @@
   },
   "steps": [
     {
-      "preview": true,
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "proba_Spain",
+          "product_label",
+          "proba_Greece",
+          "proba_Italy",
+          "proba_Portugal",
+          "prediction"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "Transpose",
       "params": {
         "column": "ID"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "MultiColumnByPrefixFold",
+      "params": {
+        "columnNamePattern": "([0-9].*-[0-9].*)",
+        "columnNameColumn": "ID_",
+        "columnContentColumn": "readings"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "ID",
+            "to": "Wavelength"
+          }
+        ]
       },
       "alwaysShowComment": false
     }
@@ -290,6 +336,7 @@
     "1356.5295_readings_max": 180,
     "1769.4565_readings_max": 180,
     "1275.4875_readings_max": 180,
+    "ID___": 100,
     "1555.275_readings_max": 173,
     "1578.43_readings_max": 165,
     "1312.15_readings_max": 165,
@@ -460,11 +507,13 @@
     "1827.3435_readings_max": 180,
     "949.394_readings_max": 165,
     "1507.0355_readings_max": 180,
+    "ID_": 100,
     "984.125_readings_max": 165,
     "1213.7415_readings_max": 180,
     "1655.612_readings_max": 173,
     "960.971_readings_max": 165,
     "1732.795_readings_max": 173,
+    "Wavelength": 100,
     "930.098_readings_max": 165,
     "1644.035_readings_max": 173,
     "27-2": 155,
@@ -542,6 +591,7 @@
     "25-1": 155,
     "1489.669_readings_max": 173,
     "982.1955_readings_max": 173,
+    "readings": 162,
     "912.7325_readings_max": 173,
     "1124.9815_readings_max": 180,
     "1381.614_readings_max": 173,
