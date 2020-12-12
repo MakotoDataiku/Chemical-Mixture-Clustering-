@@ -1,0 +1,657 @@
+{
+  "type": "Filesystem",
+  "managed": true,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "unix",
+    "charset": "utf8",
+    "separator": "\t",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": false,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 0,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": "gz"
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607774294779
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607774294779
+  },
+  "tags": [],
+  "params": {
+    "connection": "filesystem_managed",
+    "path": "${projectKey}/olive_oils_labels",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "ID",
+        "type": "string"
+      },
+      {
+        "name": "1-1",
+        "type": "string"
+      },
+      {
+        "name": "1-2",
+        "type": "string"
+      },
+      {
+        "name": "2-1",
+        "type": "string"
+      },
+      {
+        "name": "2-2",
+        "type": "string"
+      },
+      {
+        "name": "3-1",
+        "type": "string"
+      },
+      {
+        "name": "3-2",
+        "type": "string"
+      },
+      {
+        "name": "4-1",
+        "type": "string"
+      },
+      {
+        "name": "4-2",
+        "type": "string"
+      },
+      {
+        "name": "5-1",
+        "type": "string"
+      },
+      {
+        "name": "5-2",
+        "type": "string"
+      },
+      {
+        "name": "6-1",
+        "type": "string"
+      },
+      {
+        "name": "6-2",
+        "type": "string"
+      },
+      {
+        "name": "7-1",
+        "type": "string"
+      },
+      {
+        "name": "7-2",
+        "type": "string"
+      },
+      {
+        "name": "8-1",
+        "type": "string"
+      },
+      {
+        "name": "8-2",
+        "type": "string"
+      },
+      {
+        "name": "9-1",
+        "type": "string"
+      },
+      {
+        "name": "9-2",
+        "type": "string"
+      },
+      {
+        "name": "10-1",
+        "type": "string"
+      },
+      {
+        "name": "10-2",
+        "type": "string"
+      },
+      {
+        "name": "11-1",
+        "type": "string"
+      },
+      {
+        "name": "11-2",
+        "type": "string"
+      },
+      {
+        "name": "12-1",
+        "type": "string"
+      },
+      {
+        "name": "12-2",
+        "type": "string"
+      },
+      {
+        "name": "13-1",
+        "type": "string"
+      },
+      {
+        "name": "13-2",
+        "type": "string"
+      },
+      {
+        "name": "14-1",
+        "type": "string"
+      },
+      {
+        "name": "14-2",
+        "type": "string"
+      },
+      {
+        "name": "15-1",
+        "type": "string"
+      },
+      {
+        "name": "15-2",
+        "type": "string"
+      },
+      {
+        "name": "16-1",
+        "type": "string"
+      },
+      {
+        "name": "16-2",
+        "type": "string"
+      },
+      {
+        "name": "17-1",
+        "type": "string"
+      },
+      {
+        "name": "17-2",
+        "type": "string"
+      },
+      {
+        "name": "18-1",
+        "type": "string"
+      },
+      {
+        "name": "18-2",
+        "type": "string"
+      },
+      {
+        "name": "19-1",
+        "type": "string"
+      },
+      {
+        "name": "19-2",
+        "type": "string"
+      },
+      {
+        "name": "20-1",
+        "type": "string"
+      },
+      {
+        "name": "20-2",
+        "type": "string"
+      },
+      {
+        "name": "21-1",
+        "type": "string"
+      },
+      {
+        "name": "21-2",
+        "type": "string"
+      },
+      {
+        "name": "22-1",
+        "type": "string"
+      },
+      {
+        "name": "22-2",
+        "type": "string"
+      },
+      {
+        "name": "23-1",
+        "type": "string"
+      },
+      {
+        "name": "23-2",
+        "type": "string"
+      },
+      {
+        "name": "24-1",
+        "type": "string"
+      },
+      {
+        "name": "24-2",
+        "type": "string"
+      },
+      {
+        "name": "25-1",
+        "type": "string"
+      },
+      {
+        "name": "25-2",
+        "type": "string"
+      },
+      {
+        "name": "26-1",
+        "type": "string"
+      },
+      {
+        "name": "26-2",
+        "type": "string"
+      },
+      {
+        "name": "27-1",
+        "type": "string"
+      },
+      {
+        "name": "27-2",
+        "type": "string"
+      },
+      {
+        "name": "28-1",
+        "type": "string"
+      },
+      {
+        "name": "28-2",
+        "type": "string"
+      },
+      {
+        "name": "29-1",
+        "type": "string"
+      },
+      {
+        "name": "29-2",
+        "type": "string"
+      },
+      {
+        "name": "30-1",
+        "type": "string"
+      },
+      {
+        "name": "30-2",
+        "type": "string"
+      },
+      {
+        "name": "31-1",
+        "type": "string"
+      },
+      {
+        "name": "31-2",
+        "type": "string"
+      },
+      {
+        "name": "32-1",
+        "type": "string"
+      },
+      {
+        "name": "32-2",
+        "type": "string"
+      },
+      {
+        "name": "33-1",
+        "type": "string"
+      },
+      {
+        "name": "33-2",
+        "type": "string"
+      },
+      {
+        "name": "34-1",
+        "type": "string"
+      },
+      {
+        "name": "34-2",
+        "type": "string"
+      },
+      {
+        "name": "35-1",
+        "type": "string"
+      },
+      {
+        "name": "35-2",
+        "type": "string"
+      },
+      {
+        "name": "36-1",
+        "type": "string"
+      },
+      {
+        "name": "36-2",
+        "type": "string"
+      },
+      {
+        "name": "37-1",
+        "type": "string"
+      },
+      {
+        "name": "37-2",
+        "type": "string"
+      },
+      {
+        "name": "38-1",
+        "type": "string"
+      },
+      {
+        "name": "38-2",
+        "type": "string"
+      },
+      {
+        "name": "39-1",
+        "type": "string"
+      },
+      {
+        "name": "39-2",
+        "type": "string"
+      },
+      {
+        "name": "40-1",
+        "type": "string"
+      },
+      {
+        "name": "40-2",
+        "type": "string"
+      },
+      {
+        "name": "41-1",
+        "type": "string"
+      },
+      {
+        "name": "41-2",
+        "type": "string"
+      },
+      {
+        "name": "42-1",
+        "type": "string"
+      },
+      {
+        "name": "42-2",
+        "type": "string"
+      },
+      {
+        "name": "43-1",
+        "type": "string"
+      },
+      {
+        "name": "43-2",
+        "type": "string"
+      },
+      {
+        "name": "44-1",
+        "type": "string"
+      },
+      {
+        "name": "44-2",
+        "type": "string"
+      },
+      {
+        "name": "45-1",
+        "type": "string"
+      },
+      {
+        "name": "45-2",
+        "type": "string"
+      },
+      {
+        "name": "46-1",
+        "type": "string"
+      },
+      {
+        "name": "46-2",
+        "type": "string"
+      },
+      {
+        "name": "47-1",
+        "type": "string"
+      },
+      {
+        "name": "47-2",
+        "type": "string"
+      },
+      {
+        "name": "48-1",
+        "type": "string"
+      },
+      {
+        "name": "48-2",
+        "type": "string"
+      },
+      {
+        "name": "49-1",
+        "type": "string"
+      },
+      {
+        "name": "49-2",
+        "type": "string"
+      },
+      {
+        "name": "50-1",
+        "type": "string"
+      },
+      {
+        "name": "50-2",
+        "type": "string"
+      },
+      {
+        "name": "51-1",
+        "type": "string"
+      },
+      {
+        "name": "51-2",
+        "type": "string"
+      },
+      {
+        "name": "52-1",
+        "type": "string"
+      },
+      {
+        "name": "52-2",
+        "type": "string"
+      },
+      {
+        "name": "53-1",
+        "type": "string"
+      },
+      {
+        "name": "53-2",
+        "type": "string"
+      },
+      {
+        "name": "54-1",
+        "type": "string"
+      },
+      {
+        "name": "54-2",
+        "type": "string"
+      },
+      {
+        "name": "55-1",
+        "type": "string"
+      },
+      {
+        "name": "55-2",
+        "type": "string"
+      },
+      {
+        "name": "56-1",
+        "type": "string"
+      },
+      {
+        "name": "56-2",
+        "type": "string"
+      },
+      {
+        "name": "57-1",
+        "type": "string"
+      },
+      {
+        "name": "57-2",
+        "type": "string"
+      },
+      {
+        "name": "58-1",
+        "type": "string"
+      },
+      {
+        "name": "58-2",
+        "type": "string"
+      },
+      {
+        "name": "59-1",
+        "type": "string"
+      },
+      {
+        "name": "59-2",
+        "type": "string"
+      },
+      {
+        "name": "60-1",
+        "type": "string"
+      },
+      {
+        "name": "60-2",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
