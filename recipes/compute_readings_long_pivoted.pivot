@@ -42,7 +42,7 @@
     }
   },
   "explicitIdentifiers": [
-    "mixtureID"
+    "ID"
   ],
   "otherColumns": [],
   "pivots": [
