@@ -57,6 +57,10 @@
     {
       "objectId": "test",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "split_olive_oil_with_label",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
