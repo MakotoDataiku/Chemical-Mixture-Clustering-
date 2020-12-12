@@ -61,6 +61,14 @@
     {
       "objectId": "split_olive_oil_with_label",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "test_scored",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "score_test",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
