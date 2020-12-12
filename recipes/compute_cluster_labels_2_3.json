@@ -29,6 +29,9 @@
             },
             "VISUALISECLUSTERS.readings_long_clustered": {
               "repartition": 10
+            },
+            "readings_scored": {
+              "repartition": 10
             }
           }
         },
@@ -87,11 +90,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607769438876
+    "lastModifiedOn": 1607769451226
   },
   "creationTag": {
     "versionNumber": 0,
