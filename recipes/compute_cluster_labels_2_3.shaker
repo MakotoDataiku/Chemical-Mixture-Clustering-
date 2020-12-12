@@ -38,7 +38,7 @@
       "type": "ColumnsSelector",
       "params": {
         "columns": [
-          "混合物ID",
+          "ID",
           "cluster_labels",
           "anomaly_score"
         ],
@@ -50,7 +50,7 @@
     {
       "preview": false,
       "metaType": "PROCESSOR",
-      "disabled": false,
+      "disabled": true,
       "type": "ColumnsSelector",
       "params": {
         "columns": [
@@ -636,6 +636,7 @@
     "1296_wl": 100,
     "2352_wl": 100,
     "1845_wl": 100,
+    "ID": 100,
     "2031_wl": 100,
     "264_readings_max": 162,
     "cluster_labels混合物": 143,
