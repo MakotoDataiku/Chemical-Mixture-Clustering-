@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607775597496
+    "lastModifiedOn": 1607775601687
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,36 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "ID",
+        "type": "string"
+      },
+      {
+        "name": "product_label",
+        "type": "string"
+      },
+      {
+        "name": "proba_Spain",
+        "type": "double"
+      },
+      {
+        "name": "proba_Italy",
+        "type": "double"
+      },
+      {
+        "name": "proba_Greece",
+        "type": "double"
+      },
+      {
+        "name": "proba_Portugal",
+        "type": "double"
+      },
+      {
+        "name": "prediction",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
