@@ -25,42 +25,7 @@
     },
     "autoRefreshSample": false
   },
-  "explorationFilters": [
-    {
-      "validityFilter": {
-        "column": "readings",
-        "type": "validity",
-        "params": {
-          "nok": true,
-          "type": "DoubleMeaning",
-          "ok": true,
-          "empty": true
-        }
-      },
-      "column": "readings",
-      "active": true,
-      "alphanumFilter": {
-        "values": [],
-        "column": "readings",
-        "type": "alphanum",
-        "params": {
-          "mode": "full_string",
-          "normalization": "exact"
-        }
-      },
-      "type": "columnFilter",
-      "$$hashKey": "object:244586",
-      "facet": {
-        "columnType": "NUMERICAL",
-        "selectedValues": {},
-        "column": "readings",
-        "sort": "count",
-        "type": "facet",
-        "currentMode": "NUMERICAL"
-      },
-      "currentMode": "FACET"
-    }
-  ],
+  "explorationFilters": [],
   "origin": "PREPARE_RECIPE",
   "exploreUIParams": {
     "autoRefresh": true
