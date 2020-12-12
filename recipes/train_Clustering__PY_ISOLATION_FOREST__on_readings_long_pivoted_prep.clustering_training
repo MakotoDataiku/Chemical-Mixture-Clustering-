@@ -31,7 +31,7 @@
     "custom_has_k": false,
     "algorithm": "PY_ISOLATION_FOREST"
   },
-  "generatingModelId": "A-CHEMICALMIXTURECLUSTERING-1RXHD4RF-0PxxNkw3-s6-pp1-m1",
+  "generatingModelId": "A-CHEMICALMIXTURECLUSTERING-1RXHD4RF-0PxxNkw3-s7-pp1-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
@@ -3462,22 +3462,40 @@
         "impute_constant_value": 0.0
       },
       "ID": {
-        "autoReason": "REJECT_IDENTIFIER",
-        "customProcessorWantsMatrix": false,
-        "quantile_bin_nb_bins": 4,
+        "nb_bins_hashing": 1048576,
+        "min_samples": 10,
+        "missing_impute_with": "MODE",
         "role": "REJECT",
-        "generate_derivative": false,
+        "dummy_drop": "NONE",
+        "dummy_clip": "MAX_NB_CATEGORIES",
+        "cumulative_proportion": 0.95,
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "type": "CATEGORY",
+        "autoReason": "REJECT_IDENTIFIER",
+        "customProcessorWantsMatrix": false,
+        "missing_handling": "NONE",
+        "category_handling": "DUMMIFY",
         "state": {
-          "autoModifiedByDSS": false,
-          "recordedMeaning": "LongMeaning",
+          "autoModifiedByDSS": true,
+          "recordedMeaning": "Text",
+          "previousSettings": {
+            "autoReason": "REJECT_IDENTIFIER",
+            "customProcessorWantsMatrix": false,
+            "quantile_bin_nb_bins": 4,
+            "role": "REJECT",
+            "generate_derivative": false,
+            "sendToInput": "main",
+            "customHandlingCode": "",
+            "binarize_constant_threshold": 0.0,
+            "type": "NUMERIC",
+            "impute_constant_value": 0.0,
+            "binarize_threshold_mode": "MEDIAN"
+          },
           "userModified": false
         },
-        "type": "NUMERIC",
-        "impute_constant_value": 0.0,
-        "binarize_threshold_mode": "MEDIAN"
+        "max_nb_categories": 100,
+        "max_cat_safety": 200
       },
       "959.0415_readings_max": {
         "rescaling": "AVGSTD",
@@ -12092,7 +12110,7 @@
     "columns": [
       {
         "name": "ID",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "798.892_readings_max",
@@ -14402,6 +14420,7 @@
     "extractBeforePrepare": true
   },
   "script": {
+    "contextProjectKey": "CHEMICALMIXTURECLUSTERING",
     "columnsSelection": {
       "mode": "ALL"
     },
