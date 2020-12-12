@@ -16,7 +16,7 @@
     "main": {
       "items": [
         {
-          "ref": "olive_oil_with_label",
+          "ref": "train",
           "deps": []
         }
       ]
@@ -33,11 +33,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607774833100
+    "lastModifiedOn": 1607774892479
   },
   "creationTag": {
     "versionNumber": 0,
