@@ -12,12 +12,12 @@
       "on": [
         {
           "column1": {
-            "name": "混合物ID",
+            "name": "ID",
             "table": 0
           },
           "dateDiffUnit": "DAY",
           "column2": {
-            "name": "混合物ID",
+            "name": "ID",
             "table": 1
           },
           "maxMatches": 1,
@@ -33,11 +33,11 @@
   "selectedColumns": [
     {
       "name": "Wavelength",
-      "type": "bigint",
+      "type": "double",
       "table": 0
     },
     {
-      "name": "混合物ID",
+      "name": "ID",
       "type": "string",
       "table": 0
     },
@@ -114,8 +114,8 @@
   "computedColumns": [
     {
       "mode": "GREL",
-      "name": "混合物_labeled",
-      "expr": "concat(混合物ID, cluster_labels)",
+      "name": "ID_labeled",
+      "expr": "concat(ID, cluster_labels)",
       "type": "string"
     }
   ],
@@ -125,10 +125,10 @@
         "columns": [
           {
             "name": "Wavelength",
-            "type": "bigint"
+            "type": "double"
           },
           {
-            "name": "混合物ID",
+            "name": "ID",
             "type": "string"
           },
           {
@@ -144,7 +144,7 @@
             "type": "double"
           },
           {
-            "name": "混合物_labeled",
+            "name": "ID_labeled",
             "type": "string"
           }
         ],
