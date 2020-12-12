@@ -53,6 +53,10 @@
     {
       "objectId": "train",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "test",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
