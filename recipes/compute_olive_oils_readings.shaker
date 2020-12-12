@@ -56,7 +56,7 @@
         "renamings": [
           {
             "from": "ID",
-            "to": "wavelength"
+            "to": "Wavelength"
           }
         ]
       },
