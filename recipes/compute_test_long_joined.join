@@ -1,0 +1,249 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": []
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "ID",
+      "table": 0
+    },
+    {
+      "name": "Wavelength",
+      "table": 0
+    },
+    {
+      "name": "readings",
+      "table": 0
+    },
+    {
+      "name": "52-1",
+      "table": 0
+    },
+    {
+      "name": "27-2",
+      "table": 0
+    },
+    {
+      "name": "26-2",
+      "table": 0
+    },
+    {
+      "name": "40-1",
+      "table": 0
+    },
+    {
+      "name": "57-2",
+      "table": 0
+    },
+    {
+      "name": "10-2",
+      "table": 0
+    },
+    {
+      "name": "59-1",
+      "table": 0
+    },
+    {
+      "name": "33-2",
+      "table": 0
+    },
+    {
+      "name": "51-2",
+      "table": 0
+    },
+    {
+      "name": "7-2",
+      "table": 0
+    },
+    {
+      "name": "44-1",
+      "table": 0
+    },
+    {
+      "name": "20-2",
+      "table": 0
+    },
+    {
+      "name": "2-2",
+      "table": 0
+    },
+    {
+      "name": "52-2",
+      "table": 0
+    },
+    {
+      "name": "45-2",
+      "table": 0
+    },
+    {
+      "name": "25-1",
+      "table": 0
+    },
+    {
+      "name": "42-1",
+      "table": 0
+    },
+    {
+      "name": "11-1",
+      "table": 0
+    },
+    {
+      "name": "32-2",
+      "table": 0
+    },
+    {
+      "name": "28-1",
+      "table": 0
+    },
+    {
+      "name": "3-2",
+      "table": 0
+    },
+    {
+      "name": "37-2",
+      "table": 0
+    },
+    {
+      "name": "23-2",
+      "table": 0
+    },
+    {
+      "name": "43-2",
+      "table": 0
+    },
+    {
+      "name": "8-2",
+      "table": 0
+    },
+    {
+      "name": "55-2",
+      "table": 0
+    },
+    {
+      "name": "47-2",
+      "table": 0
+    },
+    {
+      "name": "60-2",
+      "table": 0
+    },
+    {
+      "name": "44-2",
+      "table": 0
+    },
+    {
+      "name": "19-2",
+      "table": 0
+    },
+    {
+      "name": "4-1",
+      "table": 0
+    },
+    {
+      "name": "34-1",
+      "table": 0
+    },
+    {
+      "name": "35-1",
+      "table": 0
+    },
+    {
+      "name": "40-2",
+      "table": 0
+    },
+    {
+      "name": "39-2",
+      "table": 0
+    },
+    {
+      "name": "18-2",
+      "table": 0
+    },
+    {
+      "name": "product_label",
+      "table": 1
+    },
+    {
+      "name": "proba_Spain",
+      "table": 1
+    },
+    {
+      "name": "proba_Italy",
+      "table": 1
+    },
+    {
+      "name": "proba_Greece",
+      "table": 1
+    },
+    {
+      "name": "proba_Portugal",
+      "table": 1
+    },
+    {
+      "name": "prediction",
+      "table": 1
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sqlPipelineParams": {
+      "pipelineAllowMerge": true,
+      "pipelineAllowStart": true
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "skipPrerunValidate": false,
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "mode": "AUTO",
+        "autoModeRepartitionInto": 10,
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "enableAutoCastInJoinConditions": false
+}

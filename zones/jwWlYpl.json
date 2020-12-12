@@ -81,6 +81,14 @@
     {
       "objectId": "compute_test_long",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_test_long_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "test_long_joined",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
