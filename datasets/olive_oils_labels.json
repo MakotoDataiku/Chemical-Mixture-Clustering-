@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607774474197
+    "lastModifiedOn": 1607774565630
   },
   "creationTag": {
     "versionNumber": 0,
@@ -94,7 +94,7 @@
         "type": "string"
       },
       {
-        "name": "Label",
+        "name": "product_label",
         "type": "string"
       }
     ],
