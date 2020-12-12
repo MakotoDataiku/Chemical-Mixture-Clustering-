@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607769146961
+    "lastModifiedOn": 1607773893624
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,10 +88,10 @@
     "columns": [
       {
         "name": "Wavelength",
-        "type": "bigint"
+        "type": "double"
       },
       {
-        "name": "混合物ID",
+        "name": "ID",
         "type": "string"
       },
       {
@@ -107,7 +107,7 @@
         "type": "double"
       },
       {
-        "name": "混合物_labeled",
+        "name": "ID_labeled",
         "type": "string"
       }
     ],
