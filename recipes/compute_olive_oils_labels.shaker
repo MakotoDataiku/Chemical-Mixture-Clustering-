@@ -80,7 +80,7 @@
       "params": {
         "columns": [
           "ID",
-          "Label"
+          "product_label"
         ],
         "keep": true,
         "appliesTo": "COLUMNS"
@@ -168,6 +168,7 @@
     "31-2": 100,
     "1-1": 100,
     "31-1": 100,
+    "product_label": 113,
     "1-2": 100,
     "50-2": 100,
     "5-1": 100,
