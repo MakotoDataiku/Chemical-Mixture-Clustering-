@@ -26,6 +26,9 @@
             },
             "readings_long_clustered": {
               "repartition": 10
+            },
+            "VISUALISECLUSTERS.readings_long_clustered": {
+              "repartition": 10
             }
           }
         },
@@ -67,7 +70,7 @@
     "main": {
       "items": [
         {
-          "ref": "VISUALISECLUSTERS.readings_long_clustered",
+          "ref": "readings_scored",
           "deps": []
         }
       ]
@@ -84,11 +87,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607769146958
+    "lastModifiedOn": 1607769472348
   },
   "creationTag": {
     "versionNumber": 0,
