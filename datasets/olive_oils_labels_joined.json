@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607774487225
+    "lastModifiedOn": 1607774541458
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,16 +59,12 @@
   "schema": {
     "columns": [
       {
-        "name": "ID",
-        "type": "string"
-      },
-      {
-        "name": "Label",
-        "type": "string"
-      },
-      {
         "name": "Wavelength",
         "type": "double"
+      },
+      {
+        "name": "ID",
+        "type": "string"
       },
       {
         "name": "readings",
@@ -84,6 +80,10 @@
       },
       {
         "name": "ID_labeled",
+        "type": "string"
+      },
+      {
+        "name": "Label",
         "type": "string"
       }
     ],
