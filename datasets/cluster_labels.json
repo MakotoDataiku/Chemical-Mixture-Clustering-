@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607769451077
+    "lastModifiedOn": 1607771388600
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,16 +87,16 @@
   "schema": {
     "columns": [
       {
+        "name": "ID",
+        "type": "string"
+      },
+      {
         "name": "cluster_labels",
         "type": "string"
       },
       {
         "name": "anomaly_score",
         "type": "double"
-      },
-      {
-        "name": "混合物ID",
-        "type": "string"
       }
     ],
     "userModified": true
