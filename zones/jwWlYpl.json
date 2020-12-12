@@ -33,6 +33,14 @@
     {
       "objectId": "compute_clustering_with_labels",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_olive_oil_with_label",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "olive_oil_with_label",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
