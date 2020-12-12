@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607767785577
+    "lastModifiedOn": 1607767787320
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,20 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "wavelength",
+        "type": "double"
+      },
+      {
+        "name": "ID",
+        "type": "bigint"
+      },
+      {
+        "name": "readings",
+        "type": "double"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
