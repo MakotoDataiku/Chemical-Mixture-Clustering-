@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607768225288
+    "lastModifiedOn": 1607768588379
   },
   "creationTag": {
     "versionNumber": 0,
@@ -92,1611 +92,2287 @@
   "schema": {
     "columns": [
       {
-        "name": "mixtureID",
-        "type": "string"
+        "name": "ID",
+        "type": "bigint"
       },
       {
-        "name": "1200_wl",
+        "name": "798.892_readings_max",
         "type": "double"
       },
       {
-        "name": "1203_wl",
+        "name": "800.8215_readings_max",
         "type": "double"
       },
       {
-        "name": "1206_wl",
+        "name": "802.751_readings_max",
         "type": "double"
       },
       {
-        "name": "1209_wl",
+        "name": "804.6805_readings_max",
         "type": "double"
       },
       {
-        "name": "1212_wl",
+        "name": "806.61_readings_max",
         "type": "double"
       },
       {
-        "name": "1215_wl",
+        "name": "808.5395_readings_max",
         "type": "double"
       },
       {
-        "name": "1218_wl",
+        "name": "810.469_readings_max",
         "type": "double"
       },
       {
-        "name": "1221_wl",
+        "name": "812.3985_readings_max",
         "type": "double"
       },
       {
-        "name": "1224_wl",
+        "name": "814.328_readings_max",
         "type": "double"
       },
       {
-        "name": "1227_wl",
+        "name": "816.2575_readings_max",
         "type": "double"
       },
       {
-        "name": "1230_wl",
+        "name": "818.187_readings_max",
         "type": "double"
       },
       {
-        "name": "1233_wl",
+        "name": "820.1165_readings_max",
         "type": "double"
       },
       {
-        "name": "1236_wl",
+        "name": "822.046_readings_max",
         "type": "double"
       },
       {
-        "name": "1239_wl",
+        "name": "823.9755_readings_max",
         "type": "double"
       },
       {
-        "name": "1242_wl",
+        "name": "825.905_readings_max",
         "type": "double"
       },
       {
-        "name": "1245_wl",
+        "name": "827.8345_readings_max",
         "type": "double"
       },
       {
-        "name": "1248_wl",
+        "name": "829.764_readings_max",
         "type": "double"
       },
       {
-        "name": "1251_wl",
+        "name": "831.6935_readings_max",
         "type": "double"
       },
       {
-        "name": "1254_wl",
+        "name": "833.623_readings_max",
         "type": "double"
       },
       {
-        "name": "1257_wl",
+        "name": "835.5525_readings_max",
         "type": "double"
       },
       {
-        "name": "1260_wl",
+        "name": "837.482_readings_max",
         "type": "double"
       },
       {
-        "name": "1263_wl",
+        "name": "839.4115_readings_max",
         "type": "double"
       },
       {
-        "name": "1266_wl",
+        "name": "841.341_readings_max",
         "type": "double"
       },
       {
-        "name": "1269_wl",
+        "name": "843.2705_readings_max",
         "type": "double"
       },
       {
-        "name": "1272_wl",
+        "name": "845.2_readings_max",
         "type": "double"
       },
       {
-        "name": "1275_wl",
+        "name": "847.1295_readings_max",
         "type": "double"
       },
       {
-        "name": "1278_wl",
+        "name": "849.059_readings_max",
         "type": "double"
       },
       {
-        "name": "1281_wl",
+        "name": "850.9885_readings_max",
         "type": "double"
       },
       {
-        "name": "1284_wl",
+        "name": "852.918_readings_max",
         "type": "double"
       },
       {
-        "name": "1287_wl",
+        "name": "854.8475_readings_max",
         "type": "double"
       },
       {
-        "name": "1290_wl",
+        "name": "856.777_readings_max",
         "type": "double"
       },
       {
-        "name": "1293_wl",
+        "name": "858.7065_readings_max",
         "type": "double"
       },
       {
-        "name": "1296_wl",
+        "name": "860.636_readings_max",
         "type": "double"
       },
       {
-        "name": "1299_wl",
+        "name": "862.5655_readings_max",
         "type": "double"
       },
       {
-        "name": "1302_wl",
+        "name": "864.495_readings_max",
         "type": "double"
       },
       {
-        "name": "1305_wl",
+        "name": "866.4245_readings_max",
         "type": "double"
       },
       {
-        "name": "1308_wl",
+        "name": "868.354_readings_max",
         "type": "double"
       },
       {
-        "name": "1311_wl",
+        "name": "870.2835_readings_max",
         "type": "double"
       },
       {
-        "name": "1314_wl",
+        "name": "872.213_readings_max",
         "type": "double"
       },
       {
-        "name": "1317_wl",
+        "name": "874.1425_readings_max",
         "type": "double"
       },
       {
-        "name": "1320_wl",
+        "name": "876.072_readings_max",
         "type": "double"
       },
       {
-        "name": "1323_wl",
+        "name": "878.0015_readings_max",
         "type": "double"
       },
       {
-        "name": "1326_wl",
+        "name": "879.931_readings_max",
         "type": "double"
       },
       {
-        "name": "1329_wl",
+        "name": "881.8605_readings_max",
         "type": "double"
       },
       {
-        "name": "1332_wl",
+        "name": "883.79_readings_max",
         "type": "double"
       },
       {
-        "name": "1335_wl",
+        "name": "885.7195_readings_max",
         "type": "double"
       },
       {
-        "name": "1338_wl",
+        "name": "887.649_readings_max",
         "type": "double"
       },
       {
-        "name": "1341_wl",
+        "name": "889.5785_readings_max",
         "type": "double"
       },
       {
-        "name": "1344_wl",
+        "name": "891.508_readings_max",
         "type": "double"
       },
       {
-        "name": "1347_wl",
+        "name": "893.4375_readings_max",
         "type": "double"
       },
       {
-        "name": "1350_wl",
+        "name": "895.367_readings_max",
         "type": "double"
       },
       {
-        "name": "1353_wl",
+        "name": "897.2965_readings_max",
         "type": "double"
       },
       {
-        "name": "1356_wl",
+        "name": "899.226_readings_max",
         "type": "double"
       },
       {
-        "name": "1359_wl",
+        "name": "901.1555_readings_max",
         "type": "double"
       },
       {
-        "name": "1362_wl",
+        "name": "903.085_readings_max",
         "type": "double"
       },
       {
-        "name": "1365_wl",
+        "name": "905.0145_readings_max",
         "type": "double"
       },
       {
-        "name": "1368_wl",
+        "name": "906.944_readings_max",
         "type": "double"
       },
       {
-        "name": "1371_wl",
+        "name": "908.8735_readings_max",
         "type": "double"
       },
       {
-        "name": "1374_wl",
+        "name": "910.803_readings_max",
         "type": "double"
       },
       {
-        "name": "1377_wl",
+        "name": "912.7325_readings_max",
         "type": "double"
       },
       {
-        "name": "1380_wl",
+        "name": "914.662_readings_max",
         "type": "double"
       },
       {
-        "name": "1383_wl",
+        "name": "916.5915_readings_max",
         "type": "double"
       },
       {
-        "name": "1386_wl",
+        "name": "918.521_readings_max",
         "type": "double"
       },
       {
-        "name": "1389_wl",
+        "name": "920.4505_readings_max",
         "type": "double"
       },
       {
-        "name": "1392_wl",
+        "name": "922.38_readings_max",
         "type": "double"
       },
       {
-        "name": "1395_wl",
+        "name": "924.3095_readings_max",
         "type": "double"
       },
       {
-        "name": "1398_wl",
+        "name": "926.239_readings_max",
         "type": "double"
       },
       {
-        "name": "1401_wl",
+        "name": "928.1685_readings_max",
         "type": "double"
       },
       {
-        "name": "1404_wl",
+        "name": "930.098_readings_max",
         "type": "double"
       },
       {
-        "name": "1407_wl",
+        "name": "932.0275_readings_max",
         "type": "double"
       },
       {
-        "name": "1410_wl",
+        "name": "933.957_readings_max",
         "type": "double"
       },
       {
-        "name": "1413_wl",
+        "name": "935.8865_readings_max",
         "type": "double"
       },
       {
-        "name": "1416_wl",
+        "name": "937.816_readings_max",
         "type": "double"
       },
       {
-        "name": "1419_wl",
+        "name": "939.7455_readings_max",
         "type": "double"
       },
       {
-        "name": "1422_wl",
+        "name": "941.675_readings_max",
         "type": "double"
       },
       {
-        "name": "1425_wl",
+        "name": "943.6045_readings_max",
         "type": "double"
       },
       {
-        "name": "1428_wl",
+        "name": "945.534_readings_max",
         "type": "double"
       },
       {
-        "name": "1431_wl",
+        "name": "947.4645_readings_max",
         "type": "double"
       },
       {
-        "name": "1434_wl",
+        "name": "949.394_readings_max",
         "type": "double"
       },
       {
-        "name": "1437_wl",
+        "name": "951.3235_readings_max",
         "type": "double"
       },
       {
-        "name": "1440_wl",
+        "name": "953.253_readings_max",
         "type": "double"
       },
       {
-        "name": "1443_wl",
+        "name": "955.1825_readings_max",
         "type": "double"
       },
       {
-        "name": "1446_wl",
+        "name": "957.112_readings_max",
         "type": "double"
       },
       {
-        "name": "1449_wl",
+        "name": "959.0415_readings_max",
         "type": "double"
       },
       {
-        "name": "1452_wl",
+        "name": "960.971_readings_max",
         "type": "double"
       },
       {
-        "name": "1455_wl",
+        "name": "962.9005_readings_max",
         "type": "double"
       },
       {
-        "name": "1458_wl",
+        "name": "964.83_readings_max",
         "type": "double"
       },
       {
-        "name": "1461_wl",
+        "name": "966.7595_readings_max",
         "type": "double"
       },
       {
-        "name": "1464_wl",
+        "name": "968.689_readings_max",
         "type": "double"
       },
       {
-        "name": "1467_wl",
+        "name": "970.6185_readings_max",
         "type": "double"
       },
       {
-        "name": "1470_wl",
+        "name": "972.548_readings_max",
         "type": "double"
       },
       {
-        "name": "1473_wl",
+        "name": "974.4775_readings_max",
         "type": "double"
       },
       {
-        "name": "1476_wl",
+        "name": "976.407_readings_max",
         "type": "double"
       },
       {
-        "name": "1479_wl",
+        "name": "978.3365_readings_max",
         "type": "double"
       },
       {
-        "name": "1482_wl",
+        "name": "980.266_readings_max",
         "type": "double"
       },
       {
-        "name": "1485_wl",
+        "name": "982.1955_readings_max",
         "type": "double"
       },
       {
-        "name": "1488_wl",
+        "name": "984.125_readings_max",
         "type": "double"
       },
       {
-        "name": "1491_wl",
+        "name": "986.0545_readings_max",
         "type": "double"
       },
       {
-        "name": "1494_wl",
+        "name": "987.984_readings_max",
         "type": "double"
       },
       {
-        "name": "1497_wl",
+        "name": "989.9135_readings_max",
         "type": "double"
       },
       {
-        "name": "1500_wl",
+        "name": "991.843_readings_max",
         "type": "double"
       },
       {
-        "name": "1503_wl",
+        "name": "993.7725_readings_max",
         "type": "double"
       },
       {
-        "name": "1506_wl",
+        "name": "995.702_readings_max",
         "type": "double"
       },
       {
-        "name": "1509_wl",
+        "name": "997.6315_readings_max",
         "type": "double"
       },
       {
-        "name": "1512_wl",
+        "name": "999.561_readings_max",
         "type": "double"
       },
       {
-        "name": "1515_wl",
+        "name": "1001.4905_readings_max",
         "type": "double"
       },
       {
-        "name": "1518_wl",
+        "name": "1003.42_readings_max",
         "type": "double"
       },
       {
-        "name": "1521_wl",
+        "name": "1005.3495_readings_max",
         "type": "double"
       },
       {
-        "name": "1524_wl",
+        "name": "1007.279_readings_max",
         "type": "double"
       },
       {
-        "name": "1527_wl",
+        "name": "1009.2085_readings_max",
         "type": "double"
       },
       {
-        "name": "1530_wl",
+        "name": "1011.138_readings_max",
         "type": "double"
       },
       {
-        "name": "1533_wl",
+        "name": "1013.0675_readings_max",
         "type": "double"
       },
       {
-        "name": "1536_wl",
+        "name": "1014.997_readings_max",
         "type": "double"
       },
       {
-        "name": "1539_wl",
+        "name": "1016.9265_readings_max",
         "type": "double"
       },
       {
-        "name": "1542_wl",
+        "name": "1018.856_readings_max",
         "type": "double"
       },
       {
-        "name": "1545_wl",
+        "name": "1020.7855_readings_max",
         "type": "double"
       },
       {
-        "name": "1548_wl",
+        "name": "1022.715_readings_max",
         "type": "double"
       },
       {
-        "name": "1551_wl",
+        "name": "1024.6445_readings_max",
         "type": "double"
       },
       {
-        "name": "1554_wl",
+        "name": "1026.574_readings_max",
         "type": "double"
       },
       {
-        "name": "1557_wl",
+        "name": "1028.5035_readings_max",
         "type": "double"
       },
       {
-        "name": "1560_wl",
+        "name": "1030.433_readings_max",
         "type": "double"
       },
       {
-        "name": "1563_wl",
+        "name": "1032.3625_readings_max",
         "type": "double"
       },
       {
-        "name": "1566_wl",
+        "name": "1034.292_readings_max",
         "type": "double"
       },
       {
-        "name": "1569_wl",
+        "name": "1036.2215_readings_max",
         "type": "double"
       },
       {
-        "name": "1572_wl",
+        "name": "1038.151_readings_max",
         "type": "double"
       },
       {
-        "name": "1575_wl",
+        "name": "1040.0815_readings_max",
         "type": "double"
       },
       {
-        "name": "1578_wl",
+        "name": "1042.011_readings_max",
         "type": "double"
       },
       {
-        "name": "1581_wl",
+        "name": "1043.9405_readings_max",
         "type": "double"
       },
       {
-        "name": "1584_wl",
+        "name": "1045.87_readings_max",
         "type": "double"
       },
       {
-        "name": "1587_wl",
+        "name": "1047.7995_readings_max",
         "type": "double"
       },
       {
-        "name": "1590_wl",
+        "name": "1049.729_readings_max",
         "type": "double"
       },
       {
-        "name": "1593_wl",
+        "name": "1051.6585_readings_max",
         "type": "double"
       },
       {
-        "name": "1596_wl",
+        "name": "1053.588_readings_max",
         "type": "double"
       },
       {
-        "name": "1599_wl",
+        "name": "1055.5175_readings_max",
         "type": "double"
       },
       {
-        "name": "1602_wl",
+        "name": "1057.447_readings_max",
         "type": "double"
       },
       {
-        "name": "1605_wl",
+        "name": "1059.3765_readings_max",
         "type": "double"
       },
       {
-        "name": "1608_wl",
+        "name": "1061.306_readings_max",
         "type": "double"
       },
       {
-        "name": "1611_wl",
+        "name": "1063.2355_readings_max",
         "type": "double"
       },
       {
-        "name": "1614_wl",
+        "name": "1065.165_readings_max",
         "type": "double"
       },
       {
-        "name": "1617_wl",
+        "name": "1067.0945_readings_max",
         "type": "double"
       },
       {
-        "name": "1620_wl",
+        "name": "1069.024_readings_max",
         "type": "double"
       },
       {
-        "name": "1623_wl",
+        "name": "1070.9535_readings_max",
         "type": "double"
       },
       {
-        "name": "1626_wl",
+        "name": "1072.883_readings_max",
         "type": "double"
       },
       {
-        "name": "1629_wl",
+        "name": "1074.8135_readings_max",
         "type": "double"
       },
       {
-        "name": "1632_wl",
+        "name": "1076.743_readings_max",
         "type": "double"
       },
       {
-        "name": "1635_wl",
+        "name": "1078.6725_readings_max",
         "type": "double"
       },
       {
-        "name": "1638_wl",
+        "name": "1080.602_readings_max",
         "type": "double"
       },
       {
-        "name": "1641_wl",
+        "name": "1082.5315_readings_max",
         "type": "double"
       },
       {
-        "name": "1644_wl",
+        "name": "1084.461_readings_max",
         "type": "double"
       },
       {
-        "name": "1647_wl",
+        "name": "1086.3905_readings_max",
         "type": "double"
       },
       {
-        "name": "1650_wl",
+        "name": "1088.32_readings_max",
         "type": "double"
       },
       {
-        "name": "1653_wl",
+        "name": "1090.2495_readings_max",
         "type": "double"
       },
       {
-        "name": "1656_wl",
+        "name": "1092.179_readings_max",
         "type": "double"
       },
       {
-        "name": "1659_wl",
+        "name": "1094.1085_readings_max",
         "type": "double"
       },
       {
-        "name": "1662_wl",
+        "name": "1096.038_readings_max",
         "type": "double"
       },
       {
-        "name": "1665_wl",
+        "name": "1097.9675_readings_max",
         "type": "double"
       },
       {
-        "name": "1668_wl",
+        "name": "1099.897_readings_max",
         "type": "double"
       },
       {
-        "name": "1671_wl",
+        "name": "1101.8265_readings_max",
         "type": "double"
       },
       {
-        "name": "1674_wl",
+        "name": "1103.756_readings_max",
         "type": "double"
       },
       {
-        "name": "1677_wl",
+        "name": "1105.6855_readings_max",
         "type": "double"
       },
       {
-        "name": "1680_wl",
+        "name": "1107.615_readings_max",
         "type": "double"
       },
       {
-        "name": "1683_wl",
+        "name": "1109.5455_readings_max",
         "type": "double"
       },
       {
-        "name": "1686_wl",
+        "name": "1111.475_readings_max",
         "type": "double"
       },
       {
-        "name": "1689_wl",
+        "name": "1113.4045_readings_max",
         "type": "double"
       },
       {
-        "name": "1692_wl",
+        "name": "1115.334_readings_max",
         "type": "double"
       },
       {
-        "name": "1695_wl",
+        "name": "1117.2635_readings_max",
         "type": "double"
       },
       {
-        "name": "1698_wl",
+        "name": "1119.193_readings_max",
         "type": "double"
       },
       {
-        "name": "1701_wl",
+        "name": "1121.1225_readings_max",
         "type": "double"
       },
       {
-        "name": "1704_wl",
+        "name": "1123.052_readings_max",
         "type": "double"
       },
       {
-        "name": "1707_wl",
+        "name": "1124.9815_readings_max",
         "type": "double"
       },
       {
-        "name": "1710_wl",
+        "name": "1126.911_readings_max",
         "type": "double"
       },
       {
-        "name": "1713_wl",
+        "name": "1128.8405_readings_max",
         "type": "double"
       },
       {
-        "name": "1716_wl",
+        "name": "1130.77_readings_max",
         "type": "double"
       },
       {
-        "name": "1719_wl",
+        "name": "1132.7005_readings_max",
         "type": "double"
       },
       {
-        "name": "1722_wl",
+        "name": "1134.63_readings_max",
         "type": "double"
       },
       {
-        "name": "1725_wl",
+        "name": "1136.5595_readings_max",
         "type": "double"
       },
       {
-        "name": "1728_wl",
+        "name": "1138.489_readings_max",
         "type": "double"
       },
       {
-        "name": "1731_wl",
+        "name": "1140.4185_readings_max",
         "type": "double"
       },
       {
-        "name": "1734_wl",
+        "name": "1142.348_readings_max",
         "type": "double"
       },
       {
-        "name": "1737_wl",
+        "name": "1144.2775_readings_max",
         "type": "double"
       },
       {
-        "name": "1740_wl",
+        "name": "1146.207_readings_max",
         "type": "double"
       },
       {
-        "name": "1743_wl",
+        "name": "1148.1365_readings_max",
         "type": "double"
       },
       {
-        "name": "1746_wl",
+        "name": "1150.066_readings_max",
         "type": "double"
       },
       {
-        "name": "1749_wl",
+        "name": "1151.9955_readings_max",
         "type": "double"
       },
       {
-        "name": "1752_wl",
+        "name": "1153.925_readings_max",
         "type": "double"
       },
       {
-        "name": "1755_wl",
+        "name": "1155.8545_readings_max",
         "type": "double"
       },
       {
-        "name": "1758_wl",
+        "name": "1157.784_readings_max",
         "type": "double"
       },
       {
-        "name": "1761_wl",
+        "name": "1159.7135_readings_max",
         "type": "double"
       },
       {
-        "name": "1764_wl",
+        "name": "1161.643_readings_max",
         "type": "double"
       },
       {
-        "name": "1767_wl",
+        "name": "1163.5725_readings_max",
         "type": "double"
       },
       {
-        "name": "1770_wl",
+        "name": "1165.502_readings_max",
         "type": "double"
       },
       {
-        "name": "1773_wl",
+        "name": "1167.4325_readings_max",
         "type": "double"
       },
       {
-        "name": "1776_wl",
+        "name": "1169.362_readings_max",
         "type": "double"
       },
       {
-        "name": "1779_wl",
+        "name": "1171.2915_readings_max",
         "type": "double"
       },
       {
-        "name": "1782_wl",
+        "name": "1173.221_readings_max",
         "type": "double"
       },
       {
-        "name": "1785_wl",
+        "name": "1175.1505_readings_max",
         "type": "double"
       },
       {
-        "name": "1788_wl",
+        "name": "1177.08_readings_max",
         "type": "double"
       },
       {
-        "name": "1791_wl",
+        "name": "1179.0095_readings_max",
         "type": "double"
       },
       {
-        "name": "1794_wl",
+        "name": "1180.939_readings_max",
         "type": "double"
       },
       {
-        "name": "1797_wl",
+        "name": "1182.8685_readings_max",
         "type": "double"
       },
       {
-        "name": "1800_wl",
+        "name": "1184.798_readings_max",
         "type": "double"
       },
       {
-        "name": "1803_wl",
+        "name": "1186.7275_readings_max",
         "type": "double"
       },
       {
-        "name": "1806_wl",
+        "name": "1188.657_readings_max",
         "type": "double"
       },
       {
-        "name": "1809_wl",
+        "name": "1190.5875_readings_max",
         "type": "double"
       },
       {
-        "name": "1812_wl",
+        "name": "1192.517_readings_max",
         "type": "double"
       },
       {
-        "name": "1815_wl",
+        "name": "1194.4465_readings_max",
         "type": "double"
       },
       {
-        "name": "1818_wl",
+        "name": "1196.376_readings_max",
         "type": "double"
       },
       {
-        "name": "1821_wl",
+        "name": "1198.3055_readings_max",
         "type": "double"
       },
       {
-        "name": "1824_wl",
+        "name": "1200.235_readings_max",
         "type": "double"
       },
       {
-        "name": "1827_wl",
+        "name": "1202.1645_readings_max",
         "type": "double"
       },
       {
-        "name": "1830_wl",
+        "name": "1204.094_readings_max",
         "type": "double"
       },
       {
-        "name": "1833_wl",
+        "name": "1206.0235_readings_max",
         "type": "double"
       },
       {
-        "name": "1836_wl",
+        "name": "1207.953_readings_max",
         "type": "double"
       },
       {
-        "name": "1839_wl",
+        "name": "1209.8825_readings_max",
         "type": "double"
       },
       {
-        "name": "1842_wl",
+        "name": "1211.812_readings_max",
         "type": "double"
       },
       {
-        "name": "1845_wl",
+        "name": "1213.7415_readings_max",
         "type": "double"
       },
       {
-        "name": "1848_wl",
+        "name": "1215.671_readings_max",
         "type": "double"
       },
       {
-        "name": "1851_wl",
+        "name": "1217.6005_readings_max",
         "type": "double"
       },
       {
-        "name": "1854_wl",
+        "name": "1219.53_readings_max",
         "type": "double"
       },
       {
-        "name": "1857_wl",
+        "name": "1221.4595_readings_max",
         "type": "double"
       },
       {
-        "name": "1860_wl",
+        "name": "1223.389_readings_max",
         "type": "double"
       },
       {
-        "name": "1863_wl",
+        "name": "1225.3195_readings_max",
         "type": "double"
       },
       {
-        "name": "1866_wl",
+        "name": "1227.249_readings_max",
         "type": "double"
       },
       {
-        "name": "1869_wl",
+        "name": "1229.1785_readings_max",
         "type": "double"
       },
       {
-        "name": "1872_wl",
+        "name": "1231.108_readings_max",
         "type": "double"
       },
       {
-        "name": "1875_wl",
+        "name": "1233.0375_readings_max",
         "type": "double"
       },
       {
-        "name": "1878_wl",
+        "name": "1234.967_readings_max",
         "type": "double"
       },
       {
-        "name": "1881_wl",
+        "name": "1236.8965_readings_max",
         "type": "double"
       },
       {
-        "name": "1884_wl",
+        "name": "1238.826_readings_max",
         "type": "double"
       },
       {
-        "name": "1887_wl",
+        "name": "1240.7555_readings_max",
         "type": "double"
       },
       {
-        "name": "1890_wl",
+        "name": "1242.685_readings_max",
         "type": "double"
       },
       {
-        "name": "1893_wl",
+        "name": "1244.6145_readings_max",
         "type": "double"
       },
       {
-        "name": "1896_wl",
+        "name": "1246.544_readings_max",
         "type": "double"
       },
       {
-        "name": "1899_wl",
+        "name": "1248.4745_readings_max",
         "type": "double"
       },
       {
-        "name": "1902_wl",
+        "name": "1250.404_readings_max",
         "type": "double"
       },
       {
-        "name": "1905_wl",
+        "name": "1252.3335_readings_max",
         "type": "double"
       },
       {
-        "name": "1908_wl",
+        "name": "1254.263_readings_max",
         "type": "double"
       },
       {
-        "name": "1911_wl",
+        "name": "1256.1925_readings_max",
         "type": "double"
       },
       {
-        "name": "1914_wl",
+        "name": "1258.122_readings_max",
         "type": "double"
       },
       {
-        "name": "1917_wl",
+        "name": "1260.0515_readings_max",
         "type": "double"
       },
       {
-        "name": "1920_wl",
+        "name": "1261.981_readings_max",
         "type": "double"
       },
       {
-        "name": "1923_wl",
+        "name": "1263.9105_readings_max",
         "type": "double"
       },
       {
-        "name": "1926_wl",
+        "name": "1265.84_readings_max",
         "type": "double"
       },
       {
-        "name": "1929_wl",
+        "name": "1267.7695_readings_max",
         "type": "double"
       },
       {
-        "name": "1932_wl",
+        "name": "1269.699_readings_max",
         "type": "double"
       },
       {
-        "name": "1935_wl",
+        "name": "1271.6285_readings_max",
         "type": "double"
       },
       {
-        "name": "1938_wl",
+        "name": "1273.558_readings_max",
         "type": "double"
       },
       {
-        "name": "1941_wl",
+        "name": "1275.4875_readings_max",
         "type": "double"
       },
       {
-        "name": "1944_wl",
+        "name": "1277.417_readings_max",
         "type": "double"
       },
       {
-        "name": "1947_wl",
+        "name": "1279.3465_readings_max",
         "type": "double"
       },
       {
-        "name": "1950_wl",
+        "name": "1281.276_readings_max",
         "type": "double"
       },
       {
-        "name": "1953_wl",
+        "name": "1283.2065_readings_max",
         "type": "double"
       },
       {
-        "name": "1956_wl",
+        "name": "1285.136_readings_max",
         "type": "double"
       },
       {
-        "name": "1959_wl",
+        "name": "1287.0655_readings_max",
         "type": "double"
       },
       {
-        "name": "1962_wl",
+        "name": "1288.995_readings_max",
         "type": "double"
       },
       {
-        "name": "1965_wl",
+        "name": "1290.9245_readings_max",
         "type": "double"
       },
       {
-        "name": "1968_wl",
+        "name": "1292.854_readings_max",
         "type": "double"
       },
       {
-        "name": "1971_wl",
+        "name": "1294.7835_readings_max",
         "type": "double"
       },
       {
-        "name": "1974_wl",
+        "name": "1296.713_readings_max",
         "type": "double"
       },
       {
-        "name": "1977_wl",
+        "name": "1298.6425_readings_max",
         "type": "double"
       },
       {
-        "name": "1980_wl",
+        "name": "1300.572_readings_max",
         "type": "double"
       },
       {
-        "name": "1983_wl",
+        "name": "1302.5015_readings_max",
         "type": "double"
       },
       {
-        "name": "1986_wl",
+        "name": "1304.431_readings_max",
         "type": "double"
       },
       {
-        "name": "1989_wl",
+        "name": "1306.3615_readings_max",
         "type": "double"
       },
       {
-        "name": "1992_wl",
+        "name": "1308.291_readings_max",
         "type": "double"
       },
       {
-        "name": "1995_wl",
+        "name": "1310.2205_readings_max",
         "type": "double"
       },
       {
-        "name": "1998_wl",
+        "name": "1312.15_readings_max",
         "type": "double"
       },
       {
-        "name": "2001_wl",
+        "name": "1314.0795_readings_max",
         "type": "double"
       },
       {
-        "name": "2004_wl",
+        "name": "1316.009_readings_max",
         "type": "double"
       },
       {
-        "name": "2007_wl",
+        "name": "1317.9385_readings_max",
         "type": "double"
       },
       {
-        "name": "2010_wl",
+        "name": "1319.868_readings_max",
         "type": "double"
       },
       {
-        "name": "2013_wl",
+        "name": "1321.7975_readings_max",
         "type": "double"
       },
       {
-        "name": "2016_wl",
+        "name": "1323.727_readings_max",
         "type": "double"
       },
       {
-        "name": "2019_wl",
+        "name": "1325.6565_readings_max",
         "type": "double"
       },
       {
-        "name": "2022_wl",
+        "name": "1327.586_readings_max",
         "type": "double"
       },
       {
-        "name": "2025_wl",
+        "name": "1329.5155_readings_max",
         "type": "double"
       },
       {
-        "name": "2028_wl",
+        "name": "1331.445_readings_max",
         "type": "double"
       },
       {
-        "name": "2031_wl",
+        "name": "1333.3745_readings_max",
         "type": "double"
       },
       {
-        "name": "2034_wl",
+        "name": "1335.304_readings_max",
         "type": "double"
       },
       {
-        "name": "2037_wl",
+        "name": "1337.2335_readings_max",
         "type": "double"
       },
       {
-        "name": "2040_wl",
+        "name": "1339.163_readings_max",
         "type": "double"
       },
       {
-        "name": "2043_wl",
+        "name": "1341.0935_readings_max",
         "type": "double"
       },
       {
-        "name": "2046_wl",
+        "name": "1343.023_readings_max",
         "type": "double"
       },
       {
-        "name": "2049_wl",
+        "name": "1344.9525_readings_max",
         "type": "double"
       },
       {
-        "name": "2052_wl",
+        "name": "1346.882_readings_max",
         "type": "double"
       },
       {
-        "name": "2055_wl",
+        "name": "1348.8115_readings_max",
         "type": "double"
       },
       {
-        "name": "2058_wl",
+        "name": "1350.741_readings_max",
         "type": "double"
       },
       {
-        "name": "2061_wl",
+        "name": "1352.6705_readings_max",
         "type": "double"
       },
       {
-        "name": "2064_wl",
+        "name": "1354.6_readings_max",
         "type": "double"
       },
       {
-        "name": "2067_wl",
+        "name": "1356.5295_readings_max",
         "type": "double"
       },
       {
-        "name": "2070_wl",
+        "name": "1358.459_readings_max",
         "type": "double"
       },
       {
-        "name": "2073_wl",
+        "name": "1360.3885_readings_max",
         "type": "double"
       },
       {
-        "name": "2076_wl",
+        "name": "1362.318_readings_max",
         "type": "double"
       },
       {
-        "name": "2079_wl",
+        "name": "1364.2485_readings_max",
         "type": "double"
       },
       {
-        "name": "2082_wl",
+        "name": "1366.178_readings_max",
         "type": "double"
       },
       {
-        "name": "2085_wl",
+        "name": "1368.1075_readings_max",
         "type": "double"
       },
       {
-        "name": "2088_wl",
+        "name": "1370.037_readings_max",
         "type": "double"
       },
       {
-        "name": "2091_wl",
+        "name": "1371.9665_readings_max",
         "type": "double"
       },
       {
-        "name": "2094_wl",
+        "name": "1373.896_readings_max",
         "type": "double"
       },
       {
-        "name": "2097_wl",
+        "name": "1375.8255_readings_max",
         "type": "double"
       },
       {
-        "name": "2100_wl",
+        "name": "1377.755_readings_max",
         "type": "double"
       },
       {
-        "name": "2103_wl",
+        "name": "1379.6845_readings_max",
         "type": "double"
       },
       {
-        "name": "2106_wl",
+        "name": "1381.614_readings_max",
         "type": "double"
       },
       {
-        "name": "2109_wl",
+        "name": "1383.5435_readings_max",
         "type": "double"
       },
       {
-        "name": "2112_wl",
+        "name": "1385.473_readings_max",
         "type": "double"
       },
       {
-        "name": "2115_wl",
+        "name": "1387.4025_readings_max",
         "type": "double"
       },
       {
-        "name": "2118_wl",
+        "name": "1389.332_readings_max",
         "type": "double"
       },
       {
-        "name": "2121_wl",
+        "name": "1391.2615_readings_max",
         "type": "double"
       },
       {
-        "name": "2124_wl",
+        "name": "1393.191_readings_max",
         "type": "double"
       },
       {
-        "name": "2127_wl",
+        "name": "1395.1205_readings_max",
         "type": "double"
       },
       {
-        "name": "2130_wl",
+        "name": "1397.05_readings_max",
         "type": "double"
       },
       {
-        "name": "2133_wl",
+        "name": "1398.9805_readings_max",
         "type": "double"
       },
       {
-        "name": "2136_wl",
+        "name": "1400.91_readings_max",
         "type": "double"
       },
       {
-        "name": "2139_wl",
+        "name": "1402.8395_readings_max",
         "type": "double"
       },
       {
-        "name": "2142_wl",
+        "name": "1404.769_readings_max",
         "type": "double"
       },
       {
-        "name": "2145_wl",
+        "name": "1406.6985_readings_max",
         "type": "double"
       },
       {
-        "name": "2148_wl",
+        "name": "1408.628_readings_max",
         "type": "double"
       },
       {
-        "name": "2151_wl",
+        "name": "1410.5575_readings_max",
         "type": "double"
       },
       {
-        "name": "2154_wl",
+        "name": "1412.487_readings_max",
         "type": "double"
       },
       {
-        "name": "2157_wl",
+        "name": "1414.4165_readings_max",
         "type": "double"
       },
       {
-        "name": "2160_wl",
+        "name": "1416.346_readings_max",
         "type": "double"
       },
       {
-        "name": "2163_wl",
+        "name": "1418.2755_readings_max",
         "type": "double"
       },
       {
-        "name": "2166_wl",
+        "name": "1420.205_readings_max",
         "type": "double"
       },
       {
-        "name": "2169_wl",
+        "name": "1422.1345_readings_max",
         "type": "double"
       },
       {
-        "name": "2172_wl",
+        "name": "1424.064_readings_max",
         "type": "double"
       },
       {
-        "name": "2175_wl",
+        "name": "1425.9935_readings_max",
         "type": "double"
       },
       {
-        "name": "2178_wl",
+        "name": "1427.923_readings_max",
         "type": "double"
       },
       {
-        "name": "2181_wl",
+        "name": "1429.8525_readings_max",
         "type": "double"
       },
       {
-        "name": "2184_wl",
+        "name": "1431.782_readings_max",
         "type": "double"
       },
       {
-        "name": "2187_wl",
+        "name": "1433.7125_readings_max",
         "type": "double"
       },
       {
-        "name": "2190_wl",
+        "name": "1435.642_readings_max",
         "type": "double"
       },
       {
-        "name": "2193_wl",
+        "name": "1437.5715_readings_max",
         "type": "double"
       },
       {
-        "name": "2196_wl",
+        "name": "1439.501_readings_max",
         "type": "double"
       },
       {
-        "name": "2199_wl",
+        "name": "1441.4305_readings_max",
         "type": "double"
       },
       {
-        "name": "2202_wl",
+        "name": "1443.36_readings_max",
         "type": "double"
       },
       {
-        "name": "2205_wl",
+        "name": "1445.2895_readings_max",
         "type": "double"
       },
       {
-        "name": "2208_wl",
+        "name": "1447.219_readings_max",
         "type": "double"
       },
       {
-        "name": "2211_wl",
+        "name": "1449.1485_readings_max",
         "type": "double"
       },
       {
-        "name": "2214_wl",
+        "name": "1451.078_readings_max",
         "type": "double"
       },
       {
-        "name": "2217_wl",
+        "name": "1453.0075_readings_max",
         "type": "double"
       },
       {
-        "name": "2220_wl",
+        "name": "1454.937_readings_max",
         "type": "double"
       },
       {
-        "name": "2223_wl",
+        "name": "1456.8675_readings_max",
         "type": "double"
       },
       {
-        "name": "2226_wl",
+        "name": "1458.797_readings_max",
         "type": "double"
       },
       {
-        "name": "2229_wl",
+        "name": "1460.7265_readings_max",
         "type": "double"
       },
       {
-        "name": "2232_wl",
+        "name": "1462.656_readings_max",
         "type": "double"
       },
       {
-        "name": "2235_wl",
+        "name": "1464.5855_readings_max",
         "type": "double"
       },
       {
-        "name": "2238_wl",
+        "name": "1466.515_readings_max",
         "type": "double"
       },
       {
-        "name": "2241_wl",
+        "name": "1468.4445_readings_max",
         "type": "double"
       },
       {
-        "name": "2244_wl",
+        "name": "1470.374_readings_max",
         "type": "double"
       },
       {
-        "name": "2247_wl",
+        "name": "1472.3035_readings_max",
         "type": "double"
       },
       {
-        "name": "2250_wl",
+        "name": "1474.233_readings_max",
         "type": "double"
       },
       {
-        "name": "2253_wl",
+        "name": "1476.1625_readings_max",
         "type": "double"
       },
       {
-        "name": "2256_wl",
+        "name": "1478.092_readings_max",
         "type": "double"
       },
       {
-        "name": "2259_wl",
+        "name": "1480.0215_readings_max",
         "type": "double"
       },
       {
-        "name": "2262_wl",
+        "name": "1481.951_readings_max",
         "type": "double"
       },
       {
-        "name": "2265_wl",
+        "name": "1483.8805_readings_max",
         "type": "double"
       },
       {
-        "name": "2268_wl",
+        "name": "1485.81_readings_max",
         "type": "double"
       },
       {
-        "name": "2271_wl",
+        "name": "1487.7395_readings_max",
         "type": "double"
       },
       {
-        "name": "2274_wl",
+        "name": "1489.669_readings_max",
         "type": "double"
       },
       {
-        "name": "2277_wl",
+        "name": "1491.5995_readings_max",
         "type": "double"
       },
       {
-        "name": "2280_wl",
+        "name": "1493.529_readings_max",
         "type": "double"
       },
       {
-        "name": "2283_wl",
+        "name": "1495.4585_readings_max",
         "type": "double"
       },
       {
-        "name": "2286_wl",
+        "name": "1497.388_readings_max",
         "type": "double"
       },
       {
-        "name": "2289_wl",
+        "name": "1499.3175_readings_max",
         "type": "double"
       },
       {
-        "name": "2292_wl",
+        "name": "1501.247_readings_max",
         "type": "double"
       },
       {
-        "name": "2295_wl",
+        "name": "1503.1765_readings_max",
         "type": "double"
       },
       {
-        "name": "2298_wl",
+        "name": "1505.106_readings_max",
         "type": "double"
       },
       {
-        "name": "2301_wl",
+        "name": "1507.0355_readings_max",
         "type": "double"
       },
       {
-        "name": "2304_wl",
+        "name": "1508.965_readings_max",
         "type": "double"
       },
       {
-        "name": "2307_wl",
+        "name": "1510.8945_readings_max",
         "type": "double"
       },
       {
-        "name": "2310_wl",
+        "name": "1512.824_readings_max",
         "type": "double"
       },
       {
-        "name": "2313_wl",
+        "name": "1514.7545_readings_max",
         "type": "double"
       },
       {
-        "name": "2316_wl",
+        "name": "1516.684_readings_max",
         "type": "double"
       },
       {
-        "name": "2319_wl",
+        "name": "1518.6135_readings_max",
         "type": "double"
       },
       {
-        "name": "2322_wl",
+        "name": "1520.543_readings_max",
         "type": "double"
       },
       {
-        "name": "2325_wl",
+        "name": "1522.4725_readings_max",
         "type": "double"
       },
       {
-        "name": "2328_wl",
+        "name": "1524.402_readings_max",
         "type": "double"
       },
       {
-        "name": "2331_wl",
+        "name": "1526.3315_readings_max",
         "type": "double"
       },
       {
-        "name": "2334_wl",
+        "name": "1528.261_readings_max",
         "type": "double"
       },
       {
-        "name": "2337_wl",
+        "name": "1530.1905_readings_max",
         "type": "double"
       },
       {
-        "name": "2340_wl",
+        "name": "1532.12_readings_max",
         "type": "double"
       },
       {
-        "name": "2343_wl",
+        "name": "1534.0495_readings_max",
         "type": "double"
       },
       {
-        "name": "2346_wl",
+        "name": "1535.979_readings_max",
         "type": "double"
       },
       {
-        "name": "2349_wl",
+        "name": "1537.9085_readings_max",
         "type": "double"
       },
       {
-        "name": "2352_wl",
+        "name": "1539.838_readings_max",
         "type": "double"
       },
       {
-        "name": "2355_wl",
+        "name": "1541.7675_readings_max",
         "type": "double"
       },
       {
-        "name": "2358_wl",
+        "name": "1543.697_readings_max",
         "type": "double"
       },
       {
-        "name": "2361_wl",
+        "name": "1545.6265_readings_max",
         "type": "double"
       },
       {
-        "name": "2364_wl",
+        "name": "1547.556_readings_max",
         "type": "double"
       },
       {
-        "name": "2367_wl",
+        "name": "1549.4865_readings_max",
         "type": "double"
       },
       {
-        "name": "2370_wl",
+        "name": "1551.416_readings_max",
         "type": "double"
       },
       {
-        "name": "2373_wl",
+        "name": "1553.3455_readings_max",
         "type": "double"
       },
       {
-        "name": "2376_wl",
+        "name": "1555.275_readings_max",
         "type": "double"
       },
       {
-        "name": "2379_wl",
+        "name": "1557.2045_readings_max",
         "type": "double"
       },
       {
-        "name": "2382_wl",
+        "name": "1559.134_readings_max",
         "type": "double"
       },
       {
-        "name": "2385_wl",
+        "name": "1561.0635_readings_max",
         "type": "double"
       },
       {
-        "name": "2388_wl",
+        "name": "1562.993_readings_max",
         "type": "double"
       },
       {
-        "name": "2391_wl",
+        "name": "1564.9225_readings_max",
         "type": "double"
       },
       {
-        "name": "2394_wl",
+        "name": "1566.852_readings_max",
         "type": "double"
       },
       {
-        "name": "2397_wl",
+        "name": "1568.7815_readings_max",
         "type": "double"
       },
       {
-        "name": "2400_wl",
+        "name": "1570.711_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1572.6415_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1574.571_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1576.5005_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1578.43_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1580.3595_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1582.289_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1584.2185_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1586.148_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1588.0775_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1590.007_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1591.9365_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1593.866_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1595.7955_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1597.725_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1599.6545_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1601.584_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1603.5135_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1605.443_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1607.3735_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1609.303_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1611.2325_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1613.162_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1615.0915_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1617.021_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1618.9505_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1620.88_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1622.8095_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1624.739_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1626.6685_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1628.598_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1630.5285_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1632.458_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1634.3875_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1636.317_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1638.2465_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1640.176_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1642.1055_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1644.035_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1645.9645_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1647.894_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1649.8235_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1651.753_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1653.6825_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1655.612_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1657.5415_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1659.471_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1661.4005_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1663.33_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1665.2605_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1667.19_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1669.1195_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1671.049_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1672.9785_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1674.908_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1676.8375_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1678.767_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1680.6965_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1682.626_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1684.5555_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1686.485_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1688.4155_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1690.345_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1692.2745_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1694.204_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1696.1335_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1698.063_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1699.9925_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1701.922_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1703.8515_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1705.781_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1707.7105_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1709.64_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1711.5695_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1713.499_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1715.4285_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1717.358_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1719.2875_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1721.217_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1723.1475_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1725.077_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1727.0065_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1728.936_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1730.8655_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1732.795_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1734.7245_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1736.654_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1738.5835_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1740.513_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1742.4425_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1744.372_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1746.3015_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1748.231_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1750.1605_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1752.09_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1754.0195_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1755.949_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1757.8795_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1759.809_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1761.7385_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1763.668_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1765.5975_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1767.527_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1769.4565_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1771.386_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1773.3155_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1775.245_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1777.1745_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1779.104_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1781.0345_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1782.964_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1784.8935_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1786.823_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1788.7525_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1790.682_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1792.6115_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1794.541_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1796.4705_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1798.4_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1800.3295_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1802.259_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1804.1885_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1806.118_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1808.0475_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1809.977_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1811.9065_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1813.836_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1815.7665_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1817.696_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1819.6255_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1821.555_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1823.4845_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1825.414_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1827.3435_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1829.273_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1831.2025_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1833.132_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1835.0615_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1836.991_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1838.9215_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1840.851_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1842.7805_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1844.71_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1846.6395_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1848.569_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1850.4985_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1852.428_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1854.3575_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1856.287_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1858.2165_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1860.146_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1862.0755_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1864.005_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1865.9345_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1867.864_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1869.7935_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1871.723_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1873.6535_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1875.583_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1877.5125_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1879.442_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1881.3715_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1883.301_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1885.2305_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1887.16_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1889.0895_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1891.019_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1892.9485_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1894.878_readings_max",
+        "type": "double"
+      },
+      {
+        "name": "1896.8085_readings_max",
         "type": "double"
       }
     ],
