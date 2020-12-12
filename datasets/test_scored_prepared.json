@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607775137137
+    "lastModifiedOn": 1607775417351
   },
   "creationTag": {
     "versionNumber": 0,
@@ -64,147 +64,147 @@
       },
       {
         "name": "52-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "27-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "26-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "40-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "57-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "10-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "59-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "33-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "51-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "7-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "44-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "20-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "2-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "52-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "45-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "25-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "42-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "11-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "32-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "28-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "3-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "37-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "23-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "43-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "8-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "55-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "47-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "60-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "44-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "19-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "4-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "34-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "35-1",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "40-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "39-2",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "18-2",
-        "type": "string"
+        "type": "double"
       }
     ],
     "userModified": true
