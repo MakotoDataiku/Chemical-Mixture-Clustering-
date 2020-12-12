@@ -62,18 +62,18 @@
     "main": {
       "items": [
         {
-          "ref": "test_scored_prepared",
+          "ref": "test_labels",
           "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607775443506
+    "lastModifiedOn": 1607775601766
   },
   "creationTag": {
     "versionNumber": 0,
