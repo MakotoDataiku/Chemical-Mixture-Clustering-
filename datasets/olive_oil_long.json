@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607768225257
+    "lastModifiedOn": 1607771159711
   },
   "creationTag": {
     "versionNumber": 0,
@@ -95,7 +95,7 @@
       },
       {
         "name": "ID",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "readings",
