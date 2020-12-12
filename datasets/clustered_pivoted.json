@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607769146948
+    "lastModifiedOn": 1607771110009
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,15 +88,255 @@
     "columns": [
       {
         "name": "Wavelength",
-        "type": "bigint"
+        "type": "double"
       },
       {
-        "name": "混合物ID",
-        "type": "string"
+        "name": "ID",
+        "type": "bigint"
       },
       {
         "name": "readings",
         "type": "double"
+      },
+      {
+        "name": "51",
+        "type": "string"
+      },
+      {
+        "name": "52",
+        "type": "string"
+      },
+      {
+        "name": "60",
+        "type": "string"
+      },
+      {
+        "name": "22",
+        "type": "string"
+      },
+      {
+        "name": "59",
+        "type": "string"
+      },
+      {
+        "name": "44",
+        "type": "string"
+      },
+      {
+        "name": "11",
+        "type": "string"
+      },
+      {
+        "name": "42",
+        "type": "string"
+      },
+      {
+        "name": "40",
+        "type": "string"
+      },
+      {
+        "name": "43",
+        "type": "string"
+      },
+      {
+        "name": "9",
+        "type": "string"
+      },
+      {
+        "name": "15",
+        "type": "string"
+      },
+      {
+        "name": "48",
+        "type": "string"
+      },
+      {
+        "name": "26",
+        "type": "string"
+      },
+      {
+        "name": "57",
+        "type": "string"
+      },
+      {
+        "name": "19",
+        "type": "string"
+      },
+      {
+        "name": "30",
+        "type": "string"
+      },
+      {
+        "name": "21",
+        "type": "string"
+      },
+      {
+        "name": "3",
+        "type": "string"
+      },
+      {
+        "name": "17",
+        "type": "string"
+      },
+      {
+        "name": "28",
+        "type": "string"
+      },
+      {
+        "name": "37",
+        "type": "string"
+      },
+      {
+        "name": "5",
+        "type": "string"
+      },
+      {
+        "name": "56",
+        "type": "string"
+      },
+      {
+        "name": "29",
+        "type": "string"
+      },
+      {
+        "name": "54",
+        "type": "string"
+      },
+      {
+        "name": "4",
+        "type": "string"
+      },
+      {
+        "name": "34",
+        "type": "string"
+      },
+      {
+        "name": "10",
+        "type": "string"
+      },
+      {
+        "name": "35",
+        "type": "string"
+      },
+      {
+        "name": "45",
+        "type": "string"
+      },
+      {
+        "name": "6",
+        "type": "string"
+      },
+      {
+        "name": "39",
+        "type": "string"
+      },
+      {
+        "name": "36",
+        "type": "string"
+      },
+      {
+        "name": "31",
+        "type": "string"
+      },
+      {
+        "name": "50",
+        "type": "string"
+      },
+      {
+        "name": "14",
+        "type": "string"
+      },
+      {
+        "name": "13",
+        "type": "string"
+      },
+      {
+        "name": "2",
+        "type": "string"
+      },
+      {
+        "name": "16",
+        "type": "string"
+      },
+      {
+        "name": "41",
+        "type": "string"
+      },
+      {
+        "name": "46",
+        "type": "string"
+      },
+      {
+        "name": "32",
+        "type": "string"
+      },
+      {
+        "name": "53",
+        "type": "string"
+      },
+      {
+        "name": "7",
+        "type": "string"
+      },
+      {
+        "name": "38",
+        "type": "string"
+      },
+      {
+        "name": "12",
+        "type": "string"
+      },
+      {
+        "name": "24",
+        "type": "string"
+      },
+      {
+        "name": "25",
+        "type": "string"
+      },
+      {
+        "name": "49",
+        "type": "string"
+      },
+      {
+        "name": "47",
+        "type": "string"
+      },
+      {
+        "name": "20",
+        "type": "string"
+      },
+      {
+        "name": "33",
+        "type": "string"
+      },
+      {
+        "name": "1",
+        "type": "string"
+      },
+      {
+        "name": "18",
+        "type": "string"
+      },
+      {
+        "name": "55",
+        "type": "string"
+      },
+      {
+        "name": "27",
+        "type": "string"
+      },
+      {
+        "name": "23",
+        "type": "string"
+      },
+      {
+        "name": "58",
+        "type": "string"
+      },
+      {
+        "name": "8",
+        "type": "string"
       }
     ],
     "userModified": true
