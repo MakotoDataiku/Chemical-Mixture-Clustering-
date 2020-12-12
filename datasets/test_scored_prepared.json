@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607775417351
+    "lastModifiedOn": 1607775441312
   },
   "creationTag": {
     "versionNumber": 0,
@@ -63,148 +63,28 @@
         "type": "string"
       },
       {
-        "name": "52-1",
+        "name": "product_label",
+        "type": "string"
+      },
+      {
+        "name": "proba_Spain",
         "type": "double"
       },
       {
-        "name": "27-2",
+        "name": "proba_Italy",
         "type": "double"
       },
       {
-        "name": "26-2",
+        "name": "proba_Greece",
         "type": "double"
       },
       {
-        "name": "40-1",
+        "name": "proba_Portugal",
         "type": "double"
       },
       {
-        "name": "57-2",
-        "type": "double"
-      },
-      {
-        "name": "10-2",
-        "type": "double"
-      },
-      {
-        "name": "59-1",
-        "type": "double"
-      },
-      {
-        "name": "33-2",
-        "type": "double"
-      },
-      {
-        "name": "51-2",
-        "type": "double"
-      },
-      {
-        "name": "7-2",
-        "type": "double"
-      },
-      {
-        "name": "44-1",
-        "type": "double"
-      },
-      {
-        "name": "20-2",
-        "type": "double"
-      },
-      {
-        "name": "2-2",
-        "type": "double"
-      },
-      {
-        "name": "52-2",
-        "type": "double"
-      },
-      {
-        "name": "45-2",
-        "type": "double"
-      },
-      {
-        "name": "25-1",
-        "type": "double"
-      },
-      {
-        "name": "42-1",
-        "type": "double"
-      },
-      {
-        "name": "11-1",
-        "type": "double"
-      },
-      {
-        "name": "32-2",
-        "type": "double"
-      },
-      {
-        "name": "28-1",
-        "type": "double"
-      },
-      {
-        "name": "3-2",
-        "type": "double"
-      },
-      {
-        "name": "37-2",
-        "type": "double"
-      },
-      {
-        "name": "23-2",
-        "type": "double"
-      },
-      {
-        "name": "43-2",
-        "type": "double"
-      },
-      {
-        "name": "8-2",
-        "type": "double"
-      },
-      {
-        "name": "55-2",
-        "type": "double"
-      },
-      {
-        "name": "47-2",
-        "type": "double"
-      },
-      {
-        "name": "60-2",
-        "type": "double"
-      },
-      {
-        "name": "44-2",
-        "type": "double"
-      },
-      {
-        "name": "19-2",
-        "type": "double"
-      },
-      {
-        "name": "4-1",
-        "type": "double"
-      },
-      {
-        "name": "34-1",
-        "type": "double"
-      },
-      {
-        "name": "35-1",
-        "type": "double"
-      },
-      {
-        "name": "40-2",
-        "type": "double"
-      },
-      {
-        "name": "39-2",
-        "type": "double"
-      },
-      {
-        "name": "18-2",
-        "type": "double"
+        "name": "prediction",
+        "type": "string"
       }
     ],
     "userModified": true
