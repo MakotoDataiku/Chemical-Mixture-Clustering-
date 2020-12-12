@@ -43,9 +43,10 @@
           "proba_Greece",
           "proba_Italy",
           "proba_Portugal",
-          "prediction"
+          "prediction",
+          "ID"
         ],
-        "keep": false,
+        "keep": true,
         "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
@@ -53,7 +54,7 @@
     {
       "preview": false,
       "metaType": "PROCESSOR",
-      "disabled": false,
+      "disabled": true,
       "type": "Transpose",
       "params": {
         "column": "ID"
