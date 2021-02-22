@@ -1,40 +1,7 @@
 {
   "name": "temporary",
   "color": "#C82423",
-  "items": [
-    {
-      "objectId": "readings_scored",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "score_readings_long_pivoted_prep",
-      "objectType": "RECIPE"
-    },
-    {
-      "objectId": "ZRFo0Qb0",
-      "objectType": "SAVED_MODEL"
-    },
-    {
-      "objectId": "train_Clustering__PY_ISOLATION_FOREST__on_readings_long_pivoted_prep",
-      "objectType": "RECIPE"
-    },
-    {
-      "objectId": "readings_long_pivoted_prep",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_readings_long_pivoted_prep",
-      "objectType": "RECIPE"
-    },
-    {
-      "objectId": "readings_long_pivoted",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_readings_long_pivoted",
-      "objectType": "RECIPE"
-    }
-  ],
+  "items": [],
   "shared": [],
   "tags": [],
   "customFields": {},
