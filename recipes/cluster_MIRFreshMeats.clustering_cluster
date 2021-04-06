@@ -1,0 +1,3252 @@
+{
+  "envSelection": {
+    "envMode": "USE_BUILTIN_MODE"
+  },
+  "diagnosticsSettings": {
+    "settings": [
+      {
+        "type": "ML_DIAGNOSTICS_DATASET_SANITY_CHECKS",
+        "enabled": true
+      },
+      {
+        "type": "ML_DIAGNOSTICS_MODELING_PARAMETERS",
+        "enabled": true
+      },
+      {
+        "type": "ML_DIAGNOSTICS_RUNTIME",
+        "enabled": true
+      },
+      {
+        "type": "ML_DIAGNOSTICS_TRAINING_OVERFIT",
+        "enabled": true
+      },
+      {
+        "type": "ML_DIAGNOSTICS_LEAKAGE_DETECTION",
+        "enabled": true
+      },
+      {
+        "type": "ML_DIAGNOSTICS_MODEL_CHECK",
+        "enabled": true
+      },
+      {
+        "type": "ML_DIAGNOSTICS_ML_ASSERTIONS",
+        "enabled": true
+      }
+    ],
+    "enabled": true
+  },
+  "modeling": {
+    "max_iterations": 0,
+    "ts_kmeans_k": 0,
+    "coef0": 0.0,
+    "seed": 1337,
+    "n_jobs": 1,
+    "k": 5,
+    "isolation_forest": {
+      "max_samples": 0.5,
+      "max_features": 1.0,
+      "seed": 1337,
+      "n_samples": 256,
+      "max_depth": 15,
+      "k": 2,
+      "n_estimators": 100,
+      "bootstrap": true,
+      "max_anomalies": 100,
+      "enabled": false,
+      "contamination": 0.05
+    },
+    "epsilon": 0.0,
+    "min_sample_ratio": 0.0,
+    "metrics": {
+      "customEvaluationMetricGIB": true,
+      "evaluationMetric": "SILHOUETTE"
+    },
+    "gamma": 0.0,
+    "custom_has_k": false,
+    "algorithm": "KMEANS"
+  },
+  "generatingModelId": "A-CHEMICALMIXTURECLUSTERING-ZXIM4o1K-7gttsMwR-s1-pp1-m1",
+  "preprocessing": {
+    "reduce": {
+      "kept_variance": 0.0,
+      "enabled": false
+    },
+    "per_feature": {
+      "FreshPork_SupplierC_Sample1_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierC_Sample3_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierC_Sample3_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample8_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample8_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample11_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample11_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierB_Sample3_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierB_Sample3_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierD_Sample1_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierD_Sample1_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample7_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample7_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierB_Sample4_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierB_Sample4_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierC_Sample1_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierA_Sample5_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample12_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierA_Sample5_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample12_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierB_Sample2_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierB_Sample5_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierC_Sample2_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierB_Sample5_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierC_Sample2_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierC_Sample4_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierC_Sample4_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierB_Sample4_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierC_Sample1_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierB_Sample4_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierC_Sample1_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierB_Sample2_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierB_Sample3_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierD_Sample3_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierB_Sample3_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierD_Sample3_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierB_Sample1_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierB_Sample1_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierA_Sample3_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample14_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierA_Sample3_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierD_Sample4_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierD_Sample4_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample18_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample18_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierD_Sample1_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample9_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample6_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample6_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample3_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample3_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierA_Sample2_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierC_Sample3_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierC_Sample3_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierA_Sample2_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierA_Sample5_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierA_Sample5_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierC_Sample2_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierC_Sample2_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierC_Sample5_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierC_Sample5_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample9_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample16_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample2_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierA_Sample1_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample2_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierA_Sample1_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample16_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample1_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierD_Sample4_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierD_Sample4_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample15_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample15_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierA_Sample3_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample1_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierA_Sample3_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "Wavenumbers": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample20_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample20_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierA_Sample4_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierD_Sample2_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierA_Sample4_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierD_Sample2_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierB_Sample1_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierC_Sample5_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierC_Sample5_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierD_Sample5_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierD_Sample5_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample14_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierB_Sample1_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierA_Sample1_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample17_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierA_Sample1_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample17_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierA_Sample2_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierA_Sample2_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample5_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample19_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample19_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample5_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierA_Sample4_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierA_Sample4_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample4_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample4_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierC_Sample4_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierC_Sample4_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierD_Sample1_RunB_2": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierB_Sample2_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierD_Sample3_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierB_Sample2_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshPork_SupplierD_Sample3_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierD_Sample2_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample13_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierD_Sample2_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierD_Sample5_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample13_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierD_Sample5_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample10_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierB_Sample5_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshChicken_SupplierB_Sample5_RunA": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "FreshTurkey_SupplierE_Sample10_RunB": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      }
+    },
+    "skipPreprocessing": false,
+    "feature_generation": {
+      "polynomial_combinations": {
+        "behavior": "DISABLED"
+      },
+      "manual_interactions": {
+        "interactions": []
+      },
+      "numericals_clustering": {
+        "all_features": false,
+        "input_features": [],
+        "k": 0,
+        "behavior": "DISABLED"
+      },
+      "categoricals_count_transformer": {
+        "all_features": false,
+        "input_features": [],
+        "behavior": "DISABLED"
+      },
+      "pairwise_linear": {
+        "behavior": "DISABLED"
+      }
+    },
+    "preprocessingFitSampleRatio": 1.0,
+    "preprocessingFitSampleSeed": 1337,
+    "outliers": {
+      "min_n": 4,
+      "method": "CLUSTER",
+      "min_cum_ratio": 0.01
+    },
+    "feature_selection_params": {
+      "pca_params": {
+        "n_features": 25,
+        "variance_proportion": 0.9
+      },
+      "custom_params": {
+        "code": "# type your code here"
+      },
+      "method": "NONE",
+      "correlation_params": {
+        "min_abs_correlation": 0.0,
+        "max_abs_correlation": 1.0,
+        "n_features": 25
+      },
+      "lasso_params": {
+        "alpha": [
+          0.01,
+          0.1,
+          1.0,
+          10.0,
+          100.0
+        ],
+        "cross_validate": true
+      },
+      "random_forest_params": {
+        "depth": 10,
+        "n_trees": 30,
+        "n_features": 25
+      }
+    }
+  },
+  "filterInputColumns": false,
+  "expectedPreparationOutputSchema": {
+    "columns": [
+      {
+        "name": "Wavenumbers",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample1_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample1_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample2_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample2_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample3_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample3_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample4_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample4_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample5_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierA_Sample5_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample1_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample1_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample2_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample2_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample3_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample3_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample4_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample4_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample5_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierB_Sample5_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample1_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample1_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample2_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample2_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample3_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample3_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample4_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample4_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample5_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierC_Sample5_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample1_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample1_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample2_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample2_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample3_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample3_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample4_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample4_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample5_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshChicken_SupplierD_Sample5_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample1_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample1_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample2_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample2_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample3_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample3_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample4_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample4_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample5_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierA_Sample5_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample1_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample1_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample2_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample2_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample3_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample3_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample4_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample4_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample5_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierB_Sample5_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample1_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample1_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample2_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample2_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample3_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample3_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample4_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample4_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample5_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierC_Sample5_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample1_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample1_RunB_2",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample2_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample2_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample3_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample3_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample4_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample4_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample5_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshPork_SupplierD_Sample5_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample10_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample10_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample11_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample11_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample12_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample12_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample13_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample13_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample14_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample14_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample15_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample15_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample16_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample16_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample17_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample17_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample18_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample18_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample19_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample19_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample1_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample1_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample20_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample20_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample2_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample2_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample3_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample3_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample4_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample4_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample5_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample5_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample6_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample6_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample7_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample7_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample8_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample8_RunB",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample9_RunA",
+        "type": "double"
+      },
+      {
+        "name": "FreshTurkey_SupplierE_Sample9_RunB",
+        "type": "double"
+      }
+    ],
+    "userModified": false
+  },
+  "backendType": "PY_MEMORY",
+  "sampling": {
+    "datasetSmartName": "MIRFreshMeats",
+    "selection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": 100000,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "HEAD_SEQUENTIAL"
+    },
+    "instanceIdRefresher": 0,
+    "extractBeforePrepare": true
+  },
+  "script": {
+    "contextProjectKey": "CHEMICALMIXTURECLUSTERING",
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "explorationSampling": {
+      "_refreshTrigger": 0,
+      "selection": {
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "latestPartitionsN": 1,
+        "maxRecords": 10000,
+        "ordering": {
+          "rules": [],
+          "enabled": false
+        },
+        "withinFirstN": -1,
+        "partitionSelectionMethod": "ALL",
+        "maxStoredBytes": 104857600,
+        "targetRatio": 0.02,
+        "maxReadUncompressedBytes": -1,
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "timeout": -1
+      },
+      "autoRefreshSample": false
+    },
+    "explorationFilters": [],
+    "origin": "ANALYSIS",
+    "exploreUIParams": {},
+    "steps": [],
+    "maxProcessedMemTableBytes": -1,
+    "previewMode": "ALL_ROWS",
+    "vizSampling": {
+      "_refreshTrigger": 0,
+      "autoRefreshSample": false
+    },
+    "analysisColumnData": {},
+    "columnWidthsByName": {},
+    "sorting": [],
+    "globalSearchQuery": "",
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    }
+  },
+  "sparkParams": {
+    "pipelineAllowMerge": true,
+    "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
+    "pipelineAllowStart": true,
+    "sparkExecutionEngine": "SPARK_SUBMIT",
+    "sparkConf": {
+      "inheritConf": "default",
+      "conf": []
+    },
+    "sparkRepartitionNonHDFS": 1,
+    "sparkUseGlobalMetastore": false
+  }
+}
