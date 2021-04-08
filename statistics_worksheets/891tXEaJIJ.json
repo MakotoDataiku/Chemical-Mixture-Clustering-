@@ -29,16 +29,426 @@
     "type": "worksheet_root",
     "confidenceLevel": 0.95,
     "showConfidenceInterval": false,
-    "cards": [],
+    "cards": [
+      {
+        "type": "pca",
+        "heatmapParams": {
+          "showValues": false,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0,
+          "filterVariablesWithoutValues": false
+        },
+        "columns": [
+          {
+            "name": "Wavenumbers",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierC_Sample2_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierC_Sample2_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierC_Sample3_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierC_Sample3_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierC_Sample4_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierC_Sample4_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierC_Sample5_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierC_Sample5_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierD_Sample1_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierD_Sample1_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierD_Sample2_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierD_Sample2_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierD_Sample3_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierD_Sample3_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierD_Sample4_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierD_Sample4_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierD_Sample5_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshChicken_SupplierD_Sample5_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierA_Sample1_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierA_Sample1_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierA_Sample2_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierA_Sample2_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierA_Sample3_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierA_Sample3_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierA_Sample4_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierA_Sample4_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierA_Sample5_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierA_Sample5_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierB_Sample1_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierB_Sample1_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierB_Sample2_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierB_Sample2_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierB_Sample3_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierB_Sample3_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierB_Sample4_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierB_Sample4_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierB_Sample5_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierB_Sample5_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierC_Sample1_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierC_Sample1_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierC_Sample2_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierC_Sample2_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierC_Sample3_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierC_Sample3_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierC_Sample4_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierC_Sample4_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierC_Sample5_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierC_Sample5_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierD_Sample1_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierD_Sample1_RunB_2",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierD_Sample2_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierD_Sample2_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierD_Sample3_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierD_Sample3_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierD_Sample4_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierD_Sample4_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierD_Sample5_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshPork_SupplierD_Sample5_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample10_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample10_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample11_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample11_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample12_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample12_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample13_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample13_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample14_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample14_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample15_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample15_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample16_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample16_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample17_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample17_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample18_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample18_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample19_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample19_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample1_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample1_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample20_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample20_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample2_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample2_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample3_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample3_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample4_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample4_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample5_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample5_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample6_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample6_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample7_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample7_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample8_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample8_RunB",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample9_RunA",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FreshTurkey_SupplierE_Sample9_RunB",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "qaqIaU3"
+      }
+    ],
     "id": "Ex0UbAD"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617914422010
+    "lastModifiedOn": 1617914454934
   },
   "creationTag": {
     "versionNumber": 0,
