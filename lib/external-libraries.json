@@ -9,7 +9,8 @@
     "/python/pyopls": {
       "remote": "git@github.com:BiRG/pyopls.git",
       "checkout": "refs/heads/master",
-      "remotePath": ""
+      "remotePath": "",
+      "lastHash": "be801f1e021898d3337ba30795644130ec425e49"
     }
   },
   "pythonPath": [
