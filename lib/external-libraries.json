@@ -1,7 +1,14 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "/python/": {
+      "remote": "git@github.com:BiRG/pyopls.git",
+      "checkout": "refs/heads/master",
+      "remotePath": ""
+    }
+  },
   "pythonPath": [
-    "python"
+    "python",
+    "/python/"
   ],
   "rsrcPath": [
     "R"
